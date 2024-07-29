@@ -1,0 +1,391 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "166455817102ca91ca": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eKr8Qa": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "PEACE ABOVE ALL",
+            "title": "THE LIMITED\nCOLLECTION",
+            "title_size": 80,
+            "subheading": "AIR ATLAS & AIR PRO HELMETS",
+            "link": "shopify://collections/summer-sale-24",
+            "link_text": "SHOP NOW",
+            "link_2": "shopify://collections/the-limited-collcetion",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/The_Limited_Collection.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2460ec10-285a-4e8c-9f6d-74b76cbf0999": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "up to",
+            "title": "50% OFF",
+            "title_size": 80,
+            "subheading": "SUMMER SALE ON HELMETS AND SUNGLASSES",
+            "link": "shopify://collections/summer-sale-24",
+            "link_text": "SHOP NOW",
+            "link_2": "shopify://collections/summer-sale-24",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/summer-sale-24-main.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "cfbd94c1-716d-4f7d-b595-c18fd3bca332": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Cavendish‘s  35th Tour Stage Win",
+            "title": "LEGENDARY PERFORMANCE",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://blogs/news/mark-cavendish-wins-historic-35th-tour-de-france-stage",
+            "link_text": "LEARN MORE",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/35-limar-cavendish_Banner.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "16645581714078becb-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "AIR ATLAS",
+            "title_size": 70,
+            "subheading": "ACCELERATE YOUR S-PACE",
+            "link": "shopify://products/air-atlas",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/banner-whitegold24.jpg",
+            "image_mobile": "shopify://shop_images/cavendish-banner-gold_copy.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "image_XxnzrB": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "INTRODUCING",
+            "title": "LIVIGNO",
+            "title_size": 70,
+            "subheading": "FULL FACE HELMET",
+            "link": "shopify://products/livigno-mips",
+            "link_text": "SEE IT NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_eKr8Qa",
+        "2460ec10-285a-4e8c-9f6d-74b76cbf0999",
+        "cfbd94c1-716d-4f7d-b595-c18fd3bca332",
+        "16645581714078becb-0",
+        "image_XxnzrB"
+      ],
+      "custom_css": [
+        ".hero {background-color: #ffffff; padding-top: 40px; padding-right: 40px; padding-bottom: 0px; padding-left: 40px;}"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "69ce10e7-633f-4e87-b286-d478b3111e1a": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "XMAS SALE HELMETS",
+        "home_featured_products": "sale",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "The helmet specialists"
+          }
+        }
+      },
+      "block_order": ["heading"],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".theme-block {border-top: 1px solid black; border-bottom: 1px solid black;}",
+        "@media only screen and (max-device-width: 480px) {h2 {font-size: 58px; padding-top: 20px; }}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "926dbb5c-80b8-4f10-9db9-21c772c7e3ff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16755666223319__926dbb5c-80b8-4f10-9db9-21c772c7e3ff-1680787207d4cd521f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Since creating the lightest helmet in the world, we have never stopped. We've explored the border of aerodynamics, and gone even further - and still the best goal, is always the next one.</p>"
+          }
+        },
+        "b0fc3679-6ab5-43b0-b43b-42f88147641e": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/limar-dna",
+            "link_text": "DISCOVER MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755666223319__926dbb5c-80b8-4f10-9db9-21c772c7e3ff-1680787207d4cd521f-1",
+        "b0fc3679-6ab5-43b0-b43b-42f88147641e"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "16559032959dbed494": {
+      "type": "advanced-content",
+      "blocks": {
+        "ec3b586f-6025-4e7f-8fce-f68d14649296": {
+          "type": "liquid",
+          "settings": {
+            "code": "<hr />",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "16559032954af626f9-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Shop by Collection</h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "cbb60c22-690d-481f-8edd-8f306fde9e29": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href=\"{% render 'root-url' %}/collections/road\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-road.jpg?v=1680788029\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>ROAD</strong></p>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "91ca4247-d469-456e-9694-9b51327c43c1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href=\"{% render 'root-url' %}/collections/gravel\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-gravel.jpg?v=1680788029\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>GRAVEL</strong></p>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "11808fc9-af73-4a4a-a302-498fa645c732": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href=\"{% render 'root-url' %}/collections/mountain\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-mtb.jpg?v=1680788029\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>MOUNTAIN</strong></p>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "8b7925bb-d740-4c5e-a42d-b8bf905da7ca": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href=\"{% render 'root-url' %}/collections/urban-e-bike\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-urban.jpg?v=1680788030\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>URBAN / E-BIKE</strong></p>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "ec3b586f-6025-4e7f-8fce-f68d14649296",
+        "16559032954af626f9-1",
+        "cbb60c22-690d-481f-8edd-8f306fde9e29",
+        "91ca4247-d469-456e-9694-9b51327c43c1",
+        "11808fc9-af73-4a4a-a302-498fa645c732",
+        "8b7925bb-d740-4c5e-a42d-b8bf905da7ca"
+      ],
+      "custom_css": ["hr.border-top-color {color: #000000;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "1657755680166d3ec0": {
+      "type": "advanced-content",
+      "blocks": {
+        "165775568002f7348b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2>OUR BEST SELLERS</h2><p>C’è sempre un nuovo limite da superare.</p>\n<p>Per questo da oltre trent’anni percorriamo la strada dell’eccellenza, abbinando lo stile tutto italiano alla ricerca tecnologica più avanzata, per offrire a chi condivide la nostra passione per il ciclismo i caschi e gli occhiali più performanti. Per proteggere i vostri progetti, sogni e desideri.</p>\n<p>E continuare a correre, insieme.</p>\n<p>Scopri le ultime novità e i best sellers Limar.</p>\n<p>&nbsp;</p>\n{% else %}\n<h2>OUR BEST SELLERS</h2><p>There is always a new limit to overcome. That’s why we have been racing the road of excellence for more than 30 years, combining the Italian style with the most advanced technological research, offering the most performing helmets and glasses to all those sharing our passion for cycling.</p>\n<p>Protecting your projects, dreams and desires. To keep on racing, together.</p>\n<p>&nbsp;</p>\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "c2440c2d-7b67-40c9-8d1b-42ff4e88bdb6": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href= \"{% render 'root-url' %}/collections/road/products/air-stratos\"><img style=\"background-color:#f1f2f4;\" src=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/airstratos-BTU80-MattGreyOrangeBlue-front.png?v=1709725487\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>AIR STRATOS</strong> | Road + Gravel</p>",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "295ccc89-3f63-45d4-9930-956bcd3d64e5": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href= \"{% render 'root-url' %}/collections/mountain/products/delta\"><img style=\"background-color:#f1f2f4;\" src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/products/delta-mattblack-front.png?v=1680359431\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>DELTA</strong> | Enduro + Downhill</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "f3b8f632-394b-49f5-9205-f6eba12560c9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href= \"{% render 'root-url' %}/collections/road/products/air-speed\"><img style=\"background-color:#f1f2f4;\" src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/products/airpro-splashbluered-front.png?v=1680147373\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>AIR PRO</strong> | AIR REVOLUTION | Road + Gravel</p>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "663b8d93-b2b3-4e86-a23d-141eec4a20be": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href= \"{% render 'root-url' %}/collections/road/products/air-speed\"><img style=\"background-color:#f1f2f4;\" src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/products/AirSpeed-WhiteIridescent-Front.png?v=1680147909\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>AIR SPEED</strong> | Road + Gravel</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "165775568002f7348b-1",
+        "c2440c2d-7b67-40c9-8d1b-42ff4e88bdb6",
+        "295ccc89-3f63-45d4-9930-956bcd3d64e5",
+        "f3b8f632-394b-49f5-9205-f6eba12560c9",
+        "663b8d93-b2b3-4e86-a23d-141eec4a20be"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": "#ffffff"
+      }
+    },
+    "573fe237-7fbb-4c77-a9d6-9d07b2ea43db": {
+      "type": "text-columns",
+      "blocks": {
+        "3781bce3-766e-42b3-a4d9-01401ebd05a8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/HOME-PAGE-BADGE-LCC_quadrato.jpg",
+            "image_width": 650,
+            "title": "Limar Cycling Club",
+            "text": "<p>Join the community!<br/>Share your passion for cycling, and discover the numerous advantages and benefits reserved for you.</p>",
+            "button_label": "Join Now",
+            "button_link": "shopify://collections/limar-cycling-club"
+          }
+        },
+        "template--15952587849943__573fe237-7fbb-4c77-a9d6-9d07b2ea43db-16655061733a6c62b1-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mylimar-home.jpg",
+            "image_width": 650,
+            "title": "My Limar",
+            "text": "<p>Make your team unique, through our helmet customization program.</p>",
+            "button_label": "Get started",
+            "button_link": "shopify://pages/my-limar"
+          }
+        },
+        "65bfd1f3-f08b-4bf2-a8c4-ed226edec5a6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/carboncoretech_66253059-829f-4ed3-8650-01e98ca63afa.jpg",
+            "image_width": 650,
+            "title": "TECHNOLOGY",
+            "text": "<p>Over 35 years of leading technology in lightness, aerodynamics, ventilation,  and of course, safety.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/air-revolution"
+          }
+        }
+      },
+      "block_order": [
+        "3781bce3-766e-42b3-a4d9-01401ebd05a8",
+        "template--15952587849943__573fe237-7fbb-4c77-a9d6-9d07b2ea43db-16655061733a6c62b1-0",
+        "65bfd1f3-f08b-4bf2-a8c4-ed226edec5a6"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "166455817102ca91ca",
+    "69ce10e7-633f-4e87-b286-d478b3111e1a",
+    "rich-text",
+    "926dbb5c-80b8-4f10-9db9-21c772c7e3ff",
+    "16559032959dbed494",
+    "1657755680166d3ec0",
+    "573fe237-7fbb-4c77-a9d6-9d07b2ea43db",
+    "blog-posts"
+  ]
+}
