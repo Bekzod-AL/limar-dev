@@ -1,0 +1,309 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16990551245015__8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "10 Things I Loved in 2023: Alvin Holbrook",
+            "title_size": 65,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/10-things-2023-hero-alvin-holbrook.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "80% 0"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2-image-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "bfec5b77-1058-452f-b574-1887260b0682": {
+      "type": "rich-text",
+      "blocks": {
+        "9a7e9078-1df8-40ad-ad92-6ca5b80f2b81": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>By Alvin Holbrook for <em>Velo</em></p>"
+          }
+        },
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-heading-1": {
+          "type": "heading",
+          "settings": { "title": "Limar Horus Photochromatic Glasses" }
+        },
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>As a kid, I remember walking into an optometrist’s office for my younger brother’s first pair of glasses. Despite my protests and explaining that “you’ll look like a nerd,” he ended up with transition lenses.</p><p>And here I am today, gleefully riding with transition lenses.</p><p>Well, they’re called photochromic lenses today, a serious glow-up for a system that I avoided to not become the object of scorn of other 8-year-olds. Here’s the thing: they’re excellent for varying light intensities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "9a7e9078-1df8-40ad-ad92-6ca5b80f2b81",
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-heading-1",
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "24cbff06-78b5-4518-b298-4d6aeb68f546": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16990551245015__24cbff06-78b5-4518-b298-4d6aeb68f546-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-horus-glasses-front-10-things-2023-Alvin.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__24cbff06-78b5-4518-b298-4d6aeb68f546-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "a795251c-374e-4d1f-a882-b867c7cfb7b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>I’m regularly on rides in the evening, starting with a clear sky, rolling through dusk, and ending at night. I could wear a set of glasses with clear lenses, or maybe even bring two glasses for different times of day. Photochromic lenses let me do both.</p><p>Photochromic lenses don’t offer quite as much vision clarity in the middle of the day as a polarized lens, nor are they quite as clear at night as a clear lens. But during the winter months where light seems to always vary? I’m grabbing my transition glasses and preparing for the scorn of 8-year-olds.</p><p>To note, my go-to has been the <a href=\"https://velo.outsideonline.com/tag/limar\" target=\"_blank\">Limar</a> Horus glasses with their photochromic lens. The lens is big and the optics are distortion-free. Its adaptable nose piece lets me keep the glasses close to my eyes too, and the lenses proved to be durable among myriad bikepacking trips and plenty of nighttime gravel rides.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-heading-1",
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "ab89a12b-d498-486d-92db-955c608fae2a": {
+      "type": "rich-text",
+      "blocks": {
+        "f9767a1a-866f-44b6-ab80-42f97efb0906": {
+          "type": "button",
+          "settings": {
+            "link": "https://velo.outsideonline.com/road/road-gear/10-things-i-loved-in-2023-alvin-holbrook/",
+            "link_text": "more on velo"
+          }
+        }
+      },
+      "block_order": ["f9767a1a-866f-44b6-ab80-42f97efb0906"],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "advanced_content_d8Unzg": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_t6AK8E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/horus-detail-3.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["image_t6AK8E"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "30fee8da-533e-4b3c-9ceb-fa9d8fa86b56": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-description-1": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-price-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-description-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-variant_picker-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-buy_buttons-1"
+      ],
+      "settings": {
+        "featured_product": "horus",
+        "divider": true,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "5e1fac26-75b6-4570-9d38-b77357e18804": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16990551245015__5e1fac26-75b6-4570-9d38-b77357e18804-heading-1": {
+          "type": "heading",
+          "settings": { "title": "More Limar eyewear" }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__5e1fac26-75b6-4570-9d38-b77357e18804-heading-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "28de50d2-6fbe-4f44-af51-7cba06ece4cd": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Cruz-JungleMattBlackAmaranth-front.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "cruz",
+            "button_link": "shopify://products/cruz"
+          }
+        },
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Argo-MattGrey-front.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "argo",
+            "button_link": "shopify://products/argo"
+          }
+        },
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Kosmos-SpaceBlueOrange-front.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Kosmos",
+            "button_link": "shopify://products/kosmos"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-1",
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-2",
+        "template--16990551245015__28de50d2-6fbe-4f44-af51-7cba06ece4cd-text_block-3"
+      ],
+      "settings": { "title": "", "align_text": "center", "divider": false }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2",
+    "bfec5b77-1058-452f-b574-1887260b0682",
+    "24cbff06-78b5-4518-b298-4d6aeb68f546",
+    "a795251c-374e-4d1f-a882-b867c7cfb7b8",
+    "ab89a12b-d498-486d-92db-955c608fae2a",
+    "advanced_content_d8Unzg",
+    "30fee8da-533e-4b3c-9ceb-fa9d8fa86b56",
+    "5e1fac26-75b6-4570-9d38-b77357e18804",
+    "28de50d2-6fbe-4f44-af51-7cba06ece4cd",
+    "blog-posts"
+  ]
+}
