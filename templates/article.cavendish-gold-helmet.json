@@ -1,0 +1,235 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "MARK CAVENDISH",
+            "title": "white gold 24",
+            "title_size": 80,
+            "subheading": "ON THE ROAD TO PARIS",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/banner-whitegold24.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "advanced_content_DFwHNa": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_6pfmCP": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2>XXX</h2>\n<p>I riflettori sono accesi sul Team Astana-Qazaqstan e su Mark Cavendish che punta nuovamente nel 2024 al record mondiale di vittorie di tappa al Tour de France.</p>\n<p>\nLa 35a vittoria di tappa gli permetterebbe di superare\nEddy Merckx e diventare il detentore del record di tutti i tempi di successi parziali nel Tour più emozionante di sempre.\nLimar celebra la sfida con AIR ATLAS Mark Cavendish White Gold 24.</p>\n\n{%else%}\n\n<h2>Thirty-Five in France?</h2><p>All eyes will be on Astana-Qazaqstan Team as Mark\nCavendish goes for the world record of stage wins in the Tour de France again in 2024!</p>\n\n<p>His 35th stage win would allow him to overtake\nEddy Merckx and become the all-time record holder for\npartial successes in the most exciting Tour ever.</p>\n\n<p>Limar celebrates the challenge with AIR ATLAS Mark Cavendish White Gold 24.</p>\n\n{%endif%}",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "liquid_N8eybc": {
+          "type": "liquid",
+          "settings": {
+            "code": "<video autostart controls=\"false\"  class=\"video\">\n <source src=\"https://cdn.shopify.com/videos/c/o/v/5c7f460347a146818247b6dba8f014a0.mov\" type=\"video/mp4\">\n</video>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["liquid_6pfmCP", "liquid_N8eybc"],
+      "custom_css": [".video {aspect-ratio: 9 / 16; width: 100%;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "c647556d-5166-4f53-9f29-d0489662d962": {
+      "type": "advanced-content",
+      "blocks": {
+        "e12967d5-4d41-4fef-b7fe-5034be78c369": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-MARK_CAVENDISH.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "4bb4356f-fb8e-438e-a42f-c87201ff7930": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-MARK_CAVENDISH-front.png",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-MARK_CAVENDISH-top.png",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "6173fd0e-26ce-4f40-9ea0-adaaa006c742": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-MARK_CAVENDISH-rear.png",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "image_BTDcdY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-MARK_CAVENDISH-side.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "e12967d5-4d41-4fef-b7fe-5034be78c369",
+        "4bb4356f-fb8e-438e-a42f-c87201ff7930",
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-0",
+        "6173fd0e-26ce-4f40-9ea0-adaaa006c742",
+        "image_BTDcdY"
+      ],
+      "custom_css": ["img {background-color: #e6e2d1;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-0": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-2": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-1": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "b7291e7a-62ef-4687-ac49-708544f76db3": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech specs",
+            "content": "<p>{{ section.settings.featured_product.metafields.custom.tech_specs.value }}</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-0",
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-2",
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-3",
+        "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-1",
+        "b7291e7a-62ef-4687-ac49-708544f76db3"
+      ],
+      "disabled": true,
+      "settings": {
+        "featured_product": "air-atlas-limited-edition-mark-cavendish-white-gold-24",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limar Road Helmets",
+        "home_featured_products": "road",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b",
+    "advanced_content_DFwHNa",
+    "c647556d-5166-4f53-9f29-d0489662d962",
+    "eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527",
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714",
+    "blog-posts"
+  ]
+}
