@@ -1,1 +1,99 @@
-{"sections":{"main":{"type":"main-404","settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Popular picks"}}},"order":["main","featured-collection"]}
+{
+  "sections": {
+    "main": { "type": "main-404", "disabled": true, "settings": {} },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Popular picks",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "ab32ce51-b5fa-4bf0-86d7-da5b618b8ace": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19662819131734__ab32ce51-b5fa-4bf0-86d7-da5b618b8ace-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "404 page not found",
+            "title": "Looking for\nsomething?",
+            "title_size": 80,
+            "subheading": "",
+            "link": "/",
+            "link_text": "get back on trail",
+            "link_2": "/",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/etna-gallery-5.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19662819131734__ab32ce51-b5fa-4bf0-86d7-da5b618b8ace-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "4227735e-c119-47a7-ae42-89969f6eed00": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "sunglasses maybe?",
+        "home_featured_products": "eyewear",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "b528fede-03c7-45a7-8426-b413ca992890": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "or a new helmet?",
+        "home_featured_products": "all-helmets",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "2ed5482f-4e36-41a7-b629-696497b00b80": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Limar News",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured-collection",
+    "ab32ce51-b5fa-4bf0-86d7-da5b618b8ace",
+    "4227735e-c119-47a7-ae42-89969f6eed00",
+    "b528fede-03c7-45a7-8426-b413ca992890",
+    "2ed5482f-4e36-41a7-b629-696497b00b80"
+  ]
+}
