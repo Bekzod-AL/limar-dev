@@ -1,6 +1,11 @@
 {
   "sections": {
-    "main": { "type": "main-404", "disabled": true, "settings": {} },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -24,15 +29,14 @@
             "title": "Looking for\nsomething?",
             "title_size": 80,
             "subheading": "",
-            "link": "/",
+            "link": "\/",
             "link_text": "get back on trail",
-            "link_2": "/",
+            "link_2": "\/",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-5.jpg",
+            "overlay_opacity": 0
           }
         }
       },

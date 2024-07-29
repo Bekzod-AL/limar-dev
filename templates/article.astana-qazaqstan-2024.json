@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16990551245015__8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Astana Qazaqstan Team",
+            "title": "Mark Cavendish will start 2024 in Colombia",
+            "title_size": 65,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Team_Qazaqstan_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2-image-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "bfec5b77-1058-452f-b574-1887260b0682": {
+      "type": "rich-text",
+      "blocks": {
+        "9a7e9078-1df8-40ad-ad92-6ca5b80f2b81": {
+          "type": "text",
+          "settings": { "enlarge_text": false, "text": "<p>By Limar</p>" }
+        },
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>All eyes will be on Team Astana-Qazaqstan as Mark Cavendish goes for the World Record TdF stage win record! His 35th stage win would allow him to overtake Eddy Merckx and become the all-time record holder for partial successes in the most exciting Tour ever.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "9a7e9078-1df8-40ad-ad92-6ca5b80f2b81",
+        "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "24cbff06-78b5-4518-b298-4d6aeb68f546": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_WkWJYm": {
+          "type": "liquid",
+          "settings": {
+            "code": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WQvn5tHLcbQ?si=gzif7julM1v8J_4A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["liquid_WkWJYm"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "a795251c-374e-4d1f-a882-b867c7cfb7b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The year 2024 is shaping up to be a year of big changes for the Kazakhstan formation, which<br/>has revolutionised the roster with 14 new riders and built a train with experienced men to try for its 35th success. </p><p>In addition to Cees Bol, who was hired last year, and newcomers Max Kanter, Rüdiger Selig and Davide Ballerini has brought in Michael Mørkøv, one of the best last men in the peloton and one of the best movers in the final kilometers leading to the finish. </p><p>The expectation is for a new course for a team that is preparing to live the season as a protagonist.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-heading-1",
+        "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "advanced_content_d8Unzg": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_t6AK8E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Team_Qazaqstan_2.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["image_t6AK8E"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "ab89a12b-d498-486d-92db-955c608fae2a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_bx47UX": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Something completely new on Mark Cavendish's calendar. The British rider will open his final season of a very long and successful career at the Tour of Colombia, which returns to the calendar after a three-year absence. </p><p>It is a different choice from his usual for the Astana Qazaqstan rider, who very often had chosen the Middle East for his season opener.</p>"
+          }
+        }
+      },
+      "block_order": ["text_bx47UX"],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "advanced_content_CJY9Gj": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_mWEKkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Team_Qazaqstan_3.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["image_mWEKkd"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_C6RMGh": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_RqM9Kz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Team_Qazaqstan_4.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_NyqyhY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Team_Qazaqstan_5.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["image_RqM9Kz", "image_NyqyhY"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "rich_text_WdQaJz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yXp7nF": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Air pro and Air Atlas are the absolute stars for the 2024 World Tour season as well, but don't miss out on all the new things to come, special editions, new collections, new products. </p>"
+          }
+        }
+      },
+      "block_order": ["text_yXp7nF"],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "30fee8da-533e-4b3c-9ceb-fa9d8fa86b56": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-description-1": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-price-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-description-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-variant_picker-1",
+        "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-buy_buttons-1"
+      ],
+      "settings": {
+        "featured_product": "air-pro",
+        "divider": true,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_product_fnjqy8": {
+      "type": "featured-product",
+      "blocks": {
+        "price_RpdBcP": { "type": "price", "settings": {} },
+        "description_cQNtVQ": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "variant_picker_3dYGP6": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_P3Xh7W": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        }
+      },
+      "block_order": [
+        "price_RpdBcP",
+        "description_cQNtVQ",
+        "variant_picker_3dYGP6",
+        "buy_buttons_P3Xh7W"
+      ],
+      "settings": {
+        "featured_product": "air-atlas",
+        "divider": true,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8b1bc61b-1797-4b45-8ffd-ce8b40ab58b2",
+    "bfec5b77-1058-452f-b574-1887260b0682",
+    "24cbff06-78b5-4518-b298-4d6aeb68f546",
+    "a795251c-374e-4d1f-a882-b867c7cfb7b8",
+    "advanced_content_d8Unzg",
+    "ab89a12b-d498-486d-92db-955c608fae2a",
+    "advanced_content_CJY9Gj",
+    "advanced_content_C6RMGh",
+    "rich_text_WdQaJz",
+    "30fee8da-533e-4b3c-9ceb-fa9d8fa86b56",
+    "featured_product_fnjqy8",
+    "blog-posts"
+  ]
+}
