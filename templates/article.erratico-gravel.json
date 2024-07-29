@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "cf89e3c7-9683-4905-8445-3617302c548a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19731996639574__cf89e3c7-9683-4905-8445-3617302c548a-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/banner-ride-tour-Erratico.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__cf89e3c7-9683-4905-8445-3617302c548a-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "ad9148c5-2d46-4a9e-9705-eb35e922e345": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>For the next event Limar Cycling Club offers you an off-road adventure to discover the Canavese area - in Piedmont, a stone's throw from Turin - among erratic boulders, moraine hills, breathtaking landscapes and people in love with cycling. A two-day event made of dust, kilometers, passion, celebration, tents and beers. The true gravel bike experience of Canavese.<br/><br/>If you are already a member of the Limar Cycling Club you already know the numerous advantages that the club offers you, including the possibility of signing up for the Erratico Gravel at a super advantageous price. If you are not yet registered with the Limar Cycling Club, discover the program and become part of the community to access all the fabulous opportunities and to participate in the “LIMAR ERRATICO GRAVEL” event.</p><p>Canavese is the corridor of land, located between Turin, the north-western Alps, the Aosta Valley and the Po Valley which extends towards the east. A strategic territory because whoever managed it in the past had control of the Alpine passes and the traffic that was routed from there. It is no coincidence that great leaders such as Hannibal, Frederick Barbarossa and Napoleon passed through here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-heading-1",
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19731996639574__66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-ride-tour-4.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2-image-1"
+      ],
+      "custom_css": [
+        "body {padding: 30px;}",
+        ".center-div {margin: 100 auto; max-width: 700px; height: 100px; background-color: #ffffff; border-radius: 0px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "a9e42438-10e1-4fb1-9736-e7d0c9bbf91f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Erratico gravel is a cycling adventure to discover the Canavese area, 4 routes (42km - 80km - 120km - 200km) mixed between asphalt and dirt that will lead to the most hidden places in the Canavese area.<br/><br/>The start and finish will be the Francone Velodrome, which will make the structure available from Friday to late Saturday evening; those who want on Friday evening will be able to sleep in a tent or camper inside the Velodrome (there will also be covered spaces in case of rain).<br/><br/>The long route can be done in 2 days, sleeping in a tent or in structures on the route. Erratico is for Gravel, MTB or Cyclocross bikes, 'fat' tires are recommended because there will be different types of dirt roads that alternate, some more technical sections and others simpler, also based on the route chosen. There will be refreshment points on all routes.<br/><br/>On Saturday evening, inside the velodrome we will celebrate with agnolotti and craft beer. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-heading-1",
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "84bfb575-af8c-4a1e-ad04-7534aa45d2e9": {
+      "type": "advanced-content",
+      "blocks": {
+        "7deb2529-3725-4d70-b228-f7b9b7401faa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copia_di_COPERTINA_FB.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["7deb2529-3725-4d70-b228-f7b9b7401faa"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "633b4516-3bda-4093-8b2d-8bebf83676df": {
+      "type": "rich-text",
+      "blocks": {
+        "5a68b31a-a3ab-4a6e-8d65-cb66bbd09a03": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>If you are already a member of the club, simply confirm your presence by sending an email to <a href=\"mailto:alice@limar.com\" target=\"_blank\" title=\"mailto:alice@limar.com\">alice@limar.com</a>.<br/> <br/>Or discover the membership best suited to you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "5a68b31a-a3ab-4a6e-8d65-cb66bbd09a03",
+        "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "599c809d-8bf5-49dd-8ddb-295b67c73039": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19731996639574__599c809d-8bf5-49dd-8ddb-295b67c73039-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-08-29_at_1.29.12_PM.png",
+            "link": "/products/local-legend",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "0410dcee-79ef-44f9-94f5-5487c9aa8727": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-08-29_at_1.29.28_PM.png",
+            "link": "/products/qom",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "f1e5903b-c4cb-4be5-bc14-09c79510f953": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-08-29_at_1.29.53_PM.png",
+            "link": "shopify://products/kom",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__599c809d-8bf5-49dd-8ddb-295b67c73039-image-1",
+        "0410dcee-79ef-44f9-94f5-5487c9aa8727",
+        "f1e5903b-c4cb-4be5-bc14-09c79510f953"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "26dacb34-a3df-412f-b8e4-435f29a5605f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "gravel helmets",
+        "home_featured_products": "gravel",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "more limar news",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf89e3c7-9683-4905-8445-3617302c548a",
+    "ad9148c5-2d46-4a9e-9705-eb35e922e345",
+    "66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2",
+    "a9e42438-10e1-4fb1-9736-e7d0c9bbf91f",
+    "84bfb575-af8c-4a1e-ad04-7534aa45d2e9",
+    "633b4516-3bda-4093-8b2d-8bebf83676df",
+    "599c809d-8bf5-49dd-8ddb-295b67c73039",
+    "26dacb34-a3df-412f-b8e4-435f29a5605f",
+    "blog-posts"
+  ]
+}
