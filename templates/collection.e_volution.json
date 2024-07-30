@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "0c627fd2-6381-445f-806f-bf0f27e6f3d5": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665797335__0c627fd2-6381-445f-806f-bf0f27e6f3d5-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>E_VOLUTION<br />Helmets</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665797335__0c627fd2-6381-445f-806f-bf0f27e6f3d5-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-1.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665797335__0c627fd2-6381-445f-806f-bf0f27e6f3d5-168193819321646090-1",
+        "template--16755665797335__0c627fd2-6381-445f-806f-bf0f27e6f3d5-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "32409209-927f-4860-842d-f34f44a59620": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665797335__32409209-927f-4860-842d-f34f44a59620-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>On the trail</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665797335__32409209-927f-4860-842d-f34f44a59620-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0deda773-bbe2-446d-b36c-2888babfc2c0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "9098aee8-1a65-4409-ad00-2b4f115f4ed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665797335__32409209-927f-4860-842d-f34f44a59620-168193819321646090-1",
+        "template--16755665797335__32409209-927f-4860-842d-f34f44a59620-168193819321646090-0",
+        "0deda773-bbe2-446d-b36c-2888babfc2c0",
+        "9098aee8-1a65-4409-ad00-2b4f115f4ed9"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "0c627fd2-6381-445f-806f-bf0f27e6f3d5",
+    "collection-header",
+    "main-collection",
+    "32409209-927f-4860-842d-f34f44a59620"
+  ]
+}

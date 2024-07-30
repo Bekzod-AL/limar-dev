@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "589b2530-916a-4912-8835-04b0beb04682": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ROAD<br />Helmets</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-road-category.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-1",
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "63098460-5efe-4765-9bf9-8a76ac175a6a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>On the Road</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-road-category-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "57878952-e83d-4025-90a6-41eb4ff42fef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-road-category-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "e0161b14-4324-4608-93f2-98d02b132f06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-road-category-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-1",
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-0",
+        "57878952-e83d-4025-90a6-41eb4ff42fef",
+        "e0161b14-4324-4608-93f2-98d02b132f06"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "589b2530-916a-4912-8835-04b0beb04682",
+    "main-collection",
+    "63098460-5efe-4765-9bf9-8a76ac175a6a"
+  ]
+}

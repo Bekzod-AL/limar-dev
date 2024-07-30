@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "89582210-ecfd-4a11-ab51-1fe0a4ed0fbd": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665928407__89582210-ecfd-4a11-ab51-1fe0a4ed0fbd-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Urban<br />Helmets</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665928407__89582210-ecfd-4a11-ab51-1fe0a4ed0fbd-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-urban-category.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665928407__89582210-ecfd-4a11-ab51-1fe0a4ed0fbd-168193819321646090-1",
+        "template--16755665928407__89582210-ecfd-4a11-ab51-1fe0a4ed0fbd-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "disabled": true,
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": { "subcollections_per_row": 5 }
+        }
+      },
+      "block_order": [
+        "product_grid",
+        "collection_description",
+        "subcollections"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "1fd73f3c-23c9-4626-ba4d-68a8fe8371c4": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665928407__1fd73f3c-23c9-4626-ba4d-68a8fe8371c4-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>On the Street</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "828f64a5-617e-41c5-b90f-f0cd1df179f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-urban-category-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665928407__1fd73f3c-23c9-4626-ba4d-68a8fe8371c4-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-urban-category-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "89f08924-eb4a-4dbd-9ad1-6ff501ee7f1b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-urban-category-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665928407__1fd73f3c-23c9-4626-ba4d-68a8fe8371c4-168193819321646090-1",
+        "828f64a5-617e-41c5-b90f-f0cd1df179f3",
+        "template--16755665928407__1fd73f3c-23c9-4626-ba4d-68a8fe8371c4-168193819321646090-0",
+        "89f08924-eb4a-4dbd-9ad1-6ff501ee7f1b"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "89582210-ecfd-4a11-ab51-1fe0a4ed0fbd",
+    "main-collection",
+    "1fd73f3c-23c9-4626-ba4d-68a8fe8371c4"
+  ]
+}

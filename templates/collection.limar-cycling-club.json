@@ -1,0 +1,627 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "165703272281af0ddd": {
+      "type": "slideshow",
+      "blocks": {
+        "16570327226ff83d8e-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 60,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/banner-lcc-24.png",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": ["16570327226ff83d8e-0"],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "7da871c9-a0e7-431e-93ee-615f8e4f5db7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19187456901462__7da871c9-a0e7-431e-93ee-615f8e4f5db7-16881084455cead9ee-0": {
+          "type": "heading",
+          "settings": { "title": "JOIN THE LIMAR CYCLING CLUB" }
+        },
+        "template--19187456901462__7da871c9-a0e7-431e-93ee-615f8e4f5db7-16881084455cead9ee-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Join the community!</p><p>Share your passion for cycling, and discover the numerous advantages and benefits reserved for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__7da871c9-a0e7-431e-93ee-615f8e4f5db7-16881084455cead9ee-0",
+        "template--19187456901462__7da871c9-a0e7-431e-93ee-615f8e4f5db7-16881084455cead9ee-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "disabled": true,
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "advanced_content_fFRyrp": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_Wz3wLH": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-title\" style=\"color: black;\">JOIN THE LIMAR \n</h2>\n<h2 class=\"cus-con-subtitle\" \">CYCLING CLUB</h2>\n\n\n{% if shop.locale == 'it' %}\n</br>\nEntra nella community!</br>\nCondividi la tua passione per il ciclismo, e scopri i numerosi vantaggi e benefit a te riservati.\n</br>\n<h4>ESSERE MEMBRO DEL LIMAR CYCLING CLUB SIGNIFICA:</h4>\n– Ricevere l’esclusivo sconto 50% su ordini uso personale con codice ri- servato.</br>\n– Ricevere un ulteriore codice sconto 30% da condividere con i tuoi mi- gliori amici: sui loro acquisti, tu avrai diritto al 10% di sconto in merce.</br>\n– Per ogni tuo acquisto è prevista la spedizione gratuita.</br>\n{% else %}\n</br>\nJoin the community!</br>\n</br>\nShare your passion for cycling, and discover the numerous advantages and benefits reserved for you.\n<h4>Being a member of the Limar Cycling Club means:</h4>\n\n<p>– Receive the exclusive 50% discount on orders placed on the Limar Web Shop for products for personal use with a reserved code.</p>\n<p>– Receive an additional 30% discount code to share with your best friends: on their purchases, you will be entitled to a 10% discount on merchandise.</p>\n<p>– Free shipping is provided for each of your purchases.</p>\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_TGN9qg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lcc-1.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": ["liquid_Wz3wLH", "image_TGN9qg"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_My7WW9": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_ryNyfi": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2 class=\"cus-con-title\" style=\"color: black; text-align: center;\">ENTRA A FAR PARTE DI UN TEAM DAVVERO UNICO!\n</h2>\n</br>\n<p style=\"text-align: center;\">Scegli il kit Limar cycling club tra le proposte esclusive ed acquistalo ad un prezzo imperdibile. </br>\nPrenotabile sin da ora, disponibile a partire da giugno 2024.</p>\n<h2 style=\"text-align: center; font-size: 50px\">SCEGLI IL TUO KIT PREFERITO!</h2>\n{% else %}\n\n<h2 class=\"cus-con-title\" style=\"color: black; text-align: center;font-size: 50px\">BECOME PART OF A TRULY UNIQUE TEAM! \n</h2>\n</br>\n<p style=\"text-align: center;\">Choose LIMAR CYCLING CLUB KIT among exclusive proposals and buy it at an unmissable price.</br>\nBookable now, available from June 2024.\n</p>\n<h2 style=\"text-align: center;\">CHOOSE YOUR FAVORITE KIT</h2>\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["liquid_ryNyfi"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "87a58a57-302f-47f5-b27d-41e2cf46b7ec": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19187456901462__87a58a57-302f-47f5-b27d-41e2cf46b7ec-16881085090d781f79-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kit-1-limar-2-1536x864.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--19187456901462__87a58a57-302f-47f5-b27d-41e2cf46b7ec-16881085090d781f79-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h3>Kit 01. PH-INK IN BLUE</h3>\n\n<p>– Racing Kit LIMAR by Nalini, limited edition only for the Limar Cycling Club, consisting of a summer jersey and short bibs in a color matching the helmet.</p>\n<p>– AIR ATLAS Ph-ink helmet in blue, from the brand new SPOTLIGHT ON STYLE collection</p>\n<p>– CRUZ transparent light gray glasses, new entry of the EYEWEAR 2023 collection</p>\n\n<p style=\"font-size: 12px;\">*The size will be defined in the order confirmation phase:\nClothing: XS, S, M, L, XL\nsizes Helmet: S, M, L sizes</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "5a80e23a-6ec0-46c4-82d0-97c304051dea": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>&nbsp;</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "a85fd627-faea-401b-92cb-cedfc7607af6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kit-2-limar-1-1536x864.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "0593ed38-b2da-4e64-a8c9-9c30420395b8": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h3>Kit 02. BELIEVE IN TURQUOISE</h3>\n\n<p>– LIMAR by Nalini Racing Kit, limited edition only for the Limar Cycling Club, consisting of a summer jersey and short bibs in a color matching the helmet.</p>\n<p>– AIR ATLAS Believe helmet in turquoise, from the brand new SPOTLIGHT ON STYLE collection</p>\n<p>– CRUZ transparent watermarine glasses, new entry of the EYEWEAR 2023 collection</p>\n\n<p style=\"font-size: 12px;\">*The size will be defined in the order confirmation phase:\nClothing: sizes XS, S, M, L, XL\nHelmet: sizes M, L</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "5344555d-566e-4ac2-8fb9-7e81fbb87dea": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>&nbsp;</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__87a58a57-302f-47f5-b27d-41e2cf46b7ec-16881085090d781f79-0",
+        "template--19187456901462__87a58a57-302f-47f5-b27d-41e2cf46b7ec-16881085090d781f79-1",
+        "5a80e23a-6ec0-46c4-82d0-97c304051dea",
+        "a85fd627-faea-401b-92cb-cedfc7607af6",
+        "0593ed38-b2da-4e64-a8c9-9c30420395b8",
+        "5344555d-566e-4ac2-8fb9-7e81fbb87dea"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "61b76326-cd5e-47c7-9720-b6983fade079": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19187456901462__61b76326-cd5e-47c7-9720-b6983fade079-16881084455cead9ee-0": {
+          "type": "heading",
+          "settings": {
+            "title": "JOINING THE LIMAR CYCLING CLUB OFFERS OTHER INCREDIBLE ADVANTAGES."
+          }
+        },
+        "template--19187456901462__61b76326-cd5e-47c7-9720-b6983fade079-16881084455cead9ee-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We have invited some industry partners to offer our club opportunities, promotions and offers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__61b76326-cd5e-47c7-9720-b6983fade079-16881084455cead9ee-0",
+        "template--19187456901462__61b76326-cd5e-47c7-9720-b6983fade079-16881084455cead9ee-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "advanced_content_46fQyK": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_whYPgg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit1-Ghiaia_avana_brown.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom2?variant=47976656011606",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_cC7K8T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit2-Ghiaia_sage_green.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom2?variant=47976656044374",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_4hXx8M": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3>KIT 01. GHIAIA AVANA BROWN \n</h3>\n\n– Gravel Kit LIMAR Avana Brown edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco.</br>\n– Casco AIR ATLAS Matt Avana Brown</br>\n– Occhiale KOSMOS Matt Titanium Amaranth</br>\n{% else %}\n\n<h3 >KIT 01. GHIAIA AVANA BROWN \n</h3>\n •\tLIMAR Avana Brown Limited Edition gravel kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR ATLAS Matt Avana Brown </br>\n•\tEyewear: KOSMOS Matt Titanium Amaranth</br>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "bottom-middle"
+          }
+        },
+        "liquid_h7fYKm": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3 >KIT 02. GHIAIA SAGE GREEN\n</h3>\n\n– Gravel Kit LIMAR Sage Green edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco.</br>\n– Casco AIR ATLAS Matt Sage Green</br>\n– Occhiale HORUS Jungle Gray Green</br>\n{% else %}\n\n<h3 >KIT 02. GHIAIA SAGE GREEN \n</h3>\n\n•\tLIMAR Sage Green Limited Edition gravel kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR ATLAS Matt Sage Green</br>\n•\tEyewear: HORUS Jungle Gray Green</br>\n\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_Txnmyr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit3-Ghiaia_dove_gray.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom1?variant=47976820670806",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_jLBLfF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit4-Ghiaia_sage_green.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom1?variant=47976820703574",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_eLGPhW": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3 >KIT 03. GHIAIA DOVE GRAY\n</h3>\n\n– Gravel Kit LIMAR Dove Gray edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco.</br>\n– Casco AIR STRATOS Matt Dove Gray</br>\n– Occhiale CRUZ Matt Gray</br>\n\n{% else %}\n\n<h3 >KIT 03. GHIAIA DOVE GRAY \n</h3>\n•\tLIMAR Dove Gray Limited Edition gravel kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR STRATOS Matt Dove Gray</br>\n•\tEyewear: CRUZ Matt Gray</br>\n\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_jE9mri": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3 >KIT 04. GHIAIA SAGE GREEN\n</h3>\n\n– Gravel Kit LIMAR Sage Green edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco.</br>\n– Casco AIR STRATOS Matt Sage Green</br>\n– Occhiale HORUS Jungle Gray Green</br>\n{% else %}\n\n<h3 >KIT 04. GHIAIA SAGE GREEN\n</h3>\n•\tLIMAR Sage Green Limited Edition gravel kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR STRATOS Matt Sage Green</br>\n•\tEyewear: HORUS Jungle Gray Green</br>\n\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_zdLGJY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit5-Strada_Rose_Quartz.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom2?variant=47976656077142",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_7P7YJN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-kit6-Strada_Blue_Tourmaline.jpg",
+            "link": "https://limar.com/products/limar-cycling-club-membership-2024-kom1?variant=47976820736342",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_XQ6qKM": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3 >KIT 05. STRADA ROSE QUARTZ\n</h3>\n– Road Kit LIMAR Rose Quartz edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco.</br>\n– Casco AIR ATLAS Matt Rose Quartz</br>\n– Occhiale HORUS Matt Grey</br>\n\n\n{% else %}\n\n<h3 >KIT 05. STRADA ROSE QUARTZ \n</h3>\n\n•\tLIMAR Rose Quartz Limited Edition road kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR ATLAS Matt Rose Quartz</br>\n•\tEyewear: HORUS Matt Grey</br>\n\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_QBTcGV": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h3 >KIT 06. STRADA BLUE TOURMALINE\n</h3>\n\n– Road Kit LIMAR Blue Tourmaline edizione limitata solo per il Limar Cycling Club, composto da maglia estiva e bibs corti in colorazione abbinata al casco. </br>\n– Casco AIR STRATOS matt Blue Tourmaline</br>\n– Occhiale CRUZ Trasparent Watermarine</br>\n{% else %}\n\n<h3 >KIT 06. STRADA BLUE TOURMALINE \n</h3>\n\n•\tLIMAR Blue Tourmaline Limited Edition road kit, designed for Limar Cycling Club exclusively, it includes short sleeves jersey and bibs that match helmet colour</br>\n•\tHelmet: AIR STRATOS Matt Blue Tourmaline</br>\n•\tEyewear: CRUZ Trasparent Watermarine</br>\n\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_whYPgg",
+        "image_cC7K8T",
+        "liquid_4hXx8M",
+        "liquid_h7fYKm",
+        "image_Txnmyr",
+        "image_jLBLfF",
+        "liquid_eLGPhW",
+        "liquid_jE9mri",
+        "image_zdLGJY",
+        "image_7P7YJN",
+        "liquid_XQ6qKM",
+        "liquid_QBTcGV"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "baee5a17-d9b9-4316-84fa-635af0aa5b2c": {
+      "type": "advanced-content",
+      "blocks": {
+        "8a7f6dd6-63d2-48b7-887d-d305273a0b56": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<b><p style= \"font-size: 18px\">ESSERE MEMBRO DEL LIMAR CYCLING CLUB TI OFFRE L’OPPORTUNITÀ DI CONDIVIDERE ESPERIENZE UNICHE E INCONTRARE NUOVI AMICI</p> </b>\n</br>\n<p>Ecco la selezione degli eventi e social bike ride per il 2024 per pedalare insieme:</p>\n\n<p style=\"font-size: 12px;\">– ETAPE DU TOUR, PARMA, 27/28 APRILE<br />\n– BERGHEM MOLAMIA, BERGAMO, 15/16 GIUGNO<br />\n– PROSECCO CYCLING, VALDOBBIADENE, 29 SETTEMBRE<br />\n– JEROBOAM GRAVEL FRANCIACORTA, 19 OTTOBRE</p>\n\n{% else %}\n\n<b><p style= \"font-size: 18px\">BEING A MEMBER OF LIMAR CYCLING CLUB GIVES YOU THE OPPORTUNITY TO SHARE UNIQUE EXPERIENCES AND MEET NEW FRIENDS.</p> </b>\n</br>\n<p>Here is the selection of events and social bike rides for 2024 to ride together:</p>\n\n<p style=\"font-size: 14px;\">– ETAPE DU TOUR, PARMA, APRIL 27/28<br />\n– BERGHEM MOLAMIA, BERGAMO, JUNE 15/16<br />\n– PROSECCO CYCLING, VALDOBBIADENE, SEPTEMBER 29<br />\n– JEROBOAM GRAVEL FRANCIACORTA, OCTOBER 19</p>\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "18d043a7-684c-4537-b93b-76a0ff4551bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-banner-cycling-team-path.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--19187456901462__baee5a17-d9b9-4316-84fa-635af0aa5b2c-16881085090d781f79-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LCC24-SPONSOR_DEF.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--19187456901462__baee5a17-d9b9-4316-84fa-635af0aa5b2c-16881085090d781f79-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a name=\"LCCDiscounts\"></a>{% if shop.locale == 'it' %}\n<a name=\"LCCDiscounts\"></a>\n<b><p style= \"font-size: 18px\">JENTRARE A FAR PARTE DEL LIMAR CYCLING CLUB OFFRE ALTRI INCREDIBILI VANTAGGI</p> </b>\n</br>\n<p style= \"font-size: 15px\">WE PRESENTIAMO I NOSTRI PARTNER E LE LORO OFFERTE ESCLUSIVE VALIDE PER IL 2024:</p>\n<p style= \"font-size: 14px\">– NALINI SCONTO ESCLUSIVO<br />\n– NORTHWAVE SCONTO ESCLUSIVO 30%<br />\n– FSA SCONTO ESCLUSIVO 20%<br />\n– VISION SCONTO ESCLUSIVO 20%<br />\n– ENERVIT SCONTO ESCLUSIVO 30%<br />\n– EEVYE SCONTO ESCLUSIVO 25%</p>\n<img src= \"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/acsi-300x100.jpg?v=1688109756\" alt=\"logo ACSI\">\n<b><p style= \"font-size: 18px\">L’ISCRIZIONE AL LIMAR CC INCLUDE LA TESSERA ACSI INDIVIDUALE GRATUITA</h4> \n<p style=\"font-size: 14px\">E’ Obbligatorio il certificato di idoneità sportiva agonistica in corso di validità.\n</br>\n\nAl momento dell’iscrizione al Limar Cycling Club, riceverai una mail di benvenuto con tutte le indicazioni per usufruire di queste interessanti promozioni.\n</p>\n\n{% else %}\n\n<b><p style= \"font-size: 18px\">JOINING THE LIMAR CYCLING CLUB OFFERS OTHER INCREDIBLE ADVANTAGES.</p></b>\n</br>\n<p style= \"font-size: 15px\">WE PRESENT OUR PARTNERS AND THEIR EXCLUSIVE OFFERS VALID FOR 2024:</p>\n<p style= \"font-size: 14px\">– NALINI EXCLUSIVE DISCOUNT<br />\n– NORTHWAVE EXCLUSIVE DISCOUNT 30%<br />\n– FSA EXCLUSIVE DISCOUNT 20%<br />\n– VISION EXCLUSIVE DISCOUNT 20%<br />\n– ENERVIT EXCLUSIVE DISCOUNT 30%<br />\n– EEVYE DISCOUNT EXCLUSIVE 25%</p>\n<img src= \"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/acsi-300x100.jpg?v=1688109756\" alt=\"logo ACSI\">\n</br>\n<b><p style=\"font-size: 18px\"> REGISTRATION WITH LIMAR CC INCLUDES THE FREE INDIVIDUAL ACSI CARD</p> </b>\n</br>\n<p style=\"font-size: 15px\">A valid certificate of competitive sports suitability is mandatory.</br> </br>\n\nWhen registering with the Limar Cycling Club, you will receive a welcome email with all the information on how to take advantage of these interesting promotions.\n</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "8a7f6dd6-63d2-48b7-887d-d305273a0b56",
+        "18d043a7-684c-4537-b93b-76a0ff4551bf",
+        "template--19187456901462__baee5a17-d9b9-4316-84fa-635af0aa5b2c-16881085090d781f79-0",
+        "template--19187456901462__baee5a17-d9b9-4316-84fa-635af0aa5b2c-16881085090d781f79-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "5d5c8bc0-54bc-4568-ab90-450646234252": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19187456901462__5d5c8bc0-54bc-4568-ab90-450646234252-16881085090d781f79-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/acsi-300x100.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--19187456901462__5d5c8bc0-54bc-4568-ab90-450646234252-16881085090d781f79-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h4>Registration with Limar CC includes the FREE INDIVIDUAL ACSI CARD</h4><p>A valid certificate of competitive sports suitability is mandatory.</p>\n\n<p>When registering with the Limar Cycling Club, you will receive a welcome email with all the information on how to take advantage of these interesting promotions.\n\n</p>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__5d5c8bc0-54bc-4568-ab90-450646234252-16881085090d781f79-0",
+        "template--19187456901462__5d5c8bc0-54bc-4568-ab90-450646234252-16881085090d781f79-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_T4HrFD": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_W4GBwa": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2 class=\"cus-con-title\" style=\"color: black; text-align: center; font-size: 50px\">SCOPRI LA MEMBERSHIP PIÙ ADATTA A TE\n</h2>\n\n{% else %}\n\n<h2 class=\"cus-con-title\" style=\"color: black; text-align: center; font-size: 50px\">DISCOVER THE MEMBERSHIP THAT'S BEST FOR YOU \n</h2>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["liquid_W4GBwa"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "a5a352cd-80bd-46a9-b8af-ba5fa10a1fc0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19187456901462__a5a352cd-80bd-46a9-b8af-ba5fa10a1fc0-16881084455cead9ee-0": {
+          "type": "heading",
+          "settings": { "title": "DISCOVER THE MEMBERSHIP THAT'S BEST FOR YOU" }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__a5a352cd-80bd-46a9-b8af-ba5fa10a1fc0-16881084455cead9ee-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "cb049430-55da-4102-9619-508bc113581e": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--19187456901462__cb049430-55da-4102-9619-508bc113581e-1688110126ea72c180-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Local Legend",
+            "heading": "€24,95",
+            "textarea": "It includes:\n\n– ACSI individual card\n– All discount vouchers\n– Registration for social rides\n(Offer valid for the year 2024)",
+            "cta_text1": "Join Now",
+            "cta_link1": "shopify://products/local-legend",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/LCC24-back-1.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 80,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--19187456901462__cb049430-55da-4102-9619-508bc113581e-1688110126ea72c180-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "QOM 1",
+            "heading": "€109,95",
+            "textarea": "It includes:\n- ACSI individual card\n- All discount vouchers\n- Registration for social rides\n- Helmet + glasses of your choice between the 3 proposals",
+            "cta_text1": "Join Now",
+            "cta_link1": "shopify://products/copy-of-limar-cycling-club-membership-2024-qom1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/LCC24-back-2.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 80,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "d2199994-160c-4dde-8cb7-4c6e48606117": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "QOM 2",
+            "heading": "€179,95",
+            "textarea": "It includes:\n- ACSI individual card\n- All discount vouchers\n- Registration for social rides\n- Helmet + glasses of your choice between the 3 proposals",
+            "cta_text1": "Join Now",
+            "cta_link1": "shopify://products/limar-cycling-club-membership-2024-qom2",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/LCC24-back-2.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 80,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_NaVY8f": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "KOM 1",
+            "heading": "€289,95",
+            "textarea": "It includes:\n-ACSI individual card\n-All discount vouchers\n-Registration for social rides \n-Complete kit helmet + glasses + short sleeves jersey + bibs of your choice between the 3 proposals",
+            "cta_text1": "JOIN NOW",
+            "cta_link1": "shopify://products/limar-cycling-club-membership-2024-kom1",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/LCC24-back-3.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 80,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_3pD73p": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "KOM 2",
+            "heading": "€364,95",
+            "textarea": "It includes:\n-ACSI individual card\n-All discount vouchers\n-Registration for social rides \n-Complete kit helmet + glasses + short sleeves jersey + bibs of your choice between the 3 proposals",
+            "cta_text1": "JOIN NOW",
+            "cta_link1": "shopify://products/limar-cycling-club-membership-2024-kom2",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/LCC24-back-3.png",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 80,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19187456901462__cb049430-55da-4102-9619-508bc113581e-1688110126ea72c180-0",
+        "template--19187456901462__cb049430-55da-4102-9619-508bc113581e-1688110126ea72c180-1",
+        "d2199994-160c-4dde-8cb7-4c6e48606117",
+        "advanced_NaVY8f",
+        "advanced_3pD73p"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "165703272281af0ddd",
+    "7da871c9-a0e7-431e-93ee-615f8e4f5db7",
+    "main-collection",
+    "advanced_content_fFRyrp",
+    "advanced_content_My7WW9",
+    "87a58a57-302f-47f5-b27d-41e2cf46b7ec",
+    "61b76326-cd5e-47c7-9720-b6983fade079",
+    "advanced_content_46fQyK",
+    "baee5a17-d9b9-4316-84fa-635af0aa5b2c",
+    "5d5c8bc0-54bc-4568-ab90-450646234252",
+    "advanced_content_T4HrFD",
+    "a5a352cd-80bd-46a9-b8af-ba5fa10a1fc0",
+    "cb049430-55da-4102-9619-508bc113581e"
+  ]
+}

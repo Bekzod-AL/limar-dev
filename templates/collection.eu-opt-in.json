@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "d8ad12bf-9313-47ff-8738-0d62025e4679": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19698759598422__d8ad12bf-9313-47ff-8738-0d62025e4679-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "JOIN US",
+            "title_size": 80,
+            "subheading": "[ STAY IN THE KNOW ]",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Limar_Eyewear_HPSlider_Desktop_v1_06d11a01-eeec-4674-93bf-132c24d410f9.jpg",
+            "image_mobile": "shopify://shop_images/Limar_Eyewear_HPSlider_Mobile_v1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19698759598422__d8ad12bf-9313-47ff-8738-0d62025e4679-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "9ee91c65-c0a3-426d-a3e3-d8663182f960": {
+      "type": "slideshow",
+      "blocks": {
+        "55b37c17-bca7-4cc9-8ad8-dfbaf0be4376": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "JOIN US",
+            "title_size": 80,
+            "subheading": "[ STAY IN THE KNOW ]",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Limar_Eyewear_HPSlider_Desktop_v1.jpg",
+            "image_mobile": "shopify://shop_images/Limar_Eyewear_HPSlider_Mobile_v1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": ["55b37c17-bca7-4cc9-8ad8-dfbaf0be4376"],
+      "disabled": true,
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "8b9711ff-9192-446e-82cb-4c7e56f65451": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19698759598422__8b9711ff-9192-446e-82cb-4c7e56f65451-heading-1": {
+          "type": "heading",
+          "settings": { "title": "" }
+        },
+        "template--19698759598422__8b9711ff-9192-446e-82cb-4c7e56f65451-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>NEWSLETTER SUBSCRIBE</h1><p>Please complete and submit the form below to continue receiving  communication from Limar about events, products and all the latest news.</p><p>Compila e invia il modulo sottostante per continuare a ricevere comunicazioni da Limar su eventi, prodotti e tutte le ultime novità.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19698759598422__8b9711ff-9192-446e-82cb-4c7e56f65451-heading-1",
+        "template--19698759598422__8b9711ff-9192-446e-82cb-4c7e56f65451-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "a1d78b4c-d165-403f-80ef-914fd4ddf881": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19698759598422__a1d78b4c-d165-403f-80ef-914fd4ddf881-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"klaviyo-form-VyA59t\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19698759598422__a1d78b4c-d165-403f-80ef-914fd4ddf881-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "4680462b-126e-4b82-83a5-3579adf81e2f": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Eyewear</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cruz-gallery-1.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-1",
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "3cfd74ac-45b9-4b22-afc0-68e0930a04cd": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665600727__3cfd74ac-45b9-4b22-afc0-68e0930a04cd-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ON YOUR EYES</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "19a36a4c-defd-48f6-8f04-191383371211": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0716ac1a-6439-4b8e-98f1-a2806834babe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "cf0182ca-bdb6-4d90-b509-445010816efa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665600727__3cfd74ac-45b9-4b22-afc0-68e0930a04cd-168193819321646090-1",
+        "19a36a4c-defd-48f6-8f04-191383371211",
+        "0716ac1a-6439-4b8e-98f1-a2806834babe",
+        "cf0182ca-bdb6-4d90-b509-445010816efa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "e4822953-ab20-46e5-9e91-24c273c4f4c6": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "limar news",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "d8ad12bf-9313-47ff-8738-0d62025e4679",
+    "9ee91c65-c0a3-426d-a3e3-d8663182f960",
+    "8b9711ff-9192-446e-82cb-4c7e56f65451",
+    "a1d78b4c-d165-403f-80ef-914fd4ddf881",
+    "4680462b-126e-4b82-83a5-3579adf81e2f",
+    "main-collection",
+    "3cfd74ac-45b9-4b22-afc0-68e0930a04cd",
+    "e4822953-ab20-46e5-9e91-24c273c4f4c6"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "4680462b-126e-4b82-83a5-3579adf81e2f": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Eyewear</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cruz-gallery-1.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-1",
+        "template--16755665600727__4680462b-126e-4b82-83a5-3579adf81e2f-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "3cfd74ac-45b9-4b22-afc0-68e0930a04cd": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665600727__3cfd74ac-45b9-4b22-afc0-68e0930a04cd-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ON YOUR EYES</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "19a36a4c-defd-48f6-8f04-191383371211": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0716ac1a-6439-4b8e-98f1-a2806834babe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "cf0182ca-bdb6-4d90-b509-445010816efa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/eyewear-limar-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665600727__3cfd74ac-45b9-4b22-afc0-68e0930a04cd-168193819321646090-1",
+        "19a36a4c-defd-48f6-8f04-191383371211",
+        "0716ac1a-6439-4b8e-98f1-a2806834babe",
+        "cf0182ca-bdb6-4d90-b509-445010816efa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "4680462b-126e-4b82-83a5-3579adf81e2f",
+    "main-collection",
+    "3cfd74ac-45b9-4b22-afc0-68e0930a04cd"
+  ]
+}

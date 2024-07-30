@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "e0b87a01-510a-457e-9fcc-8412bd665c63": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665731799__e0b87a01-510a-457e-9fcc-8412bd665c63-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Gravel<br />Helmets</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665731799__e0b87a01-510a-457e-9fcc-8412bd665c63-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-gravel-category.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665731799__e0b87a01-510a-457e-9fcc-8412bd665c63-168193819321646090-1",
+        "template--16755665731799__e0b87a01-510a-457e-9fcc-8412bd665c63-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 80px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "4f8da338-c792-45db-b652-cf44a7b52656": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665731799__4f8da338-c792-45db-b652-cf44a7b52656-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>On the dirt</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665731799__4f8da338-c792-45db-b652-cf44a7b52656-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-gravel-category-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "f4bff518-c68c-438f-aec9-14fda86f3689": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-gravel-category-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "a34b1af2-2edc-4d3f-b454-a887020c6ab1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-gravel-category-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665731799__4f8da338-c792-45db-b652-cf44a7b52656-168193819321646090-1",
+        "template--16755665731799__4f8da338-c792-45db-b652-cf44a7b52656-168193819321646090-0",
+        "f4bff518-c68c-438f-aec9-14fda86f3689",
+        "a34b1af2-2edc-4d3f-b454-a887020c6ab1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "e0b87a01-510a-457e-9fcc-8412bd665c63",
+    "main-collection",
+    "4f8da338-c792-45db-b652-cf44a7b52656"
+  ]
+}
