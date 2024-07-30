@@ -1,0 +1,323 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "cf89e3c7-9683-4905-8445-3617302c548a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19731996639574__cf89e3c7-9683-4905-8445-3617302c548a-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "LIMAR CYCLING CLUB",
+            "title": "SPRINT RIDE",
+            "title_size": 80,
+            "subheading": "MISANO ITALIAN BIKE FESTIVAL",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Limar_Event.00_00_24_32.Immagine020.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__cf89e3c7-9683-4905-8445-3617302c548a-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "ad9148c5-2d46-4a9e-9705-eb35e922e345": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The “Limar Sprint RIDE” event organized on the occasion of the Italian Bike Festival on September 16th did not disappoint expectations: a whirlwind of emotions between passion and friendship and a great desire to compete.</p><p>Scheduled as the third Limar Cylcing Club event of 2023, with a decidedly competitive flavour, the Limar Sprint Ride promised to be special. The prospect of competing in the Misano World Circuit with 4 professional guests, having the opportunity to compete with them on the track and converse on performance issues was decidedly irresistible.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-heading-1",
+        "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2": {
+      "type": "advanced-content",
+      "blocks": {
+        "0d51f487-162a-4b42-a94e-73ac67d99ded": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_11_39.Immagine010.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "569de583-2cf6-4de8-8730-4a5722bc0965": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_00_58_34.Immagine008.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--19731996639574__66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_00_20.Immagine009.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "0d51f487-162a-4b42-a94e-73ac67d99ded",
+        "569de583-2cf6-4de8-8730-4a5722bc0965",
+        "template--19731996639574__66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2-image-1"
+      ],
+      "custom_css": [
+        "body {padding: 30px;}",
+        ".center-div {margin: 100 auto; max-width: 700px; height: 100px; background-color: #ffffff; border-radius: 0px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "a9e42438-10e1-4fb1-9736-e7d0c9bbf91f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Also a good omen were Simone Velasco and Gianni Moscon of Astana Qazaqstan Team who the day before, during the ride in preparation for the Marco Pantani Memorial, gave us a nice surprise by taking photographs and interviews at the stand.</p><p>Among the numerous members of the Limar Cycling Club who showed up at the Acsi stand from the early hours of the day, which was also the site of the event on this occasion, one could already feel the emotion, the desire to race, the desire to meet the Pros, take advantage of their advice and challenge them on the track.</p><p>And so it was. A very respectable team, Manuele Boaro, Leonardo Basso of Astana Qazaqstan Team and Sofia Collinelli and Lara Vieceli of Israel Premier Tech Roland Team and Alessandro Vanotti ex Astana Pro. As moderator, Claudio Ghisalberti of La Gazzetta dello Sport, who, thanks to his professionalism, was a presenter who captured the interest of all those present. We talked about performance, training, technical aspects and last but not least the topic of safety on the road and the runners expressed their thoughts on what still needs to be done to train on the road safely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-heading-1",
+        "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "a4fab951-c88d-4662-bf54-00ca714de15c": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https://youtu.be/A830jtVUrBg",
+        "divider": false
+      }
+    },
+    "84bfb575-af8c-4a1e-ad04-7534aa45d2e9": {
+      "type": "advanced-content",
+      "blocks": {
+        "149d2bef-8415-4eed-9e5d-620aafa6aa61": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_25_36.Immagine015.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "7deb2529-3725-4d70-b228-f7b9b7401faa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_24_40.Immagine014.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "149d2bef-8415-4eed-9e5d-620aafa6aa61",
+        "7deb2529-3725-4d70-b228-f7b9b7401faa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "633b4516-3bda-4093-8b2d-8bebf83676df": {
+      "type": "rich-text",
+      "blocks": {
+        "5a68b31a-a3ab-4a6e-8d65-cb66bbd09a03": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        },
+        "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The race within the Circuit, meticulously organized by Alice Donadoni of Limar with the invaluable assistance of the Festival organizer, Francesco Ferrario, consisted of 6 laps, for a total of 25 km of pure speed and fun, where the competitive temperament of the pros and guests manifested itself in all its power. Manuele Boaro didn't give anything away and gave everyone a hard time. Sofia Collinelli, despite being injured, couldn't resist and still entered the race, dragging the group with her irrepressible energy. A high pace that reached 50 km/h, two flying finishes, a sprint finish like in real competitions... absolutely nothing was missing from what to all intents and purposes turned out to be a real speed race.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "5a68b31a-a3ab-4a6e-8d65-cb66bbd09a03",
+        "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "599c809d-8bf5-49dd-8ddb-295b67c73039": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--19731996639574__599c809d-8bf5-49dd-8ddb-295b67c73039-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_45_06.Immagine018.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "0410dcee-79ef-44f9-94f5-5487c9aa8727": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_57_41.Immagine017.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "f1e5903b-c4cb-4be5-bc14-09c79510f953": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Limar_Event.00_01_52_23.Immagine016.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19731996639574__599c809d-8bf5-49dd-8ddb-295b67c73039-image-1",
+        "0410dcee-79ef-44f9-94f5-5487c9aa8727",
+        "f1e5903b-c4cb-4be5-bc14-09c79510f953"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "14f6a182-cb0b-4827-a8f3-73ee8b2f21d8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The event ended with a small reception, a lively moment of chatter, thanks and greetings, with the promise of meeting up in even larger numbers at the next event, already planned for 7 October. We can not wait!</p><p>If you want to participate in the next events of the LIMAR CYCLING CLUB, <a href=\"/it/collections/limar-cycling-club\" title=\"/it/collections/limar-cycling-club\">REGISTER HERE</a> or contact LIMAR at <a href=\"mailto:info@limar.com\"><span style=\"text-decoration:underline\">info@limar.com.</span></a></p>"
+          }
+        },
+        "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": { "title": "Rich text" }
+        }
+      },
+      "block_order": [
+        "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-text-1",
+        "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-heading-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "26dacb34-a3df-412f-b8e4-435f29a5605f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limar road helmets",
+        "home_featured_products": "road",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "more limar news",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf89e3c7-9683-4905-8445-3617302c548a",
+    "ad9148c5-2d46-4a9e-9705-eb35e922e345",
+    "66e4b44f-1aca-4dd1-8bdd-3b3e8692d2d2",
+    "a9e42438-10e1-4fb1-9736-e7d0c9bbf91f",
+    "a4fab951-c88d-4662-bf54-00ca714de15c",
+    "84bfb575-af8c-4a1e-ad04-7534aa45d2e9",
+    "633b4516-3bda-4093-8b2d-8bebf83676df",
+    "599c809d-8bf5-49dd-8ddb-295b67c73039",
+    "14f6a182-cb0b-4827-a8f3-73ee8b2f21d8",
+    "26dacb34-a3df-412f-b8e4-435f29a5605f",
+    "blog-posts"
+  ]
+}

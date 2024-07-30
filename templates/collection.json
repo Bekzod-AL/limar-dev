@@ -6,7 +6,8 @@
       "settings": {
         "enable": true,
         "collection_image_enable": true,
-        "parallax": true
+        "parallax": true,
+        "parallax_direction": "top"
       }
     },
     "165703272281af0ddd": {
@@ -25,20 +26,23 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Nibali_GdI10.05.2022.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/Nibali_GdI10.05.2022.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
-      "block_order": ["16570327226ff83d8e-0"],
+      "block_order": [
+        "16570327226ff83d8e-0"
+      ],
       "settings": {
         "section_height": "550px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
         "autoplay": false,
-        "autoplay_speed": 5
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "main-collection": {
@@ -54,15 +58,22 @@
           }
         }
       },
-      "block_order": ["product_grid"],
+      "block_order": [
+        "product_grid"
+      ],
       "settings": {
         "enable_sidebar": false,
         "collapsed": false,
         "filter_style": "sidebar",
         "enable_color_swatches": false,
+        "enable_swatch_labels": false,
         "enable_sort": false
       }
     }
   },
-  "order": ["collection-header", "165703272281af0ddd", "main-collection"]
+  "order": [
+    "collection-header",
+    "165703272281af0ddd",
+    "main-collection"
+  ]
 }

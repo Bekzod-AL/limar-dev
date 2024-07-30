@@ -1,0 +1,16 @@
+{
+  "parent": "article.cavendish-gold-helmet.json",
+  "context": { "market": "it" },
+  "sections": {
+    "advanced_content_DFwHNa": {
+      "settings": {},
+      "blocks": {
+        "liquid_6pfmCP": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2>Saranno 35 in Francia?</h2>\n<p>I riflettori sono accesi sul Team Astana-Qazaqstan e su Mark Cavendish che punta nuovamente nel 2024 al record mondiale di vittorie di tappa al Tour de France.</p>\n<p>\nLa 35a vittoria di tappa gli permetterebbe di superare\nEddy Merckx e diventare il detentore del record di tutti i tempi di successi parziali nel Tour più emozionante di sempre.\nLimar celebra la sfida con AIR ATLAS Mark Cavendish White Gold 24.</p>\n\n{%else%}\n\n<h2>Thirty-Five in France?</h2><p>All eyes will be on Astana-Qazaqstan Team as Mark\nCavendish goes for the world record of stage wins in the Tour de France again in 2024!</p>\n\n<p>His 35th stage win would allow him to overtake\nEddy Merckx and become the all-time record holder for\npartial successes in the most exciting Tour ever.</p>\n\n<p>Limar celebrates the challenge with AIR ATLAS Mark Cavendish White Gold 24.</p>\n\n{%endif%}"
+          }
+        }
+      }
+    }
+  }
+}

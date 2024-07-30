@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "DOOM",
+            "title": "JEFF\nKERKOVE",
+            "title_size": 80,
+            "subheading": "WINS & SETS NEW FKT",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Jeff_Kerkove_DOOM_2100x1181_aa8317ed-f519-4a32-83ce-02a28b8c1158.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "2f931787-88a5-4387-8516-f92eb9f20989": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16779547050199__2f931787-88a5-4387-8516-f92eb9f20989-16844494714e5628e1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>known simply as doom</h2>\n<p>I challenged the second year bikepacking event simply known as DOOM. Located in the Ozark Mountains of west central Arkansas, it’s simply labeled as “A beautifully evil bikepacking route in the south.” Averaging over 100 feet of elevation gain/loss per mile, riders are either buckling up for a rowdy descent or gritting teeth for a torturous steep climb. The loop consists of 80% gravel and 20% pavement with surface types ranging from hard packed gravel to unmaintained OHV trails. Creek crossings, cutty connectors, and a few Arkansas High Country Race classics—this route has it all. It’s 390 miles with a whopping 43,000 feet of elevation gain.</p>\n\n<p>I was out there for 42 hours and 23 minutes. I slept a total of 30 minutes. I was fortunate to roll back to Oark, AR on Sunday at 1:30 AM with the win and new course record – but holy hell the DOOM route does everything it can to shatter your mind and body into a thousand little pieces!</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--16779547050199__2f931787-88a5-4387-8516-f92eb9f20989-16844494714e5628e1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41023-DOOM-11.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16779547050199__2f931787-88a5-4387-8516-f92eb9f20989-16844494714e5628e1-1",
+        "template--16779547050199__2f931787-88a5-4387-8516-f92eb9f20989-16844494714e5628e1-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "981bc0ff-f8da-47f7-8bec-8700cdbff067": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16779547050199__981bc0ff-f8da-47f7-8bec-8700cdbff067-16844494714e5628e1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"sqs-block code-block sqs-block-code\" data-block-type=\"23\" id=\"block-yui_3_17_2_1_1648647723443_10983\"><div class=\"sqs-block-content\"><iframe src=\"https://ridewithgps.com/embeds?type=route&amp;id=41753876&amp;sampleGraph=true&amp;distanceMarkers=true\" style=\"width: 1px; min-width: 100%; height: 700px; border: none;\" scrolling=\"no\"></iframe></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16779547050199__981bc0ff-f8da-47f7-8bec-8700cdbff067-16844494714e5628e1-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "c647556d-5166-4f53-9f29-d0489662d962": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>up and down</h2>\n\n<p>Doom is aptly named. For the longest time, no one completed the full route. And still to this day more people fail than complete the full 390-mile loop. Choose your equipment wisely. Come ready for the vision quest.</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41023-DOOM-23.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-1",
+        "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "2a92d7e5-1c9d-4498-a380-b37869ecf7b0": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16779547050199__2a92d7e5-1c9d-4498-a380-b37869ecf7b0-16844494714e5628e1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>The climbing is violent and unrelenting. You’re either going up or going down. There’s not an inch of flat terrain on the full route. I think I pushed my bike up nearly a dozen climbs because my legs were either so fried or I couldn’t keep rear wheel traction. The recurring theme for all 390-miles: gradients of 10-30%.</p>\n\n\n<p>The resupply is lean. It’s even leaner when you cannot rely on said resupplies even being open, even though their store hours say so. I resupplied at mile 90. Had pizza at mile 293 because my resupply 45 miles earlier was closed. The last resupply was Dollar General at mile 351 – arriving with just 5 minutes to spare.</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "template--16779547050199__2a92d7e5-1c9d-4498-a380-b37869ecf7b0-16844494714e5628e1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41023-DOOM-16_copy.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "88f22a2f-549e-4a74-b6d3-f78f8b9217cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41023-DOOM-29.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "8e11ba01-fa51-4c91-85c9-1212a28f8a10": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>Race Director, Andrew Onermaa has crafted one hell of a route. Yes, he’s stoked when people complete the route – but there is also a part of me that thinks he takes pride when his backyard absolutely crushes the crew of adventure cyclists that commit to this route each year. It’s really hard…and we should do hard things from time to time. This event is going to grow as people seek out those “near impossible” challenges….it has the vibe of the early years of Trans-Iowa and Unbound.</p>\n\n<p>Photo credit: Kai Caddy</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16779547050199__2a92d7e5-1c9d-4498-a380-b37869ecf7b0-16844494714e5628e1-1",
+        "template--16779547050199__2a92d7e5-1c9d-4498-a380-b37869ecf7b0-16844494714e5628e1-0",
+        "88f22a2f-549e-4a74-b6d3-f78f8b9217cd",
+        "8e11ba01-fa51-4c91-85c9-1212a28f8a10"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limar Road Helmets",
+        "home_featured_products": "road",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b",
+    "2f931787-88a5-4387-8516-f92eb9f20989",
+    "981bc0ff-f8da-47f7-8bec-8700cdbff067",
+    "c647556d-5166-4f53-9f29-d0489662d962",
+    "2a92d7e5-1c9d-4498-a380-b37869ecf7b0",
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714",
+    "blog-posts"
+  ]
+}
