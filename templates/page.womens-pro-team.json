@@ -1,0 +1,320 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "advanced_content_jkqxqX": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_UbFrQ9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h1>LIMAR WOMEN'S PRO TEAMS</h1><p>2024</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["liquid_UbFrQ9"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "text_columns_DwRVDy": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_9NtC8e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/W-rolans-team-1-group.jpg",
+            "image_width": 650,
+            "title": "ROLAND CYCLING TEAM",
+            "text": "<p>It is a long-standing collaboration with team manager Ruben Contreras, a person with an always ready wit and an enviable energetic spirit.His passion for cycling and his spirit of internationality have led him to build a roster of athletes from all over the world, including the very Italian Sofia Collinelli, Elena Pirrone and Giorgia Vettorello. We are excited and ready to follow the team during a season that we hope will be full of satisfaction. Good luck to all! Limar is proud to support the Roland women's team again in 2024.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_6Q3pCT": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/W-aromitalia-team-1-group.jpg",
+            "image_width": 650,
+            "title": "AROMITALIA 3T VAIANO TEAM",
+            "text": "<p>Limar also sponsors the women's continental team Aromitalia 3T Vaiano for 2024, which debuted in January on Spanish roads for the Challenge Mallorca Femenina race.</p><p>Team owner Stefanon Giugni, with coaches Paolo Baldi and Matteo Ferrari will be able to count on the performances of Lithuanian strong woman Rasa Leleivyte, talented Ligurian Serena Brillante Romeo, 21-year-old Milena Del Sarto, the reigning Tuscan regional champion, Grosseto-based Fabia Maramotti, young Iberian Ainhoa Moreno Ossowsky, and 21-year-old sprinter from San Miniato Lara Scarselli, among many others. Technical support consists of top-of-the-line Air Pro, Air Atlas and Air King Evo to protect and offer the athletes maximum performance.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": ["text_block_9NtC8e", "text_block_6Q3pCT"],
+      "settings": { "title": "", "align_text": "center", "divider": false }
+    },
+    "text_columns_RYX6Pt": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_LpNXXV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/womens_pro_team_Astana_Dewi_1.jpg",
+            "image_width": 650,
+            "title": "ASTANA DEWI WOMEN TEAM",
+            "text": "<p>Astana Dewi Women Team, a newly formed continental women's team is the result of a partnership between World Tour team Astana Qazaqstan and Raja Sapta Oktohari's Dewi Cycling. The goal is, \"to serve as a catalyst for the advancement of women's cycling on the Asian continent. With the rapid growth in the popularity of women's cycling and the expansion of the women's race calendar, it was decided to create new opportunities and focus on cultivating talented female cyclists from Kazakhstan and Indonesia in in particular.\"</p><p>The Astana Dewi Women's Team is backed by Limar with great enthusiasm and support. The team will be equipped with top-of-the-line products, Air Pro, Air Atlas and Air king Evo. The team led by Vadim Kravchenko consists of eight athletes for now. A great season to all of them!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_rUjdC7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/womens_pro_team_upv.jpg",
+            "image_width": 650,
+            "title": "UPV WOMEN CYCLING TEAM",
+            "text": "<p>UPV U23 is a project that in just two years has become the third most important tam in Spain at a national level, coming after an initial season in which they participated in numerous races at the national and international level, already collecting some more than outstanding results.</p><p>A few days ago, the official presentation of the Valencia Polytechnic University women's cycling team took place. For this year, they have secured their presence at the Vuelta de la Comunidad Valenciana, which will be a new milestone. It will be their first race on the UCI calendar, at the Spanish Championships and the Clásica de Almería at the national level, as well as the Giro Rosa and the Tour of Portugal.</p><p></p><p>Limar is supporting the UPV team with great enthusiasm throughout the 2024 cycling season. Air Speed is the helmet chosen by the team for its excellent qualities in terms of performance and safety. Best of luck to all!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": ["text_block_LpNXXV", "text_block_rUjdC7"],
+      "settings": { "title": "", "align_text": "center", "divider": false }
+    },
+    "advanced_content_VyAFQJ": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_GjAp3c": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ROLAND CYCLING TEAM</h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_VXt8hB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-rolans-team-1-group.jpg",
+            "link": "",
+            "width": "75%",
+            "alignment": "center"
+          }
+        },
+        "liquid_QcHdiC": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\nLimar è orgogliosa di sostenere anche per il 2024 il team\nfemminile Roland Cycling con i caschi Air Pro, Air Atlas , Air\nking Evo e gli occhiali Cruz.\n</p>\nUna collaborazione di lunga data quella con il team Manager\nRuben Contreras, persona dalla battuta sempre pronta e uno\nspirito energico invidiabile.\nLa passione per il ciclismo e il suo spirito di internazionalità lo\nportano a costruire un roster di atlete da ogni parte del\nmondo, tra cui le italianissime Sofia Collinelli, Elena Pirrone e Giorgia Vettorello. Siamo entusiasti e pronti a seguire il team durante una stagione che ci auguriamo ricca di soddisfazioni.\nBuona fortuna a tutte!\n</p>\n{% else %}\nLimar is proud to support the women’s Roland Cycling Team again in 2024 with Air Pro, Air Atlas, Air King Evo helmets and Cruz sunglasses.\n</p>\nIt is a long-standing collaboration with team manager Ruben Contreras, a person with an always ready wit and an enviable energetic spirit.His passion for cycling and his spirit of internationality have led him to build a roster of athletes from all over the world, including the very Italian Sofia Collinelli, Elena Pirrone and Giorgia Vettorello. We are excited and ready to follow the team during a season that we hope will be full of satisfaction. Good luck to all! Limar is proud to support the Roland women's team again in 2024.</p>\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_Q9VMAU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-rolans-team-5-rider.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "image_3JDrWe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-rolans-team-2-group.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_LXQkLD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-rolans-team4-rider.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_GjAp3c",
+        "image_VXt8hB",
+        "liquid_QcHdiC",
+        "image_Q9VMAU",
+        "image_3JDrWe",
+        "image_LXQkLD"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_6Wgck9": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_KjTHGK": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>AROMITALIA 3T VAIANO TEAM</h2>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_mYeR6n": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ASTANA DEWI WOMEN TEAM</h2>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_cp7XH4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-aromitalia-team-1-group.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_gbA93k": {
+          "type": "image",
+          "settings": { "link": "", "width": "50%", "alignment": "center" }
+        },
+        "liquid_L4itax": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\nLimar sponsorizza per il 2024 anche il team continental femminile\nAromitalia 3T Vaiano, che ha già esordito a gennaio sulle strade spagnole\ndella Challenge Mallorca Femenina.\nIl patron Stefanon Giugni, con i tecnici Paolo Baldi e Matteo Ferrari potranno\ncontare, tra le tante, sulle prestazioni della fuoriclasse lituana Rasa\nLeleivyte, della talentuosa ligure Serena Brillante Romeo, della ventunenne Milena Del Sarto, campionessa regionale toscana in carica, della passista\ngrossetana Fabia Maramotti, della giovane iberica Ainhoa Moreno Ossowsky\ne della ventunenne sprinter di San Miniato Lara Scarselli. Il supporto tecnico\nè composto dai top gamma Air Pro, Air Atlas e Air King Evo per proteggere e offrire alle atlete il massimo della performance!\n{%else%}\nLimar also sponsors the women's continental team Aromitalia 3T Vaiano for 2024, which debuted in January on Spanish roads for the Challenge Mallorca Femenina race.\n</p>\nTeam owner Stefanon Giugni, with coaches Paolo Baldi and Matteo Ferrari will be able to count on the performances of Lithuanian strong woman Rasa Leleivyte, talented Ligurian Serena Brillante Romeo, 21-year-old Milena Del Sarto, the reigning Tuscan regional champion, Grosseto-based Fabia Maramotti, young Iberian Ainhoa Moreno Ossowsky, and 21-year-old sprinter from San Miniato Lara Scarselli, among many others. Technical support consists of top-of-the-line Air Pro, Air Atlas and Air King Evo to protect and offer the athletes maximum performance.\n\n{%endif%}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_TpKxNr": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it'%}\nAstana Dewi Women Team, neo-nato team continental feminile è il risultato della partnership tra il team World Tour Astana Qazaqstan e la Dewi Cycling di Raja Sapta Oktohari. \n</p>\nL’obiettivo è «Fungere da catalizzatore per il progresso\ndel ciclismo femminile nel continente asiatico. Con la rapida crescita della\npopolarità del ciclismo femminile e l’espansione del calendario delle gare\nfemminili, è stato deciso di creare nuove opportunità e concentrarsi sulla\ncoltivazione di cicliste di talento provenienti in particolare dal Kazakistan e\ndall’Indonesia».\n</p>\nL’Astana Dewi Women’s Team è sostenuta da Limar con grande entusiasmo e\nsupporto. Il Team sarà equipaggiato con i prodotti top gamma, Air Pro, Air\nAtlas e Air king Evo.\nLa squadra guidata da Vadim Kravchenko è formata per ora da otto atlete.\nBuona stagione a tutte!\n\n{%else%}\nAstana Dewi Women Team, a newly formed continental women's team is the result of a partnership between World Tour team Astana Qazaqstan and Raja Sapta Oktohari's Dewi Cycling. The goal is, \"to serve as a catalyst for the advancement of women's cycling on the Asian continent. With the rapid growth in the popularity of women's cycling and the expansion of the women's race calendar, it was decided to create new opportunities and focus on cultivating talented female cyclists from Kazakhstan and Indonesia in in particular.\" \n</p>\nThe Astana Dewi Women's Team is backed by Limar with great enthusiasm and support. The team will be equipped with top-of-the-line products, Air Pro, Air Atlas and Air king Evo. The team led by Vadim Kravchenko consists of eight athletes for now. A great season to all of them!\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_LU6rDh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-aromitalia-team-3-rider.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_mBrkFG": {
+          "type": "image",
+          "settings": { "link": "", "width": "50%", "alignment": "center" }
+        }
+      },
+      "block_order": [
+        "liquid_KjTHGK",
+        "liquid_mYeR6n",
+        "image_cp7XH4",
+        "image_gbA93k",
+        "liquid_L4itax",
+        "liquid_TpKxNr",
+        "image_LU6rDh",
+        "image_mBrkFG"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_tc9b3a": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_x6MDgG": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>UPV WOMEN CYCLING TEAM</h2>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_j6mPTx": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\nUPV U23 è un progetto che in soli due anni è diventato in Spagna il terzo per importanza a livello nazionale, che arriva dopo una prima stagione in\ncui hanno partecipato a numerose gare a livello nazionale e internazionale,\nraccogliendo già alcuni risultati più che eccezionali. Pochi giorni fa ha avuto luogo la presentazione ufficiale della squadra di ciclismo femminile dell'Università Politecnica di Valencia.\n</p>\nPer quest'anno, hanno assicurato la loro presenza alla Vuelta nella\nComunità Valenciana, che sarà una nuova pietra miliare in quanto sarà la\nloro prima gara nel calendario UCI, ai Campionati spagnoli e alla Clásica de\nAlmería, a livello nazionale, nonchè al Giro Rosa e al Tour del Portogallo.\n</p>\nLimar sostiene con grande entusismo il team UPV per tutta la stagione\nciclistica 2024. Air Speed è il casco scelto dal team per le sue qualità\neccelenti in termini di performance e sicurezza. In bocca al lupo a tutte!\n{%else%}\n<p>UPV U23 is a project that in just two years has become the third most important tam in Spain at a national level, coming after an initial season in which they participated in numerous races at the national and international level, already collecting some more than outstanding results. \n</p>\nA few days ago, the official presentation of the Valencia Polytechnic University women's cycling team took place.\nFor this year, they have secured their presence at the Vuelta de la Comunidad Valenciana, which will be a new milestone. It will be their first race on the UCI calendar, at the Spanish Championships and the Clásica de Almería at the national level, as well as the Giro Rosa and the Tour of Portugal.\n</p>\nLimar is supporting the UPV team with great enthusiasm throughout the 2024 cycling season. Air Speed is the helmet chosen by the team for its excellent qualities in terms of performance and safety. Best of luck to\n\nall!\n</p>\n\n{%endif%}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_KXiJ7C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-UPV-team-1-group.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "image_KkWajE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-UPV-team-3-rider.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "image_wQ79H9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/W-UPV-team-2-rider.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_x6MDgG",
+        "liquid_j6mPTx",
+        "image_KXiJ7C",
+        "image_KkWajE",
+        "image_wQ79H9"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "1688458371b677b451": {
+      "type": "apps",
+      "blocks": {
+        "0f5fb93c-b405-45f6-852b-9078ee4580ad": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"xxxx\"></div>"
+          }
+        }
+      },
+      "block_order": ["0f5fb93c-b405-45f6-852b-9078ee4580ad"],
+      "settings": { "full_width": false, "space_around": true }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_jkqxqX",
+    "text_columns_DwRVDy",
+    "text_columns_RYX6Pt",
+    "advanced_content_VyAFQJ",
+    "advanced_content_6Wgck9",
+    "advanced_content_tc9b3a",
+    "1688458371b677b451"
+  ]
+}

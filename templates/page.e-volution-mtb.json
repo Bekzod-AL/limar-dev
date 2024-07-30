@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "1654782680d01d0885": {
+      "type": "advanced-content",
+      "blocks": {
+        "1654782680675f9668-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>&nbsp;</p>\n<h2 class=\"cus-con-subtitle\">E_VOLUTION</h2>\n<p>E come Evoluzione, E come Enduro, E come Energia, E come Emozioni forti, E come Evasione, E come Ecologia.</br></br>\nTutto ciò che vuoi conoscere sui nuovi prodotti Limar per il mondo Enduro, E-Bike e All Mountain lo scopri nella nuova collezione E_VOLUTION\n</p>\n<p>&nbsp;</p>\n{% else %}\n<h2 class=\"cus-con-subtitle\">E_VOLUTION</h2>\n<p>&nbsp;</p>\n<p> E for Evolution, E for Enduro, E for Electric (or Energy), E for strong Emotions, E for Entertainment, E for  Environment.</br></br>\nAll you want to know on the new Limar products for the Enduro, E-Bike e All Mountain world to be discovered within the new E_VOLUTION Limar collection\n</p>\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654782680675f9668-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "d142cacc-3b15-44ff-9bdb-ce8fc8026968": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-2.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "612374ef-db87-419d-bb3a-a5952458f9da": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>The Mountain Instinct</h4>\n<p>Che tu sia un appassionato di Enduro, All Mountain o Downhill, conosci sicuramente le sensazioni e le emozioni che si vivono pedalando immersi nella natura. </br></br>\nStrade sterrate che attraversano prati infiniti, sentieri che entrano ed escono dal bosco di continuo, tu e la natura, lontano dalla civiltà, irraggiungibile, sei libertà assoluta ed avere una rotta è quasi un peccato. </br> </br>\nLa salita ha il suo fascino, nonostante la fatica, nonostante gli strappi severi e la meta che sembra non arrivare mai; è il desiderio di arrivare primi per sentirsi privilegiati, di non guardarsi intorno fino alla vetta per gustare infine l’esplosione del panorama davanti ai propri occhi. \n</p>\n\n{% else %}\n\n<h4>The Mountain Instinct</h4>\n<p>If you are Enduro, All Mountain or Downhill lover, you perfectly know the sensations and emotions you feel when riding sorrounded by nature. </br></br>\nGravel roads along endless meadows, paths in and out the woods,  just you and nature, far from civilization, unreachable, absolute freedom and having a route is almost a pity. </br> </br>\nEvery climb is fascinating, despite the effort, despite the hard sprints and the destination that feels out of reach; the urge for the priviledge of arriving first, without looking around till the top, to enjoy the full explosion of the view in front of your eyes. \n</p>\n<p>&nbsp;</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_wLfpWX": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "liquid_k6kciR": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>E poi c’è la discesa: La prima volta di un sentiero è tutta sorpresa, molto più istinto e cuore che cervello, un vero mix di sensazioni, dall’apprensione iniziale alla disinvoltura, fino all’esaltazione pura. </br> </br>\nSentieri battuti e veloci, tornanti stretti e ripidi, torrenti e dirupi, salti e rami piazzati in piena traiettoria, un vortice di emozioni e complicazioni e non vorresti mai arrivare in fondo.\n\n</p>\n\n{% else %}\n\n<p>And then the descent: the first time of a path is a full surprise, more instinct and heart than brain, a real mix of sensations, from the initial apprehension to the ease, till pure thrill. </br> </br>\nBeaten and fast paths, narrow and steep hairpin bends, streams and cliffs, jumps and branches on your trajectory, a whirlwind of emotions and complications you would never want to get to the bottom.\n\n</p>\n<p>&nbsp;</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "image_nMhVfx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-3.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "1654782680675f9668-1",
+        "1654782680675f9668-0",
+        "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f",
+        "d142cacc-3b15-44ff-9bdb-ce8fc8026968",
+        "612374ef-db87-419d-bb3a-a5952458f9da",
+        "liquid_wLfpWX",
+        "liquid_k6kciR",
+        "image_nMhVfx"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "165478345181ed740b": {
+      "type": "advanced-content",
+      "blocks": {
+        "1654783451fbf1530c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h2 class=\"cus-con-title\">E_VOLUTION, perché sei solo tu, </h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">con le tue emozioni.</h2>\n<p>&nbsp;</p>\n\n{% else %}\n\n<h2 class=\"cus-con-title\">E_VOLUTION, just you\n</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">and your emotions.</h2>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "9228c962-39f7-498a-967e-261313be80b3": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_6W9GRh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-4.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_m7ezc6": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Ecco cosa significa per noi E_VOLUTION: mettere a tua disposizione il casco più completo e performante che tu possa desiderare, per vivere a pieno l’avventura. Un casco che, qualsiasi sia la tua specialità, ti devi dimenticare di avere in testa.  </br>\nLimar sa come fare.</p>\n\n{% else %}\n\n<p>This is what E_VOLUTION means to us: offering the most complete and performing helmet you could wish for. Whatever your specialty, you must forget you have it on your head.\nAnd Limar knows how.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_7M9Uyz": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "59bdc079-9a25-4e8e-92c5-632743c8885e": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<ul>\n<li>Protezione estesa alle tempie e alla zona occipitale della testa.</li>\n<li>Ventilazione studiata per mantenerti fresco.</li>\n<li>Calzata ottimizzata per il massimo comfort.</li>\n<li>Ampia visiera che protegga da rami e pietrisco.</li>\n<li>Tecnologia Mips e tanto altro ancora.</li>\n</ul>\n\n{% else %}\n\n<ul>\n<li>Extended protection to the temples and the occipital area of the head.</li>\n<li>Ventilation designed to keep you cool.</li>\n<li>Optimized fit for maximum comfort.</li>\n<li>Wide visor that protects from branches and gravel.</li>\n<li>Mips technology and much more.</li>\n\n</ul>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654783451fbf1530c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-detail-1.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "a92cd0ba-1f93-4c72-8eb5-18f06ca42a87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-detail-2.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "image_fxA346": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-detail-3.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "image_Pn83cW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-detail-4.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "image_8CGdjk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e-volution-detail-5.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "4ce4d57d-cd22-444d-9eb2-795e055bdcf1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/limar-air-revolution-5.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "761d5d7b-9592-47a2-b162-a635af4c6c9a": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>SIAMO ANDATI OLTRE LA GALLERIA DEL VENTO</h4>\n<p>La collaborazione con I PRO fa parte da sempre del DNA LIMAR,\ne LIMAR è stata la prima azienda a sponsorizzare una squadra ciclistica completa.<br />\nI suggerimenti dei campioni che indossano e testano i caschi durante le gare, hanno permesso di sviluppare caschi in base alle reali esigenze dei ciclisti professionisti, estremamente esigenti in termini di comfort, ventilazione e, soprattutto, prestazioni.</p>\n\n{% else %}\n\n<h4>WE WENT BEYOND WIND TUNNEL</h4>\n<p>The collaboration with the pro has always been part of LIMAR DNA,\nand LIMAR was the first company to sponsor a full cycling team.<br />\nThe recommendations of champions wearing and testing the helmets during races, allowed to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "1654783451fbf1530c-1",
+        "9228c962-39f7-498a-967e-261313be80b3",
+        "image_6W9GRh",
+        "liquid_m7ezc6",
+        "liquid_7M9Uyz",
+        "59bdc079-9a25-4e8e-92c5-632743c8885e",
+        "1654783451fbf1530c-0",
+        "a92cd0ba-1f93-4c72-8eb5-18f06ca42a87",
+        "image_fxA346",
+        "image_Pn83cW",
+        "image_8CGdjk",
+        "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d",
+        "4ce4d57d-cd22-444d-9eb2-795e055bdcf1",
+        "761d5d7b-9592-47a2-b162-a635af4c6c9a"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "165478357595c4a6a1": {
+      "type": "advanced-content",
+      "blocks": {
+        "c7f7588c-add9-4aee-92d9-a1694188f56e": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "16547835752b829aaa-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-title\">AERODINAMICA E VENTILAZIONE</h2>\n\n{% else %}\n\n<h2 class=\"cus-con-title\"> VENTILATION AND AERODYNAMICS?</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\"> YES WE CAN</h2>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "1fbabc1f-89fc-406b-9e07-bf2492b0a36c": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "2bd47d38-f7a5-49b5-b25a-948ddec2c5fa": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>L'esperienza di oltre 35 anni di Limar nella progettazione e produzione di modelli tecnologicamente avanzati e performanti è tutta da vedere.<br />\nAttraverso test approfonditi in diversi laboratori della galleria del vento, lavoriamo sempre su ogni singolo dettaglio, per raggiungere il miglior equilibrio possibile tra aerodinamica e ventilazione, per garantire prestazioni sempre migliori.<br />\nUn casco al tempo stesso aerodinamico e ventilato potrebbe sembrare una contraddizione ed è invece una realtà resa possibile dal Team di Ricerca & Sviluppo di Limar.<br />\nSfruttando l'effetto Venturi, le prese d'aria e il loro circuito di canali interni consentono l'ingresso e la circolazione di un grande quantità di aria senza compromettere le prestazioni aerodinamiche.<br />\nIl comfort è garantito dalla circolazione interna dell'aria, dove il flusso lungo i canali all'interno della calotta espelle il calore dalla parte posteriore mantenendo la testa fresca.<br />\nIl risultato è una gamma di caschi con prestazioni e comfort mai visti prima.\n</p>\n\n{% else %}\n\n<p>Limar  35-year experience in designing and producing advanced and performing models is all there to be seen.\nThrough extensive tests in several wind tunnel laboratories, we always work on\nevery single detail, to achieve the best possible balance between\naerodynamics and ventilation, to ensure real performance.<br />\nIt might sound like a contradiction but it is a reality made possible by\nLimar Tech. By exploiting the Venturi effect, the air vents and their channel circuit allow the entry of a large\nquantity of air without compromising the aerodynamic performance.\nThe comfort is guaranteed by the internal air circulation, where air\nflow along the channels inside the shell expels the heat out of the rear\nvents, keeping the head cool.<br />\nThe result is a range of helmets with a performance and comfort never seen before.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "16547835752b829aaa-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-air-revolution-6.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "c7f7588c-add9-4aee-92d9-a1694188f56e",
+        "16547835752b829aaa-1",
+        "1fbabc1f-89fc-406b-9e07-bf2492b0a36c",
+        "2bd47d38-f7a5-49b5-b25a-948ddec2c5fa",
+        "16547835752b829aaa-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": "#ffffff"
+      }
+    },
+    "733bf790-6b2b-43d5-bb7f-de5e4290c43a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "E_VOLUTION",
+        "home_featured_products": "e_volution",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654782680d01d0885",
+    "165478345181ed740b",
+    "165478357595c4a6a1",
+    "733bf790-6b2b-43d5-bb7f-de5e4290c43a"
+  ]
+}

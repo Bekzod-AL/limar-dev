@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "16570352648e7acbd2": {
+      "type": "advanced-content",
+      "blocks": {
+        "b67d0a5b-83c2-4f68-9817-c74fa9ac714a": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">ONGOING LIMAR</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> SAFETY TESTING</h2>\n<p>&nbsp;</p>\n<p>LIMAR ha deciso di includere Mips in alcuni modelli selezionati della nostra gamma in quanto Mips è un’azienda specializzata nella sicurezza e protezione dei caschi, leader mondiale in questo settore.</p>\n\n<p>LIMAR ha selezionato il tipo di Mips più adatto per ogni modello con caratteristiche uniche descritte di seguito.</p>\n\n{% else %}\n\n<h2 class=\"cus-con-subtitle\">ONGOING LIMAR</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> SAFETY TESTING</h2>\n<p>&nbsp;</p>\n<p>LIMAR has decided to include Mips in several models of our range since Mips is a company that specializes in helmet-based safety and protection, a world-leader in this area.</p>\n\n<p>LIMAR has selected the most suitable type of Mips for each model with unique features described here below.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "16570352646fcdc712-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "8bae7b8e-0d4f-437c-baa6-0910a36c8163": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "1a382c89-7a90-4939-89ab-f3d307c771db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-2.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "16570352646fcdc712-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4> AIR ATLAS MIPS<br />\nTONALE MIPS</h4>\n<p>L'Air Node è super sottile e super leggero. Totalmente integrato nell’ imbottitura, rimane invisibile e inattivo fino al momento del bisogno. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura.</p>\n\n{% else %}\n\n<h4> AIR ATLAS MIPS<br />\nTONALE MIPS</h4>\n<p>The Air Node is super slim and super light. Dressed up as padding it stays unnoticed until needed.<br />\nMips Air is a rotational management system RMS specifically developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the helmet’s padding and enables 10-15mm of relative movement between the energy-absorbing layer and the padding. The relative movement of the Mips Air is helped by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "c7ba58b3-0cb2-4810-919c-e1b75eeffaeb": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "67cb2dd3-3fa6-491e-99c4-a411e31be2f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-3.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "80664093-3b9e-49ac-93cd-202623e9db8e": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>AIR PRO MIPS<br />\nAIR STRATOS MIPS<br />\nAIR SPEED MIPS</h4>\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.</p>\n\n{% else %}\n\n<h4>AIR PRO MIPS<br />\nAIR STRATOS MIPS<br />\nAIR SPEED MIPS</h4>\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding. The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.</p>\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "770da3c0-b7b7-4024-9724-0179cc32c86c": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "b8c3c935-21ef-4f0f-a65e-92714eea7136": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-4.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "fb7f5906-31b5-4679-ac3d-b95109f2be83": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4> ALBEN MIPS<br />\nPORA MIPS </h4>\n<p>Soluzione unica che Mips ha sviluppato per il nostro modello ALBEN in cui le eccellenti caratteristiche di Mips sono adattate al nostro modello, con lo strato Mips applicato sotto il sistema di imbottiture, abbinandosi perfettamente alla forma delle imbottiture stesse, in modo da garantire leggerezza, nessuna sudorazione extra e pieno rispetto della ventilazione struttura studiata per il modello di casco specifico.</p>\n\n{% else %}\n\n<h4> ALBEN MIPS<br />\nPORA MIPS </h4>\n<p>Unique solution that Mips has developed for our model ALBEN where the supreme Mips features are adapted to  our model, with the Mips layer under the pads system, and matching the pad shape, so to ensure  lightness, no extra sweating and fully compliance with the ventilation structure designed for the specific helmet model.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "33e65866-a7a0-4353-bbe9-6936f267db2e": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "741e6f8a-829c-4a61-a9d5-c4769b867e75": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-5.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "cbdd81e6-b4e2-4d4a-b908-27dc78c4eb2d": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>DELTA MIPS</h4>\n<p>Mips Evolve è un sistema di gestione rotazionale che non solo può ridurre le energie trasferite alla testa durante un impatto o un incidente, ma lo fa con stile, comfort e vestibilità aggiunti. Il sistema è costituito da un Low Friction Layer (LFL) di spessore inferiore a 1 mm con un rivestimento che riduce l’attrito verso lo strato che assorbe l’energia. Il sistema LFL è realizzato su misura per ogni casco e taglia e si trova tra lo strato di assorbimento degli urti e l’imbottitura. Il Mips Evolve utilizza la più recente tecnologia Mips per mantenere il sistema LFL in posizione durante l’uso quotidiano. Ogni parte è progettata e prodotta per far vivere al consumatore la migliore esperienza possibile.</p>\n\n{% else %}\n\n<h4>DELTA MIPS</h4>\n<p>Mips Evolve is a rotational management system that not only can lower the energies transferred to the head during an impact or crash, but does this with added style, comfort and fit. The system consists of a Low Friction Layer (LFL) that is less than 1mm thick with a low friction coating that lessens the friction towards the energy absorbing layer. The LFL is tailor-made for every helmet and size and sits between the impact absorbing layer and the padding. The Mips Evolve utilizes the latest Mips technology to hold the LFL in place during daily use. Every part is designed and manufactured for the best possible user experience.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "b67d0a5b-83c2-4f68-9817-c74fa9ac714a",
+        "16570352646fcdc712-0",
+        "8bae7b8e-0d4f-437c-baa6-0910a36c8163",
+        "1a382c89-7a90-4939-89ab-f3d307c771db",
+        "16570352646fcdc712-1",
+        "c7ba58b3-0cb2-4810-919c-e1b75eeffaeb",
+        "67cb2dd3-3fa6-491e-99c4-a411e31be2f3",
+        "80664093-3b9e-49ac-93cd-202623e9db8e",
+        "770da3c0-b7b7-4024-9724-0179cc32c86c",
+        "b8c3c935-21ef-4f0f-a65e-92714eea7136",
+        "fb7f5906-31b5-4679-ac3d-b95109f2be83",
+        "33e65866-a7a0-4353-bbe9-6936f267db2e",
+        "741e6f8a-829c-4a61-a9d5-c4769b867e75",
+        "cbdd81e6-b4e2-4d4a-b908-27dc78c4eb2d"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": "#fffffff"
+      }
+    },
+    "61b8bab7-18e0-48f1-b4e2-c4db2562fd42": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770229829847__61b8bab7-18e0-48f1-b4e2-c4db2562fd42-1683785278de116c5d-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-title\" \"> LIMAR TESTS ON</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\" \"> ROTATIONAL IMPACTS</h2>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "6c54f136-50bd-4823-b4e0-c00784b4c987": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 30px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "template--16770229829847__61b8bab7-18e0-48f1-b4e2-c4db2562fd42-1683785278de116c5d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-6.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "d6bbd63a-fdb3-4834-b1bd-83e8abb4b6f6": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Nel caso però in cui il consumatore non potesse permettersi il sistema Mips o non avesse Mips a disposizione, cosa offrono i prodotti standard LIMAR in termini di sicurezza in caso di IMPATTO ROTAZIONALE?</p>\n\n<p>Per tutti gli altri tipi di impatto la gamma LIMAR soddisfa tutte le omologazioni internazionali certificate e riconosciute:\nCE EN 1078:1997/A1:2005 (European Standard) Standard Europeo\nAS/NZS 2063:2008+ A1:2009 (Australian Standard) Standard Australiano\nCPSC 16 CFR 1203 (American Standard) Standard Americano.</p>\n\n<p>L’impegno di LIMAR è però quello di garantire la massima sicurezza a tutti i nostri prodotti e garantire ai nostri corridori i più alti standard per tutti i tipi di impatti (anche rotazionali), con un costante controllo di qualità e test sia interni che attraverso laboratori accreditati indipendenti.</p>\n\n\n{% else %}\n\n<p> But if the customer cannot afford Mips or does not have Mips available – what are LIMAR standard products offering in terms of safety in case of ROTATIONAL IMPACT?</p>\n\n<p>For all other types of impacts LIMAR range meets all International certified and recognized homologations:\nCE EN 1078:1997/A1:2005 (European Standard) Standard Europeo\nAS/NZS 2063:2008+ A1:2009 (Australian Standard) Standard Australiano\n    CPSC 16 CFR 1203 (American Standard) Standard Americano.</p>\n\n<p>The commitment of LIMAR is  though to ensure the maximum safety to all our products, and guarantee to our riders the highest standards for all types of impacts (including rotational), with a constant quality control and testing both internally as through independent credited labs.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "05af5a1a-0c80-4c3e-b42c-f77699e42107": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "e3a9f3ce-486a-4e6e-a786-b3b8c3909c2e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-7.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "bf7f120b-85b4-491e-ba46-011622f8312c": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>PRESTAZIONI DEI CASCHI LIMAR IN CASI DI IMPATTI ROTAZIONALI</h4>\n\n<p>Gli ultimi test sono stati recentemente eseguiti in un laboratorio certificato indipendente.</p>\n\n<p>Per queste prove abbiamo utilizzato le TESTE EN960 con momento d’inerzia conforme alla ECE22/06 in lega di magnesio, le teste ufficiali utilizzate in tutte le norme di omologazione certificate. Mips usa invece un altro tipo di teste. (mipsprotection.com/science-technology/the-fe-model/).</p>\n\n<p>Bisogna notare che le teste umane hanno sia la pelle che, nella maggior parte delle volte, anche i capelli, riducendo quindi il coefficiente di attrito negli impatti reali.</p>\n\n\n{% else %}\n\n<h4>LIMAR HELMETS PERFORMANCE IN CASE OF ROTATIONAL IMPACTS</h4>\n\n<p> The latest tests have been recently performed in an independent certified laboratory.</p>\n\n<p>For these tests, we have used the EN960 HEADS with moment of inertia in compliance with ECE22/06 in magnesium alloy, the official heads used in all certified homologation standards. Mips instead uses another type of heads (mipsprotection.com/science-technology/the-fe-model/).</p>\n\n<p>Note that human heads have both skin and most times also hair both reducing the friction coefficient in real impacts. </p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "d604d722-dbc2-4797-bca0-49f313cd0c4a": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "86d5cbc8-33fa-4bcb-8561-57196638a89c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-8.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "4b421caa-e812-4250-b1f0-4301f93f20cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-9.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "3a459385-18f4-4a81-87a5-df254f490474": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>PROTOCOLLO DEI TEST</h4>\n\n<p>-Prove di impatto obliquo: a 45° (frontale/laterale/posteriore) – BrlC < 0,78 (Brain Injury Criterium)<br />\n-Teste utilizzate: EN960 con momento d’inerzia di ECE22/06<br />\n-Modelli testati: AIR PRO MIPS taglie M e L, AIR PRO taglie M e L, ALBEN MIPS taglie M e L, ALBEN taglie M e L.</p>\n\n<p>Dopo i vari test eseguiti sul modello top di gamma LIMAR AIR PRO e sul modello best seller ALBEN siamo lieti di informare che tutti i caschi con e senza Mips hanno risposto molto bene a tutti i test, con un valore medio complessivo inferiore a 0,390 BrlC.</p>\n\n<p>Risultati davvero eccezionali arrivano però dagli impatti più frequenti, ovvero colpi frontali e laterali con i seguenti valori medi:<br />\n– negli impatti frontali <0,32 BrlC con Mips e senza Mips<br />\n– negli impatti laterali <0,13 BrlC con Mips e senza Mips</p>\n\n\n\n{% else %}\n\n<h4>TEST PROTOCOL</h4>\n<p>-Oblique impact tests: at 45° (front/side/rear) – BrlC < 0,78 (Brain Injury Criterium)<br />\n-Headforms: EN960 with moment of inertia of ECE22/06<br />\n-Models tested: AIR PRO MIPS sizes M and L, AIR PRO sizes M and L, ALBEN MIPS sizes M and L, ALBEN sizes M and L.</p>\n\n<p>After the several tests on LIMAR top of the range model AIR PRO and best seller ALBEN we are glad to inform that all helmets with and without Mips have responded very well to all testing, with an overall average value inferior to 0,390 BrlC.</p>\n\n<p>Really outstanding results are coming though from the most frequent impacts, i.e. front and side hits with the following average values:<br />\n– in front impacts <0,32 BrlC with Mips and without Mips<br />\n– in side impacts <0,13 BrlC with Mips and without Mips </p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229829847__61b8bab7-18e0-48f1-b4e2-c4db2562fd42-1683785278de116c5d-1",
+        "6c54f136-50bd-4823-b4e0-c00784b4c987",
+        "template--16770229829847__61b8bab7-18e0-48f1-b4e2-c4db2562fd42-1683785278de116c5d-0",
+        "d6bbd63a-fdb3-4834-b1bd-83e8abb4b6f6",
+        "05af5a1a-0c80-4c3e-b42c-f77699e42107",
+        "e3a9f3ce-486a-4e6e-a786-b3b8c3909c2e",
+        "bf7f120b-85b4-491e-ba46-011622f8312c",
+        "d604d722-dbc2-4797-bca0-49f313cd0c4a",
+        "86d5cbc8-33fa-4bcb-8561-57196638a89c",
+        "4b421caa-e812-4250-b1f0-4301f93f20cf",
+        "3a459385-18f4-4a81-87a5-df254f490474"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "e9cc122f-2811-42d1-864c-0b5c8ac63193": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770229829847__e9cc122f-2811-42d1-864c-0b5c8ac63193-1683785278de116c5d-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>Qui di seguito le parole dei nostri appassionati ciclisti, che scrivono a Limar del loro grave incidente e ci ringraziano per avergli salvato la vita con i nostri caschi.</h4>\n\n\n{% else %}\n\n<h4>Here above the words our passionate cyclists, writing to Limar about their serious accident and thanking us for saving their life with our helmets.</h4>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "14914326-0941-4267-bf02-0d1e2a05dce5": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "ee5156b3-5999-4254-adf6-c3edb8ace1b4": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>“Hello Limar,\nPlease see attached pictures of my broken Air Pro,  fair to say it probably went a long way to saving my life last week, thank you. \nAdam.”</p>\n\n<p>“Hi to Limar Helmets. I would like to take this\nopportunity to thank you for providing quality helmets to the world. If it wasn’t for your helmet I wouldn’t be here writing this email. I had a heavy crash at a track carnival over the weekend, in Wagga Wagga, Australia,\nlanding on my back and smashing the back of my head on to the asphalt. In my opinion, the helmet has saved my life. It has given me the chance to see my kids grow up. This might sound sappy but I cannot thank you enough. So thank you again. Thanks and kind regards\nBrian”</p>",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16770229829847__e9cc122f-2811-42d1-864c-0b5c8ac63193-1683785278de116c5d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-10.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "aeeea649-1b81-46b0-b0b9-13408629aed2": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "b4da8fac-65ab-42fd-be4e-93386452860d": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p>“Dear Limar,\nDuring the provincial championship of West-Flanders\nfor juniors (17 y/o) I was involved in a big crash ( we were riding at +-45 km/h after 100 km of racing). It is a wonder that / didn’t have more serious injuries, I fell on\nmy head but didn’t have a serious concussion because\nof your amazing helmet. Kindest Regards.\nLimar fan Jens”</p>\n\n<p> “Hi team Limar,\nI just wanted to drop you a quick note to say thank\nyou. Thank you for designing a helmet that potentially saved my life when I came off my TT bike travelling at speed. I’m pretty beaten up, but even though the helmet cracked (the plastic bit inside), I have no head injuries and for that I can only thank vou. It’s the best helmet I’ve had and I will definitely be buying the same model again! Thank you.\nMaria”</p>",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "b60eb689-2771-47ad-8a76-5588622659ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-mips-11.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229829847__e9cc122f-2811-42d1-864c-0b5c8ac63193-1683785278de116c5d-1",
+        "14914326-0941-4267-bf02-0d1e2a05dce5",
+        "ee5156b3-5999-4254-adf6-c3edb8ace1b4",
+        "template--16770229829847__e9cc122f-2811-42d1-864c-0b5c8ac63193-1683785278de116c5d-0",
+        "aeeea649-1b81-46b0-b0b9-13408629aed2",
+        "b4da8fac-65ab-42fd-be4e-93386452860d",
+        "b60eb689-2771-47ad-8a76-5588622659ae"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16570352648e7acbd2",
+    "61b8bab7-18e0-48f1-b4e2-c4db2562fd42",
+    "e9cc122f-2811-42d1-864c-0b5c8ac63193"
+  ]
+}

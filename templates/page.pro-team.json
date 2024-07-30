@@ -1,0 +1,373 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "ec5e9746-1de4-4051-b832-1b8cd005ee76": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770229797079__ec5e9746-1de4-4051-b832-1b8cd005ee76-1683812756d3d15653-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!--<h2 class=\"cus-con-title\" \"></h2>-->\n<h2 class=\"cus-con-subtitle\" \">LIMAR PRO TEAMS</h2>\n<h3>2024</h3>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "00e552dc-e04c-4606-9d98-1c40320c4566": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-1.jpg?v=1683812990\">\n\n<h4>ASTANA QAZAQSTAN TEAM</h4>\n\n<p>Team Astana Qazaqstan, uno dei più affermati e di successo UCI World Tour Team nel ciclismo professionistico, ed è ora alla sua diciottesima stagione. 1 Olimpiade, 8 vittorie in Grand Tour, 51 vittorie In Grand Tour a tappe, 49 campioni nazionali e centinaia di altre vittorie: ecco il palmarès della squadra nella sua storia.</p>\n\n<p>La collaborazione tra Limar e Astana dura ormai da 6 anni (2017) e proseguirà ancora per almeno altri 3 anni. Non si tratta solo di semplice fornitura, ma di collaborazione tecnica a 360 gradi, con test, collaudi, prove tecniche dal momento della progettazione alla prova su strada, con continue sfide e confronti per raggiungere sempre la massima performance.</p>\n\n\n\n{% else %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-1.jpg?v=1683812990\">\n\n<h4>ASTANA QAZAQSTAN TEAM</h4>\n\n<p>One of the most established and successful UCI World Teams in professional cycling, has just started its 18th season. One Olympic Games, Eight Grand Tour Victories, 51 Grand Tour Stage Wins, 49 National Champions and hundreds of other victories: this is the palmarès of the Team in its history.</p>\n\n<p>Limar has been the sponsor and official helmet supplier since 2017. And it is not just a simple supply, but a stimulating technical collaboration, with tests, shared analysis, technical reviews from product projecting to the testing on the road, with continuous challenges to ensure the best performance.</p>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "8e0e317b-1d80-49e5-83e3-30eacb5f5037": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-2.jpg?v=1683812989\">\n\n<h4>ISRAEL PREMIERTECH ROLAND</h4>\n\n<p>Limar è orgogliosa di sponsorizzare il nuovo UCI Women's World Tour Team ISRAEL PREMIER-TECH ROLAND per l'anno 2023. Le atlete gareggeranno con i nuovi modelli AIR ATLAS, AIR PRO e AIR KING EVO nella bellissima versione in abbinamento alla maglia, e indossando gli occhiali della gamma LIMAR EYEWEAR dello stesso colore.</p>\n\n\n{% else %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-2.jpg?v=1683812989\">\n\n<h4>ISRAEL PREMIERTECH ROLAND</h4>\n\n<p>Limar is proud to sponsor the new UCI Women’s World Tour Team ISRAEL PREMIER-TECH ROLAND for the year 2023. The athletes will race wearing the new AIR ATLAS, AIR PRO and AIR KING EVO models in the beautiful graphic version, in combination with their jersey, and wearing the LIMAR EYEWEAR glasses in marching colours.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "685fd831-7934-405f-8e49-e5a23055cec4": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "87af1e9c-51f1-4a50-88e0-0f93b6c59152": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-2.jpg?v=1683812989\">\n\n<h4>ISRAEL PREMIERTECH ROLAND</h4>\n\n<p>Tra le più apprezzate squadre Elite/Under23, nel 2020 la General Store-Essegibi-F.lli Curia ha effettuato uno “step over”, ottenendo lo status di formazione Continental UCI, cosa che le ha permesso di gareggiare non solo nelle più blasonate sfide dilettantistiche ma anche in alcune prestigiose corse professionistiche. La squadra sarà equipaggiata con i top di gamma AIR ATLAS e AIR PRO, personalizzati con i colori del team.</p>\n\n\n{% else %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-3.jpg?v=1683812990\">\n\n<h4>GENERAL STORE ESSEGIBI FLLI. CURIA TEAM</h4>\n\n<p>Among the most appreciated Elite/Under23 teams, in 2020 the General Store-Essegibi-F.lli Curia has done a \"step over\", reaching the status of Continental UCI, which allowes them to compete not only in the most noble amateur challenges, but also in some prestigious professional races. The team will be protected by the top of the range AIR ATLAS and AIR PRO, customized with the colors of the team.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "990b49df-2965-448d-aa8c-e4fcbc26a2a9": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-4.jpg?v=1683812990\">\n\n<h4>KTM PROTEK ELECTROSYSTEM</h4>\n\n<p>Anche quest’anno Limar sarà sponsor tecnico del KTM PROTEK ELETTROSYSTEM che indosserà il top di gamma Limar AIR PRO, prodotto innovativo e high-tech dove l’aerodinamica delle forme viene accompagnata dall’impiego del carbonio che ne costituisce la struttura, garantendo una ventilazione eccellente. Il Team parteciperà a gare Nazionali ed Internazionali, all’Italia Bike Cup e gare di Coppa del Mondo. </p>\n\n\n\n{% else %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-4.jpg?v=1683812990\">\n\n<h4>KTM PROTEK ELECTROSYSTEM</h4>\n\n<p>Also for this year Limar will be the technical sponsor of KTM PROTEK ELETTROSYSTEM with model AIR PRO, the top of the Limar range, an innovative and high-tech product, with aerodynamics shapes, and the use of structural carbo, guarantees excellent ventilation and extreme safety. The Team will participate in National and International races, Italia Bike Cup and World Cup trials.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "fdf1fb49-b943-4238-8448-8fbc44b5a449": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-5.jpg?v=1683812990\">\n\n<h4>TOPEAK ERGON RACING TEAM</h4>\n\n<p>Dal 2005 il Topeak-Ergon Racing Team è una delle squadre di mountain bike a livello professionista di maggior successo in tutto il mondo. Campione Europeo di Maratona, Campionato del Mondo di Maratona, Campione Nazionale Tedesco, Campione Nazionale Britannico di Maratona, e questi sono solo alcuni dei successi che la squadra ha collezionato negli ultimi anni.</p>\n\n<p>Topeak-Ergon Racing Team continua a lasciare il segno a livello internazionale, sia sul podio alle Olimpiadi, alle gare di Coppa del Mondo, alle gare di 24 Ore o agli eventi di ultra-endurance negli Stati Uniti. Il Team è sempre sul pezzo.</p>\n\n{% else %}\n\n<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-5.jpg?v=1683812990\">\n\n<h4>TOPEAK ERGON RACING TEAM</h4>\n\n<p>Since 2005 Topeak-Ergon Racing Team has been one of the most successful Professional Mountain Bike Teams worldwide. European Marathon Champion title, World Marathon Championship, German National Champion, British National Marathon Champion, and these are only some of the successes the team has achieved over the past few years.</p>\n\n<p>Topeak-Ergon Racing Team continues to make their mark internationally: whether on the podium at the Olympics, at World Cup races, 24 Hour Races, or ultra-endurance events in the USA, the Team is always up there.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "9d7abab5-fb1d-420b-901f-233a4747905e": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "7330fcf7-11e8-4a5a-be5d-bc52037f2d4b": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-6.jpg?v=1683812989\"><h4>LIFEPLUS WAHOO PRO TEAM</h4>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "d3be0640-b6f6-44b1-84ff-454f0d88a7a1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-7.jpg?v=1683812990\"><h4>AREAZERO PRO TEAM</h4>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0f0eab9c-f679-47a9-88ea-0102a28554ad": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-8.jpg?v=1683812990\"><h4>ACCA DUE O WOMEN’S TEAM</h4>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "ace4db62-abe3-42fd-b77f-096e47cd72aa": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar-team-9.jpg?v=1683812990\"><h4>PEWAG RACING TEAM</h4>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229797079__ec5e9746-1de4-4051-b832-1b8cd005ee76-1683812756d3d15653-1",
+        "00e552dc-e04c-4606-9d98-1c40320c4566",
+        "8e0e317b-1d80-49e5-83e3-30eacb5f5037",
+        "685fd831-7934-405f-8e49-e5a23055cec4",
+        "87af1e9c-51f1-4a50-88e0-0f93b6c59152",
+        "990b49df-2965-448d-aa8c-e4fcbc26a2a9",
+        "fdf1fb49-b943-4238-8448-8fbc44b5a449",
+        "9d7abab5-fb1d-420b-901f-233a4747905e",
+        "7330fcf7-11e8-4a5a-be5d-bc52037f2d4b",
+        "d3be0640-b6f6-44b1-84ff-454f0d88a7a1",
+        "0f0eab9c-f679-47a9-88ea-0102a28554ad",
+        "ace4db62-abe3-42fd-b77f-096e47cd72aa"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "5e6a366a-d5f2-4574-9304-d3de249272c5": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770229797079__5e6a366a-d5f2-4574-9304-d3de249272c5-168423116209c0834b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-title\" \">A LONG HISTORY TOGETHER</h2>\n<!--<h2 class=\"cus-con-subtitle\" \">LIMAR PRO TEAMS</h2>-->",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "f5df205c-d7d1-4555-b983-ecbbba497233": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "template--16770229797079__5e6a366a-d5f2-4574-9304-d3de249272c5-168423116209c0834b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-25.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "651a966c-8bc3-49bb-93f2-cc2227e774ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-24.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "96ee1312-352a-4a65-9539-e47644da0d95": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-23.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "b30eff87-8443-4ffe-a3cd-28a82775de65": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "02cc74e1-9441-4244-87a7-23432fe0b26f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-22.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0f116c8e-cba4-42e6-8e03-0f6731991fe0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-21.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "32972c94-2cd7-4dbc-b7f8-ac192186a675": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-20.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "4955e459-1d0c-4772-931b-312c005096ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-18.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "0e9a0a88-b8a2-4d4d-912b-951663ded851": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "b3808cc0-e965-4027-9c59-e721949e479b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-19.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "9a6a7ac1-6dfd-48d2-ad35-c15c3c182808": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-17.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "7b707ff9-3af7-4fe5-9f10-cfe4caa11ef7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-15.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229797079__5e6a366a-d5f2-4574-9304-d3de249272c5-168423116209c0834b-1",
+        "f5df205c-d7d1-4555-b983-ecbbba497233",
+        "template--16770229797079__5e6a366a-d5f2-4574-9304-d3de249272c5-168423116209c0834b-0",
+        "651a966c-8bc3-49bb-93f2-cc2227e774ea",
+        "96ee1312-352a-4a65-9539-e47644da0d95",
+        "b30eff87-8443-4ffe-a3cd-28a82775de65",
+        "02cc74e1-9441-4244-87a7-23432fe0b26f",
+        "0f116c8e-cba4-42e6-8e03-0f6731991fe0",
+        "32972c94-2cd7-4dbc-b7f8-ac192186a675",
+        "4955e459-1d0c-4772-931b-312c005096ee",
+        "0e9a0a88-b8a2-4d4d-912b-951663ded851",
+        "b3808cc0-e965-4027-9c59-e721949e479b",
+        "9a6a7ac1-6dfd-48d2-ad35-c15c3c182808",
+        "7b707ff9-3af7-4fe5-9f10-cfe4caa11ef7"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "276e834d-f0af-4cc3-a01c-918a8d0f676a": {
+      "type": "advanced-content",
+      "blocks": {
+        "c6247fd6-aa7b-4383-9a7f-d95567929083": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-13.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "22e2d6b5-9955-4def-8c13-f85b614e8c63": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-14.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16770229797079__276e834d-f0af-4cc3-a01c-918a8d0f676a-168423116209c0834b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-16.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16770229797079__276e834d-f0af-4cc3-a01c-918a8d0f676a-168423116209c0834b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "bed27737-6500-4b16-92fa-bf22f6ed1840": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-12.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "6e5206de-8119-41e8-904b-77e5597980d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-11.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "2df8b11a-ef3e-45c2-98d1-70ada145519a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/limar-team-10.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "959525af-4b46-40ef-88dc-a6b0057a8bcb": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "c6247fd6-aa7b-4383-9a7f-d95567929083",
+        "22e2d6b5-9955-4def-8c13-f85b614e8c63",
+        "template--16770229797079__276e834d-f0af-4cc3-a01c-918a8d0f676a-168423116209c0834b-0",
+        "template--16770229797079__276e834d-f0af-4cc3-a01c-918a8d0f676a-168423116209c0834b-1",
+        "bed27737-6500-4b16-92fa-bf22f6ed1840",
+        "6e5206de-8119-41e8-904b-77e5597980d7",
+        "2df8b11a-ef3e-45c2-98d1-70ada145519a",
+        "959525af-4b46-40ef-88dc-a6b0057a8bcb"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ec5e9746-1de4-4051-b832-1b8cd005ee76",
+    "5e6a366a-d5f2-4574-9304-d3de249272c5",
+    "276e834d-f0af-4cc3-a01c-918a8d0f676a"
+  ]
+}

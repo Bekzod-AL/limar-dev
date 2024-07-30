@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "settings": {} },
+    "rich_text_EkGhWD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BnMPUP": {
+          "type": "heading",
+          "settings": { "title": "RECALL INFORMATION ON TORINO HELMET:" }
+        },
+        "button_3RhX3B": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_ITALIA.pdf?v=1714488655",
+            "link_text": "ITALIANO"
+          }
+        },
+        "button_LMmnCD": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_INGLESE.pdf?v=1714488656",
+            "link_text": "ENGLISH"
+          }
+        },
+        "button_fDF3DB": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall__FRANCIA.pdf?v=1714488655",
+            "link_text": "FRANÇAIS"
+          }
+        },
+        "button_Ww7WYD": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_TEDESCO.pdf?v=1714488655",
+            "link_text": "DEUTSCH"
+          }
+        },
+        "button_8pgjnB": {
+          "type": "button",
+          "settings": { "link": "", "link_text": "ESPAÑOL" }
+        },
+        "button_zDkp7D": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_OLANDA.pdf?v=1714488655",
+            "link_text": "NEDERLANDS"
+          }
+        },
+        "button_aDbCPp": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_LITUANO.pdf?v=1714488655",
+            "link_text": "LIETUVIŲ"
+          }
+        },
+        "button_hWV4Yw": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_PORTOGALLO.pdf?v=1714488655",
+            "link_text": "PORTUGÊS"
+          }
+        },
+        "button_EwBAcK": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_SLOVENO.pdf?v=1714488656",
+            "link_text": "SLOVENČINA"
+          }
+        },
+        "button_kUJAAC": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_DANIMARCA.pdf?v=1714488655",
+            "link_text": "DANSK"
+          }
+        },
+        "button_ngem3t": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_ESTONE.pdf?v=1714488655",
+            "link_text": "EESTI KEEL"
+          }
+        },
+        "button_CmmJpf": {
+          "type": "button",
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_GRECO.pdf?v=1714488656",
+            "link_text": "Ελληνικά"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BnMPUP",
+        "button_3RhX3B",
+        "button_LMmnCD",
+        "button_fDF3DB",
+        "button_Ww7WYD",
+        "button_8pgjnB",
+        "button_zDkp7D",
+        "button_aDbCPp",
+        "button_hWV4Yw",
+        "button_EwBAcK",
+        "button_kUJAAC",
+        "button_ngem3t",
+        "button_CmmJpf"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_ejCeVQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NHpnEg": {
+          "type": "heading",
+          "settings": { "title": "RECALL INFORMATION ON TORINO HELMET:" }
+        },
+        "text_jCeMrr": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_ITALIA.pdf?v=1714488655\" target=\"_blank\" title=\"recall italian\">ITALIANO</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_INGLESE.pdf?v=1714488656\" target=\"_blank\" title=\"Recall english\">ENGLISH</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_TEDESCO.pdf?v=1714488655\" target=\"_blank\" title=\"Recall Deutsch\">DEUTSCH</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall__FRANCIA.pdf?v=1714488655\" target=\"_blank\" title=\"recall french\">FRANÇAIS</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_SPAGNOLO.pdf?v=1714488655\" target=\"_blank\" title=\"recall spanish\">ESPAÑOL</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_LITUANO.pdf?v=1714488655\" target=\"_blank\" title=\"recall lituanian\">LIETUVIŲ</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_PORTOGALLO.pdf?v=1714488655\" target=\"_blank\" title=\"recall porto\">PORTUGÊS</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_SLOVENO.pdf?v=1714488656\" target=\"_blank\" title=\"recal slovak\">SLOVENČINA</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_DANIMARCA.pdf?v=1714488655\" target=\"_blank\" title=\"recall danish\">DANSK</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_OLANDA.pdf?v=1714488655\" target=\"_blank\" title=\"recall dutch\">NEDERLANDS</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_ESTONE.pdf?v=1714488655\" target=\"_blank\" title=\"Recall Estonia\">EESTI KEEL</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0669/5721/3998/files/LIMAR_recall_GRECO.pdf?v=1714488656\" target=\"_blank\" title=\"recall greek\">Ελληνικά </a></p>"
+          }
+        }
+      },
+      "block_order": ["heading_NHpnEg", "text_jCeMrr"],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1688458371b677b451": {
+      "type": "apps",
+      "settings": { "full_width": false, "space_around": true }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_EkGhWD",
+    "rich_text_ejCeVQ",
+    "1688458371b677b451"
+  ]
+}

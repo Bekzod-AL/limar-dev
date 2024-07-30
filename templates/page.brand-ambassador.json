@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "1656955321705abf72": {
+      "type": "slideshow",
+      "blocks": {
+        "1656955321ac3d50c4-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 58,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/limar_EU_brandAmbassadorHero.jpg",
+            "overlay_opacity": 10,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": ["1656955321ac3d50c4-0"],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "16569564974732f62e": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/limar_EU_brandAmbassadorIMg2.jpg",
+        "image_width": "530",
+        "subtitle": "",
+        "title": "",
+        "text": "<h2>BECOME A LIMAR AMBASSADOR</h2><p>We are looking for Ambassadors who share our style and our Brand identity through our products.</p><p>As an athlete and leader in your community, you have the chance to motivate and engage your audience.</p><p>Discover all benefits and requirements to become a Limar Ambassador.</p><p>Find out how to represent the Limar brand in the world.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "166445755895e754ff": {
+      "type": "rich-text",
+      "blocks": {
+        "166445755892349116-0": {
+          "type": "heading",
+          "settings": { "title": "Are you a passionate cyclist?" }
+        },
+        "166445755892349116-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Would you like to share your passion? Tell us something about yourself. Fill out the form and you will be contacted.</p>"
+          }
+        }
+      },
+      "block_order": ["166445755892349116-0", "166445755892349116-1"],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1664456383d264d0e7": {
+      "type": "advanced-content",
+      "blocks": {
+        "1664456383fcfd5519-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"max-width:800px; margin-left:auto; margin-right:auto;\" class=\"klaviyo-form-YbZhug\"</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": ["1664456383fcfd5519-1"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656955321705abf72",
+    "16569564974732f62e",
+    "166445755895e754ff",
+    "1664456383d264d0e7"
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "sections": {
+    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "0a56d907-c948-4618-967c-51055e1e17d2": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16777975693527__0a56d907-c948-4618-967c-51055e1e17d2-168423116209c0834b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">ED ECCO LA NOSTRA STORIA PASSO DOPO PASSO…\n</h2>\n\n\n{% else %}\n\n\n<h2 class=\"cus-con-subtitle\" >A LONG HISTORY OF SUCCESS</h2>\n\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16777975693527__0a56d907-c948-4618-967c-51055e1e17d2-168423116209c0834b-1"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "1654782680d01d0885": {
+      "type": "advanced-content",
+      "blocks": {
+        "54af8dbb-47f0-4bdd-a022-4a22d6956d3a": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2022</h2>\n<h4>AIR ATLAS</h4>\n<p>Performance, non solo aerodinamica.\nLe simulazioni aerodinamiche al computer innanzitutto, i numerosi test in galleria del vento, la collaborazione con Vincenzo NIBALI e il Team ASTANA ci hanno portato, passo dopo passo, a questo sorprendente risultato finale. È arrivato il casco più veloce e allo stesso tempo più ventilato.\n</p>\n\n\n{% else %}\n\n<h2>2022</h2>\n<h4>AIR ATLAS</h4>\n<p>Performance, not just aerodynamics.\nThe computer aerodynamic simulations first, the numerous tests in the wind tunnel, the collaboration with Vincenzo NIBALI and the ASTANA Team led us, step by step, to this amazing final result. The fastest and at the same time most ventilated helmet has arrived.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654782680675f9668-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-26.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "d142cacc-3b15-44ff-9bdb-ce8fc8026968": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-25.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2020</h2>\n<p>Nasce Air Stratos, della nuova collezione Air Revolution appositamente studiata per gli amanti del gravel. Ottimo rapporto qualità-prezzo e nessun compromesso, solo la perfetta combinazione di resistenza e leggerezza.</p>\n\n\n{% else %}\n\n<h2>2020</h2>\n<p>Air Stratos is the new Air Revolution Collection specifically designed for gravel lovers, Great value for money and no compromise, just the perfect combination of strength and lightness.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "038e3b14-f159-41fe-bb97-ad7129850fee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-24.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "612374ef-db87-419d-bb3a-a5952458f9da": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2019</h2>\n<p>Limar presenta DELTA, il casco perfetto per gli amanti dell'Enduro e dell'e-bike e la maschera ROC, nati insieme per rendere l'esperienza di downhill emozionante e sicura allo stesso tempo. \n</p>\n\n{% else %}\n\n<h2>2019</h2>\n<p>Limar introduces DELTA, the perfect helmet for Enduro and e-bike lovers and ROC goggle, born together to make the downhill experience exciting and safe at the same time. </p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "a8206ddd-fc85-4ce3-9c4b-84f8b6d3503b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-23.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "8b662d88-7148-4045-a107-c508ae5d5388": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2018</h2>\n<h4>Revolution is in the AIR!</h4>\n <p>Oltre a protezione, leggerezza e comfort, Limar si concentra sul miglioramento delle prestazioni aerodinamiche dei suoi caschi creando la linea AIR REVOLUTION:\n5 caschi che offrono la massima efficienza aerodinamica riducendo al minimo l'impatto aereo, contribuendo così a migliorare le prestazioni complessive degli atleti.\nIn particolare, Limar presenta AIR PRO CARBONCORETECH, tecnologia leader con la sua forte struttura in carbonio.\n</p>\n\n\n{% else %}\n\n<h2>2018</h2>\n<h4>Revolution is in the AIR!</h4>\n <p>Besides protection, lightness and comfort, Limar focuses on improving the aerodynamics performance of its helmets creating the AIR REVOLUTION line:\n5 helmets offering maximum aerodynamics efficiency by minimizing air impact, and therefore contributing to improve the overall performances of the riders.\nAbove all, Limar introduces AIR PRO CARBONCORETECH, leading technology with its strong carbon structure.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "02eb8995-d5aa-4ba3-8e51-22ee9781e5b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-22.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "d767c4a7-79a9-4a0b-b0fb-df2bc35ffe14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-21.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "23081c36-53d4-49fd-bc3c-b77a11d9dee3": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2017</h2>\n<p>Limar inizia la sua lunga collaborazione come sponsor del PROTOUR TEAM ASTANA, uno dei migliori Team dell'ultimo decennio! \nLo sviluppo LIMAR ora si concentra fortemente sull'aerodinamica del casco, collaborando con i PRO Team Riders, studiando il flusso d'aria e la turbolenza per garantire ad atleti e amatori un nuovo vantaggio reale e consistente.\n</p>\n\n{% else %}\n\n<h2>2017</h2>\n<p>Limar starts its long collaboration as sponsor of PROTOUR TEAM ASTANA, one of the best Team of the last decade!\nLIMAR development now highly focus on the helmet aerodynamics, cooperating with the PRO Team Riders, studying the air stream and turbulence to guarantee athletes and amateurs a new real and consistent advantage.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "d1057964-37bf-4947-95dd-90f0e22cb10f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-20.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654782680675f9668-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2016</h2>\n<h4>“30th Anniversary”</h4>\n<p>Trent'anni di passione e innovazione. \nLimar torna a presenziare nei principali eventi ciclistici in tutto il mondo attraverso la sponsorizzazione del team francese Direct Energie e del team statunitense Topeak.\n</p>\n\n{% else %}\n\n<h2>2016</h2>\n<h4>“30th Anniversary”</h4>\n<p>Thirty years of passion and innovation\nLimar is back in the peloton of the major cycling events around the world through the sponsorship of French Team Direct Energie and US Team Topeak.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "3b673ba9-c656-4946-8d1e-3d3fd62669d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-19.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "54af8dbb-47f0-4bdd-a022-4a22d6956d3a",
+        "1654782680675f9668-0",
+        "d142cacc-3b15-44ff-9bdb-ce8fc8026968",
+        "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f",
+        "038e3b14-f159-41fe-bb97-ad7129850fee",
+        "612374ef-db87-419d-bb3a-a5952458f9da",
+        "a8206ddd-fc85-4ce3-9c4b-84f8b6d3503b",
+        "8b662d88-7148-4045-a107-c508ae5d5388",
+        "02eb8995-d5aa-4ba3-8e51-22ee9781e5b0",
+        "d767c4a7-79a9-4a0b-b0fb-df2bc35ffe14",
+        "23081c36-53d4-49fd-bc3c-b77a11d9dee3",
+        "d1057964-37bf-4947-95dd-90f0e22cb10f",
+        "1654782680675f9668-1",
+        "3b673ba9-c656-4946-8d1e-3d3fd62669d3"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "165478345181ed740b": {
+      "type": "advanced-content",
+      "blocks": {
+        "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 20px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "59bdc079-9a25-4e8e-92c5-632743c8885e": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2014</h2>\n<p>Limar amplia la gamma Superlight puntando soprattutto sul mondo teen e freeride e presenta la nuova collezione eyewear.</p>\n\n{% else %}\n\n<h2>2014</h2>\n<p>Limar enlarges the Superlight range by focusing especially on teens and freeride world and introduces the new eyewear collection.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654783451fbf1530c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-18.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "761d5d7b-9592-47a2-b162-a635af4c6c9a": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2013</h2>\n<p>Velov, il primo casco al mondo specifico per il ciclismo urbano. \nGrazie a questo modello, Limar vince il prestigioso IF Product Design Award.\n</p>\n\n{% else %}\n\n<h2>2013</h2>\n<p>Velov, the first helmet in the world specifically for urban cycling.\nThanks to this model, Limar wins the prestigious IF Product Design Awar.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "4ce4d57d-cd22-444d-9eb2-795e055bdcf1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-17.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "88eabb60-0b57-4c4e-9179-6e8b447bc01a": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2011</h2> <h4>“25th Anniversary”</h4>\n<p>Introduzione della nuova generazione di Ultralight con Ultralight+ e della gamma dei caschi più leggeri al mondo, Superlight.</p>\n\n{% else %}\n\n<h2>2011</h2> <h4>“25th Anniversary”</h4>\n<p>Introduction of the new generation of Ultralight with Ultralight+ and the Superlight range, the range of the lightest helmets in the world.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "2d4d2008-faba-4cc5-b688-261ae98bc114": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h2>2010</h2>\n<p>Limar supera il proprio record mondiale di leggerezza introducendo ULTRALIGHT a soli 160 g.</p>\n{% else %}\n\n<h2>2010</h2>\n<p>Limar overcomes its own world’s record in lightness by introducing ULTRALIGHT at only 160 g.   </p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "3c449a2d-d43b-452e-a65c-e08534c6b1a9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-16.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1654783451fbf1530c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h2>2009</h2>\n<p>Limar presenta il nuovissimo Ultralight PRO104. Il suo peso di 170 grammi lo rende senza dubbio il casco da ciclismo più leggero al mondo. </p>\n\n{% else %}\n\n<h2>2009</h2>\n<p>Limar introduces the brand new Ultralight PRO104. Its 170 grams weight makes it definitely the world’s lightest cycling helmet. </p>\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "9228c962-39f7-498a-967e-261313be80b3": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2008</h2>\n<p>Il casco da ciclismo raggiunge la sua maturità come bene di consumo... a volte diventa anche un prodotto di moda, e questa tendenza porterà Limar a pensare oltre il semplice utilizzo agonistico e le sponsorizzazioni dei top team.\nTornando alla moda, Limar ha la grande soddisfazione di vedere il nuovo (e come sempre innovativo) modello 909, utilizzato da Brad Pitt nel film \"Burn after reading\" diretto dai fratelli Coen.\n</p>\n\n{% else %}\n\n<h2>2008</h2>\n<p>The cycling helmet reaches its maturity as a consumer good... sometimes it also becomes a fashion product, and this trend will lead Limar to think beyond mere competitive use and top team sponsorships.\nReturning to fashion, Limar has the great satisfaction of seeing the new (and as always innovative) 909 model, used by Brad Pitt in the film \"Burn after reading\" directed by the Coen Brothers.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "b4b35dcc-4d83-424e-83f4-b80bb3edad27": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-15.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "a6ead791-b0f9-4af3-875e-f15d62687cb3": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2007</h2>\n<p>Limar lancia PRO 104, il casco più leggero al mondo, solo 180 grammi, il peso di un sogno.</p>\n\n{% else %}\n\n<h2>2007</h2>\n<p>Limar launches PRO 104, the World’s Lightest Helmet , only 180 grams, the weight of a dream.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1be627f1-d3d3-4f93-9bd3-7d1b1e4aa352": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-14.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "e78fa8bb-80b7-443d-8011-b1ee9b690b02": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 20px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d",
+        "59bdc079-9a25-4e8e-92c5-632743c8885e",
+        "1654783451fbf1530c-0",
+        "761d5d7b-9592-47a2-b162-a635af4c6c9a",
+        "4ce4d57d-cd22-444d-9eb2-795e055bdcf1",
+        "88eabb60-0b57-4c4e-9179-6e8b447bc01a",
+        "2d4d2008-faba-4cc5-b688-261ae98bc114",
+        "3c449a2d-d43b-452e-a65c-e08534c6b1a9",
+        "1654783451fbf1530c-1",
+        "9228c962-39f7-498a-967e-261313be80b3",
+        "b4b35dcc-4d83-424e-83f4-b80bb3edad27",
+        "a6ead791-b0f9-4af3-875e-f15d62687cb3",
+        "1be627f1-d3d3-4f93-9bd3-7d1b1e4aa352",
+        "e78fa8bb-80b7-443d-8011-b1ee9b690b02"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "708a10f4-376f-4029-a4cf-1fde9c5b775e": {
+      "type": "advanced-content",
+      "blocks": {
+        "a25e7ea8-3afc-4af1-a35a-8a7e3bdfe3d0": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2006</h2>\n<p>In occasione del suo 20° anniversario LIMAR vende in tutto il mondo una gamma di 24 modelli di caschi e 7 modelli di occhiali sportivi, soddisfacendo tutte le omologazioni internazionali. Limar introduce il suo payoff THE HELMET SPECIALIST.</p>\n\n{% else %}\n\n<h2>2006</h2>\n<p>At its 20th anniversary LIMAR sells worldwide a range of 24 models of helmets and 7 sports eyewear models, satisfying all international approvals. Limar introduce its payoff THE HELMET SPECIALIST.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "d227d333-69aa-4016-ba57-512238ecb435": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-13.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "c7542b29-6032-4571-a973-3b3b9d07c75d": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2002</h2>\n<p>Limar presenta Pro Wheel System, il sistema più compatto e facilmente regolabile disponibile sul mercato. </p>\n\n{% else %}\n\n<h2>2002</h2>\n<p>Limar introduces Pro Wheel System, the most compact, easy adjustable wheel system available on the market.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "1593ceb5-9471-4d98-bfee-bf05efb84616": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>2001  </h2>\n<p>Limar nel 2001 LIMAR presenta l’F111 garantendo i più alti livelli di ventilazione con le sue 37 prese d'aria. Un vero capolavoro di stile, comfort e sicurezza.</p>\n\n{% else %}\n\n<h2>2001  </h2>\n<p>Limar in 2001 LIMAR presents F111 granting the highest levels of ventilation with its 37 air intakes. A true masterpiece of style, comfort and safety.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "e4132904-9a31-4981-9024-dd85d8063201": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-12.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "6568aa47-557c-4c88-bd39-89cf40041ebe": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1999</h2>\n<p>Limar crea il primo casco In-Mould, F107, PC esterno Microshell e co-stampato con EPS durante il processo di produzione. Questo casco offre anche un nuovo innovativo sistema di regolazione LIMAR, sviluppato con gli atleti PRO.\n</p>\n\n{% else %}\n\n<h2>1999</h2><p>Limar creates the first In-Mould helmet, F107, outer PC Microshell is co-moulded with EPS during the production process. This helmet also offers a new LIMAR innovative head regulator size system, developed with PRO racers.\n</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16777975693527__708a10f4-376f-4029-a4cf-1fde9c5b775e-168423116209c0834b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-05-16_at_9.50.32_AM.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16777975693527__708a10f4-376f-4029-a4cf-1fde9c5b775e-168423116209c0834b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n<h2>1997</h2>\n<p>Limar firma il contratto di sponsorizzazione con Deutsche Telekom Team, che durerà fino al 2003. Campioni del calibro di Bjarne Riis, Eric Zabel, Jan Ullrich e Alexandr Vinokurov vincono prima con l’F104 e poi con l'innovativo F107.</p>\n\n{% else %}\n\n<h2>1997</h2>\n<p>Limar signs the sponsorship contract with Deutsche Telekom Team, that will last until 2003. Champions of the caliber of Bjarne Riis, Eric Zabel, Jan Ullrich and Alexandr Vinokurov win first with the F104 and then with the innovative F107.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "3ceb8cc3-6b6c-4fd1-83dd-66b7d00245e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-10.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "1de78ec3-f69d-48ff-be7a-21698bccfe4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-11.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "b6b49180-3ecd-4087-8cec-3cdbb188a269": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1996</h2>\n<p>In meno di due anni, l'F104 diventa il casco più desiderato, indossato e ambito da diversi team professionistici. Paola Pezzo vince le Olimpiadi di Atlanta 1996 indossando un F104 personalizzato appositamente per lei.</p>\n\n{% else %}\n\n<h2>1996</h2>\n<p>In less than two years, the F104 becomes the most desired helmet, worn and coveted by several professional teams. Paola Pezzo wins 1996 Atlanta Olympics wearing an F104 customized just for her.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "850cda7a-b013-4acf-a994-ebfec17042da": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-9.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "7f205262-6b71-4200-bebb-7f3c56512710": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1994</h2>\n<p>Grazie al suo F104, Limar riceve la Selezione d’onore al Premio Compasso d'Oro per il Design.\n</p>\n\n\n{% else %}\n\n<h2>1995</h2>\n<p>Thanks to the F104, Limar wins the Design Prize Compasso d’Oro.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1e222f8f-7289-4da9-87dc-5a2798c3116f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-8.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "a25e7ea8-3afc-4af1-a35a-8a7e3bdfe3d0",
+        "d227d333-69aa-4016-ba57-512238ecb435",
+        "c7542b29-6032-4571-a973-3b3b9d07c75d",
+        "1593ceb5-9471-4d98-bfee-bf05efb84616",
+        "e4132904-9a31-4981-9024-dd85d8063201",
+        "6568aa47-557c-4c88-bd39-89cf40041ebe",
+        "template--16777975693527__708a10f4-376f-4029-a4cf-1fde9c5b775e-168423116209c0834b-0",
+        "template--16777975693527__708a10f4-376f-4029-a4cf-1fde9c5b775e-168423116209c0834b-1",
+        "3ceb8cc3-6b6c-4fd1-83dd-66b7d00245e2",
+        "1de78ec3-f69d-48ff-be7a-21698bccfe4b",
+        "b6b49180-3ecd-4087-8cec-3cdbb188a269",
+        "850cda7a-b013-4acf-a994-ebfec17042da",
+        "7f205262-6b71-4200-bebb-7f3c56512710",
+        "1e222f8f-7289-4da9-87dc-5a2798c3116f"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "306b0d17-6074-4bed-8e81-962e5adfff71": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16777975693527__306b0d17-6074-4bed-8e81-962e5adfff71-168423116209c0834b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 20px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "73cf49e6-b6b2-47ab-97a1-f17913549587": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1994</h2>\n<p>Limar lancia il modello F104, il primo casco sviluppato con le più sofisticate tecnologie di progettazione informatica. Viene progettato e studiato un prodotto con le più alte prestazioni in termini di design, ventilazione, aerodinamica, con l'obiettivo di raggiungere quello che diventerà il target costante di LIMAR: il casco da bici più leggero al mondo.\nIl casco è inoltre dotato di un innovativo sistema di ritenzione per offrire una perfetta vestibilità ad ogni utente.\n</p>\n\n\n{% else %}\n\n<h2>1994</h2>\n<p>Limar launches model F104, the first helmet developed with the most sophisticated computer design technologies. A product with the highest performance in terms of design, ventilation, aerodynamics is designed and studied, with the objective of achieving what will become LIMAR constant target: the world’s lightest bike helmet.\nThe helmet also features an innovative retention system to offer perfect fitting to every user</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16777975693527__306b0d17-6074-4bed-8e81-962e5adfff71-168423116209c0834b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-7.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "9795c17a-7a56-4956-bf76-129acf872c77": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1993</h2>\n<p>Limar presenta il primo casco al mondo realizzato negli stessi colori di una squadra: il Team Gatorade. Gianni Bugno inizia a collaborare con Limar per sviluppare un casco molto performante. Il nuovo nato di LIMAR porta il suo nome: G B 93.</p>\n\n\n{% else %}\n\n<h2>1993</h2>\n<p>Limar introduces the first world’s helmet made in the same colors of a team: the Team Gatorade. Gianni Bugno starts to collaborate with Limar to develop a very high performing helmet. The new born at LIMAR has his name: G B 93.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "eb19176e-a526-42d9-9f45-372a1c66c180": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-6.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "03bf1258-41b6-4f83-a913-8fbd9bfa8b6f": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1990</h2>\n<p>Limar presenta la calotta in plastica termoformata per aumentare protezione e sicurezza: PRIMO è stato il primo casco dal design aerodinamico per ciclisti professionisti: Limar inizia a sponsorizzare gli atleti MTB.</p>\n\n\n{% else %}\n\n<h2>1990</h2>\n<p>Limar introduces the thermoformed plastic shell to increase protection and safety:  PRIMO has been the first helmet with an aerodynamic design for professional riders: Limar starts to sponsor MTB Athletes.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "1cab62cc-490e-42e0-855b-636be727de12": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-5.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "d63040c0-4688-4166-a2bf-3b6f1fa497c6": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1988</h2>\n<p>Dopo un intenso periodo di ricerca e sviluppo, Limar inizia a progettare caschi da bici, introducendo CICLO L3: forma rotonda HD EPS, imbottiture comfort interne, diversi colori fluo e una peso molto leggero. La leggerezza è sempre stata l'obiettivo principale di LIMAR fin dall'inizio.</p>\n\n\n{% else %}\n\n<h2>1988</h2>\n<p>After an intensive research and development period, Limar starts to design bike helmets, introducing CICLO L3: HD EPS round shape, inner comfort pads, several fluo colours and a very light weigh. Lightness has been always LIMAR main focus since the beginning.</p>\n\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "3b3c93ab-c6ca-420d-9cc4-ae5794f11b16": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-4.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "963cc071-b450-4dc1-990a-9f9dda0e02bc": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h2>1986</h2>\n<p>Limar inizia la sua attività sfruttando il suo già consolidato know-how di 20 anni nello stampaggio di forme in EPS della casa madre MPE.</p>\n\n\n{% else %}\n\n\n<h2>1986</h2>\n<p>Limar starts its activity exploiting its already established 20 years know-how experience in EPS shape- moulding of its mother company MPE.</p>\n{% endif %}",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "ec0bbbd2-38e6-4d7d-9d8d-7ba2fcae1ca3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-1.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "9757f695-d893-4984-ba37-ab59e35e050e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "e0689e49-dd60-4077-9244-75241eb5949e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/story-limar-3.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "c44f1c45-0c74-4857-b8b3-adefc03f4f9d": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16777975693527__306b0d17-6074-4bed-8e81-962e5adfff71-168423116209c0834b-1",
+        "73cf49e6-b6b2-47ab-97a1-f17913549587",
+        "template--16777975693527__306b0d17-6074-4bed-8e81-962e5adfff71-168423116209c0834b-0",
+        "9795c17a-7a56-4956-bf76-129acf872c77",
+        "eb19176e-a526-42d9-9f45-372a1c66c180",
+        "03bf1258-41b6-4f83-a913-8fbd9bfa8b6f",
+        "1cab62cc-490e-42e0-855b-636be727de12",
+        "d63040c0-4688-4166-a2bf-3b6f1fa497c6",
+        "3b3c93ab-c6ca-420d-9cc4-ae5794f11b16",
+        "963cc071-b450-4dc1-990a-9f9dda0e02bc",
+        "ec0bbbd2-38e6-4d7d-9d8d-7ba2fcae1ca3",
+        "9757f695-d893-4984-ba37-ab59e35e050e",
+        "e0689e49-dd60-4077-9244-75241eb5949e",
+        "c44f1c45-0c74-4857-b8b3-adefc03f4f9d"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0a56d907-c948-4618-967c-51055e1e17d2",
+    "1654782680d01d0885",
+    "165478345181ed740b",
+    "708a10f4-376f-4029-a4cf-1fde9c5b775e",
+    "306b0d17-6074-4bed-8e81-962e5adfff71"
+  ]
+}
