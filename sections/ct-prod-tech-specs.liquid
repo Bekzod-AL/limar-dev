@@ -1,0 +1,45 @@
+<div class="ct-tech-section page-width">
+  <div class="ct-tech-section--wrapper">
+    <h2>Product Specs</h2>
+    {{ section.settings.ct_tech_specs }}
+  </div>
+</div>
+
+{% stylesheet %}
+.ct-tech-section.page-width {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+.ct-tech-section table{
+  background: #fff;
+  border-spacing: 0px;
+}
+.ct-tech-section th, .ct-tech-section td {
+  border-top: 1px solid;
+}
+.ct-tech-section p {
+  margin: 0;
+}
+.ct-tech-section tbody {
+  font-size: .85em;
+}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "CT Prod Tech Specs",
+  "settings": [
+  {
+	"type": "textarea", 
+	"id": "ct_tech_specs",
+	"label": "Tech Specs (HTML)",
+    "default": "<div>Please put some HTML here</div>"
+  }
+  ],
+  "presets": [
+    {
+      "name": "CT Prod Tech Specs"
+    }
+  ]
+}
+{% endschema %}

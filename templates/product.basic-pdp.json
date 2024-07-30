@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": { "type": "price", "settings": {} },
+        "separator": { "type": "separator", "settings": {} },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "sizing-chart",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
+          "type": "custom",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "aba0ac3a-cd18-4080-84ef-648938f0a498": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "page": ""
+          }
+        },
+        "share": { "type": "share", "settings": {} }
+      },
+      "block_order": [
+        "price",
+        "separator",
+        "variant_picker",
+        "inventory_status",
+        "buy_buttons",
+        "355d1f1e-fa7f-4217-8c5c-192283b1cc5c",
+        "description",
+        "aba0ac3a-cd18-4080-84ef-648938f0a498",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "ct-scroll-product-cta": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": { "recent_count": 5 }
+    },
+    "collection-return": { "type": "collection-return", "settings": {} }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

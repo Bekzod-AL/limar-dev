@@ -1,0 +1,16 @@
+{
+  "parent": "product.air-speed.json",
+  "context": { "market": "it" },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "80ce3c41-678f-4afa-99c5-732f063daff2": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "product.maloja.json",
+  "context": { "market": "it" },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "a9529c0e-8411-497d-956c-f1867711937c": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}

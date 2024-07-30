@@ -1,0 +1,5 @@
+{
+  "parent": "product.tonale-mips.json",
+  "context": { "market": "eu" },
+  "sections": {}
+}

@@ -1,0 +1,340 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": { "type": "price", "settings": {} },
+        "judge_me_reviews_preview_badge_gTnmTc": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "separator": { "type": "separator", "settings": {} },
+        "variant_picker_6AWea3": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "a8d122b1-7a16-497f-aca6-add0a1ff3c2c": {
+          "type": "custom",
+          "settings": {
+            "code": "<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>FREE SHIPPING<br /> 30-DAY RETURNS</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "aba0ac3a-cd18-4080-84ef-648938f0a498": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "page": ""
+          }
+        },
+        "share": { "type": "share", "settings": {} }
+      },
+      "block_order": [
+        "price",
+        "judge_me_reviews_preview_badge_gTnmTc",
+        "separator",
+        "variant_picker_6AWea3",
+        "inventory_status",
+        "buy_buttons",
+        "a8d122b1-7a16-497f-aca6-add0a1ff3c2c",
+        "description",
+        "aba0ac3a-cd18-4080-84ef-648938f0a498",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "ct-scroll-product-cta": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "93592021-ca18-463e-b7c6-d5c134c77694": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770230452439__93592021-ca18-463e-b7c6-d5c134c77694-168308849335dbcb84-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-subtitle\" \">TORINO</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> RIDE GREEN AND VISIBLE</h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770230452439__93592021-ca18-463e-b7c6-d5c134c77694-168308849335dbcb84-1"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "165342933895b24228": {
+      "type": "advanced-content",
+      "blocks": {
+        "1653429337c17a9326-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/torino-emotion-2.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "1653429337c17a9326-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>17 fori insieme ad un sistema di canali interni gestiscono i flussi d’aria per garantire sempre una temperatura ottimale.\n</p>\n\n<p>L’imbottitura interna morbida e traspirante, che può essere rimossa e lavata, mantiene la testa asciutta.</p>\n\n\n{% else %}\n\n<h4>The Ideal Temperature</h4>\n\n<p>The 17 holes together with a system of internal channels manage the air flows to always guarantee the ideal temperature.</p>\n\n<p>The soft and breathable internal padding, which can be removed and washed, keeps the head dry.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/torino-emotion-3.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di ritenzione e regolazione taglia, Competition+, è integrato al cinturino e permette di trovare il fitting ideale per ogni testa. \n</p>\n\n\n{% else %}\n\n<h4>The Ideal Fit</h4>\n\n<p>The retention and size adjustment system, Competition +, is integrated into the strap and allows you to find the ideal fit for each head.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "085e0b46-af57-479b-8994-cfcb1a45c80d": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "847ea138-f3ec-4919-8150-7210eb567569": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/torino-emotion-1.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p>La luce posteriore a led , perfettamente integrata nella calotta, aggiunge sicurezza in caso di scarsa visibilità, è dotata di lue sia fissa che lampeggiante ed è ricaricabile mediante connessione USB.\n</p>\n\n\n{% else %}\n\n<h4>Meant to be seen</h4>\n<p>The rear LED light, perfectly integrated into the shell, adds safety in case of poor visibility, is equipped with both fixed and intermittent light and is rechargeable via USB connection.\n</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "1653429337c17a9326-0",
+        "1653429337c17a9326-1",
+        "4ca2690a-ca17-48e2-a032-a3b5a566d137",
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5",
+        "1e6a56cf-9219-41a5-886a-64155aacfdc2",
+        "085e0b46-af57-479b-8994-cfcb1a45c80d",
+        "847ea138-f3ec-4919-8150-7210eb567569",
+        "afeb9722-d133-4227-a955-a8cd9ed4a32a"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": "#ffffff"
+      }
+    },
+    "2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19187307807062__2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81-16886050984deb0bae-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/limar-torino-1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--19187307807062__2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81-16886050984deb0bae-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/limar-torino-4.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "b08327ff-143c-41dc-8511-788867961138": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/limar-torino-7.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "8d058b75-d343-459c-9a9e-f47894ad9234": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/limar-torino-5.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "a4d1effd-8727-4ac4-9dbc-4cd764cfd165": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/limar-torino-6.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19187307807062__2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81-16886050984deb0bae-0",
+        "template--19187307807062__2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81-16886050984deb0bae-1",
+        "b08327ff-143c-41dc-8511-788867961138",
+        "8d058b75-d343-459c-9a9e-f47894ad9234",
+        "a4d1effd-8727-4ac4-9dbc-4cd764cfd165"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1708621359cb2290fe": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_PbBwYy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": ["judge_me_reviews_review_widget_PbBwYy"],
+      "settings": { "full_width": false, "space_around": true }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": { "recent_count": 5 }
+    },
+    "collection-return": { "type": "collection-return", "settings": {} }
+  },
+  "order": [
+    "main",
+    "sub",
+    "93592021-ca18-463e-b7c6-d5c134c77694",
+    "165342933895b24228",
+    "2fe60c30-73c4-4e6e-9ffa-8b94a8e50c81",
+    "1708621359cb2290fe",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

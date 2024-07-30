@@ -1,0 +1,425 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": { "type": "price", "settings": {} },
+        "judge_me_reviews_preview_badge_RKLdWH": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "separator": { "type": "separator", "settings": {} },
+        "variant_picker_BkpEVw": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "fd829e38-0545-4d6e-9cc4-64a72bf4699d": {
+          "type": "custom",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "aba0ac3a-cd18-4080-84ef-648938f0a498": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
+          }
+        },
+        "share": { "type": "share", "settings": {} }
+      },
+      "block_order": [
+        "price",
+        "judge_me_reviews_preview_badge_RKLdWH",
+        "separator",
+        "variant_picker_BkpEVw",
+        "inventory_status",
+        "buy_buttons",
+        "fd829e38-0545-4d6e-9cc4-64a72bf4699d",
+        "description",
+        "aba0ac3a-cd18-4080-84ef-648938f0a498",
+        "tab",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "ct-scroll-product-cta": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "165341703533e87775": {
+      "type": "ct-prod-tech-specs",
+      "disabled": true,
+      "settings": {
+        "ct_tech_specs": "<table>\n<tbody>\n<tr>\n<th>Technology</th>\n<td>\n<p> Monoshell in-mould – SUPERLIGHT technology</p>\n</td>\n</tr>\n<tr>\n<th>Fit</th>\n<td>\n<p>Extended coverage, compact design</p>\n</td>\n</tr>\n<tr>\n<th>Pads</th>\n<td>\n<p> Non allergenic washable comfort pads </p>\n</td>\n</tr>\n<tr>\n<th>Size (cm)</th>\n<td>\n<p>M (53-57), L (57-61)</p>\n</td>\n</tr>\n<tr>\n<th>Weight (g)</th>\n<td>\n<p>Medium - 260gr | Large - 285gr</p>\n</td>\n</tr>\n<tr>\n<th>Air Vents</th>\n<td>\n<p> 22 air vents </p>\n</td>\n</tr>\n<tr>\n<th>Helmet LED Light</th>\n<td>\n<p>Available as an accessory</p>\n</td>\n</tr>\n<tr>\n<th>Ideal For</th>\n<td>\n<p>All mountain</p>\n</td>\n</tr>\n</tbody>\n</table>"
+      }
+    },
+    "3a530c75-b0e4-4ca7-8981-9abff695f2eb": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-subtitle\" \">LIVIGNO</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">LIGHTEN YOUR CHALLENGE</h2>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_cnzngt": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<p></p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1",
+        "liquid_cnzngt"
+      ],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}",
+        " {padding-bottom: 5%;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "6eacb8e3-2f39-40cb-bdc3-ab3cb6a1cf73": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https://youtu.be/bB2G0AivGHE",
+        "divider": false
+      }
+    },
+    "901940ce-fe9c-4c18-a3db-1ecc40213764": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": { "link": "", "width": "50%", "alignment": "center" }
+        },
+        "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h4>COMPLETE PROTECTION</h4><p>Livigno has all it takes to be the best choice among full-face Enduro helmets.</p>\n\n<p>The construction technology of the <b>\"in-mould double shell\"</b> combines the\nbest protective performance of expanded polystyrene with the total external\nprotection of polycarbonate, to achieve a super light and highly ventilated\nhelmet, both very important features for the comfort of the biker.</p>\n<p>The <b>MIPS Node</b> system completes the safety package, allowing you to enjoy\nadrenaline-pumping experiences with the awareness of being fully\nprotected.</p>\n<p>But \"use your head\" is always highly recommended!\n</p>\n<p>Livigno is equipped with a fixed Superlight chin guard in ABS coupled with\nexpanded polypropylene to ensure maximum energy absorption in the\nevent of an impact, protection from branches, stones, and unexpected\nprotrusions. When dealing with rough roads, steep trails, and hard climbs, it\nis important to consider every detail and choose the best.</p> <p>Livigno is undoubtedly the right choice. It meets the strictest international\nsafety standards, CE, CPSC and <b>ASTM</b> (for DOWNHILL use).\n</p>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-image-1",
+        "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "advanced_content_tTjirm": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_g6M6jg": {
+          "type": "liquid",
+          "settings": {
+            "code": "<video autoplay loop controls=\"false\"  class=\"video\">\n <source src=\"https://cdn.shopify.com/videos/c/o/v/0003275fe60d4b01bdf9a589aa1a69b7.mp4\" type=\"video/mp4\">\n</video>",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_WDRMC6": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h4>SUPERLIGHT TECHNOLOGY</H4>\n<p>A value of all Limar helmets, the <b>lightness</b> factor is the heart of every project.</p>\n\n<p>The goal of total protection is always a priority; however, our goal is to offer\nthe lightest and most comfortable product. <b>Livigno weighs only 590 gr in size M.</b></p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": ["liquid_g6M6jg", "liquid_WDRMC6"],
+      "custom_css": [".video {aspect-ratio: 16 / 9; width: 100%;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "165342933895b24228": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_zBiQxP": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9lLnLWYFsyE?si=nJTyQSfgvh2OiSwT\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "1653429337c17a9326-1": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<h4>SUPERLIGHT TECHNOLOGY</H4>\n<p>A value of all Limar helmets, the <b>lightness</b> factor is the heart of every project.</p>\n\n<p>The goal of total protection is always a priority; however, our goal is to offer\nthe lightest and most comfortable product. <b>Livigno weighs only 590 gr in size M.</b></p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/livigno-detail-2.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_yh6DXA": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h4>REFRESHING YOUR HEAD</h4>\n<p>The <b>ventilation</b> system allows air to circulate freely inside the shell: it is\nguided through the front holes by its system of internal channels, refreshing\nthe head and maintaining an ideal temperature.</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "1653429337c17a9326-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/livigno-detail-3.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        },
+        "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h4>Ultimate Comfort</h4>\n\n<p>The <b>Air Fit Evo</b> size adjustment system allows the best comfort of the\nhelmet through its multi-level multi-directional adjustment.</p>\n\n<p>The <b>Fidlock magnetic closure system</b> lets you fasten and unfasten the chin strap quickly even when wearing gloves.</p>\n\n<p>The cheek pads are available in\ndifferent thicknesses and easily removable when needed (in case of an\naccident, this is particularly important).</p>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_zBiQxP",
+        "1653429337c17a9326-1",
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5",
+        "liquid_yh6DXA",
+        "1653429337c17a9326-0",
+        "1e6a56cf-9219-41a5-886a-64155aacfdc2"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": "#ffffff"
+      }
+    },
+    "4656a53f-06a9-447d-ab52-2654d1b7d0cc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "20% 50%"
+          }
+        },
+        "3c821e1f-802b-40f3-b91b-a55af34e38d7": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-5.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "80% 50%"
+          }
+        },
+        "3fc7f242-d029-4e47-89c0-923eda64ee77": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-4.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "20% 50%"
+          }
+        },
+        "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-2.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "75925a48-8759-43db-8deb-c57ca0e80d13": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/livigno-gallery2-7.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-0",
+        "3c821e1f-802b-40f3-b91b-a55af34e38d7",
+        "3fc7f242-d029-4e47-89c0-923eda64ee77",
+        "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-1",
+        "75925a48-8759-43db-8deb-c57ca0e80d13"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "169237396398023e90": {
+      "type": "apps",
+      "settings": { "full_width": false, "space_around": true }
+    },
+    "170862117703e3dd0d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_8z9iDq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": ["judge_me_reviews_review_widget_8z9iDq"],
+      "settings": { "full_width": false, "space_around": true }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": { "recent_count": 5 }
+    },
+    "collection-return": { "type": "collection-return", "settings": {} }
+  },
+  "order": [
+    "main",
+    "sub",
+    "165341703533e87775",
+    "3a530c75-b0e4-4ca7-8981-9abff695f2eb",
+    "6eacb8e3-2f39-40cb-bdc3-ab3cb6a1cf73",
+    "901940ce-fe9c-4c18-a3db-1ecc40213764",
+    "advanced_content_tTjirm",
+    "165342933895b24228",
+    "4656a53f-06a9-447d-ab52-2654d1b7d0cc",
+    "169237396398023e90",
+    "170862117703e3dd0d",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

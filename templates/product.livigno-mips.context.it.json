@@ -1,0 +1,5 @@
+{
+  "parent": "product.livigno-mips.json",
+  "context": { "market": "it" },
+  "sections": {}
+}

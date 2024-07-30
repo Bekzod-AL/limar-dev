@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": { "type": "price", "settings": {} },
+        "judge_me_reviews_preview_badge_4dggiY": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "separator": { "type": "separator", "settings": {} },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "full-kit-sizing-chart",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
+          "type": "custom",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">CONSISTS OF JERSEY, BIB, HELMET AND GLASSES</p>\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "aba0ac3a-cd18-4080-84ef-648938f0a498": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs Jersey",
+            "content": "{{ product.metafields.custom.apparel_technical_specification | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_akLMFw": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs Bib",
+            "content": "{{ product.metafields.custom.apparel_technical_description_2 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "share": { "type": "share", "settings": {} }
+      },
+      "block_order": [
+        "price",
+        "judge_me_reviews_preview_badge_4dggiY",
+        "separator",
+        "variant_picker",
+        "inventory_status",
+        "buy_buttons",
+        "355d1f1e-fa7f-4217-8c5c-192283b1cc5c",
+        "description",
+        "aba0ac3a-cd18-4080-84ef-648938f0a498",
+        "tab_akLMFw",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "ct-scroll-product-cta": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "494b2cf7-a1da-4eb6-b040-416d795a7fbc": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-subtitle\" \">LCC CAPSULE</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">COLLECTION MMXXIV</h2>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "text_columns_TCFVx8": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_nC6XgV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ product.metafields.custom.detail_image_1.value }}",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xTTfPf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "",
+            "text": "<p>{{ product.metafields.custom.apparel_description | metafield_tag }}</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": ["text_block_nC6XgV", "text_block_xTTfPf"],
+      "disabled": true,
+      "settings": { "title": "", "align_text": "left", "divider": false }
+    },
+    "text_columns_m3xUXh": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_D93CUx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ product.metafields.custom.detail_image_2.value }}",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_EDfTHg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": ["text_block_D93CUx", "text_block_EDfTHg"],
+      "disabled": true,
+      "settings": { "title": "", "align_text": "left", "divider": false }
+    },
+    "1c954f02-35e1-4bb9-8056-8d9238a5f418": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16770229895383__1c954f02-35e1-4bb9-8056-8d9238a5f418-16830813192d22d6d3-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "{{ product.metafields.custom.slide_image_1.value }}",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "94882ebe-bec8-44fd-b9c0-3356790cf4cd": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "{{ product.metafields.custom.slide_image_2.value }}",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "17d4ff73-3379-41fd-b7dc-23a2240789fd": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "{{ product.metafields.custom.slide_image_3.value }}",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770229895383__1c954f02-35e1-4bb9-8056-8d9238a5f418-16830813192d22d6d3-0",
+        "94882ebe-bec8-44fd-b9c0-3356790cf4cd",
+        "17d4ff73-3379-41fd-b7dc-23a2240789fd"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1708620511a95d39f0": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_JwNHU7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": ["judge_me_reviews_review_widget_JwNHU7"],
+      "settings": { "full_width": false, "space_around": true }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": { "recent_count": 5 }
+    },
+    "collection-return": { "type": "collection-return", "settings": {} }
+  },
+  "order": [
+    "main",
+    "sub",
+    "494b2cf7-a1da-4eb6-b040-416d795a7fbc",
+    "text_columns_TCFVx8",
+    "text_columns_m3xUXh",
+    "1c954f02-35e1-4bb9-8056-8d9238a5f418",
+    "1708620511a95d39f0",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

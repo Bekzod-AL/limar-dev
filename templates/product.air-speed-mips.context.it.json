@@ -1,0 +1,27 @@
+{
+  "parent": "product.air-speed-mips.json",
+  "context": { "market": "it" },
+  "sections": {
+    "165342933895b24228": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "6a64157a-6499-455b-b24c-1caf04fa1693": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>MIPS AIR</h4>\n\n\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.</p>\n\n\n\n{% else %}\n\n\n<h4>MIPS AIR</h4>\n\n\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables and 10-15mm of relative movement between the energy absorbing layer and the padding. The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specifically designed fixations enabling movement in all directions. By being integrated into the padding, the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limiated weight to the helmet.</p>\n\n\n{% endif %}"
+          }
+        }
+      }
+    },
+    "main": {
+      "settings": {},
+      "blocks": {
+        "80ce3c41-678f-4afa-99c5-732f063daff2": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}

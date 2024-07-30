@@ -1,0 +1,5 @@
+{
+  "parent": "product.limar-cycling-club.json",
+  "context": { "market": "it" },
+  "sections": {}
+}

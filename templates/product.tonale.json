@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": { "type": "price", "settings": {} },
+        "judge_me_reviews_preview_badge_g3gWxw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "separator": { "type": "separator", "settings": {} },
+        "variant_picker_9YEPMW": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "0f9616a7-4162-4d8f-8dcc-ff754dfa26e2": {
+          "type": "custom",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": { "is_tab": true }
+        },
+        "aba0ac3a-cd18-4080-84ef-648938f0a498": {
+          "type": "tab",
+          "settings": {
+            "title": "Tech Specs",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "page": ""
+          }
+        },
+        "share": { "type": "share", "settings": {} }
+      },
+      "block_order": [
+        "price",
+        "judge_me_reviews_preview_badge_g3gWxw",
+        "separator",
+        "variant_picker_9YEPMW",
+        "inventory_status",
+        "buy_buttons",
+        "0f9616a7-4162-4d8f-8dcc-ff754dfa26e2",
+        "description",
+        "aba0ac3a-cd18-4080-84ef-648938f0a498",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "ct-scroll-product-cta": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": { "max_width": true }
+    },
+    "3f69e618-48f8-4f5f-beb5-e55a1179a814": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16770230419671__3f69e618-48f8-4f5f-beb5-e55a1179a814-16830862560c1edf26-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"cus-con-subtitle\" \">TONALE</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> YOU ARE ADVENTURE</h2>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16770230419671__3f69e618-48f8-4f5f-beb5-e55a1179a814-16830862560c1edf26-1"
+      ],
+      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": ""
+      }
+    },
+    "ccf09e7f-2a6d-4c35-a741-8aa39c23d69b": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https://www.youtube.com/watch?v=u4eKSKrIWMk",
+        "divider": false
+      }
+    },
+    "165342933895b24228": {
+      "type": "advanced-content",
+      "blocks": {
+        "1653429337c17a9326-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tonale-emotion-1.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "1653429337c17a9326-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>PROTEZIONE TOTALE</h4>\n\n<p>Tonale è molto più che un casco sicuro. La sua calotta è progettata per offrire ineguagliabile comfort attraverso una copertura estesa a tempie e nuca, un sistema di ventilazione attentamente studiato per mantenere la testa fresca, un sistema di ritenzione avvolgente e una visiera totalmente integrata, ampia e regolabile.</p>\n\n{% else %}\n\n<h4>FULL PROTECTION</h4>\n\n<p>More than just a safe helmet - Its shell, with extended coverage onto the temples and nape, is designed to offer unrivalled comfort, with a carefully designed ventilation system to keep your head cool. While the double retention system is integrated integrated in, along with wide and adjustable visor.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>STILE E SICUREZZA</h4>\n\n<p>L’ampia visiera è perfettamente integrata al casco per uno stile elegante e aggressivo al tempo stesso, ed è regolabile per consentire il perfetto alloggiamento della maschera quando non la indossi.</p>\n\n{% else %}\n\n<h4>STYLE AND SAFETY</h4>\n\n<p>The large adjustable visor is perfectly integrated into the helmet for an elegant and aggressive style. It is adjustable to allow your goggles to rest on the helmet when you are not wearing them.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "085e0b46-af57-479b-8994-cfcb1a45c80d": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>LA TESTA SEMPRE FRESCA</h4>\n\n<p>Il sistema di ventilazione consente all’aria di circolare liberamente nella calotta: attraverso fori frontali viene guidata dal sistema di canali interni rinfrescando la testa e mantenendo una temperatura ideale.</p>\n\n{% else %}\n\n<h4>COOL FEELING</h4>\n\n<p>The ventilation system allows the air to circulate freely inside the shell: through the front vents the air is guided along the internal channels system, cooling the head while keeping an ideal temperature.</p>\n\n{% endif %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tonale-emotion-2.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "69797353-4569-44c3-a9b2-009f4158e6a3": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>STUDIATO PER IL COMFORT</h4>\n\n<p>La calzata è ottimizzata dal sistema di regolazione Air Fit Evo, che avvolge l’area occipitale, per una sensazione di comfort ottimale che ti farà dimenticare di indossare un casco.</p>\n\n\n{% else %}\n\n<h4>DESIGNED FOR COMFORT</h4>\n\n<p>Air Fit Evo adjustment system, fully wrapping the occipital area, ensures the optimal fit of Tonale, you forget you are wearing a helmet.</p>\n\n{% endif %}",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "1653429337c17a9326-0",
+        "1653429337c17a9326-1",
+        "4ca2690a-ca17-48e2-a032-a3b5a566d137",
+        "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99",
+        "085e0b46-af57-479b-8994-cfcb1a45c80d",
+        "afeb9722-d133-4227-a955-a8cd9ed4a32a",
+        "b4d6c064-0fd7-4860-b748-c42e83a423e5",
+        "69797353-4569-44c3-a9b2-009f4158e6a3"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "ct_color_background": "#ffffff"
+      }
+    },
+    "70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e": {
+      "type": "slideshow",
+      "blocks": {
+        "5ba89f40-8bf6-42ec-be85-d7d80db14395": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tonale-limar-4.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
+        "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tonale-limar-2.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
+        "494e8da3-b1fb-41f9-be1c-3df8f048a93a": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tonale-limar-6.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
+        "2c0c7975-6706-4c3d-9f83-13bb62fabd6d": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tonale-limar-3.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        },
+        "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tonale-limar-7.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "5ba89f40-8bf6-42ec-be85-d7d80db14395",
+        "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-1",
+        "494e8da3-b1fb-41f9-be1c-3df8f048a93a",
+        "2c0c7975-6706-4c3d-9f83-13bb62fabd6d",
+        "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-0"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "170862133891071b55": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_J7yLyp": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": ["judge_me_reviews_review_widget_J7yLyp"],
+      "settings": { "full_width": false, "space_around": true }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": { "recent_count": 5 }
+    },
+    "collection-return": { "type": "collection-return", "settings": {} }
+  },
+  "order": [
+    "main",
+    "sub",
+    "3f69e618-48f8-4f5f-beb5-e55a1179a814",
+    "ccf09e7f-2a6d-4c35-a741-8aa39c23d69b",
+    "165342933895b24228",
+    "70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e",
+    "170862133891071b55",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

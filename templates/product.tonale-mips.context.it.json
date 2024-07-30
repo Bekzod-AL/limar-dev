@@ -1,0 +1,16 @@
+{
+  "parent": "product.tonale-mips.json",
+  "context": { "market": "it" },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "0f9616a7-4162-4d8f-8dcc-ff754dfa26e2": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}

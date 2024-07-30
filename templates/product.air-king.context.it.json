@@ -1,0 +1,16 @@
+{
+  "parent": "product.air-king.json",
+  "context": { "market": "it" },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "beaf13e7-d17f-4761-b73c-c1580e32c751": {
+          "settings": {
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}
