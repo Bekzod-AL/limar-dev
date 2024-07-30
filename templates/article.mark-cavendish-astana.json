@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "disabled": true,
+      "settings": {
+        "image_hero": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "TEAM ASTANA",
+            "title": "MARK\nCAVENDISH",
+            "title_size": 80,
+            "subheading": "IT'S A FAMILY",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Cavendish_header_2100x1181_40c902cd-e5cb-4cd8-870f-ea5cd77d721e.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16775368114391__1cf35bd0-60e0-47af-82a6-7b9a7ac3303b-1683759818b33347be-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "0f260be9-48ae-425c-8cdc-31329c3e5b00": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16775368114391__0f260be9-48ae-425c-8cdc-31329c3e5b00-168375947350bdca0b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Team Astana – A New Family</h2><p>Mark Cavendish is one of the greatest sprinters of all time. And, in spite of his age and lengthy career, he's still keen to race his bike. Moreover, he's capable of winning, which is why he has been given a new place with Team Astana. A new family.</p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16775368114391__0f260be9-48ae-425c-8cdc-31329c3e5b00-168375947350bdca0b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "0faae20d-5317-4930-9e12-7b63a0705ebf": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https://www.youtube.com/watch?v=S_K0-PE5iLI",
+        "divider": false
+      }
+    },
+    "05da168b-a437-4c16-8011-bef38bc6dec7": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10.03.2023_10_56_00.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>FAN FAVORITE</h2><p>Part of Mark Cavendish's success and longevity in the sport is recognizing the support network around him. And that also means acknowleding his fans the world over.</p>",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "6137832b-2d4b-4991-96c4-e025d36e914b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18.03.2023_11_08_10.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-0",
+        "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-1",
+        "6137832b-2d4b-4991-96c4-e025d36e914b"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limar Road Helmets",
+        "home_featured_products": "road",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "blog": "",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1cf35bd0-60e0-47af-82a6-7b9a7ac3303b",
+    "0f260be9-48ae-425c-8cdc-31329c3e5b00",
+    "0faae20d-5317-4930-9e12-7b63a0705ebf",
+    "05da168b-a437-4c16-8011-bef38bc6dec7",
+    "4409059b-baaa-4017-a7e7-6ed6b4a2e714",
+    "blog-posts"
+  ]
+}
