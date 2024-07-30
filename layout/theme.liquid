@@ -29,6 +29,10 @@
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
+  <!-- {{ 'Gobold_Bold.woff' | asset_url }} -->
+  <!-- {{ 'Gobold_Bold.woff2' | asset_url }} -->
+  {{ 'ct.css' | asset_url | stylesheet_tag: preload: true }}
+
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
