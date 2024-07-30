@@ -1,0 +1,15 @@
+{
+  "parent": "index.json",
+  "context": { "market": "it" },
+  "sections": {},
+  "order": [
+    "166455817102ca91ca",
+    "69ce10e7-633f-4e87-b286-d478b3111e1a",
+    "rich-text",
+    "926dbb5c-80b8-4f10-9db9-21c772c7e3ff",
+    "16559032959dbed494",
+    "1657755680166d3ec0",
+    "573fe237-7fbb-4c77-a9d6-9d07b2ea43db",
+    "blog-posts"
+  ]
+}
