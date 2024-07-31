@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "589b2530-916a-4912-8835-04b0beb04682": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>the limited<br />collection</h2>",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/The_Limited_Collection.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-1",
+        "template--16755665895639__589b2530-916a-4912-8835-04b0beb04682-168193819321646090-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 60px; padding-top: 20px;}",
+        ".rte {border-top: 1px solid black; border-bottom: 1px solid black;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    },
+    "rich_text_kmpbMj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MTznry": {
+          "type": "heading",
+          "settings": {
+            "title": "PEACE ABOVE ALL"
+          }
+        },
+        "text_9kxyWM": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The curtain opens on the world’s biggest stage: athletes, nations, flags, colours, different cultures come togethe rin a magical choreography of excellences that become powerful examples of fair competition, friendship and respect, to renew hope for a future of unity and peace.</p>"
+          }
+        }
+      },
+      "block_order": ["heading_MTznry", "text_9kxyWM"],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": false,
+            "per_row": 2,
+            "rows_per_page": 3,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": ["product_grid"],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": false
+      }
+    },
+    "63098460-5efe-4765-9bf9-8a76ac175a6a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>PEACE ABOVE ALL</h2>",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-Zeus-green-side.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "top-middle"
+          }
+        },
+        "57878952-e83d-4025-90a6-41eb4ff42fef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-Zeus-green-top.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "e0161b14-4324-4608-93f2-98d02b132f06": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AirAtlas-Zeus-green-rear.png",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-1",
+        "template--16755665895639__63098460-5efe-4765-9bf9-8a76ac175a6a-168193819321646090-0",
+        "57878952-e83d-4025-90a6-41eb4ff42fef",
+        "e0161b14-4324-4608-93f2-98d02b132f06"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "ct_color_background": ""
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "589b2530-916a-4912-8835-04b0beb04682",
+    "rich_text_kmpbMj",
+    "main-collection",
+    "63098460-5efe-4765-9bf9-8a76ac175a6a"
+  ]
+}
