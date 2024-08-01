@@ -1,6 +1,11 @@
 {
   "sections": {
-    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1654791547f228cdef": {
       "type": "slideshow",
       "blocks": {
@@ -17,13 +22,14 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/limar22_ourStory_Nibali_GdI.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_Nibali_GdI.jpg",
+            "overlay_opacity": 0
           }
         }
       },
-      "block_order": ["16547915477992c034-0"],
+      "block_order": [
+        "16547915477992c034-0"
+      ],
       "settings": {
         "section_height": "650px",
         "mobile_height": "auto",
@@ -39,17 +45,22 @@
         "16547877673371718f-0": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "16547877673371718f-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Limar is an Italian company, with a 30-year-experience in the production of cycle helmets, leading the way with the world’s lightest helmet range. <strong>Limar has a strong mission: to be “The Helmet Specialist”</strong> by offering the market the widest and best range of helmets in terms of lightness, comfort and fitting.<br/></p><p>All Limar products are designed and styled in Italy.</p>"
+            "text": "<p>Limar is an Italian company, with a 30-year-experience in the production of cycle helmets, leading the way with the world’s lightest helmet range. <strong>Limar has a strong mission: to be “The Helmet Specialist”<\/strong> by offering the market the widest and best range of helmets in terms of lightness, comfort and fitting.<br\/><\/p><p>All Limar products are designed and styled in Italy.<\/p>"
           }
         }
       },
-      "block_order": ["16547877673371718f-0", "16547877673371718f-1"],
+      "block_order": [
+        "16547877673371718f-0",
+        "16547877673371718f-1"
+      ],
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -65,8 +76,7 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "image": "shopify://shop_images/limar22_ourStory_proCollage.png",
-        "focal_point": "top",
+        "image": "shopify:\/\/shop_images\/limar22_ourStory_proCollage.png",
         "layout": "left",
         "height": 550,
         "framed": false,
@@ -79,7 +89,7 @@
         "fe9e5293-fc69-48c1-a7b9-c971624e988b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar22_ourStory_proCollage_dc571fcc-19d2-419c-8fbf-e256ae3d0899.png",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_proCollage_dc571fcc-19d2-419c-8fbf-e256ae3d0899.png",
             "link": "",
             "width": "100"
           }
@@ -95,13 +105,12 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/limar22_ourStory_proCollage.png",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_proCollage.png",
             "video_url": "",
             "width": "100",
             "height": 680,
             "text_size": 120,
             "text_align": "vertical-bottom horizontal-center",
-            "focal_point": "top",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -139,17 +148,22 @@
         "165478858566d9c5e1-0": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "" }
+          "settings": {
+            "title": ""
+          }
         },
         "165478858566d9c5e1-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>THE COLLABORATION WITH THE PRO HAS ALWAYS BEEN PART OF LIMAR DNA, AND LIMAR WAS THE FIRST COMPANY TO SPONSOR A FULL CYCLING TEAM.</p>"
+            "text": "<p>THE COLLABORATION WITH THE PRO HAS ALWAYS BEEN PART OF LIMAR DNA, AND LIMAR WAS THE FIRST COMPANY TO SPONSOR A FULL CYCLING TEAM.<\/p>"
           }
         }
       },
-      "block_order": ["165478858566d9c5e1-0", "165478858566d9c5e1-1"],
+      "block_order": [
+        "165478858566d9c5e1-0",
+        "165478858566d9c5e1-1"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -169,13 +183,12 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/limar22_ourStory_VINOKUROV-AMSTEL-2003-0002.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_VINOKUROV-AMSTEL-2003-0002.jpg",
             "video_url": "",
             "width": "33",
             "height": 720,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "top",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -191,13 +204,12 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/limar22_ourStory_Paola-Pezzo-GOLD-Atlanta-1996-with-Limar-F104MTB.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_Paola-Pezzo-GOLD-Atlanta-1996-with-Limar-F104MTB.jpg",
             "video_url": "",
             "width": "50",
             "height": 720,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "top",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -213,13 +225,12 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/limar22_ourStory_Erik-Zabel-Milano-Sanremo-2001.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_Erik-Zabel-Milano-Sanremo-2001.jpg",
             "video_url": "",
             "width": "50",
             "height": 720,
             "text_size": 120,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "top",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -235,13 +246,12 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/limar22_ourStory_Gianni-Bugno-Giro-delle-Fiandre-94-1.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_Gianni-Bugno-Giro-delle-Fiandre-94-1.jpg",
             "video_url": "",
             "width": "33",
             "height": 720,
             "text_size": 120,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "top",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -267,17 +277,22 @@
         "1654790595c5efd96c-0": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "1654790595c5efd96c-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>The recommendations of champions like Gianni Bugno, Bjarne Riis, Alexandr Vinokurov testing the helmets during races, allow to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.</p><p>The inestimable information collected along the years have directed the research and development of Limar, integrating mathematical data and the analyses of the wind tunnel tests with another even more sophisticated instrument: <strong>man</strong>, with all his sensations.</p>"
+            "text": "<p>The recommendations of champions like Gianni Bugno, Bjarne Riis, Alexandr Vinokurov testing the helmets during races, allow to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.<\/p><p>The inestimable information collected along the years have directed the research and development of Limar, integrating mathematical data and the analyses of the wind tunnel tests with another even more sophisticated instrument: <strong>man<\/strong>, with all his sensations.<\/p>"
           }
         }
       },
-      "block_order": ["1654790595c5efd96c-0", "1654790595c5efd96c-1"],
+      "block_order": [
+        "1654790595c5efd96c-0",
+        "1654790595c5efd96c-1"
+      ],
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -300,13 +315,14 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify://shop_images/limar22_ourStory_beyond.jpg",
-            "overlay_opacity": 10,
-            "focal_point": "80% 0"
+            "image": "shopify:\/\/shop_images\/limar22_ourStory_beyond.jpg",
+            "overlay_opacity": 10
           }
         }
       },
-      "block_order": ["1654787478b46542c6-0"],
+      "block_order": [
+        "1654787478b46542c6-0"
+      ],
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
@@ -334,7 +350,6 @@
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -356,14 +371,16 @@
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
           }
         }
       },
-      "block_order": ["16547930024b90e76c-0", "16547930024b90e76c-1"],
+      "block_order": [
+        "16547930024b90e76c-0",
+        "16547930024b90e76c-1"
+      ],
       "disabled": true,
       "settings": {
         "full_width": false,
@@ -378,17 +395,22 @@
         "16547898406d73d6be-0": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "16547898406d73d6be-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Our helmets meet the strictest international safety Standards such as CE EN 1078, American CPSC and Australian AS/NZS and are subjected to the toughest tests in different conditions.<br/></p><p>Safety is always our priority!</p>"
+            "text": "<p>Our helmets meet the strictest international safety Standards such as CE EN 1078, American CPSC and Australian AS\/NZS and are subjected to the toughest tests in different conditions.<br\/><\/p><p>Safety is always our priority!<\/p>"
           }
         }
       },
-      "block_order": ["16547898406d73d6be-0", "16547898406d73d6be-1"],
+      "block_order": [
+        "16547898406d73d6be-0",
+        "16547898406d73d6be-1"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,

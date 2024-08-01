@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Screenshot_2023-08-10_at_1.44.06_PM.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-10_at_1.44.06_PM.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -53,7 +52,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Jeff Kerkove made the 15-hour drive back to Truckee, CA for the Bones To Blue bikpeacking race – a 250-mile figure-8 route. Last year, he was fortunate to have a good race and set a new course record. This year the plan was to go back and try to go a bit faster – which he did – but not without some heated competition and a mechanical. Here are some tired post-race ramblings….</strong></p><p>Bones to Blue starts and ends in Truckee, California, and follows a 250-mile loop consisting of two loops: a smaller loop above Truckee (Bones) and a big loop around Lake Tahoe (Blue). The route is mostly well-maintained singletrack with some fire roads and a 20-mile stretch of road along the scenic west shore of Lake Tahoe.</p>"
+            "text": "<p><strong>Jeff Kerkove made the 15-hour drive back to Truckee, CA for the Bones To Blue bikpeacking race – a 250-mile figure-8 route. Last year, he was fortunate to have a good race and set a new course record. This year the plan was to go back and try to go a bit faster – which he did – but not without some heated competition and a mechanical. Here are some tired post-race ramblings….<\/strong><\/p><p>Bones to Blue starts and ends in Truckee, California, and follows a 250-mile loop consisting of two loops: a smaller loop above Truckee (Bones) and a big loop around Lake Tahoe (Blue). The route is mostly well-maintained singletrack with some fire roads and a 20-mile stretch of road along the scenic west shore of Lake Tahoe.<\/p>"
           }
         }
       },
@@ -72,7 +71,7 @@
         "template--19524086694230__7309d325-f6a4-4554-bada-ec571f57294a-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2023-08-10_at_1.42.34_PM.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-10_at_1.42.34_PM.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -81,7 +80,7 @@
         "57fc5673-d857-4fba-8faf-f7dbe513eee4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/P1050197.jpg",
+            "image": "shopify:\/\/shop_images\/P1050197.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -94,8 +93,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "43eeb9a6-02a6-413d-b0d0-1dc17a12ea2b": {
@@ -104,7 +102,7 @@
         "template--19524086694230__43eeb9a6-02a6-413d-b0d0-1dc17a12ea2b-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p>This year’s grand depart started early Saturday morning with more than 20 riders signed up on Trackleaders. The first to finish was Jeff Kerkove, who set a new fastest known time of just 34 hours and 55 minutes. Corrie Smith also set a new women’s record with a time of 55 hours and 6 minutes. A huge congrats goes out to those two, everyone else who finished, and those still out pedaling. We reached out to Jeff for a weary post-race reflection on his ride, which you can read below.</p>",
+            "code": "<p>This year’s grand depart started early Saturday morning with more than 20 riders signed up on Trackleaders. The first to finish was Jeff Kerkove, who set a new fastest known time of just 34 hours and 55 minutes. Corrie Smith also set a new women’s record with a time of 55 hours and 6 minutes. A huge congrats goes out to those two, everyone else who finished, and those still out pedaling. We reached out to Jeff for a weary post-race reflection on his ride, which you can read below.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -112,7 +110,7 @@
         "template--19524086694230__43eeb9a6-02a6-413d-b0d0-1dc17a12ea2b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/367496228_10229923867391614_7873704014674210498_n.jpg",
+            "image": "shopify:\/\/shop_images\/367496228_10229923867391614_7873704014674210498_n.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -121,7 +119,7 @@
         "1e205dec-1b75-4fb9-919c-6b505603fdf3": {
           "type": "liquid",
           "settings": {
-            "code": "<p>I said it last year… and I’ll say it again: if you fancy yourself some speedy bikepacking or a four- to five-day tour with friends, put Bones to Blue on your list. Nearly 250 miles of the singletrack experiences you read in ‘zines, watch on YouTube, doom scroll for on Instagram, and simply dream about is what makes up this figure-eight loop around Truckee and Lake Tahoe. It didn’t take any convincing to go back. It’s just that good.</p>\n\n<p>This year saw its biggest field to date. Along with that larger field came more horsepower—a handful of riders vying for the win and possibly a new course record. My entire race was a back and forth battle with Matt Fox from the Bay Area. From about mile 10 to mile 170, we went back and forth trading the lead, dealing with biomechanicals and bike mechanicals. I haven’t had a mechanical in a bike race in a long time, but a rock or stick bouncing off my rear derailleur on the Hole in the Ground descent left me with a twisted derailleur for the rest of the event. After some bending and adjusting, I had about seven useful gears out of 12 to work with. Thankfully, they were all the easier gears. On the climb up to the high point of Freel Peak at mile 150, Matt simply rode and walked away from me.</p>",
+            "code": "<p>I said it last year… and I’ll say it again: if you fancy yourself some speedy bikepacking or a four- to five-day tour with friends, put Bones to Blue on your list. Nearly 250 miles of the singletrack experiences you read in ‘zines, watch on YouTube, doom scroll for on Instagram, and simply dream about is what makes up this figure-eight loop around Truckee and Lake Tahoe. It didn’t take any convincing to go back. It’s just that good.<\/p>\n\n<p>This year saw its biggest field to date. Along with that larger field came more horsepower—a handful of riders vying for the win and possibly a new course record. My entire race was a back and forth battle with Matt Fox from the Bay Area. From about mile 10 to mile 170, we went back and forth trading the lead, dealing with biomechanicals and bike mechanicals. I haven’t had a mechanical in a bike race in a long time, but a rock or stick bouncing off my rear derailleur on the Hole in the Ground descent left me with a twisted derailleur for the rest of the event. After some bending and adjusting, I had about seven useful gears out of 12 to work with. Thankfully, they were all the easier gears. On the climb up to the high point of Freel Peak at mile 150, Matt simply rode and walked away from me.<\/p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -134,8 +132,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "1c7e1838-ab27-484e-8331-33cf02c571b4": {
@@ -144,7 +141,7 @@
         "template--19524086694230__1c7e1838-ab27-484e-8331-33cf02c571b4-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/P1050167.jpg",
+            "image": "shopify:\/\/shop_images\/P1050167.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -153,7 +150,7 @@
         "655dfc7b-a4a5-4fd8-99ad-9adfaadbf72b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/P1050173.jpg",
+            "image": "shopify:\/\/shop_images\/P1050173.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -162,7 +159,7 @@
         "template--19524086694230__1c7e1838-ab27-484e-8331-33cf02c571b4-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p>\nMy legs were cooked, and I couldn’t stomach any food. I figured Matt was long gone. I needed a reset, so I lay down for an hour, figuring I’d be chasing the remaining 95 miles. Little did I know that Matt would also sleep at nearly the same time I did for the same reasons. I would pass Matt in the morning as he was filtering water and cleaning himself up. I figured it wouldn’t take long for him to catch up based on how strong he was earlier in the ride, but it never happened. I would later find out he would have to go off-route for more food and deal with the dreaded stomach issues all too familiar by us bikepack racers.</p>",
+            "code": "<p>\nMy legs were cooked, and I couldn’t stomach any food. I figured Matt was long gone. I needed a reset, so I lay down for an hour, figuring I’d be chasing the remaining 95 miles. Little did I know that Matt would also sleep at nearly the same time I did for the same reasons. I would pass Matt in the morning as he was filtering water and cleaning himself up. I figured it wouldn’t take long for him to catch up based on how strong he was earlier in the ride, but it never happened. I would later find out he would have to go off-route for more food and deal with the dreaded stomach issues all too familiar by us bikepack racers.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -175,8 +172,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "d5d7cff2-a10f-4b0b-b3d8-0540d73157fc": {
@@ -185,7 +181,7 @@
         "template--19524086694230__d5d7cff2-a10f-4b0b-b3d8-0540d73157fc-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2023-08-10_at_1.45.30_PM.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-08-10_at_1.45.30_PM.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -194,7 +190,7 @@
         "template--19524086694230__d5d7cff2-a10f-4b0b-b3d8-0540d73157fc-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p>I spent the entire second day riding alone, only sharing the course with a momma bear and her cub just after sunrise. The day would get hot, pushing nearly 90ºF, and I was glad I packed zip-lock bags to fill with ice to stuff down my jersey for the last exposed big climb to get back to Truckee. Nearly all race, Matt and I were ahead of my course record time of 37:17 in 2022. We knew if we kept pushing each other, one of us would break the record. I was fortunate to come out on top with a new course record of 34:55, simply because of experience and some good luck. If Matt comes back and has a clean run, he’ll topple that time—and I hope he or another rider does. Records are meant to be broken.</p>",
+            "code": "<p>I spent the entire second day riding alone, only sharing the course with a momma bear and her cub just after sunrise. The day would get hot, pushing nearly 90ºF, and I was glad I packed zip-lock bags to fill with ice to stuff down my jersey for the last exposed big climb to get back to Truckee. Nearly all race, Matt and I were ahead of my course record time of 37:17 in 2022. We knew if we kept pushing each other, one of us would break the record. I was fortunate to come out on top with a new course record of 34:55, simply because of experience and some good luck. If Matt comes back and has a clean run, he’ll topple that time—and I hope he or another rider does. Records are meant to be broken.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -202,7 +198,7 @@
         "a3995d4c-d331-42b7-9875-ad1e79cf8bb8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/kerkove-2023-bones-fkt_main-2000x1333.jpg",
+            "image": "shopify:\/\/shop_images\/kerkove-2023-bones-fkt_main-2000x1333.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -216,8 +212,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "10f24776-c457-4440-92ca-48854e2eae56": {

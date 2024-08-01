@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_4dggiY": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_4dggiY": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "sizing-chart",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "494b2cf7-a1da-4eb6-b040-416d795a7fbc": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR ATLAS</h2>\n<h2 class=\"cus-con-subtitle\" \"> Accelerate your s-pace</h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR ATLAS<\/h2>\n<h2 class=\"cus-con-subtitle\" \"> Accelerate your s-pace<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -108,7 +123,7 @@
       "disabled": true,
       "settings": {
         "title": "",
-        "video_url": "https://www.youtube.com/watch?v=ONa0Oe7h-PQ",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ONa0Oe7h-PQ",
         "divider": false
       }
     },
@@ -118,14 +133,16 @@
         "image_zQKhRm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cavendish-banner-gold.jpg",
+            "image": "shopify:\/\/shop_images\/cavendish-banner-gold.jpg",
             "link": "",
             "width": "100%",
             "alignment": "top-middle"
           }
         }
       },
-      "block_order": ["image_zQKhRm"],
+      "block_order": [
+        "image_zQKhRm"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -138,7 +155,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-MarkCavendish-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/AirAtlas-MarkCavendish-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -147,7 +164,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>VELOCITÀ PURA</h4>\n\n<p>La ventilazione è fondamentale per la prestazione del corridore.\nIn Air Atlas la ventilazione è garantita da numerose e apposite prese d’aria e una grande quantità di aria scorre veloce nelle canalizzazioni interne, rinfrescando la testa del corridore, e per effetto Venturi esce posteriormente, ricongiungendosi al flusso che invece corre veloce sulla superficie esterna del casco, priva di ostacoli: nessun vortice, nessuna turbolenza, solo velocità pura.</p>\n\n\n\n{% else %}\n\n<h4>JUST PURE SPEED</h4>\n\n<p>Ventilation is essential for the rider's performance. With Air Atlas, ventilation is guaranteed by specific air intakes that allow a large amount of air to blow fast through the internal channels, cooling the rider's head, and by Venturi effect to come out at the back, rejoining the flow that runs along the external surface of the helmet, free from obstacles: no vortex, no turbulence, just pure speed.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>VELOCITÀ PURA<\/h4>\n\n<p>La ventilazione è fondamentale per la prestazione del corridore.\nIn Air Atlas la ventilazione è garantita da numerose e apposite prese d’aria e una grande quantità di aria scorre veloce nelle canalizzazioni interne, rinfrescando la testa del corridore, e per effetto Venturi esce posteriormente, ricongiungendosi al flusso che invece corre veloce sulla superficie esterna del casco, priva di ostacoli: nessun vortice, nessuna turbolenza, solo velocità pura.<\/p>\n\n\n\n{% else %}\n\n<h4>JUST PURE SPEED<\/h4>\n\n<p>Ventilation is essential for the rider's performance. With Air Atlas, ventilation is guaranteed by specific air intakes that allow a large amount of air to blow fast through the internal channels, cooling the rider's head, and by Venturi effect to come out at the back, rejoining the flow that runs along the external surface of the helmet, free from obstacles: no vortex, no turbulence, just pure speed.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -155,7 +172,7 @@
         "d459784e-7d77-42d4-a281-1d4d2a658d60": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -163,7 +180,7 @@
         "19433246-66e6-4514-a0e1-967ac20d5624": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Air-atlas-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/Air-atlas-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -172,7 +189,7 @@
         "69797353-4569-44c3-a9b2-009f4158e6a3": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>STUDIATO PER IL COMFORT</h4>\n\n<p>Ogni singolo componente di Air Atlas è stato attentamente studiato per il comfort: il sistema di regolazione Air Fit Evo, completamente nuovo, integrato con un nuovo cinturino più confortevole, il nuovo divider, in stile minimale ed ergonomico e perfettamente aderente a viso e collo, lo sgancio magnetico Fidlock, costituiscono l’allestimento più confortevole che ci sia. Le imbottiture sono state attentamente studiate per ottimizzare la ventilazione e il comfort.</p>\n\n\n{% else %}\n\n<h4>DESIGNED FOR COMFORT</h4>\n\n<p>Every single component of Air Atlas has been carefully designed for comfort:\nthe new Air Fit Evo adjustment system, integrated with a more comfortable strap, the new divider, minimal and ergonomic, perfectly adherent to the rider face, the Fidlock magnetic buckle. The most comfortable set up is finally completed by a pad system, carefully designed to optimize ventilation and comfort.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>STUDIATO PER IL COMFORT<\/h4>\n\n<p>Ogni singolo componente di Air Atlas è stato attentamente studiato per il comfort: il sistema di regolazione Air Fit Evo, completamente nuovo, integrato con un nuovo cinturino più confortevole, il nuovo divider, in stile minimale ed ergonomico e perfettamente aderente a viso e collo, lo sgancio magnetico Fidlock, costituiscono l’allestimento più confortevole che ci sia. Le imbottiture sono state attentamente studiate per ottimizzare la ventilazione e il comfort.<\/p>\n\n\n{% else %}\n\n<h4>DESIGNED FOR COMFORT<\/h4>\n\n<p>Every single component of Air Atlas has been carefully designed for comfort:\nthe new Air Fit Evo adjustment system, integrated with a more comfortable strap, the new divider, minimal and ergonomic, perfectly adherent to the rider face, the Fidlock magnetic buckle. The most comfortable set up is finally completed by a pad system, carefully designed to optimize ventilation and comfort.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -180,7 +197,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -188,7 +205,7 @@
         "a77c814a-25b8-4b48-8552-ae2ab5cf1270": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-MarkCavendish-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/AirAtlas-MarkCavendish-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -197,7 +214,7 @@
         "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>UFO</h4>\n\n<p>Non ci siamo fermati qui.\nAbbiamo creato UFO, un oggetto non identificato, che ha però una funzione di grande efficacia: aumentare ulteriormente la performance aerodinamica e portarla a risultati mai ottenuti prima. Unico esemplare nell’universo, UFO può essere montato, integrandolo alla coda di AIR ATLAS o rimosso, a seconda delle condizioni ambientali e del tipo di gara, per raggiungere il massimo della prestazione.\n</p>\n\n{% else %}\n\n<h4>UFO</h4>\n\n<p>We didn't stop here though. We created U.F.O., an 'unidentified object' with a highly effective function: to bring aerodynamics to new records. Unique, in the cycling universe, U.F.O can be locked onto the AIR ATLAS tail or removed, depending on weather conditions, type of race, providing you the top performance.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>UFO<\/h4>\n\n<p>Non ci siamo fermati qui.\nAbbiamo creato UFO, un oggetto non identificato, che ha però una funzione di grande efficacia: aumentare ulteriormente la performance aerodinamica e portarla a risultati mai ottenuti prima. Unico esemplare nell’universo, UFO può essere montato, integrandolo alla coda di AIR ATLAS o rimosso, a seconda delle condizioni ambientali e del tipo di gara, per raggiungere il massimo della prestazione.\n<\/p>\n\n{% else %}\n\n<h4>UFO<\/h4>\n\n<p>We didn't stop here though. We created U.F.O., an 'unidentified object' with a highly effective function: to bring aerodynamics to new records. Unique, in the cycling universe, U.F.O can be locked onto the AIR ATLAS tail or removed, depending on weather conditions, type of race, providing you the top performance.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -205,7 +222,7 @@
         "562b2ac0-bfbb-4dad-9230-a50715d3cc43": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-MarkCavendish-emotion-ufo.jpg",
+            "image": "shopify:\/\/shop_images\/AirAtlas-MarkCavendish-emotion-ufo.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -214,7 +231,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Dalle prove effettuate in galleria del vento sono emersi dati molto importanti:<br />\n- Alla velocità di 40 km/h, Limar Air Atlas ti fa risparmiare 0,7 watt rispetto a Limar Air Speed.<br />\n- Alla velocità di 50 km/h, Limar Air Atlas ti fa risparmiare 1,4 watt rispetto a Limar Air Speed.<br />\nLimar Air Atlas è il casco da strada più veloce che abbiamo mai testato: il migliore tra i migliori.\n</p>\n\n{% else %}\n\n<p>Certified recorded data from the tests carried out in the wind tunnel state that:<br />\n- At the speed of 40 km / h, Limar Air Atlas saves you 0.7 watts compared to Limar Air Speed.<br />\n- At the speed of 50 km / h, Limar Air Atlas saves you 1.4 watts compared to Limar Air Speed.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Dalle prove effettuate in galleria del vento sono emersi dati molto importanti:<br \/>\n- Alla velocità di 40 km\/h, Limar Air Atlas ti fa risparmiare 0,7 watt rispetto a Limar Air Speed.<br \/>\n- Alla velocità di 50 km\/h, Limar Air Atlas ti fa risparmiare 1,4 watt rispetto a Limar Air Speed.<br \/>\nLimar Air Atlas è il casco da strada più veloce che abbiamo mai testato: il migliore tra i migliori.\n<\/p>\n\n{% else %}\n\n<p>Certified recorded data from the tests carried out in the wind tunnel state that:<br \/>\n- At the speed of 40 km \/ h, Limar Air Atlas saves you 0.7 watts compared to Limar Air Speed.<br \/>\n- At the speed of 50 km \/ h, Limar Air Atlas saves you 1.4 watts compared to Limar Air Speed.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -222,7 +239,7 @@
         "5998c92d-0cb1-4fa2-963a-307211d58824": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -230,7 +247,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-MarkCavendish-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/AirAtlas-MarkCavendish-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -239,7 +256,7 @@
         "71413fb4-3e92-40a6-b517-8cf16a3a584d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>PERFORMANCE, NON SOLO AERODINAMICA</h4>\n\n<p>Le simulazioni aerodinamiche a computer prima, i numerosi test in galleria del vento, la collaborazione con Vincenzo NIBALI e il Team ASTANA poi, ci hanno condotto step by step al risultato finale.</p>\n\n<p>Il casco più veloce ed allo stesso tempo più ventilato è arrivato.</p>\n\n<p>BENVENUTO AIR ATLAS!</p>\n\n{% else %}\n\n<h4>Performance, not just aerodynamics</h4>\n\n<p>The computer aerodynamic simulations, the numerous tests in the wind tunnel, the collaboration with the ASTANA Team, led us step-by-step to this amazing final result.</p>\n<p>The fastest, and at the same time most ventilated, helmet has arrived.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>PERFORMANCE, NON SOLO AERODINAMICA<\/h4>\n\n<p>Le simulazioni aerodinamiche a computer prima, i numerosi test in galleria del vento, la collaborazione con Vincenzo NIBALI e il Team ASTANA poi, ci hanno condotto step by step al risultato finale.<\/p>\n\n<p>Il casco più veloce ed allo stesso tempo più ventilato è arrivato.<\/p>\n\n<p>BENVENUTO AIR ATLAS!<\/p>\n\n{% else %}\n\n<h4>Performance, not just aerodynamics<\/h4>\n\n<p>The computer aerodynamic simulations, the numerous tests in the wind tunnel, the collaboration with the ASTANA Team, led us step-by-step to this amazing final result.<\/p>\n<p>The fastest, and at the same time most ventilated, helmet has arrived.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -282,9 +299,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-atlas-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-atlas-7.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770229895383__1c954f02-35e1-4bb9-8056-8d9238a5f418-16830813192d22d6d3-1": {
@@ -300,9 +316,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-atlas-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/air-atlas-6.jpg",
+            "overlay_opacity": 0
           }
         },
         "94882ebe-bec8-44fd-b9c0-3356790cf4cd": {
@@ -318,9 +333,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-atlas-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-atlas-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "17d4ff73-3379-41fd-b7dc-23a2240789fd": {
@@ -336,9 +350,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-atlas-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-atlas-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "6ea2b281-93c8-43e8-a3d5-b22232bd5fb3": {
@@ -354,9 +367,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-atlas-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-atlas-5.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -381,26 +393,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_JwNHU7": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_JwNHU7"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_JwNHU7"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

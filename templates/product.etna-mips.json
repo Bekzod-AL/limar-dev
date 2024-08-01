@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_MzXqym": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_MzXqym": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_BKDMPR": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "0f9616a7-4162-4d8f-8dcc-ff754dfa26e2": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "3f69e618-48f8-4f5f-beb5-e55a1179a814": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770230419671__3f69e618-48f8-4f5f-beb5-e55a1179a814-16830862560c1edf26-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">ETNA</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">BE BRAVE, BE SAFE.</h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">ETNA<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">BE BRAVE, BE SAFE.<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16770230419671__3f69e618-48f8-4f5f-beb5-e55a1179a814-16830862560c1edf26-1"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -108,7 +125,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "https://vimeo.com/835821566",
+        "video_url": "https:\/\/vimeo.com\/835821566",
         "divider": false
       }
     },
@@ -118,7 +135,7 @@
         "template--19187613368662__fb299038-a938-45f3-adbd-913472f629a2-1688111824c8973252-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Che tu sia un appassionato di Enduro oppure un trail rider di nuova generazione, se cerchi esperienze mozzafiato da vivere in totale sicurezza, su sentieri nella foresta così come nei dirt jump parks, non puoi fare a meno Etna, nuovo arrivo nella collezione E_volution, pensato per chi ama uscite tecniche combinate ad avventure adrenaliniche e puro divertimento. </p>\n\n<p>Cosa c’è di meglio di una giornata immerso tra panorami straordinari, percorrendo trail altamente tecnici, salite e discese, magari in compagnia dei tuoi amici o di altre persone che condividono la tua stessa passione?\n</p>\n\n<p>Etna nasce per rispondere a tutte le esigenze di confort e protezione che cerca un dirt biker:\n</p>\n\n{% else %}\n\n<p>Whether you are an Enduro enthusiast or a new generation trail rider, if you are looking for breathtaking experiences in total safety, on forest trails as well as in dirt jump parks, you cannot do without Etna. Etna is the new entry of the Limar E_volution collection, designed for those who love technical rides combined with adrenaline-pumping adventures and pure fun.</p>\n<p>What could be better than a day surrounded by extraordinary landscapes, exploring highly technical trails, climbs and descents, perhaps in the company of your friends and those who share your passion?</p>\n<p>Etna has been developed to meet all the comfort and protection needs that a dirt biker is looking for:\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Che tu sia un appassionato di Enduro oppure un trail rider di nuova generazione, se cerchi esperienze mozzafiato da vivere in totale sicurezza, su sentieri nella foresta così come nei dirt jump parks, non puoi fare a meno Etna, nuovo arrivo nella collezione E_volution, pensato per chi ama uscite tecniche combinate ad avventure adrenaliniche e puro divertimento. <\/p>\n\n<p>Cosa c’è di meglio di una giornata immerso tra panorami straordinari, percorrendo trail altamente tecnici, salite e discese, magari in compagnia dei tuoi amici o di altre persone che condividono la tua stessa passione?\n<\/p>\n\n<p>Etna nasce per rispondere a tutte le esigenze di confort e protezione che cerca un dirt biker:\n<\/p>\n\n{% else %}\n\n<p>Whether you are an Enduro enthusiast or a new generation trail rider, if you are looking for breathtaking experiences in total safety, on forest trails as well as in dirt jump parks, you cannot do without Etna. Etna is the new entry of the Limar E_volution collection, designed for those who love technical rides combined with adrenaline-pumping adventures and pure fun.<\/p>\n<p>What could be better than a day surrounded by extraordinary landscapes, exploring highly technical trails, climbs and descents, perhaps in the company of your friends and those who share your passion?<\/p>\n<p>Etna has been developed to meet all the comfort and protection needs that a dirt biker is looking for:\n<\/p>\n\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
@@ -139,7 +156,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/etna-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/etna-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -148,7 +165,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>La calzata è perfetta, il casco non si muove, è ultra leggero, ti dimentichi di averlo in testa. Lo sgancio è magnetico Fidlock, allacci e slacci il casco con una sola mano.</p>\n\n{% else %}\n\n<p>The fit is perfect, the helmet doesn't move, it's ultra-light, so to forget you have it on your head. The release is by magnetic FidLock; you can fasten and unfasten the helmet just with one hand.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>La calzata è perfetta, il casco non si muove, è ultra leggero, ti dimentichi di averlo in testa. Lo sgancio è magnetico Fidlock, allacci e slacci il casco con una sola mano.<\/p>\n\n{% else %}\n\n<p>The fit is perfect, the helmet doesn't move, it's ultra-light, so to forget you have it on your head. The release is by magnetic FidLock; you can fasten and unfasten the helmet just with one hand.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -156,7 +173,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/etna-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/etna-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -165,7 +182,7 @@
         "69797353-4569-44c3-a9b2-009f4158e6a3": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di ventilazione è studiato per consentire all’aria di circolare liberamente all’interno, per mantenere la testa sempre fresca.</p>\n\n{% else %}\n\n<p>The ventilation system is designed to allow air to circulate freely inside, while keeping the head cool at all times.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di ventilazione è studiato per consentire all’aria di circolare liberamente all’interno, per mantenere la testa sempre fresca.<\/p>\n\n{% else %}\n\n<p>The ventilation system is designed to allow air to circulate freely inside, while keeping the head cool at all times.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -173,7 +190,7 @@
         "8186f6f0-42d4-4352-b930-9e100f3d0b37": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/etna-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/etna-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -182,7 +199,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il Sistema MIPS Node, con morbide e ampie imbottiture interne offre confort e sicurezza totali.</p>\n\n{% else %}\n\n<p>The MIPS Node System, with soft and large internal padding, offers total comfort and safety.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il Sistema MIPS Node, con morbide e ampie imbottiture interne offre confort e sicurezza totali.<\/p>\n\n{% else %}\n\n<p>The MIPS Node System, with soft and large internal padding, offers total comfort and safety.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -190,7 +207,7 @@
         "5dc6746e-3b46-436f-a535-8639bb20c47d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/etna-emotion-4.jpg",
+            "image": "shopify:\/\/shop_images\/etna-emotion-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -199,7 +216,7 @@
         "5fc23b3f-58e0-4157-ba8f-8005d680089d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Ma l’elemento più innovativo è il sistema di copertura PROXEAR®,  progettato per estendere la protezione a orecchie e articolazione temporomandibolare. Ti sentirai avvolto in un confort eccezionale, al sicuro da colpi o urti accidentali, totalmente protetto in caso di caduta. </p>\n\n{% else %}\n\n<p>The most innovative element is though the PROXEAR® coverage system, designed to extend protection to the ears and the temporomandibular joint. You will feel wrapped in exceptional comfort, safe from accidental blows or crashes, totally protected in the event of a fall.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Ma l’elemento più innovativo è il sistema di copertura PROXEAR®,  progettato per estendere la protezione a orecchie e articolazione temporomandibolare. Ti sentirai avvolto in un confort eccezionale, al sicuro da colpi o urti accidentali, totalmente protetto in caso di caduta. <\/p>\n\n{% else %}\n\n<p>The most innovative element is though the PROXEAR® coverage system, designed to extend protection to the ears and the temporomandibular joint. You will feel wrapped in exceptional comfort, safe from accidental blows or crashes, totally protected in the event of a fall.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -237,9 +254,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-1": {
@@ -255,9 +271,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-5.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770230419671__70eb9cb0-8faa-4bd1-9b73-7bd3d0968e8e-16830867288295517b-0": {
@@ -273,9 +288,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "2c0c7975-6706-4c3d-9f83-13bb62fabd6d": {
@@ -291,9 +305,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-7.jpg",
+            "overlay_opacity": 0
           }
         },
         "494e8da3-b1fb-41f9-be1c-3df8f048a93a": {
@@ -309,9 +322,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/etna-gallery-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/etna-gallery-2.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -335,26 +347,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_RQjniL": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_RQjniL"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_RQjniL"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

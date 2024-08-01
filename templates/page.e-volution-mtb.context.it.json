@@ -1,13 +1,16 @@
 {
   "parent": "page.e-volution-mtb.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "1654782680d01d0885": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "1654782680675f9668-1": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">E_VOLUTION</h2>\n<p>&nbsp;</p>\n<p>E come Evoluzione, E come Enduro, E come Energia, E come Emozioni forti, E come Evasione, E come Ecologia.</br></br>\nTutto ciò che vuoi conoscere sui nuovi prodotti Limar per il mondo Enduro, E-Bike e All Mountain lo scopri nella nuova collezione E_VOLUTION\n</p>\n<p>&nbsp;</p>\n{% else %}\n<h2 class=\"cus-con-subtitle\">E_VOLUTION</h2>\n<p>&nbsp;</p>\n<p> E for Evolution, E for Enduro, E for Electric (or Energy), E for strong Emotions, E for Entertainment, E for  Environment.</br></br>\nAll you want to know on the new Limar products for the Enduro, E-Bike e All Mountain world to be discovered within the new E_VOLUTION Limar collection\n</p>\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">E_VOLUTION<\/h2>\n<p>&nbsp;<\/p>\n<p>E come Evoluzione, E come Enduro, E come Energia, E come Emozioni forti, E come Evasione, E come Ecologia.<\/br><\/br>\nTutto ciò che vuoi conoscere sui nuovi prodotti Limar per il mondo Enduro, E-Bike e All Mountain lo scopri nella nuova collezione E_VOLUTION\n<\/p>\n<p>&nbsp;<\/p>\n{% else %}\n<h2 class=\"cus-con-subtitle\">E_VOLUTION<\/h2>\n<p>&nbsp;<\/p>\n<p> E for Evolution, E for Enduro, E for Electric (or Energy), E for strong Emotions, E for Entertainment, E for  Environment.<\/br><\/br>\nAll you want to know on the new Limar products for the Enduro, E-Bike e All Mountain world to be discovered within the new E_VOLUTION Limar collection\n<\/p>\n{% endif %}"
           }
         }
       }
@@ -19,7 +22,8 @@
         "rows": 1,
         "view_all": true
       },
-      "blocks": {}
+      "blocks": {
+      }
     }
   }
 }

@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_F4qBfU": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_F4qBfU": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "sizing-chart",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "494b2cf7-a1da-4eb6-b040-416d795a7fbc": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">HORUS</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">EXPLORE YOUR SURROUNDING BEAUTY</h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">HORUS<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">EXPLORE YOUR SURROUNDING BEAUTY<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -110,7 +127,7 @@
         "19433246-66e6-4514-a0e1-967ac20d5624": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/horus-detail-1.jpg",
+            "image": "shopify:\/\/shop_images\/horus-detail-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -119,7 +136,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Di chiara ispirazione casual e vagamente retrò, questo nuovo modello full frame dal design lineare è particolarmente rivolto al mondo gravel pur adattandosi ad ogni genere e disciplina. </p>\n\n<p>La mono-lente ampia consente una maggiore visone periferica, funge da vero e proprio parabrezza proteggendo gli occhi oltre che dal sole, da vento, polvere, insetti e molto altro.</p>\n\n{% else %}\n\n<p> With its casual and vaguely retro inspiration, this new full-frame model has a linear design particularly directed to the gravel world, even if suitable for every cycling category and discipline.</p>\n\n<p>The large mono-lens allows greater peripheral vision, acting as a real windshield to protect the eyes from sun, wind, dust, insects and much more. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Di chiara ispirazione casual e vagamente retrò, questo nuovo modello full frame dal design lineare è particolarmente rivolto al mondo gravel pur adattandosi ad ogni genere e disciplina. <\/p>\n\n<p>La mono-lente ampia consente una maggiore visone periferica, funge da vero e proprio parabrezza proteggendo gli occhi oltre che dal sole, da vento, polvere, insetti e molto altro.<\/p>\n\n{% else %}\n\n<p> With its casual and vaguely retro inspiration, this new full-frame model has a linear design particularly directed to the gravel world, even if suitable for every cycling category and discipline.<\/p>\n\n<p>The large mono-lens allows greater peripheral vision, acting as a real windshield to protect the eyes from sun, wind, dust, insects and much more. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -127,7 +144,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -135,7 +152,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/horus-detail-2.jpg",
+            "image": "shopify:\/\/shop_images\/horus-detail-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -144,7 +161,7 @@
         "69797353-4569-44c3-a9b2-009f4158e6a3": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Dotato di grande stabilità grazie a nasello e terminali totalmente regolabili, possiede un telaio in Grilamid TR90, leggero e ultraresistente, biologicamente compatibile e sicuro al contatto con la pelle anche per uso molto prolungato. </p>\n\n<p>Il sistema di ventilazione air flow consente all’aria di circolare liberamente evitando l’appannamento della lente.\n</p>\n\n{% else %}\n\n<p>While offering great stability thanks to the fully adjustable nose piece and tips, it has a Grilamid TR90 frame, light and ultra-resistant, biologically compatible and safe in contact with the skin, even for very prolonged use.</p>\n\n<p>The air flow ventilation system allows air to circulate free while preventing voiding fogging of the lens.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Dotato di grande stabilità grazie a nasello e terminali totalmente regolabili, possiede un telaio in Grilamid TR90, leggero e ultraresistente, biologicamente compatibile e sicuro al contatto con la pelle anche per uso molto prolungato. <\/p>\n\n<p>Il sistema di ventilazione air flow consente all’aria di circolare liberamente evitando l’appannamento della lente.\n<\/p>\n\n{% else %}\n\n<p>While offering great stability thanks to the fully adjustable nose piece and tips, it has a Grilamid TR90 frame, light and ultra-resistant, biologically compatible and safe in contact with the skin, even for very prolonged use.<\/p>\n\n<p>The air flow ventilation system allows air to circulate free while preventing voiding fogging of the lens.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -152,7 +169,7 @@
         "d459784e-7d77-42d4-a281-1d4d2a658d60": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -160,7 +177,7 @@
         "a77c814a-25b8-4b48-8552-ae2ab5cf1270": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/horus-detail-3.jpg",
+            "image": "shopify:\/\/shop_images\/horus-detail-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -169,7 +186,7 @@
         "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>HORUS PH</h4>\n\n<p>La versione PH di Horus è dotata di lente unica Fotocromatica.</p>\n\n<p>Le lenti fotocromatiche Limar si adattano automaticamente all'intensità della luce solare che raggiunge l’occhio e sono la soluzione ideale per gli sport all'aria aperta in qualsiasi condizione di luce.</p>\n{% else %}\n\n\n\n<h4>HORUS PH</h4>\n\n<p>The PH version of model HORUS is supplied with a single photochromic lens.</p>\n\n<p>Limar photochromic lens automatically adjust to the sun light intensity that reaches the eye, and are the ideal solution for outdoor sports in any light condition.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>HORUS PH<\/h4>\n\n<p>La versione PH di Horus è dotata di lente unica Fotocromatica.<\/p>\n\n<p>Le lenti fotocromatiche Limar si adattano automaticamente all'intensità della luce solare che raggiunge l’occhio e sono la soluzione ideale per gli sport all'aria aperta in qualsiasi condizione di luce.<\/p>\n{% else %}\n\n\n\n<h4>HORUS PH<\/h4>\n\n<p>The PH version of model HORUS is supplied with a single photochromic lens.<\/p>\n\n<p>Limar photochromic lens automatically adjust to the sun light intensity that reaches the eye, and are the ideal solution for outdoor sports in any light condition.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -207,9 +224,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/horus-gallery-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/horus-gallery-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770229895383__1c954f02-35e1-4bb9-8056-8d9238a5f418-16830813192d22d6d3-1": {
@@ -225,9 +241,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/horus-gallery-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/horus-gallery-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "94882ebe-bec8-44fd-b9c0-3356790cf4cd": {
@@ -243,9 +258,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/horus-gallery-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/horus-gallery-3.jpg",
+            "overlay_opacity": 0
           }
         },
         "17d4ff73-3379-41fd-b7dc-23a2240789fd": {
@@ -261,9 +275,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/horus-gallery-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/horus-gallery-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "6ea2b281-93c8-43e8-a3d5-b22232bd5fb3": {
@@ -279,9 +292,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/horus-gallery-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/horus-gallery-5.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -305,26 +317,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_Eq63GE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_Eq63GE"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_Eq63GE"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

@@ -3,18 +3,32 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "disabled": true, "settings": {} },
-        "judge_me_reviews_preview_badge_RKLdWH": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "price": {
+          "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
-        "text_iHjkQD": { "type": "text", "settings": { "text": "" } },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_RKLdWH": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "text_iHjkQD": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_BkpEVw": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -37,18 +51,20 @@
         "fd829e38-0545-4d6e-9cc4-64a72bf4699d": {
           "type": "custom",
           "settings": {
-            "code": "<p style=\"font-size:12px;\">AVALABLE FROM AUGUST 2024</br>\n2-YEAR PRODUCT WARRANTY</p>"
+            "code": "<p style=\"font-size:12px;\">AVALABLE FROM AUGUST 2024<\/br>\n2-YEAR PRODUCT WARRANTY<\/p>"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
@@ -57,11 +73,15 @@
           "disabled": true,
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -86,20 +106,21 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "165341703533e87775": {
       "type": "ct-prod-tech-specs",
       "disabled": true,
       "settings": {
-        "ct_tech_specs": "<table>\n<tbody>\n<tr>\n<th>Technology</th>\n<td>\n<p> Monoshell in-mould – SUPERLIGHT technology</p>\n</td>\n</tr>\n<tr>\n<th>Fit</th>\n<td>\n<p>Extended coverage, compact design</p>\n</td>\n</tr>\n<tr>\n<th>Pads</th>\n<td>\n<p> Non allergenic washable comfort pads </p>\n</td>\n</tr>\n<tr>\n<th>Size (cm)</th>\n<td>\n<p>M (53-57), L (57-61)</p>\n</td>\n</tr>\n<tr>\n<th>Weight (g)</th>\n<td>\n<p>Medium - 260gr | Large - 285gr</p>\n</td>\n</tr>\n<tr>\n<th>Air Vents</th>\n<td>\n<p> 22 air vents </p>\n</td>\n</tr>\n<tr>\n<th>Helmet LED Light</th>\n<td>\n<p>Available as an accessory</p>\n</td>\n</tr>\n<tr>\n<th>Ideal For</th>\n<td>\n<p>All mountain</p>\n</td>\n</tr>\n</tbody>\n</table>"
+        "ct_tech_specs": "<table>\n<tbody>\n<tr>\n<th>Technology<\/th>\n<td>\n<p> Monoshell in-mould – SUPERLIGHT technology<\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Fit<\/th>\n<td>\n<p>Extended coverage, compact design<\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Pads<\/th>\n<td>\n<p> Non allergenic washable comfort pads <\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Size (cm)<\/th>\n<td>\n<p>M (53-57), L (57-61)<\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Weight (g)<\/th>\n<td>\n<p>Medium - 260gr | Large - 285gr<\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Air Vents<\/th>\n<td>\n<p> 22 air vents <\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Helmet LED Light<\/th>\n<td>\n<p>Available as an accessory<\/p>\n<\/td>\n<\/tr>\n<tr>\n<th>Ideal For<\/th>\n<td>\n<p>All mountain<\/p>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
       }
     },
     "3a530c75-b0e4-4ca7-8981-9abff695f2eb": {
@@ -108,7 +129,7 @@
         "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">ALIEN</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">DEFY THE WIND, CONQUER THE TIME.</h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">ALIEN<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">DEFY THE WIND, CONQUER THE TIME.<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -117,7 +138,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<p></p>",
+            "code": "<p><\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -142,7 +163,7 @@
       "disabled": true,
       "settings": {
         "title": "",
-        "video_url": "https://youtu.be/UficDEShv28",
+        "video_url": "https:\/\/youtu.be\/UficDEShv28",
         "divider": false
       }
     },
@@ -156,7 +177,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://cdn.shopify.com/videos/c/o/v/1deb0e1420704022bad19e70012f687d.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1deb0e1420704022bad19e70012f687d.mp4",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "auto"
@@ -168,12 +189,16 @@
         "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-image-1": {
           "type": "image",
           "disabled": true,
-          "settings": { "link": "", "width": "50%", "alignment": "center" }
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
         },
         "template--16826808369367__901940ce-fe9c-4c18-a3db-1ecc40213764-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n<h4>ALIEN, DOVE L'INNOVAZIONE AERODINAMICA INCONTRA L'EFFICIENZA UMANA. PROGETTATO PER SPOSTARE L'ARIA CON PRECISIONE CHIRURGICA, RIDUCENDO LA RESISTENZA E TAGLIANDO SECONDI CRUCIALI NELLA LOTTA CONTRO IL TEMPO.</H4>\n<p>Alien, il nuovo casco per Time Trial di Limar, rappresenta un notevole avanzamento nel campo aerodinamico, non solo per il suo design innovativo e l'uso di tecnologie avanzate, ma anche per l'approccio meticoloso adottato nei suoi test aerodinamici. Oltre agli esami in condizioni ideali, abbiamo esteso i test a scenari realistici, simulando le condizioni di vento che si incontrano comunemente nelle gare a cronometro su strada, con angolazioni del vento variabili tra i 5 e i 10 gradi. Questi test hanno rivelato che \"Alien\" eccelle particolarmente in queste condizioni reali, superando le aspettative e offrendo prestazioni ancora migliori rispetto ai risultati ottenuti nei test CFD e in galleria del vento. Questo conferma che \"Alien\" non è solo ottimizzato per le condizioni ideali di laboratorio, ma è veramente adattato alle sfide dinamiche del ciclismo su strada, offrendo ai ciclisti un vantaggio aerodinamico ineguagliabile.</p>\n\n{%else%}\n\n<h4>ALIEN, WHERE AERODYNAMIC INNOVATION MEETS HUMAN EFFICIENCY. DESIGNED TO MOVE AIR WITH SURGICAL PRECISION, REDUCING DRAG AND CUTTING CRUCIAL SECONDS IN THE FIGHT AGAINST TIME.</h4>\n\n<p>Alien, Limar's new Time Trial helmet, represents a remarkable advancement in aerodynamics, not only because of its innovative design and use of advanced technologies, but also because of the meticulous approach taken in its aerodynamic testing. In addition to examinations under ideal conditions, we extended the tests to realistic scenarios, simulating wind conditions commonly encountered in time trial road races, with wind angles varying between 5 and 10 degrees. These tests revealed that “Alien” particularly excels in these real-world conditions, exceeding expectations and delivering even better performance than the results obtained in CFD and wind tunnel tests. This confirms that “Alien” is not only optimized for ideal laboratory conditions, but is truly adapted to the dynamic challenges of road cycling, offering cyclists an unrivaled aerodynamic advantage.\n</p>\n\n{%endif%}",
+            "code": "{% if shop.locale == 'it' %}\n<h4>ALIEN, DOVE L'INNOVAZIONE AERODINAMICA INCONTRA L'EFFICIENZA UMANA. PROGETTATO PER SPOSTARE L'ARIA CON PRECISIONE CHIRURGICA, RIDUCENDO LA RESISTENZA E TAGLIANDO SECONDI CRUCIALI NELLA LOTTA CONTRO IL TEMPO.<\/H4>\n<p>Alien, il nuovo casco per Time Trial di Limar, rappresenta un notevole avanzamento nel campo aerodinamico, non solo per il suo design innovativo e l'uso di tecnologie avanzate, ma anche per l'approccio meticoloso adottato nei suoi test aerodinamici. Oltre agli esami in condizioni ideali, abbiamo esteso i test a scenari realistici, simulando le condizioni di vento che si incontrano comunemente nelle gare a cronometro su strada, con angolazioni del vento variabili tra i 5 e i 10 gradi. Questi test hanno rivelato che \"Alien\" eccelle particolarmente in queste condizioni reali, superando le aspettative e offrendo prestazioni ancora migliori rispetto ai risultati ottenuti nei test CFD e in galleria del vento. Questo conferma che \"Alien\" non è solo ottimizzato per le condizioni ideali di laboratorio, ma è veramente adattato alle sfide dinamiche del ciclismo su strada, offrendo ai ciclisti un vantaggio aerodinamico ineguagliabile.<\/p>\n\n{%else%}\n\n<h4>ALIEN, WHERE AERODYNAMIC INNOVATION MEETS HUMAN EFFICIENCY. DESIGNED TO MOVE AIR WITH SURGICAL PRECISION, REDUCING DRAG AND CUTTING CRUCIAL SECONDS IN THE FIGHT AGAINST TIME.<\/h4>\n\n<p>Alien, Limar's new Time Trial helmet, represents a remarkable advancement in aerodynamics, not only because of its innovative design and use of advanced technologies, but also because of the meticulous approach taken in its aerodynamic testing. In addition to examinations under ideal conditions, we extended the tests to realistic scenarios, simulating wind conditions commonly encountered in time trial road races, with wind angles varying between 5 and 10 degrees. These tests revealed that “Alien” particularly excels in these real-world conditions, exceeding expectations and delivering even better performance than the results obtained in CFD and wind tunnel tests. This confirms that “Alien” is not only optimized for ideal laboratory conditions, but is truly adapted to the dynamic challenges of road cycling, offering cyclists an unrivaled aerodynamic advantage.\n<\/p>\n\n{%endif%}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -196,7 +221,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<video autoplay loop controls=\"false\"  class=\"video\">\n <source src=\"https://cdn.shopify.com/videos/c/o/v/0003275fe60d4b01bdf9a589aa1a69b7.mp4\" type=\"video/mp4\">\n</video>",
+            "code": "<video autoplay loop controls=\"false\"  class=\"video\">\n <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0003275fe60d4b01bdf9a589aa1a69b7.mp4\" type=\"video\/mp4\">\n<\/video>",
             "width": "66%",
             "alignment": "top-middle"
           }
@@ -204,7 +229,7 @@
         "image_qmHLRA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alien-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/alien-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -213,14 +238,20 @@
         "liquid_WDRMC6": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>CON LA TECNOLOGIA CFD ALL’AVANGUARDIA E LA VALIDAZIONE IN GALLERIA DEL VENTO A SILVERSTONE, ALIEN RIDEFINISCE LE REGOLE DEL GIOCO NEL CICLISMO A CRONOMETRO, OFFRENDO VANTAGGI AERODINAMICI UNICI CHE LAVORANO IN ARMONIA CON IL CORPO DEL CORRIDORE.</H4>\n<p>L’elemento distintivo di \"Alien\" è il design della calotta superiore, in particolare in due aree ben distinte: la parte laterale e la parte centrale. \nSui lati Alien è progettato per generare un effetto aerodinamico noto come Outwash, molto utilizzato anche in Formula Uno. Questa tecnica consente di deviare l'aria che colpisce l’atleta, spostandola lateralmente rispetto alla figura ed in particolare allontanandola dalle spalle.</p>\n\n{%else%}\n\n\n<h4>WITH CUTTING EDGE CFD TECHNOLOGY AND WIND TUNNEL VALIDATION AT SILVERSTONE, ALIEN REDEFINES THE RULES OF THE GAME IN TIME TRIAL CYCLING, OFFERING UNIQUE AERODYNAMIC ADVANTAGES THAT WORK IN HARMONY WITH THE RIDER'S BODY.</H4>\n<p>The distinctive feature of “Alien” is the design of the upper shell, particularly in two distinct areas: the side and the middle. </br>\nOn the sides Alien is designed to generate an aerodynamic effect known as Outwash, also widely used in Formula One. This technique allows the air that hits the athlete to be deflected, moving it laterally relative to the figure and away from the shoulders.</p>\n{%endif%}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>CON LA TECNOLOGIA CFD ALL’AVANGUARDIA E LA VALIDAZIONE IN GALLERIA DEL VENTO A SILVERSTONE, ALIEN RIDEFINISCE LE REGOLE DEL GIOCO NEL CICLISMO A CRONOMETRO, OFFRENDO VANTAGGI AERODINAMICI UNICI CHE LAVORANO IN ARMONIA CON IL CORPO DEL CORRIDORE.<\/H4>\n<p>L’elemento distintivo di \"Alien\" è il design della calotta superiore, in particolare in due aree ben distinte: la parte laterale e la parte centrale. \nSui lati Alien è progettato per generare un effetto aerodinamico noto come Outwash, molto utilizzato anche in Formula Uno. Questa tecnica consente di deviare l'aria che colpisce l’atleta, spostandola lateralmente rispetto alla figura ed in particolare allontanandola dalle spalle.<\/p>\n\n{%else%}\n\n\n<h4>WITH CUTTING EDGE CFD TECHNOLOGY AND WIND TUNNEL VALIDATION AT SILVERSTONE, ALIEN REDEFINES THE RULES OF THE GAME IN TIME TRIAL CYCLING, OFFERING UNIQUE AERODYNAMIC ADVANTAGES THAT WORK IN HARMONY WITH THE RIDER'S BODY.<\/H4>\n<p>The distinctive feature of “Alien” is the design of the upper shell, particularly in two distinct areas: the side and the middle. <\/br>\nOn the sides Alien is designed to generate an aerodynamic effect known as Outwash, also widely used in Formula One. This technique allows the air that hits the athlete to be deflected, moving it laterally relative to the figure and away from the shoulders.<\/p>\n{%endif%}",
             "width": "33%",
             "alignment": "top-middle"
           }
         }
       },
-      "block_order": ["liquid_g6M6jg", "image_qmHLRA", "liquid_WDRMC6"],
-      "custom_css": [".video {aspect-ratio: 16 / 9; width: 100%;}"],
+      "block_order": [
+        "liquid_g6M6jg",
+        "image_qmHLRA",
+        "liquid_WDRMC6"
+      ],
+      "custom_css": [
+        ".video {aspect-ratio: 16 \/ 9; width: 100%;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -234,7 +265,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9lLnLWYFsyE?si=nJTyQSfgvh2OiSwT\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "code": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/9lLnLWYFsyE?si=nJTyQSfgvh2OiSwT\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
             "width": "66%",
             "alignment": "center"
           }
@@ -243,7 +274,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<h4>SUPERLIGHT TECHNOLOGY</H4>\n<p>A value of all Limar helmets, the <b>lightness</b> factor is the heart of every project.</p>\n\n<p>The goal of total protection is always a priority; however, our goal is to offer\nthe lightest and most comfortable product. <b>Livigno weighs only 590 gr in size M.</b></p>",
+            "code": "<h4>SUPERLIGHT TECHNOLOGY<\/H4>\n<p>A value of all Limar helmets, the <b>lightness<\/b> factor is the heart of every project.<\/p>\n\n<p>The goal of total protection is always a priority; however, our goal is to offer\nthe lightest and most comfortable product. <b>Livigno weighs only 590 gr in size M.<\/b><\/p>",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -251,7 +282,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alien-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/alien-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -260,7 +291,7 @@
         "liquid_yh6DXA": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n<p>\nLa parte centrale della calotta superiore, invece, è studiata per creare e mantenere flussi laminari lungo la schiena del ciclista, grazie all'effetto Coanda. Questa area lavora in sinergia con la calotta inferiore, che utilizza lo stesso principio per ridurre le turbolenze nella zona tra casco e spalle e dirigendo l'aria in modo efficiente al di sopra delle stesse, alimenta i flussi generati dalla parte superiore.</br> \nL’insieme di questi due fenomeni che dirigono i flussi d’aria assicurano una riduzione della resistenza e uno scorrimento d'aria ottimale attorno al corpo del ciclista, migliorando le prestazioni aerodinamiche. Questo riduce la resistenza all'avanzamento e migliora l'efficienza aerodinamica, rendendo \"Alien\" un casco realmente innovativo nel panorama del ciclismo a cronometro.\n\n</p>\n\n{%else%}\n\n\n<p>The central part of the upper shell, on the other hand, is designed to create and maintain laminar flow along the rider's back, thanks to the Coanda effect. This area works synergistically with the lower shell, which uses the same principle to reduce turbulence in the area between the helmet and shoulders, and by efficiently directing air above them, it feeds the flow generated by the upper shell.</br>\nThe combination of these two phenomena directing airflow ensures reduced drag and optimal airflow around the cyclist's body, improving aerodynamic performance. This reduces drag and improves aerodynamic efficiency, making “Alien” a truly innovative helmet in time trial cycling.\n</p>\n{%endif%}",
+            "code": "{% if shop.locale == 'it' %}\n<p>\nLa parte centrale della calotta superiore, invece, è studiata per creare e mantenere flussi laminari lungo la schiena del ciclista, grazie all'effetto Coanda. Questa area lavora in sinergia con la calotta inferiore, che utilizza lo stesso principio per ridurre le turbolenze nella zona tra casco e spalle e dirigendo l'aria in modo efficiente al di sopra delle stesse, alimenta i flussi generati dalla parte superiore.<\/br> \nL’insieme di questi due fenomeni che dirigono i flussi d’aria assicurano una riduzione della resistenza e uno scorrimento d'aria ottimale attorno al corpo del ciclista, migliorando le prestazioni aerodinamiche. Questo riduce la resistenza all'avanzamento e migliora l'efficienza aerodinamica, rendendo \"Alien\" un casco realmente innovativo nel panorama del ciclismo a cronometro.\n\n<\/p>\n\n{%else%}\n\n\n<p>The central part of the upper shell, on the other hand, is designed to create and maintain laminar flow along the rider's back, thanks to the Coanda effect. This area works synergistically with the lower shell, which uses the same principle to reduce turbulence in the area between the helmet and shoulders, and by efficiently directing air above them, it feeds the flow generated by the upper shell.<\/br>\nThe combination of these two phenomena directing airflow ensures reduced drag and optimal airflow around the cyclist's body, improving aerodynamic performance. This reduces drag and improves aerodynamic efficiency, making “Alien” a truly innovative helmet in time trial cycling.\n<\/p>\n{%endif%}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -268,7 +299,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alien-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/alien-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -277,7 +308,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n<h4>ALIEN NON È SOLO UN CASCO, È UNA RIVOLUZIONE AERODINAMICA. CON IL SUO DESIGN UNICO A DOPPIA CALOTTA E L'EFFETTO COANDA, GUIDA L'ARIA ATTORNO AL CICLISTA, MINIMIZZANDO LA RESISTENZA E MASSIMIZZANDO LA PERFORMANCE.</h4>\n\n<p>In concreto il vantaggio aerodinamico di Alien, rispetto al suo predecessore Air King Evo, si traduce in un significativo risparmio energetico, offrendo al ciclista un vantaggio di circa 10 watt che gli permette di mantenere velocità elevate con minor sforzo, ottimizzando la prestazione in gara. </p>\n{%else%}\n\n<h4>ALIEN IS NOT JUST A HELMET, IT IS AN AERODYNAMIC REVOLUTION. WITH ITS UNIQUE DOUBLE SHELL DESIGN AND COANDA EFFECT, IT GUIDES AIR AROUND THE RIDER, MINIMIZING DRAG AND MAXIMIZING PERFORMANCE.</h4>\n\n<p>In concrete terms, Alien's aerodynamic advantage over its predecessor Air King Evo translates into significant energy savings, giving the rider an advantage of about 10 watts that allows him or her to maintain high speeds with less effort, optimizing race performance.</p>\n{%endif%}",
+            "code": "{% if shop.locale == 'it' %}\n<h4>ALIEN NON È SOLO UN CASCO, È UNA RIVOLUZIONE AERODINAMICA. CON IL SUO DESIGN UNICO A DOPPIA CALOTTA E L'EFFETTO COANDA, GUIDA L'ARIA ATTORNO AL CICLISTA, MINIMIZZANDO LA RESISTENZA E MASSIMIZZANDO LA PERFORMANCE.<\/h4>\n\n<p>In concreto il vantaggio aerodinamico di Alien, rispetto al suo predecessore Air King Evo, si traduce in un significativo risparmio energetico, offrendo al ciclista un vantaggio di circa 10 watt che gli permette di mantenere velocità elevate con minor sforzo, ottimizzando la prestazione in gara. <\/p>\n{%else%}\n\n<h4>ALIEN IS NOT JUST A HELMET, IT IS AN AERODYNAMIC REVOLUTION. WITH ITS UNIQUE DOUBLE SHELL DESIGN AND COANDA EFFECT, IT GUIDES AIR AROUND THE RIDER, MINIMIZING DRAG AND MAXIMIZING PERFORMANCE.<\/h4>\n\n<p>In concrete terms, Alien's aerodynamic advantage over its predecessor Air King Evo translates into significant energy savings, giving the rider an advantage of about 10 watts that allows him or her to maintain high speeds with less effort, optimizing race performance.<\/p>\n{%endif%}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -313,9 +344,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/alien-banner2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "20% 50%"
+            "image": "shopify:\/\/shop_images\/alien-banner2.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -333,33 +363,47 @@
     },
     "169237396398023e90": {
       "type": "apps",
-      "settings": { "full_width": false, "space_around": true }
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "170862117703e3dd0d": {
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_8z9iDq": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_8z9iDq"],
+      "block_order": [
+        "judge_me_reviews_review_widget_8z9iDq"
+      ],
       "disabled": true,
-      "settings": { "full_width": false, "space_around": true }
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

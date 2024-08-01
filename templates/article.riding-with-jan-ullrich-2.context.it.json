@@ -1,56 +1,65 @@
 {
   "parent": "article.riding-with-jan-ullrich-2.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "ad9148c5-2d46-4a9e-9705-eb35e922e345": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1": {
           "settings": {
-            "text": "<p>Pedalando coi campioni”, Evento ideato dall’ex Pro Ennio Vanotti e organizzato dall’Unione Ciclistica Casazza del presidente Dario Zambetti è ormai giunto alla sua sedicesima edizione. <br/>Si tratta di una manifestazione ciclistica con fine benefico, quest’anno i fondi vengono infatti destinati all’associazione ABE (Associazione Bambino Emopatico) che dal 1981 è al fianco dei giovani affetti da leucemia, tumori, immunodeficienze e patologie ematologiche croniche.<br/><br/>Quando Vanotti chiama sono in tanti a rispondere “presente”, sarà per l’affetto che l’ex professionista di Almenno San Salvatore ha saputo costruirsi negli anni, sarà lo spirito benefico che accomuna tanti bergamaschi e non, sarà soprattutto l’indiscussa attrazione che l’evento esercita: pedalare con un campione del ciclismo quali Gianni Bugno, Gianni Motta, Evgeni Berzin, Claudio Chiappucci, Paolo Savoldelli, Matteo Fagnini (l’uomo dei 200 mt finali per tirare le volate a Mario Cipollini prima e ad Erik Zabel poi nel team D-Telekom), giusto per citarne qualcuno presente… per gli appassionati è indubbiamente un’emozione forte.<br/>Pedalando con i Campioni, una Crono a squadre non competitiva di 17 Km attorno al lago di Endine con ben 110 ex professionisti, capitani di team per complessivi 615 ciclisti di tutte le età.<br/><br/>Questa volta a chiamata risponde anche Limar, con un team capitanato niente meno che da Jan Ullrich, che con Limar ha condiviso numerosissime delle vittorie della sua carriera. <br/>Con noi anche Beppe Guerini suo insostituibile gregario per le tappe di montagna (forte scalatore e quindi ambito gregario, nonché vincitore di diverse corse, fra cui l’indimenticabile tappa sull’Alpe d’Huez del Tour de France del 1999), il suo storico Team Manager Rudy Pevenage, il suo personal manager Mike Baldinger, il sempre presente Emiliano Borgna Presidente di ACSI Ciclismo nonché consolidato amico di Limar. </p>"
+            "text": "<p>Pedalando coi campioni”, Evento ideato dall’ex Pro Ennio Vanotti e organizzato dall’Unione Ciclistica Casazza del presidente Dario Zambetti è ormai giunto alla sua sedicesima edizione. <br\/>Si tratta di una manifestazione ciclistica con fine benefico, quest’anno i fondi vengono infatti destinati all’associazione ABE (Associazione Bambino Emopatico) che dal 1981 è al fianco dei giovani affetti da leucemia, tumori, immunodeficienze e patologie ematologiche croniche.<br\/><br\/>Quando Vanotti chiama sono in tanti a rispondere “presente”, sarà per l’affetto che l’ex professionista di Almenno San Salvatore ha saputo costruirsi negli anni, sarà lo spirito benefico che accomuna tanti bergamaschi e non, sarà soprattutto l’indiscussa attrazione che l’evento esercita: pedalare con un campione del ciclismo quali Gianni Bugno, Gianni Motta, Evgeni Berzin, Claudio Chiappucci, Paolo Savoldelli, Matteo Fagnini (l’uomo dei 200 mt finali per tirare le volate a Mario Cipollini prima e ad Erik Zabel poi nel team D-Telekom), giusto per citarne qualcuno presente… per gli appassionati è indubbiamente un’emozione forte.<br\/>Pedalando con i Campioni, una Crono a squadre non competitiva di 17 Km attorno al lago di Endine con ben 110 ex professionisti, capitani di team per complessivi 615 ciclisti di tutte le età.<br\/><br\/>Questa volta a chiamata risponde anche Limar, con un team capitanato niente meno che da Jan Ullrich, che con Limar ha condiviso numerosissime delle vittorie della sua carriera. <br\/>Con noi anche Beppe Guerini suo insostituibile gregario per le tappe di montagna (forte scalatore e quindi ambito gregario, nonché vincitore di diverse corse, fra cui l’indimenticabile tappa sull’Alpe d’Huez del Tour de France del 1999), il suo storico Team Manager Rudy Pevenage, il suo personal manager Mike Baldinger, il sempre presente Emiliano Borgna Presidente di ACSI Ciclismo nonché consolidato amico di Limar. <\/p>"
           }
         }
       }
     },
     "a9e42438-10e1-4fb1-9736-e7d0c9bbf91f": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1": {
           "settings": {
-            "text": "<p>A proposito di Jan Ullrich<br/>Viste le molteplici vittorie della sua carriera Jan non ha bisogno di presentazioni, ma un aneddoto a noi di Limar fa piacere raccontarlo. <br/><br/>Verso la metà degli anni 90 Limar era balzata agli onori della cronaca ciclistica perché aveva realizzato il primo casco al mondo aerodinamico, leggero e ventilato… l’iconico F104. <br/>Gianni Bugno (Team Polti) fu il primo ad usarlo al Giro delle Fiandre 1994, che vinse con un’indimenticabile volata al fotofinish e poiché allora era ancora diffuso l’uso casco a strisce in pelle, ecco che il nostro casco non passò inosservato per la sua linea e piccola dimensione.<br/>Un successo che aprì la strada ai caschi di protezione in EPS, un casco che piacque da subito ai ciclisti professionisti ed agli amatori.<br/>Nel 1995 al Team Polti si aggiunse anche il Team Gewiss con Evgenii Berzin ed altri campioni, fra i quali Bjarne Riis il quale, nel 1996 passò in veste di capitano al “nascente” team D-Telekom.<br/>A dicembre del 1995 Bjarne telefonò in Limar chiedendo un F104 color “magenta” perché il casco in dotazione al team era alquanto obsoleto e dopo aver usato il nostro…<br/>A gennaio del 1996, Bjarne ritelefonò perché alcuni compagni del Team D-Telekom (Jan Ullrich, Erik Zabel e Udo Bolts), dopo aver provato l’ F104 lo vollero pure loro…<br/>In pratica corsero la stagione 1996 con il F104 (senza logo Limar per ovvi motivi…) e poiché questa scelta non poté passare inosservata, dal 1997 il Team D-Telekom fu “costretto” a cambiare il fornitore/sponsor dei caschi… un cambiamento durato sino al 2003 (poi il Team D-Telekom cessò).</p>"
+            "text": "<p>A proposito di Jan Ullrich<br\/>Viste le molteplici vittorie della sua carriera Jan non ha bisogno di presentazioni, ma un aneddoto a noi di Limar fa piacere raccontarlo. <br\/><br\/>Verso la metà degli anni 90 Limar era balzata agli onori della cronaca ciclistica perché aveva realizzato il primo casco al mondo aerodinamico, leggero e ventilato… l’iconico F104. <br\/>Gianni Bugno (Team Polti) fu il primo ad usarlo al Giro delle Fiandre 1994, che vinse con un’indimenticabile volata al fotofinish e poiché allora era ancora diffuso l’uso casco a strisce in pelle, ecco che il nostro casco non passò inosservato per la sua linea e piccola dimensione.<br\/>Un successo che aprì la strada ai caschi di protezione in EPS, un casco che piacque da subito ai ciclisti professionisti ed agli amatori.<br\/>Nel 1995 al Team Polti si aggiunse anche il Team Gewiss con Evgenii Berzin ed altri campioni, fra i quali Bjarne Riis il quale, nel 1996 passò in veste di capitano al “nascente” team D-Telekom.<br\/>A dicembre del 1995 Bjarne telefonò in Limar chiedendo un F104 color “magenta” perché il casco in dotazione al team era alquanto obsoleto e dopo aver usato il nostro…<br\/>A gennaio del 1996, Bjarne ritelefonò perché alcuni compagni del Team D-Telekom (Jan Ullrich, Erik Zabel e Udo Bolts), dopo aver provato l’ F104 lo vollero pure loro…<br\/>In pratica corsero la stagione 1996 con il F104 (senza logo Limar per ovvi motivi…) e poiché questa scelta non poté passare inosservata, dal 1997 il Team D-Telekom fu “costretto” a cambiare il fornitore\/sponsor dei caschi… un cambiamento durato sino al 2003 (poi il Team D-Telekom cessò).<\/p>"
           }
         }
       }
     },
     "633b4516-3bda-4093-8b2d-8bebf83676df": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e": {
           "settings": {
-            "text": "<p>Ancora oggi Jan usa il casco Limar e l’evento di Casazza è stato per noi l’occasione per incontrarci, ricordando i successi, aneddoti e curiosi retroscena, pedalando insieme. <br/><br/>Abbiamo ritrovato dopo tanti anni Jan sereno, simpaticissimo e disponibile con i tantissimi fan che gli hanno chiesto foto e autografi. Ullrich ha baciato la foto del Pirata Marco Pantani col quale ingaggiò numerose splendide sfide al Tour de France.</p>"
+            "text": "<p>Ancora oggi Jan usa il casco Limar e l’evento di Casazza è stato per noi l’occasione per incontrarci, ricordando i successi, aneddoti e curiosi retroscena, pedalando insieme. <br\/><br\/>Abbiamo ritrovato dopo tanti anni Jan sereno, simpaticissimo e disponibile con i tantissimi fan che gli hanno chiesto foto e autografi. Ullrich ha baciato la foto del Pirata Marco Pantani col quale ingaggiò numerose splendide sfide al Tour de France.<\/p>"
           }
         }
       }
     },
     "14f6a182-cb0b-4827-a8f3-73ee8b2f21d8": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-text-1": {
           "settings": {
-            "text": "<p>Cosa resta di questa memorabile giornata? <br/>A noi di Limar, sicuramente forte Il desiderio di vivere altre emozioni e di incontrare ancora lui e tutti i campioni che con Limar hanno fatto la storia del ciclismo. <br/><br/>È un desiderio portatore di una promessa a tutti gli appassionati ciclisti del Limar Club…<br/>seguiteci perché arriveranno altre occasioni per incontrarci e condividere i miti del ciclismo. <br/>Alla prossima!</p>"
+            "text": "<p>Cosa resta di questa memorabile giornata? <br\/>A noi di Limar, sicuramente forte Il desiderio di vivere altre emozioni e di incontrare ancora lui e tutti i campioni che con Limar hanno fatto la storia del ciclismo. <br\/><br\/>È un desiderio portatore di una promessa a tutti gli appassionati ciclisti del Limar Club…<br\/>seguiteci perché arriveranno altre occasioni per incontrarci e condividere i miti del ciclismo. <br\/>Alla prossima!<\/p>"
           }
         }
       }
     },
     "cf89e3c7-9683-4905-8445-3617302c548a": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "template--19731996639574__cf89e3c7-9683-4905-8445-3617302c548a-image-1": {
-          "settings": { "top_subheading": "PEDALANDO CON..." }
+          "settings": {
+            "top_subheading": "PEDALANDO CON..."
+          }
         }
       }
     }

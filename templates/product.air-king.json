@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_CwHEb9": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_CwHEb9": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "sizing-chart",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "beaf13e7-d17f-4761-b73c-c1580e32c751": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16755666747607__c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8-16827100104f05a019-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR KING EVO</h2>\n<h2 class=\"cus-con-subtitle\" \"> BEYOND YOUR SPEED LIMITS </h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR KING EVO<\/h2>\n<h2 class=\"cus-con-subtitle\" \"> BEYOND YOUR SPEED LIMITS <\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16755666747607__c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8-16827100104f05a019-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -110,7 +127,7 @@
         "6689c008-5030-4434-bb19-45277a186872": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL DNA DI LIMAR</h4>\n\n<p>La collaborazione con i professionisti è sempre stata parte del DNA di LIMAR e Limar è stata la prima azienda a sponsorizzare una squadra ciclistica pro. I consigli dei campioni che hanno testato i caschi durante le competizioni, hanno permesso di sviluppare caschi basati sulle reali esigenze dei ciclisti professionisti, estremamente esigenti in termini di comfort, ventilazione e, soprattutto, di prestazioni.</p>\n\n<h4>COME NASCE AIR KING EVO</h4>\n\n<p>Il nuovo Air king Evo nasce dalla consapevolezza di Limar e degli ingegneri e tecnici del Team Astana che non c’è mai fine all’evoluzione e ogni limite può essere superato. L’atleta lavora su ogni minimo dettaglio per migliorare la performance; ecco perché la forma del nuovo Air King Evo si è plasmata sul corpo dell’atleta divenendo un tutt’uno aerodinamico che ha superato tutti i traguardi precedentemente raggiunti, facendo risparmiare dai 5 agli 8 watt rispetto ad Air King.</p>\n\n<p>Air King Evo è stato testato nella Galleria del Vento presso il laboratorio Newton di Milano, con Vincenzo Nibali e David De la Cruz.</p>\n\n<p>&nbsp;</p>\n\n\n{% else %}\n\n<h4>THE LIMAR DNA</h4>\n\n<p>The collaboration with the pro has always been part of LIMAR DNA, and Limar was the ﬁrst company to sponsor a full cycling team. The recommendations of champions testing the helmets during races, allowed to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.</p>\n\n<h4>HOW AIR KING EVO IS BORN</h4>\n\n<p>The new Air King Evo is born from the awareness of Limar Team together with Astana Teams’ engineers and technicians that there is never an end to evolution and every limit can be overcome. </p>\n\n<p> The athlete works on every detail to improve his performance, that is why the shape of the new air king evo has been molded on the athlete's body, becoming an aerodynamic whole that has exceeded all the goals previously achieved, with an additional saving of 5 to 8 watts compared to Air King.</p>\n\n<p>Air King Evo was tested in the Wind Tunnel at the Newton laboratory in Milan, with Vincenzo Nibali and David De la Cruz. </p>\n\n<p>&nbsp;</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL DNA DI LIMAR<\/h4>\n\n<p>La collaborazione con i professionisti è sempre stata parte del DNA di LIMAR e Limar è stata la prima azienda a sponsorizzare una squadra ciclistica pro. I consigli dei campioni che hanno testato i caschi durante le competizioni, hanno permesso di sviluppare caschi basati sulle reali esigenze dei ciclisti professionisti, estremamente esigenti in termini di comfort, ventilazione e, soprattutto, di prestazioni.<\/p>\n\n<h4>COME NASCE AIR KING EVO<\/h4>\n\n<p>Il nuovo Air king Evo nasce dalla consapevolezza di Limar e degli ingegneri e tecnici del Team Astana che non c’è mai fine all’evoluzione e ogni limite può essere superato. L’atleta lavora su ogni minimo dettaglio per migliorare la performance; ecco perché la forma del nuovo Air King Evo si è plasmata sul corpo dell’atleta divenendo un tutt’uno aerodinamico che ha superato tutti i traguardi precedentemente raggiunti, facendo risparmiare dai 5 agli 8 watt rispetto ad Air King.<\/p>\n\n<p>Air King Evo è stato testato nella Galleria del Vento presso il laboratorio Newton di Milano, con Vincenzo Nibali e David De la Cruz.<\/p>\n\n<p>&nbsp;<\/p>\n\n\n{% else %}\n\n<h4>THE LIMAR DNA<\/h4>\n\n<p>The collaboration with the pro has always been part of LIMAR DNA, and Limar was the ﬁrst company to sponsor a full cycling team. The recommendations of champions testing the helmets during races, allowed to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.<\/p>\n\n<h4>HOW AIR KING EVO IS BORN<\/h4>\n\n<p>The new Air King Evo is born from the awareness of Limar Team together with Astana Teams’ engineers and technicians that there is never an end to evolution and every limit can be overcome. <\/p>\n\n<p> The athlete works on every detail to improve his performance, that is why the shape of the new air king evo has been molded on the athlete's body, becoming an aerodynamic whole that has exceeded all the goals previously achieved, with an additional saving of 5 to 8 watts compared to Air King.<\/p>\n\n<p>Air King Evo was tested in the Wind Tunnel at the Newton laboratory in Milan, with Vincenzo Nibali and David De la Cruz. <\/p>\n\n<p>&nbsp;<\/p>\n\n{% endif %}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -118,7 +135,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirKing-Evo-detail-1.jpg",
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-detail-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -127,7 +144,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>UNA NUOVA VISIONE</h4>\n\n<p>La forma e le linee di AIR KING EVO sono state progettate considerando l’atleta sulla bici da crono durante la performance, osservando e tenendo conto di tutte le variabili di resistenza, velocità, posizione e direzione del vento. Il risultato è una calotta plasmata intorno all’atleta, con un’aera di impatto ridotta e una migliore penetrazione aerodinamica, con conseguente riduzione delle turbolenze.</p>\n\n\n{% else %}\n\n<h4>A NEW VISION </h4>\n\n<p>The shape and lines of AIR KING EVO have been designed considering the athlete on the time trial bike during the performance, observing and taking into account all the variables of resistance, speed, position and direction of the wind.\n</p>\n\n<p>The result is a shell shaped around the athlete, with a reduced impact area and better aerodynamic penetration, with a consequent reduction in turbulence.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>UNA NUOVA VISIONE<\/h4>\n\n<p>La forma e le linee di AIR KING EVO sono state progettate considerando l’atleta sulla bici da crono durante la performance, osservando e tenendo conto di tutte le variabili di resistenza, velocità, posizione e direzione del vento. Il risultato è una calotta plasmata intorno all’atleta, con un’aera di impatto ridotta e una migliore penetrazione aerodinamica, con conseguente riduzione delle turbolenze.<\/p>\n\n\n{% else %}\n\n<h4>A NEW VISION <\/h4>\n\n<p>The shape and lines of AIR KING EVO have been designed considering the athlete on the time trial bike during the performance, observing and taking into account all the variables of resistance, speed, position and direction of the wind.\n<\/p>\n\n<p>The result is a shell shaped around the athlete, with a reduced impact area and better aerodynamic penetration, with a consequent reduction in turbulence.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -135,7 +152,7 @@
         "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -143,7 +160,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirKing-Evo-detail-2.jpg",
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-detail-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -152,7 +169,7 @@
         "71413fb4-3e92-40a6-b517-8cf16a3a584d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>VISIBILITA’ INTEGRATA</h4>\n\n<p>Ogni dettaglio di Air King Evo è studiato per soddisfare le elevate richieste dei ciclisti più esigenti e delle competizioni più dure. La visiera in policarbonato si adatta perfettamente al design del casco, fissata attraverso CHIUSURA MAGNETICA ISTANTANEA con SISTEMA DI FLUSSO D'ARIA ANTI APPANNAMENTO</p>\n\n{% else %}\n\n<h4>INTEGRATED VISIBILITY </h4>\n\n<p>Every detail of Air King Evo is designed to meet high requests of the most demanding cyclists and hardest competitions.</p>\n\n<p>The polycarbonate visor fits perfectly into the helmet design, SECURELY HOLD BY INSTANTANEOUS MAGNETIC GRIP with ANTI FOG AIR FLOW SYSTEM.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>VISIBILITA’ INTEGRATA<\/h4>\n\n<p>Ogni dettaglio di Air King Evo è studiato per soddisfare le elevate richieste dei ciclisti più esigenti e delle competizioni più dure. La visiera in policarbonato si adatta perfettamente al design del casco, fissata attraverso CHIUSURA MAGNETICA ISTANTANEA con SISTEMA DI FLUSSO D'ARIA ANTI APPANNAMENTO<\/p>\n\n{% else %}\n\n<h4>INTEGRATED VISIBILITY <\/h4>\n\n<p>Every detail of Air King Evo is designed to meet high requests of the most demanding cyclists and hardest competitions.<\/p>\n\n<p>The polycarbonate visor fits perfectly into the helmet design, SECURELY HOLD BY INSTANTANEOUS MAGNETIC GRIP with ANTI FOG AIR FLOW SYSTEM.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -160,7 +177,7 @@
         "a8553236-d24e-4b37-9335-93f4fcdeb4b2": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -168,7 +185,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirKing-Evo-detail-4.jpg",
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-detail-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -177,7 +194,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>VENTILAZIONE OTTIMALE</h4>\n\n<p>Le prese d'aria frontali, il sistema di canalizzazione interna e il foro\nposteriore di Air King Evo costituiscono un sistema di ventilazione\ninterna eccellente, mentre le linee e la forma esterne controllano i\nflussi d'aria impedendo la formazione di turbolenze.</p>\n\n{% else %}\n\n<h4>BEST VENTILATION</h4>\n\n<p>Front air vents, the internal air channel system and the rear hole of Air King evo make an excellent internal ventilation system, while the external lines and shape control the air flows, preventing the formation of turbulence.</p>\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>VENTILAZIONE OTTIMALE<\/h4>\n\n<p>Le prese d'aria frontali, il sistema di canalizzazione interna e il foro\nposteriore di Air King Evo costituiscono un sistema di ventilazione\ninterna eccellente, mentre le linee e la forma esterne controllano i\nflussi d'aria impedendo la formazione di turbolenze.<\/p>\n\n{% else %}\n\n<h4>BEST VENTILATION<\/h4>\n\n<p>Front air vents, the internal air channel system and the rear hole of Air King evo make an excellent internal ventilation system, while the external lines and shape control the air flows, preventing the formation of turbulence.<\/p>\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -185,7 +202,7 @@
         "a0810d96-9cdd-448b-821c-243da64f028a": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -193,7 +210,7 @@
         "5ab0f2bb-fe0c-418e-83db-bd2fdea3630a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirKing-Evo-detail-3.jpg",
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-detail-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -202,7 +219,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>MINIMA RESISTENZA ALL’ARIA</h4>\n\n<p>Per un rendimento aerodinamico ottimale, Il flusso d’aria che impatta sul casco va domato, guidandolo sia esternamente per mantenere performance aerodinamiche elevate, sia internamente per offrire comfort termico all’atleta: l’aria che penetra deve rinfrescare la testa e veicolare all’esterno il calore del corpo. </p>\n\n{% else %}\n\n<h4>MINIMUM AIR RESISTANCE</h4>\n\n<p>For the best aerodynamic performance, the air flow that impacts on the helmet must be tamed by guiding it both externally to maintain high aerodynamic performance, and internally to offer thermal comfort to the athlete. The air that enters must cool the head and convey body heat outside. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>MINIMA RESISTENZA ALL’ARIA<\/h4>\n\n<p>Per un rendimento aerodinamico ottimale, Il flusso d’aria che impatta sul casco va domato, guidandolo sia esternamente per mantenere performance aerodinamiche elevate, sia internamente per offrire comfort termico all’atleta: l’aria che penetra deve rinfrescare la testa e veicolare all’esterno il calore del corpo. <\/p>\n\n{% else %}\n\n<h4>MINIMUM AIR RESISTANCE<\/h4>\n\n<p>For the best aerodynamic performance, the air flow that impacts on the helmet must be tamed by guiding it both externally to maintain high aerodynamic performance, and internally to offer thermal comfort to the athlete. The air that enters must cool the head and convey body heat outside. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -244,9 +261,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/AirKing-Evo-gallery-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-gallery-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666747607__bd8f8ca4-1a12-49b4-858f-19fab3c83a8c-1682713257644a0800-0": {
@@ -262,9 +278,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/AirKing-Evo-gallery-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-gallery-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "1891c60b-eb0f-4ec8-8a74-74bb6603813b": {
@@ -280,9 +295,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/AirKing-Evo-gallery-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-gallery-3.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666747607__bd8f8ca4-1a12-49b4-858f-19fab3c83a8c-1682713257644a0800-1": {
@@ -298,9 +312,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/AirKing-Evo-gallery-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-gallery-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "237ff088-5cbd-4ad9-b283-a3786690a7ee": {
@@ -316,9 +329,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/AirKing-Evo-gallery-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/AirKing-Evo-gallery-6.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -342,26 +354,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_4YGGMc": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_4YGGMc"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_4YGGMc"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

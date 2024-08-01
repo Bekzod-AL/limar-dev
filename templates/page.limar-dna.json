@@ -1,13 +1,18 @@
 {
   "sections": {
-    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1654782680d01d0885": {
       "type": "advanced-content",
       "blocks": {
         "1654782680675f9668-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">NESSUNO STRUMENTO PUO’ SIMULARE</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">LE SENSAZIONI DI UN CICLISTA</h2>\n\n\n{% else %}\n\n<h2 class=\"cus-con-subtitle\">NO INSTRUMENT CAN SIMULATE</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">THE SENSATIONS OF A CYCLIST</h2>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-subtitle\">NESSUNO STRUMENTO PUO’ SIMULARE<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">LE SENSAZIONI DI UN CICLISTA<\/h2>\n\n\n{% else %}\n\n<h2 class=\"cus-con-subtitle\">NO INSTRUMENT CAN SIMULATE<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">THE SENSATIONS OF A CYCLIST<\/h2>\n\n{% endif %}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -15,7 +20,7 @@
         "54af8dbb-47f0-4bdd-a022-4a22d6956d3a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Limar è un'azienda italiana, con oltre 35 anni di esperienza nella produzione di caschi da ciclismo, leader con la gamma di caschi più leggeri al mondo.  Limar ha una chiara missione: essere \"The Helmet Specialist\", offrendo al mercato la più ampia e migliore gamma di caschi in termini di leggerezza, comfort e vestibilità. Tutti i prodotti Limar sono progettati e disegnati in Italia.</p>\n<p>I nostri caschi soddisfano i più severi standard di sicurezza internazionali come la CE EN 1078, l'americana CPSC e l'australiana AS/NZS e sono sottoposti ai test più severi in diverse condizioni.</p>\n<p>La sicurezza è sempre la nostra priorità!\n</p>\n\n\n{% else %}\n\n<p> Limar is an Italian company, with more than  35-year-experience in the production of cycle helmets, leading the way with the world’s lightest helmet range.  Limar has a strong mission: to be “The Helmet Specialist” by offering the market the widest and best range of helmets in terms of lightness, comfort and fitting.<br />All Limar products are designed and styled in Italy.</p>\n<p>Our helmets meet the strictest international safety Standards such as CE EN 1078, American CPSC and Australian AS/NZS and are subjected to the toughest tests in different conditions.\u2028Safety is always our priority!</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Limar è un'azienda italiana, con oltre 35 anni di esperienza nella produzione di caschi da ciclismo, leader con la gamma di caschi più leggeri al mondo.  Limar ha una chiara missione: essere \"The Helmet Specialist\", offrendo al mercato la più ampia e migliore gamma di caschi in termini di leggerezza, comfort e vestibilità. Tutti i prodotti Limar sono progettati e disegnati in Italia.<\/p>\n<p>I nostri caschi soddisfano i più severi standard di sicurezza internazionali come la CE EN 1078, l'americana CPSC e l'australiana AS\/NZS e sono sottoposti ai test più severi in diverse condizioni.<\/p>\n<p>La sicurezza è sempre la nostra priorità!\n<\/p>\n\n\n{% else %}\n\n<p> Limar is an Italian company, with more than  35-year-experience in the production of cycle helmets, leading the way with the world’s lightest helmet range.  Limar has a strong mission: to be “The Helmet Specialist” by offering the market the widest and best range of helmets in terms of lightness, comfort and fitting.<br \/>All Limar products are designed and styled in Italy.<\/p>\n<p>Our helmets meet the strictest international safety Standards such as CE EN 1078, American CPSC and Australian AS\/NZS and are subjected to the toughest tests in different conditions.\u2028Safety is always our priority!<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -23,7 +28,7 @@
         "1654782680675f9668-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-1.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -32,7 +37,7 @@
         "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -40,7 +45,7 @@
         "d142cacc-3b15-44ff-9bdb-ce8fc8026968": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-2.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-2.jpg",
             "link": "",
             "width": "33%",
             "alignment": "top-middle"
@@ -49,7 +54,7 @@
         "038e3b14-f159-41fe-bb97-ad7129850fee": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-3.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-3.jpg",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -58,7 +63,7 @@
         "612374ef-db87-419d-bb3a-a5952458f9da": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>UNA LUNGA CORSA SEMPRE IN TESTA </h4>\n<p>C’è sempre un nuovo limite da superare.</p>\n<p>Per questo da oltre 35 anni percorriamo la strada dell’eccellenza, abbinando lo stile tutto italiano alla ricerca tecnologica più avanzata, per offrire a chi condivide la nostra passione per il ciclismo i caschi e gli occhiali più performanti. Per proteggere i vostri progetti, sogni e desideri.\n</p>\n<p>E continuare a correre, insieme.</p>\n\n\n\n{% else %}\n\n<h4>A LONG RACE ALWAYS A-HEAD</h4>\n<p>There is always a new limit to overcome. </p>\n<p>That’s why we have been racing the road of excellence for more than 35 years, combining the Italian style with the most advanced technological research, offering the most performing helmets and glasses to all those sharing our passion for cycling.</p>\n<p>Protecting your projects, dreams and desires. \nTo keep on racing, together… </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>UNA LUNGA CORSA SEMPRE IN TESTA <\/h4>\n<p>C’è sempre un nuovo limite da superare.<\/p>\n<p>Per questo da oltre 35 anni percorriamo la strada dell’eccellenza, abbinando lo stile tutto italiano alla ricerca tecnologica più avanzata, per offrire a chi condivide la nostra passione per il ciclismo i caschi e gli occhiali più performanti. Per proteggere i vostri progetti, sogni e desideri.\n<\/p>\n<p>E continuare a correre, insieme.<\/p>\n\n\n\n{% else %}\n\n<h4>A LONG RACE ALWAYS A-HEAD<\/h4>\n<p>There is always a new limit to overcome. <\/p>\n<p>That’s why we have been racing the road of excellence for more than 35 years, combining the Italian style with the most advanced technological research, offering the most performing helmets and glasses to all those sharing our passion for cycling.<\/p>\n<p>Protecting your projects, dreams and desires. \nTo keep on racing, together… <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -66,7 +71,7 @@
         "e71ae2b5-c2c0-4c51-951b-937fbda5962b": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -74,7 +79,7 @@
         "8b662d88-7148-4045-a107-c508ae5d5388": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>TECNOLOGIA ALL'AVANGUARDIA</h4>\n<p>Tutti i caschi Limar sono il massimo in termini di performance, ventilazione, comfort e aerodinamica. Ma la ricerca non si ferma mai, poiché ogni piccolo dettaglio deve contribuire ad aumentare il comfort e le prestazioni.</p>\n<p>Ecco perché il team Ricerca & Sviluppo propone continuamente soluzioni innovative con nuovi prodotti all’avanguardia sia per professionisti che appassionati. Per poter offrire sempre e solo il meglio. </p>\n\n\n\n\n{% else %}\n\n<h4>LEADING TECHNOLOGY</h4>\n<p>Our helmets are high-performance, ventilated, comfortable, protective and aero. But our search never stops, since every little detail must contribute to boost comfort and performance.</p>\n<p>That is why we continuously look for innovative solutions, when we develop our helmets for pro and amateur cyclists. To be able to offer just the best. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>TECNOLOGIA ALL'AVANGUARDIA<\/h4>\n<p>Tutti i caschi Limar sono il massimo in termini di performance, ventilazione, comfort e aerodinamica. Ma la ricerca non si ferma mai, poiché ogni piccolo dettaglio deve contribuire ad aumentare il comfort e le prestazioni.<\/p>\n<p>Ecco perché il team Ricerca & Sviluppo propone continuamente soluzioni innovative con nuovi prodotti all’avanguardia sia per professionisti che appassionati. Per poter offrire sempre e solo il meglio. <\/p>\n\n\n\n\n{% else %}\n\n<h4>LEADING TECHNOLOGY<\/h4>\n<p>Our helmets are high-performance, ventilated, comfortable, protective and aero. But our search never stops, since every little detail must contribute to boost comfort and performance.<\/p>\n<p>That is why we continuously look for innovative solutions, when we develop our helmets for pro and amateur cyclists. To be able to offer just the best. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -82,7 +87,7 @@
         "02eb8995-d5aa-4ba3-8e51-22ee9781e5b0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-4.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -101,7 +106,9 @@
         "8b662d88-7148-4045-a107-c508ae5d5388",
         "02eb8995-d5aa-4ba3-8e51-22ee9781e5b0"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -114,7 +121,7 @@
         "1654783451fbf1530c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-5.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-5.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -123,7 +130,7 @@
         "59bdc079-9a25-4e8e-92c5-632743c8885e": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4> CARBONCORETECH</h4>\n   <p>Abbiamo sfruttato le qualità uniche del carbonio per realizzare, accoppiandolo al polistirolo espanso, un’anima che offre la massima resistenza con il minimo degli spessori.</p>\n   <p>Due ali strutturali si fondono con le costole longitudinali della calotta, creando una gabbia altamente performante in termini di sicurezza, aerodinamica e ventilazione.</p>\n\n\n{% else %}\n\n<h4> CARBONCORETECH</h4>\n   <p> We have exploited the unique properties of carbon, coupling them with EPS, to realize a maximum resistance core with minimum thickness. The helmet carbon structure is made of two structural wings merging with the side ribs of the shell, and therefore creating a highly performing cage in terms of safety, aerodynamics and ventilation.</p>\n   <p>The transversal wings, thanks to the use of carbon, have a reduced thickness.This allows easy inflow and improved air circulation inside the shell resulting in great benefits to aerodynamics and ventilation. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4> CARBONCORETECH<\/h4>\n   <p>Abbiamo sfruttato le qualità uniche del carbonio per realizzare, accoppiandolo al polistirolo espanso, un’anima che offre la massima resistenza con il minimo degli spessori.<\/p>\n   <p>Due ali strutturali si fondono con le costole longitudinali della calotta, creando una gabbia altamente performante in termini di sicurezza, aerodinamica e ventilazione.<\/p>\n\n\n{% else %}\n\n<h4> CARBONCORETECH<\/h4>\n   <p> We have exploited the unique properties of carbon, coupling them with EPS, to realize a maximum resistance core with minimum thickness. The helmet carbon structure is made of two structural wings merging with the side ribs of the shell, and therefore creating a highly performing cage in terms of safety, aerodynamics and ventilation.<\/p>\n   <p>The transversal wings, thanks to the use of carbon, have a reduced thickness.This allows easy inflow and improved air circulation inside the shell resulting in great benefits to aerodynamics and ventilation. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -131,7 +138,7 @@
         "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -139,7 +146,7 @@
         "761d5d7b-9592-47a2-b162-a635af4c6c9a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>SVELIAMO I SEGRETI DELLA LEGGEREZZA</h4>\n<p>Il nostro segreto di leggerezza è un concetto complesso: è una combinazione tra ricerca nella selezione delle materie prime, e profondo e ampio know-how dei processi di pre-espansione e stampaggio. Non siamo stati solo pionieri del processo in-mould, ma possiamo anche contare su un'ampia conoscenza e su continui sviluppi per una vasta gamma di prodotti e tecnologie in settori molto diffusi, dalla sicurezza all'edilizia, dall'imballaggio all'isolamento, ecc. Il perfetto equilibrio tra leggerezza e sicurezza, densità e assorbimento degli urti è anche legato alla ricerca del miglior design, con la perfetta interazione tra pieni e vuoti.</p>\n\n\n{% else %}\n\n<h4>REVEALING THE SECRETS OF LIGHTNESS</h4>\n<p>Our secret of lightness is a complex achievement: it is a combination of raw material selection, deep and wide know-how of the pre-expansion and in-mould processes. We have been not just pioneers of the in-mould process but can still count on a wide knowledge and ongoing developments for a wide range of products and technologies in widespread sectors from safety, to building, packaging, insulation, etc. The perfect balance between lightness and safety, density and shock absorption is also intrinsic in the right shape with the best interplay of solids and voids.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>SVELIAMO I SEGRETI DELLA LEGGEREZZA<\/h4>\n<p>Il nostro segreto di leggerezza è un concetto complesso: è una combinazione tra ricerca nella selezione delle materie prime, e profondo e ampio know-how dei processi di pre-espansione e stampaggio. Non siamo stati solo pionieri del processo in-mould, ma possiamo anche contare su un'ampia conoscenza e su continui sviluppi per una vasta gamma di prodotti e tecnologie in settori molto diffusi, dalla sicurezza all'edilizia, dall'imballaggio all'isolamento, ecc. Il perfetto equilibrio tra leggerezza e sicurezza, densità e assorbimento degli urti è anche legato alla ricerca del miglior design, con la perfetta interazione tra pieni e vuoti.<\/p>\n\n\n{% else %}\n\n<h4>REVEALING THE SECRETS OF LIGHTNESS<\/h4>\n<p>Our secret of lightness is a complex achievement: it is a combination of raw material selection, deep and wide know-how of the pre-expansion and in-mould processes. We have been not just pioneers of the in-mould process but can still count on a wide knowledge and ongoing developments for a wide range of products and technologies in widespread sectors from safety, to building, packaging, insulation, etc. The perfect balance between lightness and safety, density and shock absorption is also intrinsic in the right shape with the best interplay of solids and voids.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -147,7 +154,7 @@
         "4ce4d57d-cd22-444d-9eb2-795e055bdcf1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-6.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-6.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -156,7 +163,7 @@
         "2d4d2008-faba-4cc5-b688-261ae98bc114": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -164,7 +171,7 @@
         "3c449a2d-d43b-452e-a65c-e08534c6b1a9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/about-limar-7.jpg",
+            "image": "shopify:\/\/shop_images\/about-limar-7.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -173,7 +180,7 @@
         "88eabb60-0b57-4c4e-9179-6e8b447bc01a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL DESIGN NON E’ SEMPLICEMENTE FORMA</h4>\n\n<p>Design per Limar significa realizzare un casco che offra comfort, ventilazione e performance all'interno di una forma ispiratrice.</p>\n\n<p>I più innovativi strumenti di analisi (CFD) insieme al valore del lavoro fatto a mano e all'esperienza decennale nella realizzazione di prototipi ci guidano nella progettazione di ogni prodotto come sintesi perfetta tra forma e prestazioni.</p>\n\n<p>Al centro di ogni fase progettuale c'è sempre il corridore, colui che deve indossare un casco e sentirsi davvero bene indossandolo: un design che non rispetta questo requisito cruciale fallisce fin dall'inizio.</p>\n\n\n{% else %}\n\n<h4>DESIGN IS NOT SIMPLY ABOUT IMAGES</h4>\n\n<p>Design means creating a helmet providing comfort, ventilation and performance within an inspiring shape.</p>\n\n<p>The most innovative analysis tools (CFDs) together with the knowledge of handmade work  and decades of experience in the manufacture of prototypes guide us in designing each product as a perfect synthesis between forms and performance.</p>\n\n<p>At the centre of every design phase there is always the rider, the one who must wear a helmet and feel really good wearing it: a design that does not respect this crucial requirement fails from the beginning.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL DESIGN NON E’ SEMPLICEMENTE FORMA<\/h4>\n\n<p>Design per Limar significa realizzare un casco che offra comfort, ventilazione e performance all'interno di una forma ispiratrice.<\/p>\n\n<p>I più innovativi strumenti di analisi (CFD) insieme al valore del lavoro fatto a mano e all'esperienza decennale nella realizzazione di prototipi ci guidano nella progettazione di ogni prodotto come sintesi perfetta tra forma e prestazioni.<\/p>\n\n<p>Al centro di ogni fase progettuale c'è sempre il corridore, colui che deve indossare un casco e sentirsi davvero bene indossandolo: un design che non rispetta questo requisito cruciale fallisce fin dall'inizio.<\/p>\n\n\n{% else %}\n\n<h4>DESIGN IS NOT SIMPLY ABOUT IMAGES<\/h4>\n\n<p>Design means creating a helmet providing comfort, ventilation and performance within an inspiring shape.<\/p>\n\n<p>The most innovative analysis tools (CFDs) together with the knowledge of handmade work  and decades of experience in the manufacture of prototypes guide us in designing each product as a perfect synthesis between forms and performance.<\/p>\n\n<p>At the centre of every design phase there is always the rider, the one who must wear a helmet and feel really good wearing it: a design that does not respect this crucial requirement fails from the beginning.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }

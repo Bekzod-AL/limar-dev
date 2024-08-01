@@ -1,24 +1,28 @@
 {
   "parent": "product.argo.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "165342933895b24228": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>ARGO PH</h4>\n\n<p>La versione PH di Argo è dotata di lente unica Fotocromatica,\nLe lenti fotocromatiche Limar si adattano automaticamente all'intensità della luce solare che raggiunge l’occhio e sono la soluzione ideale per gli sport all'aria aperta in qualsiasi condizione di luce.</p>\n\n{% else %}\n\n<h4>ARGO PH</h4>\n\n<p>Limar photochromic lens automatically adjust to the sun light intensity that reaches the eye and are the ideal solution for outdoor sports in any light condition.</p>\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>ARGO PH<\/h4>\n\n<p>La versione PH di Argo è dotata di lente unica Fotocromatica,\nLe lenti fotocromatiche Limar si adattano automaticamente all'intensità della luce solare che raggiunge l’occhio e sono la soluzione ideale per gli sport all'aria aperta in qualsiasi condizione di luce.<\/p>\n\n{% else %}\n\n<h4>ARGO PH<\/h4>\n\n<p>Limar photochromic lens automatically adjust to the sun light intensity that reaches the eye and are the ideal solution for outdoor sports in any light condition.<\/p>\n{% endif %}"
           }
         }
       }
     },
     "main": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br\/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI<\/p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br\/>30-DAY RETURNS<\/p>\n\n{% endif %}"
           }
         }
       }

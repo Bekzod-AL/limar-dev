@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Cavendish_header_2100x1181_40c902cd-e5cb-4cd8-870f-ea5cd77d721e.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Cavendish_header_2100x1181_40c902cd-e5cb-4cd8-870f-ea5cd77d721e.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -52,7 +51,7 @@
         "template--16775368114391__0f260be9-48ae-425c-8cdc-31329c3e5b00-168375947350bdca0b-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Team Astana – A New Family</h2><p>Mark Cavendish is one of the greatest sprinters of all time. And, in spite of his age and lengthy career, he's still keen to race his bike. Moreover, he's capable of winning, which is why he has been given a new place with Team Astana. A new family.</p>",
+            "code": "<h2>Team Astana – A New Family<\/h2><p>Mark Cavendish is one of the greatest sprinters of all time. And, in spite of his age and lengthy career, he's still keen to race his bike. Moreover, he's capable of winning, which is why he has been given a new place with Team Astana. A new family.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -71,7 +70,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "https://www.youtube.com/watch?v=S_K0-PE5iLI",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=S_K0-PE5iLI",
         "divider": false
       }
     },
@@ -81,7 +80,7 @@
         "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/10.03.2023_10_56_00.jpg",
+            "image": "shopify:\/\/shop_images\/10.03.2023_10_56_00.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -90,7 +89,7 @@
         "template--16775368114391__05da168b-a437-4c16-8011-bef38bc6dec7-168375947350bdca0b-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>FAN FAVORITE</h2><p>Part of Mark Cavendish's success and longevity in the sport is recognizing the support network around him. And that also means acknowleding his fans the world over.</p>",
+            "code": "<h2>FAN FAVORITE<\/h2><p>Part of Mark Cavendish's success and longevity in the sport is recognizing the support network around him. And that also means acknowleding his fans the world over.<\/p>",
             "width": "33%",
             "alignment": "center"
           }
@@ -98,7 +97,7 @@
         "6137832b-2d4b-4991-96c4-e025d36e914b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/18.03.2023_11_08_10.jpg",
+            "image": "shopify:\/\/shop_images\/18.03.2023_11_08_10.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"

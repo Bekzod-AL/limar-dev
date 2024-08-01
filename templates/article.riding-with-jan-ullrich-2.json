@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify://shop_images/ullrich.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/ullrich.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -52,13 +51,15 @@
         "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-heading-1": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "template--19731996639574__ad9148c5-2d46-4a9e-9705-eb35e922e345-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>‘Pedalando coi campioni’ (Riding with the Champions), an event conceived by former pro Ennio Vanotti and organized by “Casazza Cycling Union” under the leadership of President Dario Zambetti, has now reached its sixteenth edition. This is a cycling event with a charitable purpose, and this year the funds are indeed destined for the ABE association (Child Emopathic Association), which has been supporting young people afflicted with leukemia, tumors, immunodeficiencies, and chronic hematological diseases since 1981.<br/><br/>When Vanotti calls, many former pro riders respond with 'present.' It may be due to the affection that the former pro riderl from Almenno San Salvatore, Bergamo, has managed to build over the years. It may be the charitable spirit that unites many from Bergamo and beyond. Most of all, it is the undeniable attraction that the event exerts: cycling with champions such as Gianni Bugno, Gianni Motta, Evgeni Berzin, Claudio Chiappucci, Paolo Savoldelli, Matteo Fagnini (the man for the final 200 meters to lead the sprints for Mario Cipollini before and Erik Zabel later in the D-Telekom team), just to name a few among the participants... for enthusiasts, it is undoubtedly a strong emotion.<br/><br/>Riding with the Champions, a non-competitive team time trial of 17 km around Endine Lake, with as many as 110 former pro riders team captains, totaling 615 cyclists of all ages.<br/><br/>This time, Limar also answers the call, with a team led by none other than Jan Ullrich, who shared numerous victories of his career with Limar. In the Limar team we also had Beppe Guerini, his irreplaceable domestique for mountain stages (a strong climber and thus a coveted domestique, as well as the winner of several races, including the unforgettable stage on Alpe d'Huez in the 1999 Tour de France), his historic Team Manager Rudy Pevenage, his personal manager Mike Baldinger, and the ever-present Emiliano Borgna, President of ACSI Ciclismo and a close friend of Limar.</p>"
+            "text": "<p>‘Pedalando coi campioni’ (Riding with the Champions), an event conceived by former pro Ennio Vanotti and organized by “Casazza Cycling Union” under the leadership of President Dario Zambetti, has now reached its sixteenth edition. This is a cycling event with a charitable purpose, and this year the funds are indeed destined for the ABE association (Child Emopathic Association), which has been supporting young people afflicted with leukemia, tumors, immunodeficiencies, and chronic hematological diseases since 1981.<br\/><br\/>When Vanotti calls, many former pro riders respond with 'present.' It may be due to the affection that the former pro riderl from Almenno San Salvatore, Bergamo, has managed to build over the years. It may be the charitable spirit that unites many from Bergamo and beyond. Most of all, it is the undeniable attraction that the event exerts: cycling with champions such as Gianni Bugno, Gianni Motta, Evgeni Berzin, Claudio Chiappucci, Paolo Savoldelli, Matteo Fagnini (the man for the final 200 meters to lead the sprints for Mario Cipollini before and Erik Zabel later in the D-Telekom team), just to name a few among the participants... for enthusiasts, it is undoubtedly a strong emotion.<br\/><br\/>Riding with the Champions, a non-competitive team time trial of 17 km around Endine Lake, with as many as 110 former pro riders team captains, totaling 615 cyclists of all ages.<br\/><br\/>This time, Limar also answers the call, with a team led by none other than Jan Ullrich, who shared numerous victories of his career with Limar. In the Limar team we also had Beppe Guerini, his irreplaceable domestique for mountain stages (a strong climber and thus a coveted domestique, as well as the winner of several races, including the unforgettable stage on Alpe d'Huez in the 1999 Tour de France), his historic Team Manager Rudy Pevenage, his personal manager Mike Baldinger, and the ever-present Emiliano Borgna, President of ACSI Ciclismo and a close friend of Limar.<\/p>"
           }
         }
       },
@@ -78,14 +79,16 @@
         "0d51f487-162a-4b42-a94e-73ac67d99ded": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/foto_partenza.jpg",
+            "image": "shopify:\/\/shop_images\/foto_partenza.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["0d51f487-162a-4b42-a94e-73ac67d99ded"],
+      "block_order": [
+        "0d51f487-162a-4b42-a94e-73ac67d99ded"
+      ],
       "custom_css": [
         "body {padding: 30px;}",
         ".center-div {margin: 100 auto; max-width: 700px; height: 100px; background-color: #ffffff; border-radius: 0px;}"
@@ -102,13 +105,15 @@
         "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-heading-1": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "template--19731996639574__a9e42438-10e1-4fb1-9736-e7d0c9bbf91f-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Regarding Jan Ullrich, given the numerous victories in his career, Jan doesn't need much of an introduction. However, Limar would like to share an anecdote.<br/><br/>Around the mid-'90s, Limar gained recognition in the cycling world for creating the first aerodynamic, lightweight, and well-ventilated helmet in the world, the iconic F104. Gianni Bugno (Team Polti) was the first to use it in the 1994 Tour of Flanders, which he won with an unforgettable sprint finish. At the time, leather-stripe helmets were still common, and our helmet stood out for its design and compact size.<br/>This success paved the way for EPS protective helmets, which were immediately popular among professional and amateur cyclists. In 1995, the Team Gewiss, with Evgenii Berzin and other champions including Bjarne Riis, joined the Limar family. In 1996, Bjarne Riis became the captain of the newly formed D-Telekom team.<br/>In December 1995, Bjarne called Limar requesting a \"magenta\" F104 helmet because the team's current helmets were outdated. After using our helmet, Bjarne called again in January 1996 because some of his teammates from Team D-Telekom (Jan Ullrich, Erik Zabel, and Udo Bolts) also wanted the F104 helmets. Basically, they raced the 1996 season with the F104 helmets (without the Limar logo for obvious reasons), but because this choice couldn't go unnoticed, Team D-Telekom was \"forced\" to change its helmet supplier/sponsor starting in 1997, a partnership that lasted until 2003 (after which Team D-Telekom ceased to exist).<br/></p>"
+            "text": "<p>Regarding Jan Ullrich, given the numerous victories in his career, Jan doesn't need much of an introduction. However, Limar would like to share an anecdote.<br\/><br\/>Around the mid-'90s, Limar gained recognition in the cycling world for creating the first aerodynamic, lightweight, and well-ventilated helmet in the world, the iconic F104. Gianni Bugno (Team Polti) was the first to use it in the 1994 Tour of Flanders, which he won with an unforgettable sprint finish. At the time, leather-stripe helmets were still common, and our helmet stood out for its design and compact size.<br\/>This success paved the way for EPS protective helmets, which were immediately popular among professional and amateur cyclists. In 1995, the Team Gewiss, with Evgenii Berzin and other champions including Bjarne Riis, joined the Limar family. In 1996, Bjarne Riis became the captain of the newly formed D-Telekom team.<br\/>In December 1995, Bjarne called Limar requesting a \"magenta\" F104 helmet because the team's current helmets were outdated. After using our helmet, Bjarne called again in January 1996 because some of his teammates from Team D-Telekom (Jan Ullrich, Erik Zabel, and Udo Bolts) also wanted the F104 helmets. Basically, they raced the 1996 season with the F104 helmets (without the Limar logo for obvious reasons), but because this choice couldn't go unnoticed, Team D-Telekom was \"forced\" to change its helmet supplier\/sponsor starting in 1997, a partnership that lasted until 2003 (after which Team D-Telekom ceased to exist).<br\/><\/p>"
           }
         }
       },
@@ -128,14 +133,16 @@
         "25974c41-671a-4ab8-b12a-40d9b98f451a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Jan_Ullrich_TdF.jpg",
+            "image": "shopify:\/\/shop_images\/Jan_Ullrich_TdF.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["25974c41-671a-4ab8-b12a-40d9b98f451a"],
+      "block_order": [
+        "25974c41-671a-4ab8-b12a-40d9b98f451a"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -148,13 +155,15 @@
         "5a68b31a-a3ab-4a6e-8d65-cb66bbd09a03": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "daf8cec0-b43f-44c9-a1bf-ce56aaf5db6e": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Even today, Jan still uses a Limar helmet, and the event in Casazza provided us with the opportunity to meet himagain, reminiscing about successes, anecdotes, and interesting behind-the-scenes stories, all while riding together.<br/><br/>After many years, we found Jan to be calm, incredibly friendly, and accommodating to the numerous fans who asked for photos and autographs. Ullrich even kissed a photo of the Pirate, Marco Pantani, with whom he engaged in numerous memorable battles at the Tour de France.</p>"
+            "text": "<p>Even today, Jan still uses a Limar helmet, and the event in Casazza provided us with the opportunity to meet himagain, reminiscing about successes, anecdotes, and interesting behind-the-scenes stories, all while riding together.<br\/><br\/>After many years, we found Jan to be calm, incredibly friendly, and accommodating to the numerous fans who asked for photos and autographs. Ullrich even kissed a photo of the Pirate, Marco Pantani, with whom he engaged in numerous memorable battles at the Tour de France.<\/p>"
           }
         }
       },
@@ -174,7 +183,7 @@
         "0410dcee-79ef-44f9-94f5-5487c9aa8727": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_9739.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_9739.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -183,7 +192,7 @@
         "f1e5903b-c4cb-4be5-bc14-09c79510f953": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ARRIVO_OK.jpg",
+            "image": "shopify:\/\/shop_images\/ARRIVO_OK.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -207,13 +216,15 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>What remains of this memorable day? We certainly have a strong desire to experience many more emotions and meet Jan and all the champions who have made cycling history with Limar.<br/><br/>This desire carries a promise to all the passionate cyclists memers of the Limar Cycling Club... follow us because there will be more opportunities to meet the legends of cycling. Until next time!<br/></p>"
+            "text": "<p>What remains of this memorable day? We certainly have a strong desire to experience many more emotions and meet Jan and all the champions who have made cycling history with Limar.<br\/><br\/>This desire carries a promise to all the passionate cyclists memers of the Limar Cycling Club... follow us because there will be more opportunities to meet the legends of cycling. Until next time!<br\/><\/p>"
           }
         },
         "template--19765783003478__14f6a182-cb0b-4827-a8f3-73ee8b2f21d8-heading-1": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         }
       },
       "block_order": [
@@ -258,10 +269,16 @@
       "blocks": {
         "08ef265e-b0c2-433c-891e-b6f57b9b04da": {
           "type": "image",
-          "settings": { "link": "", "width": "100%", "alignment": "center" }
+          "settings": {
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
         }
       },
-      "block_order": ["08ef265e-b0c2-433c-891e-b6f57b9b04da"],
+      "block_order": [
+        "08ef265e-b0c2-433c-891e-b6f57b9b04da"
+      ],
       "disabled": true,
       "settings": {
         "full_width": false,

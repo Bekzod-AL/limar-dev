@@ -1,13 +1,16 @@
 {
   "parent": "product.alben.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "main": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "3c65b8c2-72b9-4c0d-afce-13a62619e4b1": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br\/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI<\/p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br\/>30-DAY RETURNS<\/p>\n\n{% endif %}"
           }
         }
       }

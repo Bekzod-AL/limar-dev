@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_wartwg": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_wartwg": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "sizing-chart",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "355d1f1e-fa7f-4217-8c5c-192283b1cc5c": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "494b2cf7-a1da-4eb6-b040-416d795a7fbc": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770229895383__494b2cf7-a1da-4eb6-b040-416d795a7fbc-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR MASTER</h2>\n<h2 class=\"cus-con-subtitle\" \"> YOU RACE FASTER</h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR MASTER<\/h2>\n<h2 class=\"cus-con-subtitle\" \"> YOU RACE FASTER<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -108,7 +123,7 @@
       "disabled": true,
       "settings": {
         "title": "",
-        "video_url": "https://www.youtube.com/watch?v=ONa0Oe7h-PQ",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ONa0Oe7h-PQ",
         "divider": false
       }
     },
@@ -118,7 +133,7 @@
         "e7738003-aa55-4a69-a23f-4c68578a9f1a": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -126,7 +141,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-1_dafc01f4-32b9-48ff-9671-73c4265cd5a9.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-1_dafc01f4-32b9-48ff-9671-73c4265cd5a9.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -135,7 +150,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>ULTRA VENTILATO</h4>\n\n<p>Grazie all’effetto Venturi, le 15 prese d’aria e il circuito di canalizzazione interna garantiscono l’ingresso di una grande quantità di aria, ma non compromettono la prestazione aerodinamica. Il comfort è assicurato dalla circolazione interna al casco, dove l’aria è canalizzata attraverso l’intera calotta, e il calore accumulato viene espulso, mantenendo la testa fresca. </p>\n\n\n\n{% else %}\n\n<h4>ULTRA VENTILATED </h4>\n\n<p>Thanks to the Venturi effect, the fifteen air vents and the internal duct , the helmet grants the entry of a large amount of air, but with no compromise with its aerodynamic performance. Comfort is ensured by the circulation inside the helmet, where the air is channelled through the entire shell, and the accumulated heat is expelled, keeping the head cool. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>ULTRA VENTILATO<\/h4>\n\n<p>Grazie all’effetto Venturi, le 15 prese d’aria e il circuito di canalizzazione interna garantiscono l’ingresso di una grande quantità di aria, ma non compromettono la prestazione aerodinamica. Il comfort è assicurato dalla circolazione interna al casco, dove l’aria è canalizzata attraverso l’intera calotta, e il calore accumulato viene espulso, mantenendo la testa fresca. <\/p>\n\n\n\n{% else %}\n\n<h4>ULTRA VENTILATED <\/h4>\n\n<p>Thanks to the Venturi effect, the fifteen air vents and the internal duct , the helmet grants the entry of a large amount of air, but with no compromise with its aerodynamic performance. Comfort is ensured by the circulation inside the helmet, where the air is channelled through the entire shell, and the accumulated heat is expelled, keeping the head cool. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -143,7 +158,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -151,7 +166,7 @@
         "19433246-66e6-4514-a0e1-967ac20d5624": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-2_edca6637-25ac-45db-854e-9bfdc24e73d7.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-2_edca6637-25ac-45db-854e-9bfdc24e73d7.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -160,7 +175,7 @@
         "69797353-4569-44c3-a9b2-009f4158e6a3": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>COMFORT ANCHE NELLE TAPPE PIÙ LUNGHE</h4>\n\n<p>Quando i chilometri, e le ore, si sommano, è importante avere il massimo comfort. \nEcco perché Air Master adotta Air Fit, un sistema di fissaggio con peso e dimensioni ai minimi termini. \nLa regolazione orizzontale e verticale e il webbing bracket consentono di adattare perfettamente il casco alla testa \n</p>\n\n\n{% else %}\n\n<h4>COMFORT ALSO FOR THE LONGEST STAGES </h4>\n\n<p>When kilometres and hours build up, maximum comfort is a must. That’s why Air Master adopted Air Fit, the adjustment system with minimal weight and dimensions. The horizontal and vertical adjustments together with the webbing bracket allow a perfect fitting of the helmet on the racer’s head, avoiding any uncomfortable micro-movement.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>COMFORT ANCHE NELLE TAPPE PIÙ LUNGHE<\/h4>\n\n<p>Quando i chilometri, e le ore, si sommano, è importante avere il massimo comfort. \nEcco perché Air Master adotta Air Fit, un sistema di fissaggio con peso e dimensioni ai minimi termini. \nLa regolazione orizzontale e verticale e il webbing bracket consentono di adattare perfettamente il casco alla testa \n<\/p>\n\n\n{% else %}\n\n<h4>COMFORT ALSO FOR THE LONGEST STAGES <\/h4>\n\n<p>When kilometres and hours build up, maximum comfort is a must. That’s why Air Master adopted Air Fit, the adjustment system with minimal weight and dimensions. The horizontal and vertical adjustments together with the webbing bracket allow a perfect fitting of the helmet on the racer’s head, avoiding any uncomfortable micro-movement.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -168,7 +183,7 @@
         "d459784e-7d77-42d4-a281-1d4d2a658d60": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -176,7 +191,7 @@
         "a77c814a-25b8-4b48-8552-ae2ab5cf1270": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-3_e8c2ad7c-cd8b-4a15-8c43-429747f1d4ea.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-3_e8c2ad7c-cd8b-4a15-8c43-429747f1d4ea.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -185,7 +200,7 @@
         "345a60cd-ab8e-4128-9b5c-4cd1bdf28b99": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL SEGRETO È LA SCORREVOLEZZA </h4>\n\n<p>Grazie alla posizione delle prese d’aria frontali e alla conformazione della sezione posteriore, l’aria ha un impatto minore, scorre lungo tutta la calotta e si distacca in modo progressivo, senza creare turbolenza. \n</p>\n\n{% else %}\n\n<h4>THE SECRET IS SMOOTHNESS </h4>\n\n<p>Thanks to the position of the front air vents and to the shape of the rear section, the air has a lesser impact, it runs along the entire shell and detaches progressively, without creating turbulence. \n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL SEGRETO È LA SCORREVOLEZZA <\/h4>\n\n<p>Grazie alla posizione delle prese d’aria frontali e alla conformazione della sezione posteriore, l’aria ha un impatto minore, scorre lungo tutta la calotta e si distacca in modo progressivo, senza creare turbolenza. \n<\/p>\n\n{% else %}\n\n<h4>THE SECRET IS SMOOTHNESS <\/h4>\n\n<p>Thanks to the position of the front air vents and to the shape of the rear section, the air has a lesser impact, it runs along the entire shell and detaches progressively, without creating turbulence. \n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -194,7 +209,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/airatlas-emotion-ufo.jpg",
+            "image": "shopify:\/\/shop_images\/airatlas-emotion-ufo.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -204,7 +219,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Dalle prove effettuate in galleria del vento sono emersi dati molto importanti:<br />\n- Alla velocità di 40 km/h, Limar Air Atlas ti fa risparmiare 0,7 watt rispetto a Limar Air Speed.<br />\n- Alla velocità di 50 km/h, Limar Air Atlas ti fa risparmiare 1,4 watt rispetto a Limar Air Speed.<br />\nLimar Air Atlas è il casco da strada più veloce che abbiamo mai testato: il migliore tra i migliori.\n</p>\n\n{% else %}\n\n<p>Certified recorded data from the tests carried out in the wind tunnel state that:<br />\n- At the speed of 40 km / h, Limar Air Atlas saves you 0.7 watts compared to Limar Air Speed.<br />\n- At the speed of 50 km / h, Limar Air Atlas saves you 1.4 watts compared to Limar Air Speed.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Dalle prove effettuate in galleria del vento sono emersi dati molto importanti:<br \/>\n- Alla velocità di 40 km\/h, Limar Air Atlas ti fa risparmiare 0,7 watt rispetto a Limar Air Speed.<br \/>\n- Alla velocità di 50 km\/h, Limar Air Atlas ti fa risparmiare 1,4 watt rispetto a Limar Air Speed.<br \/>\nLimar Air Atlas è il casco da strada più veloce che abbiamo mai testato: il migliore tra i migliori.\n<\/p>\n\n{% else %}\n\n<p>Certified recorded data from the tests carried out in the wind tunnel state that:<br \/>\n- At the speed of 40 km \/ h, Limar Air Atlas saves you 0.7 watts compared to Limar Air Speed.<br \/>\n- At the speed of 50 km \/ h, Limar Air Atlas saves you 1.4 watts compared to Limar Air Speed.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -213,7 +228,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -222,7 +237,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Air-atlas-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/Air-atlas-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -232,7 +247,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>PERFORMANCE, NON SOLO AERODINAMICA</h4>\n\n<p>Le simulazioni aerodinamiche a computer prima, i numerosi test in galleria del vento, la collaborazione con Vincenzo NIBALI e il Team ASTANA poi, ci hanno condotto step by step al risultato finale.</p>\n\n<p>Il casco più veloce ed allo stesso tempo più ventilato è arrivato.</p>\n\n<p>BENVENUTO AIR ATLAS!</p>\n\n{% else %}\n\n<h4>Performance, not just aerodynamics</h4>\n\n<p>The computer aerodynamic simulations, the numerous tests in the wind tunnel, the collaboration with the ASTANA Team, led us step-by-step to this amazing final result.</p>\n<p>The fastest, and at the same time most ventilated, helmet has arrived.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>PERFORMANCE, NON SOLO AERODINAMICA<\/h4>\n\n<p>Le simulazioni aerodinamiche a computer prima, i numerosi test in galleria del vento, la collaborazione con Vincenzo NIBALI e il Team ASTANA poi, ci hanno condotto step by step al risultato finale.<\/p>\n\n<p>Il casco più veloce ed allo stesso tempo più ventilato è arrivato.<\/p>\n\n<p>BENVENUTO AIR ATLAS!<\/p>\n\n{% else %}\n\n<h4>Performance, not just aerodynamics<\/h4>\n\n<p>The computer aerodynamic simulations, the numerous tests in the wind tunnel, the collaboration with the ASTANA Team, led us step-by-step to this amazing final result.<\/p>\n<p>The fastest, and at the same time most ventilated, helmet has arrived.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -266,7 +281,7 @@
         "abee0c10-703d-41cd-8eb5-6dcd3c05635f": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 70px;\"></div>",
+            "code": "<div style=\"display:block; height: 70px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -274,7 +289,7 @@
         "template--16770229895383__12270acb-b7b9-4d9e-93c1-9b004a7163a4-1683080359ae8f9f8f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Air-atlas-emotion-mips.jpg",
+            "image": "shopify:\/\/shop_images\/Air-atlas-emotion-mips.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -283,7 +298,7 @@
         "template--16770229895383__12270acb-b7b9-4d9e-93c1-9b004a7163a4-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS AIR NODE</h4>\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. </p>\n\n{% else %}\n\n<h4>MIPS AIR NODE</h4>\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS AIR NODE<\/h4>\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. <\/p>\n\n{% else %}\n\n<h4>MIPS AIR NODE<\/h4>\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -291,7 +306,7 @@
         "6c685a3e-457b-47b3-86f5-35986904a1a5": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.\n</p>\n\n{% else %}\n\n<p>The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.\n<\/p>\n\n{% else %}\n\n<p>The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.<\/p>\n\n{% endif %}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -299,7 +314,7 @@
         "4ed6da1e-301f-4079-9489-302f6e196a56": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -335,9 +350,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-master-gallery-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-master-gallery-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770229895383__1c954f02-35e1-4bb9-8056-8d9238a5f418-16830813192d22d6d3-1": {
@@ -353,9 +367,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-master-gallery-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/air-master-gallery-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "94882ebe-bec8-44fd-b9c0-3356790cf4cd": {
@@ -371,9 +384,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-master-gallery-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-master-gallery-3.jpg",
+            "overlay_opacity": 0
           }
         },
         "17d4ff73-3379-41fd-b7dc-23a2240789fd": {
@@ -389,9 +401,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-master-gallery-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-master-gallery-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "6ea2b281-93c8-43e8-a3d5-b22232bd5fb3": {
@@ -407,9 +418,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-master-gallery-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-master-gallery-5.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -433,29 +443,43 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_8GBxxP": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_8GBxxP"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_8GBxxP"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    },
     "170861979166c16d4c": {
       "type": "apps",
-      "settings": { "full_width": false, "space_around": true }
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [

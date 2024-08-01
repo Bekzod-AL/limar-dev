@@ -1,13 +1,16 @@
 {
   "parent": "page.womens-pro-team.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "advanced_content_6Wgck9": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "liquid_L4itax": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\nLimar sponsorizza per il 2024 anche il team continental femminile Aromitalia 3T Vaiano, che ha già esordito a gennaio sulle strade spagnole\ndella Challenge Mallorca Femenina.\n</p>\nIl patron Stefanon Giugni, con i tecnici Paolo Baldi e Matteo Ferrari potranno contare, tra le tante, sulle prestazioni della fuoriclasse lituana Rasa\nLeleivyte, della talentuosa ligure Serena Brillante Romeo, della ventunenne Milena Del Sarto, campionessa regionale toscana in carica, della passista grossetana Fabia Maramotti, della giovane iberica Ainhoa Moreno Ossowsky\ne della ventunenne sprinter di San Miniato Lara Scarselli. Il supporto tecnico è composto dai top gamma Air Pro, Air Atlas e Air King Evo per proteggere e\noffrire alle atlete il massimo della performance!\n</p>\n{%else%}\nLimar also sponsors the women's continental team Aromitalia 3T Vaiano for 2024, which debuted in January on Spanish roads for the Challenge Mallorca Femenina race.\n</p>\nTeam owner Stefanon Giugni, with coaches Paolo Baldi and Matteo Ferrari will be able to count on the performances of Lithuanian strong woman Rasa Leleivyte, talented Ligurian Serena Brillante Romeo, 21-year-old Milena Del Sarto, the reigning Tuscan regional champion, Grosseto-based Fabia Maramotti, young Iberian Ainhoa Moreno Ossowsky, and 21-year-old sprinter from San Miniato Lara Scarselli, among many others. Technical support consists of top-of-the-line Air Pro, Air Atlas and Air King Evo to protect and offer the athletes maximum performance.\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\nLimar sponsorizza per il 2024 anche il team continental femminile Aromitalia 3T Vaiano, che ha già esordito a gennaio sulle strade spagnole\ndella Challenge Mallorca Femenina.\n<\/p>\nIl patron Stefanon Giugni, con i tecnici Paolo Baldi e Matteo Ferrari potranno contare, tra le tante, sulle prestazioni della fuoriclasse lituana Rasa\nLeleivyte, della talentuosa ligure Serena Brillante Romeo, della ventunenne Milena Del Sarto, campionessa regionale toscana in carica, della passista grossetana Fabia Maramotti, della giovane iberica Ainhoa Moreno Ossowsky\ne della ventunenne sprinter di San Miniato Lara Scarselli. Il supporto tecnico è composto dai top gamma Air Pro, Air Atlas e Air King Evo per proteggere e\noffrire alle atlete il massimo della performance!\n<\/p>\n{%else%}\nLimar also sponsors the women's continental team Aromitalia 3T Vaiano for 2024, which debuted in January on Spanish roads for the Challenge Mallorca Femenina race.\n<\/p>\nTeam owner Stefanon Giugni, with coaches Paolo Baldi and Matteo Ferrari will be able to count on the performances of Lithuanian strong woman Rasa Leleivyte, talented Ligurian Serena Brillante Romeo, 21-year-old Milena Del Sarto, the reigning Tuscan regional champion, Grosseto-based Fabia Maramotti, young Iberian Ainhoa Moreno Ossowsky, and 21-year-old sprinter from San Miniato Lara Scarselli, among many others. Technical support consists of top-of-the-line Air Pro, Air Atlas and Air King Evo to protect and offer the athletes maximum performance.\n{%endif%}"
           }
         }
       }

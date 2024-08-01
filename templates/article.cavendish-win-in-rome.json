@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Cavendish_win_in_rome_HP_2100x1181_8cd4ac25-87a9-49ac-b91d-9e2a619bbe5f.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Cavendish_win_in_rome_HP_2100x1181_8cd4ac25-87a9-49ac-b91d-9e2a619bbe5f.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -52,7 +51,7 @@
         "template--16779547050199__2f931787-88a5-4387-8516-f92eb9f20989-16844494714e5628e1-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Giro FAREWELL</h2>\n<p>Mark Cavendish has enjoyed a long cycling career. But, he knew this Giro d’Italia would be his last. He announced his retirement during the early stages of the race, which made the enticement of a final Giro stage win that much sweeter.</p>\n\n<p>It was not a Grand Tour for the meek, however, and no one would get an easy ride. The weather was relentless, as were the attacks, and the pursuit of stage wins went fruitless. Cavendish managed to position himself in the mix on occasion, but that extra bit of luck to deliver him to the line first was not on offer.</p>",
+            "code": "<h2>Giro FAREWELL<\/h2>\n<p>Mark Cavendish has enjoyed a long cycling career. But, he knew this Giro d’Italia would be his last. He announced his retirement during the early stages of the race, which made the enticement of a final Giro stage win that much sweeter.<\/p>\n\n<p>It was not a Grand Tour for the meek, however, and no one would get an easy ride. The weather was relentless, as were the attacks, and the pursuit of stage wins went fruitless. Cavendish managed to position himself in the mix on occasion, but that extra bit of luck to deliver him to the line first was not on offer.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -63,15 +62,14 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "16a6e585-1980-4b39-a972-0fe161672816": {
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "https://youtu.be/X7tt13E4InY",
+        "video_url": "https:\/\/youtu.be\/X7tt13E4InY",
         "divider": false
       }
     },
@@ -81,7 +79,7 @@
         "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>They All Did Incredible</h2>\n\n<p>But if luck wasn’t on his side, the peloton was. Coming into the final stage in Rome, Cavendish and his Astana team had been unable to muster enough forces to get that elusive sprint victory. Mark has been a member of the pro peloton longer than most though, and on this day his friends with whom he has raced and ridden for over a generation would help give him what he wanted most of all, the win in Rome. </p>",
+            "code": "<h2>They All Did Incredible<\/h2>\n\n<p>But if luck wasn’t on his side, the peloton was. Coming into the final stage in Rome, Cavendish and his Astana team had been unable to muster enough forces to get that elusive sprint victory. Mark has been a member of the pro peloton longer than most though, and on this day his friends with whom he has raced and ridden for over a generation would help give him what he wanted most of all, the win in Rome. <\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -89,7 +87,7 @@
         "4bb4356f-fb8e-438e-a42f-c87201ff7930": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/28.05.2023_17_57_01_1600x_ab4cca02-8f30-4bcc-8c26-009b38200be1.webp",
+            "image": "shopify:\/\/shop_images\/28.05.2023_17_57_01_1600x_ab4cca02-8f30-4bcc-8c26-009b38200be1.webp",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -98,7 +96,7 @@
         "template--16779547050199__c647556d-5166-4f53-9f29-d0489662d962-16844494714e5628e1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/28.05.2023_18_29_48_720x_100691f1-cb6a-4815-9080-8c8bc77ea110.webp",
+            "image": "shopify:\/\/shop_images\/28.05.2023_18_29_48_720x_100691f1-cb6a-4815-9080-8c8bc77ea110.webp",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -107,7 +105,7 @@
         "6173fd0e-26ce-4f40-9ea0-adaaa006c742": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/28.05.2023_18_30_00_1_720x_0d33953a-6bd0-46d1-a320-7a711f50657d.webp",
+            "image": "shopify:\/\/shop_images\/28.05.2023_18_30_00_1_720x_0d33953a-6bd0-46d1-a320-7a711f50657d.webp",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -116,7 +114,7 @@
         "6fff49df-8909-4099-af7e-2f575f9ce275": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Thirty-Five in France?</h2><p>With this Giro win in his pocket, Cavendish can now turn his attention to the Tour de France. In 2021 he scored four stage wins to equal the record of the great Eddy Merckx – thirty-four stage wins. But following up in 2022, he was unable to nab that thirty-fifth win to go clear of Merckx. 2023 is another chance though, and given his retirement plans, it will be his last. And, there’s plenty of sprint stages to contest. Will he make it thirty-five?</p>",
+            "code": "<h2>Thirty-Five in France?<\/h2><p>With this Giro win in his pocket, Cavendish can now turn his attention to the Tour de France. In 2021 he scored four stage wins to equal the record of the great Eddy Merckx – thirty-four stage wins. But following up in 2022, he was unable to nab that thirty-fifth win to go clear of Merckx. 2023 is another chance though, and given his retirement plans, it will be his last. And, there’s plenty of sprint stages to contest. Will he make it thirty-five?<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -124,7 +122,7 @@
         "e12967d5-4d41-4fef-b7fe-5034be78c369": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/28.05.2023_18_37_42_1600x_38a7bb36-a4d3-4fe3-964d-d7a353bfd07b.webp",
+            "image": "shopify:\/\/shop_images\/28.05.2023_18_37_42_1600x_38a7bb36-a4d3-4fe3-964d-d7a353bfd07b.webp",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -141,8 +139,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527": {
@@ -150,12 +147,12 @@
       "blocks": {
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-0": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-2": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -170,13 +167,15 @@
         },
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-1": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "b7291e7a-62ef-4687-ac49-708544f76db3": {
           "type": "tab",
           "settings": {
             "title": "Tech specs",
-            "content": "<p>{{ section.settings.featured_product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ section.settings.featured_product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         }

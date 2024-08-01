@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_Btqyhx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_Btqyhx": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_nPqwkD": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "59f39c6b-92d0-49fe-a90b-e3ebb89e7f93": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "34d1587f-69b6-451f-adb9-48c38f88e8ee": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16755666878679__34d1587f-69b6-451f-adb9-48c38f88e8ee-16827198931023c7cb-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR STRATOS</h2>\n<h2 class=\"cus-con-subtitle\" \">Make your ride stratos-pheric</h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR STRATOS<\/h2>\n<h2 class=\"cus-con-subtitle\" \">Make your ride stratos-pheric<\/h2>",
             "width": "100%",
             "alignment": "center"
           }
@@ -107,7 +122,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "https://www.youtube.com/watch?v=YnJLrZPNmLQ",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=YnJLrZPNmLQ",
         "divider": false
       }
     },
@@ -117,7 +132,7 @@
         "216c357d-9014-4d92-8924-410e7ddb0498": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/aAirStratos-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/aAirStratos-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -126,7 +141,7 @@
         "23307def-9236-4d52-86c6-86ec14ddd45d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>AIR STRATOS è un casco ad alte prestazioni, leggero e veloce, dal carattere avventuroso, adatto ad ogni tipo di terreno, che sia asfalto, ghiaia o sterrato.</p> \n\n<p>Questo modello, robusto e leggero nello stesso tempo, è stato progettato in modo da offrire un peso ridotto ed un comfort elevato, il tutto in una struttura altamente resistente.</p>\n\n<p>La doppia calotta in-mould e le 15 prese d’aria garantiscono grande resistenza e ottima ventilazione.</p>\n\n\n\n{% else %}\n\n\n<h4>High performance for all-terrain</h4>\n\n<p>AIR STRATOS is a high performance all-terrain helmet for fast, light gravel and adventure riding. This robust and lightweight model has been designed from the ground up to keep the weight low and the comfort high.</p>\n\n<p>Double in-mould shell with 15 vents for strength and ventilation.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>AIR STRATOS è un casco ad alte prestazioni, leggero e veloce, dal carattere avventuroso, adatto ad ogni tipo di terreno, che sia asfalto, ghiaia o sterrato.<\/p> \n\n<p>Questo modello, robusto e leggero nello stesso tempo, è stato progettato in modo da offrire un peso ridotto ed un comfort elevato, il tutto in una struttura altamente resistente.<\/p>\n\n<p>La doppia calotta in-mould e le 15 prese d’aria garantiscono grande resistenza e ottima ventilazione.<\/p>\n\n\n\n{% else %}\n\n\n<h4>High performance for all-terrain<\/h4>\n\n<p>AIR STRATOS is a high performance all-terrain helmet for fast, light gravel and adventure riding. This robust and lightweight model has been designed from the ground up to keep the weight low and the comfort high.<\/p>\n\n<p>Double in-mould shell with 15 vents for strength and ventilation.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -134,7 +149,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -142,7 +157,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/aAirStratos-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/aAirStratos-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -151,7 +166,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il sistema di regolazione AirFit offre il miglior comfort e le imbottiture interne con trattamento anallergico mantengono la testa asciutta.</p> \n\n<p>Air stratos vanta una struttura robusta progettata per correre liberamente migliaia di chilometri per spedizioni in bikepacking, strade sconnesse e single track.</p>\n\n\n\n{% else %}\n\n\n<h4>Absolute Comfort</h4>\n<p>AirFit-System provides the best comfort and non allergenic treated pads keep your head dry.</p>\n<p>A strong construction made for thousands of kilometers on bikepacking expeditions, rough roads and single tracks.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il sistema di regolazione AirFit offre il miglior comfort e le imbottiture interne con trattamento anallergico mantengono la testa asciutta.<\/p> \n\n<p>Air stratos vanta una struttura robusta progettata per correre liberamente migliaia di chilometri per spedizioni in bikepacking, strade sconnesse e single track.<\/p>\n\n\n\n{% else %}\n\n\n<h4>Absolute Comfort<\/h4>\n<p>AirFit-System provides the best comfort and non allergenic treated pads keep your head dry.<\/p>\n<p>A strong construction made for thousands of kilometers on bikepacking expeditions, rough roads and single tracks.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -159,7 +174,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -167,7 +182,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/aAirStratos-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/aAirStratos-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -176,7 +191,7 @@
         "31dd2969-e2b5-42eb-bdbd-81a8459904b9": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Air Stratos è un connubio tra robustezza e leggerezza: casco molto leggero, con un peso ben distribuito, nella taglia M solo 240 gr., garantisce un comfort assoluto. Disponibile in due taglie e sette colorazioni.\n</p>\n\n\n\n{% else %}\n\n\n<h4>Style, strength and lightness</h4>\n\n<p>Air Stratos is the perfect combination of strength and lightness: very light helmet, with a well distributed weight, in size Medium is only 240 gr, for an absolute comfort.</p>\n\n<p> Available in two sizes and seven colors.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Air Stratos è un connubio tra robustezza e leggerezza: casco molto leggero, con un peso ben distribuito, nella taglia M solo 240 gr., garantisce un comfort assoluto. Disponibile in due taglie e sette colorazioni.\n<\/p>\n\n\n\n{% else %}\n\n\n<h4>Style, strength and lightness<\/h4>\n\n<p>Air Stratos is the perfect combination of strength and lightness: very light helmet, with a well distributed weight, in size Medium is only 240 gr, for an absolute comfort.<\/p>\n\n<p> Available in two sizes and seven colors.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -184,7 +199,7 @@
         "d925c8cb-5fbd-4b6a-af19-f7584dd8d90b": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -192,7 +207,7 @@
         "c8984909-a9bb-4dba-91b7-901c0ef1266f": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/aAirStratos-emotion-mips.jpg",
+            "image": "shopify:\/\/shop_images\/aAirStratos-emotion-mips.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -201,7 +216,7 @@
         "39dffae9-c8ef-4b1f-a221-bff87a1b13ac": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>MIPS AIR</h4>\n\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. </p>\n\n\n\n{% else %}\n\n\n<h4>MIPS AIR</h4>\n\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding.</p>\n\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>MIPS AIR<\/h4>\n\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. <\/p>\n\n\n\n{% else %}\n\n\n<h4>MIPS AIR<\/h4>\n\n<p>Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding.<\/p>\n\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -209,7 +224,7 @@
         "654d1545-78de-4ef4-b0f0-57601af15e9c": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.</p>\n\n<p>Pronto per il mix perfetto tra corsa e avventura? Con Air Stratos puoi vivere le tue avventure ovunque, circondato da paesaggi meravigliosi, in sella alla tua bici con stile, divertimento e in totale sicurezza!\n</p>\n\n\n\n{% else %}\n\n\n<p>The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.\n</p>\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.<\/p>\n\n<p>Pronto per il mix perfetto tra corsa e avventura? Con Air Stratos puoi vivere le tue avventure ovunque, circondato da paesaggi meravigliosi, in sella alla tua bici con stile, divertimento e in totale sicurezza!\n<\/p>\n\n\n\n{% else %}\n\n\n<p>The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet.\n<\/p>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
@@ -217,7 +232,7 @@
         "d5935f14-596d-44d4-9389-078a1f6600b5": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -260,9 +275,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-stratos-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-stratos-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "39339ae0-0843-4d80-b5d2-c3d5eccd24a4": {
@@ -278,9 +292,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-stratos-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-stratos-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "eb8145ad-87fa-44d4-8145-86bf8b100bc1": {
@@ -296,9 +309,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-stratos-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-stratos-7.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666878679__c3d06ab5-134f-43bc-a6c0-65661acf1266-16827208135d8eeadf-1": {
@@ -314,9 +326,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-stratos-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-stratos-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666878679__c3d06ab5-134f-43bc-a6c0-65661acf1266-16827208135d8eeadf-0": {
@@ -332,9 +343,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/air-stratos-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/air-stratos-3.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -358,26 +368,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_4kJLN3": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_4kJLN3"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_4kJLN3"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

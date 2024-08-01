@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_Ciee67": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_Ciee67": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_Hj7UC8": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "3c65b8c2-72b9-4c0d-afce-13a62619e4b1": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "9b5d8d7a-ba49-4749-87a1-5675170e2b05": {
           "type": "tab",
           "settings": {
             "title": "TECH SPECS",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "1655919141d401532e": {
       "type": "advanced-content",
@@ -88,14 +103,18 @@
         "16559191411e276775-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">ALBEN</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> THE NEW MTB BEGINNING</h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">ALBEN<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\"> THE NEW MTB BEGINNING<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
         }
       },
-      "block_order": ["16559191411e276775-1"],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "block_order": [
+        "16559191411e276775-1"
+      ],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -108,7 +127,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alben-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/alben-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -117,7 +136,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>ALBEN è il nuovo casco LIMAR per chi ama divertirsi con la sua MTB e desidera la migliore protezione.</p>\n\n<p>Il design è infatti studiato per offrire la massima copertura, ma il peso resta contenuto e la ventilazione eccellente!\n</p>\n\n\n\n{% else %}\n\n\n<h4>THE NEW MTB BEGINNING </h4>\n\n<p> Alben is the Limar helmet for all MTB lovers who enjoy their adventures with the best protection. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>ALBEN è il nuovo casco LIMAR per chi ama divertirsi con la sua MTB e desidera la migliore protezione.<\/p>\n\n<p>Il design è infatti studiato per offrire la massima copertura, ma il peso resta contenuto e la ventilazione eccellente!\n<\/p>\n\n\n\n{% else %}\n\n\n<h4>THE NEW MTB BEGINNING <\/h4>\n\n<p> Alben is the Limar helmet for all MTB lovers who enjoy their adventures with the best protection. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -125,7 +144,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -133,7 +152,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alben-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/alben-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -142,7 +161,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Realizzato con tecnologia in-mould, vanta ottima ventilazione con 22 prese d'aria.\n</p>\n\n\n\n{% else %}\n\n\n<h4>SUPREME COMFORT AND VENTILATION</h4>\n\n<p>The design has been studied to offer maximum head coverage, though granting excellent ventilation with limited weight</p>\n\n<p>Featuring In-mould technology, it offers supreme ventilation with 22 vents.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Realizzato con tecnologia in-mould, vanta ottima ventilazione con 22 prese d'aria.\n<\/p>\n\n\n\n{% else %}\n\n\n<h4>SUPREME COMFORT AND VENTILATION<\/h4>\n\n<p>The design has been studied to offer maximum head coverage, though granting excellent ventilation with limited weight<\/p>\n\n<p>Featuring In-mould technology, it offers supreme ventilation with 22 vents.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -150,7 +169,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -158,7 +177,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alben-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/alben-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -167,7 +186,7 @@
         "60518169-9633-4ad7-bf24-049dc2d3296c": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il peso è estremamente contenuto per un casco MTB con copertura estesa.\n\n</p>\n\n\n\n{% else %}\n\n\n<h4>Extended Protection</h4>\n\n<p>Alben grants extended protection coverage with minimum weight.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il peso è estremamente contenuto per un casco MTB con copertura estesa.\n\n<\/p>\n\n\n\n{% else %}\n\n\n<h4>Extended Protection<\/h4>\n\n<p>Alben grants extended protection coverage with minimum weight.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -175,7 +194,7 @@
         "752c99c1-c3dd-40b2-987e-197b5e68278b": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -183,7 +202,7 @@
         "5ab0f2bb-fe0c-418e-83db-bd2fdea3630a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/alben-emotion-4.jpg",
+            "image": "shopify:\/\/shop_images\/alben-emotion-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -192,7 +211,7 @@
         "7ccff4dd-1054-4e01-bab2-e20ddefacd85": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il sistema di regolazione \"Competition +\" offre regolazione orizzontale e verticale e cinturino integrato per una calzata ottimale.</p>\n<p>E' compatibile con Limar helmet Led Light.</p>\n<p>Le imbottiture in tessuto anallergico offrono comfort eccellente.</p>\n\n\n\n{% else %}\n\n\n<h4>The Perfect Fit</h4>\n\n<p> The “Competition+” adjustment system allows horizontal and vertical regulation with integrated strap for a perfect fitting.</p>\n\n<p>LIMAR helmet LED light available as optional accessory to be applied to the back wheel. The internal pads in non-allergic fabric complete the excellent comfort of the helmet.\nAlben is available in two sizes, M and L and in a range of colour options, </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Il sistema di regolazione \"Competition +\" offre regolazione orizzontale e verticale e cinturino integrato per una calzata ottimale.<\/p>\n<p>E' compatibile con Limar helmet Led Light.<\/p>\n<p>Le imbottiture in tessuto anallergico offrono comfort eccellente.<\/p>\n\n\n\n{% else %}\n\n\n<h4>The Perfect Fit<\/h4>\n\n<p> The “Competition+” adjustment system allows horizontal and vertical regulation with integrated strap for a perfect fitting.<\/p>\n\n<p>LIMAR helmet LED light available as optional accessory to be applied to the back wheel. The internal pads in non-allergic fabric complete the excellent comfort of the helmet.\nAlben is available in two sizes, M and L and in a range of colour options, <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -233,9 +252,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-alben-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-alben-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666911447__faccea08-f510-4cce-9146-fc8333fb4f35-16827208135d8eeadf-0": {
@@ -251,9 +269,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-alben-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-alben-7.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666911447__faccea08-f510-4cce-9146-fc8333fb4f35-16827208135d8eeadf-1": {
@@ -269,9 +286,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-alben-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-alben-5.jpg",
+            "overlay_opacity": 0
           }
         },
         "b668009a-a6d2-4a73-ac56-1819241800b2": {
@@ -287,9 +303,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-alben-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-alben-6.jpg",
+            "overlay_opacity": 0
           }
         },
         "f41f55dc-221f-46b4-a24b-7ec74255b4d5": {
@@ -305,9 +320,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-alben-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-alben-1.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -331,26 +345,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_zY9ipN": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_zY9ipN"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_zY9ipN"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

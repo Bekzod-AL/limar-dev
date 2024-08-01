@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify://shop_images/dsc01503_53237948460_o_b5b126af-f4c6-484e-a5ce-5496eb396aa1.webp",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/dsc01503_53237948460_o_b5b126af-f4c6-484e-a5ce-5496eb396aa1.webp",
+            "overlay_opacity": 0
           }
         }
       },
@@ -53,7 +52,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><em>Words & Photos by Cole Gregg</em></p><p><strong>Construction: </strong>This Full-Cut offering new to the Lamar line is an “All round In-mold double shell” construction, using the PROXEAR coverage system to offer extra protection around the ears and to the temporomandibular joint. Without much information on their website about this technology my deduction is that the helmet has two molded layers joined together. This creates a lightweight and safe shell for many different riding disciplines, with my size medium tipping the scales at 450g and the large at a claimed 500g. This is just 70 grams more than my all-time favorite, the Smith Forefront 2, which does not offer nearly as much coverage as the ETNA.</p>"
+            "text": "<p><em>Words & Photos by Cole Gregg<\/em><\/p><p><strong>Construction: <\/strong>This Full-Cut offering new to the Lamar line is an “All round In-mold double shell” construction, using the PROXEAR coverage system to offer extra protection around the ears and to the temporomandibular joint. Without much information on their website about this technology my deduction is that the helmet has two molded layers joined together. This creates a lightweight and safe shell for many different riding disciplines, with my size medium tipping the scales at 450g and the large at a claimed 500g. This is just 70 grams more than my all-time favorite, the Smith Forefront 2, which does not offer nearly as much coverage as the ETNA.<\/p>"
           }
         }
       },
@@ -72,18 +71,19 @@
         "a3b28005-781b-46b4-858a-fe36feb39d40": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dsc01500_53237826519_o_eaa8d2ec-0dab-433f-8a0a-9454ac2e3971.webp",
+            "image": "shopify:\/\/shop_images\/dsc01500_53237826519_o_eaa8d2ec-0dab-433f-8a0a-9454ac2e3971.webp",
             "link": "",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["a3b28005-781b-46b4-858a-fe36feb39d40"],
+      "block_order": [
+        "a3b28005-781b-46b4-858a-fe36feb39d40"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "e4d07573-ed33-4046-8c1e-5a81c5fe82a5": {
@@ -93,7 +93,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Safety: </strong>The ETNA + MIPS comes equipped with a Mips system as you might have guessed,  in the form of the Mips Air Node safety system. This Mips System is slightly different than the rotational style Mips found in other high-end helmets: Instead of two layers of material sliding over each other on impact, the Air Node system is built into the padded liner, which is designed to release from the helmet during angled impacts. It uses a low friction layer that is laminated to the helmets base, with the comfort and fit padding sliding over it. Limar’s PROXEAR coverage on this particular model extends coverage beyond your normal half shell. The extra coverage helps protect the temporomandibular (say that 3 times fast) joint – or the joint at the top of the jaw. With minimal weight increase the extra coverage might just come in handy when you run out of talent.</p>"
+            "text": "<p><strong>Safety: <\/strong>The ETNA + MIPS comes equipped with a Mips system as you might have guessed,  in the form of the Mips Air Node safety system. This Mips System is slightly different than the rotational style Mips found in other high-end helmets: Instead of two layers of material sliding over each other on impact, the Air Node system is built into the padded liner, which is designed to release from the helmet during angled impacts. It uses a low friction layer that is laminated to the helmets base, with the comfort and fit padding sliding over it. Limar’s PROXEAR coverage on this particular model extends coverage beyond your normal half shell. The extra coverage helps protect the temporomandibular (say that 3 times fast) joint – or the joint at the top of the jaw. With minimal weight increase the extra coverage might just come in handy when you run out of talent.<\/p>"
           }
         }
       },
@@ -112,7 +112,7 @@
         "template--20077828047190__58e6e54c-22eb-445e-b165-56a2a2c11fa9-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dsc01460_53237584211_o_c72dd43b-182b-4639-88c0-8a0bd0d5c89a.webp",
+            "image": "shopify:\/\/shop_images\/dsc01460_53237584211_o_c72dd43b-182b-4639-88c0-8a0bd0d5c89a.webp",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -124,8 +124,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "f896bd6b-3baf-4fe3-a7d8-e0726db63210": {
@@ -135,7 +134,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>First Thoughts: </strong>When I first pulled the ETNA out of the box, I was very surprised with the lack of weight. It’s closest competitor, the Fox Dropframe lands at 499g for a size medium and another in the same category tips the scales at a whopping 718g. From what I could find the ETNA is the lightest 3/4 framed helmet out there and its low weight is noted out on the trails.</p>"
+            "text": "<p><strong>First Thoughts: <\/strong>When I first pulled the ETNA out of the box, I was very surprised with the lack of weight. It’s closest competitor, the Fox Dropframe lands at 499g for a size medium and another in the same category tips the scales at a whopping 718g. From what I could find the ETNA is the lightest 3\/4 framed helmet out there and its low weight is noted out on the trails.<\/p>"
           }
         }
       },
@@ -154,7 +153,7 @@
         "template--20077828047190__afc32952-5a6c-4f73-9d82-40f42f2d36c5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/dsc01730_53237751613_o-1200x675.webp",
+            "image": "shopify:\/\/shop_images\/dsc01730_53237751613_o-1200x675.webp",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -166,8 +165,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "64268ae3-25d8-4592-a42c-867db17d2803": {
@@ -177,13 +175,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Finish and Value:</strong>Overall the feel of the Limar Etna + MIPS screams quality. To produce a helmet that is this light without the feeling of it being cheap must have been a tough job for the design team, but they got it right. All the integrations on this helmet are seamless and well thought out – a 10 out of 10 in my book. The price is in line with many other helmets on the market and really should not be a thought as protecting your head should be your highest priority. Overall you can consider me impressed.</p>"
+            "text": "<p><strong>Finish and Value:<\/strong>Overall the feel of the Limar Etna + MIPS screams quality. To produce a helmet that is this light without the feeling of it being cheap must have been a tough job for the design team, but they got it right. All the integrations on this helmet are seamless and well thought out – a 10 out of 10 in my book. The price is in line with many other helmets on the market and really should not be a thought as protecting your head should be your highest priority. Overall you can consider me impressed.<\/p>"
           }
         },
         "6854c7e6-71eb-433c-8ebe-a894bdee253c": {
           "type": "button",
           "settings": {
-            "link": "https://theloamwolf.com/2023/10/26/review-limar-etna-mips-helmet/",
+            "link": "https:\/\/theloamwolf.com\/2023\/10\/26\/review-limar-etna-mips-helmet\/",
             "link_text": "Full Loam Wolf Review"
           }
         }
@@ -203,12 +201,12 @@
       "blocks": {
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-0": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-2": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -223,13 +221,15 @@
         },
         "template--16786327863511__eddd2d94-ec1c-4b9f-98ce-18ddcc8ad527-16857285021194d1a8-1": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "b7291e7a-62ef-4687-ac49-708544f76db3": {
           "type": "tab",
           "settings": {
             "title": "Tech specs",
-            "content": "<p>{{ section.settings.featured_product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ section.settings.featured_product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         }
@@ -260,7 +260,9 @@
       "blocks": {
         "template--20077828047190__b9e0f8d7-8c1c-4197-b97b-9a161201c2d0-heading-1": {
           "type": "heading",
-          "settings": { "title": "More Mountain Bike Helmets" }
+          "settings": {
+            "title": "More Mountain Bike Helmets"
+          }
         }
       },
       "block_order": [
@@ -279,36 +281,36 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Tonale-MattBlack.png",
+            "image": "shopify:\/\/shop_images\/Tonale-MattBlack.png",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Tonale + Mips",
-            "button_link": "shopify://products/tonale-mips"
+            "button_link": "shopify:\/\/products\/tonale-mips"
           }
         },
         "template--20077828047190__4abaf363-4bac-48a5-bb1c-41b50bbfb08e-text_block-1": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/delta-mattblack.png",
+            "image": "shopify:\/\/shop_images\/delta-mattblack.png",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Delta + Mips",
-            "button_link": "shopify://products/delta-mips"
+            "button_link": "shopify:\/\/products\/delta-mips"
           }
         },
         "template--20077828047190__4abaf363-4bac-48a5-bb1c-41b50bbfb08e-text_block-3": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/pora-mattblacktitanium.png",
+            "image": "shopify:\/\/shop_images\/pora-mattblacktitanium.png",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Pora + Mips",
-            "button_link": "shopify://products/pora-mips"
+            "button_link": "shopify:\/\/products\/pora-mips"
           }
         }
       },
@@ -317,7 +319,11 @@
         "template--20077828047190__4abaf363-4bac-48a5-bb1c-41b50bbfb08e-text_block-1",
         "template--20077828047190__4abaf363-4bac-48a5-bb1c-41b50bbfb08e-text_block-3"
       ],
-      "settings": { "title": "", "align_text": "center", "divider": false }
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     },
     "blog-posts": {
       "type": "blog-posts",

@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_YM7RCa": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_YM7RCa": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_hY46Be": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "beaf13e7-d17f-4761-b73c-c1580e32c751": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16755666747607__c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8-16827100104f05a019-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR PRO</h2>\n<h2 class=\"cus-con-subtitle\" \">SHAPED BY AIR</h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR PRO<\/h2>\n<h2 class=\"cus-con-subtitle\" \">SHAPED BY AIR<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16755666747607__c0e8dc4f-7635-4ecc-bcfe-bb6de87264e8-16827100104f05a019-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -110,7 +127,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airpro-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/airpro-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -119,7 +136,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>CARBONCORETECH</h4>\n\n<p>Abbiamo sfruttato le qualità uniche del carbonio per realizzare, accoppiandolo al polistirolo espanso, un’anima che offre la massima resistenza con il minimo degli spessori.</p>\n\n<p>Due ali strutturali si fondono con le costole longitudinali della calotta, creando una gabbia altamente performante in termini di sicurezza, aerodinamica e ventilazione.</p>\n\n\n{% else %}\n\n<h4>CARBONCORETECH</h4>\n\n<p> We have exploited the unique properties of carbon, coupling them with eps, to realize a maximum resistance core with minimum thickness.</p>\n\n<p>Two structural wings merge with the side ribs of the shell, creating a highly performing cage in terms of safety, aerodynamics and ventilation. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>CARBONCORETECH<\/h4>\n\n<p>Abbiamo sfruttato le qualità uniche del carbonio per realizzare, accoppiandolo al polistirolo espanso, un’anima che offre la massima resistenza con il minimo degli spessori.<\/p>\n\n<p>Due ali strutturali si fondono con le costole longitudinali della calotta, creando una gabbia altamente performante in termini di sicurezza, aerodinamica e ventilazione.<\/p>\n\n\n{% else %}\n\n<h4>CARBONCORETECH<\/h4>\n\n<p> We have exploited the unique properties of carbon, coupling them with eps, to realize a maximum resistance core with minimum thickness.<\/p>\n\n<p>Two structural wings merge with the side ribs of the shell, creating a highly performing cage in terms of safety, aerodynamics and ventilation. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -127,7 +144,7 @@
         "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -135,7 +152,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airpro-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/airpro-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -144,7 +161,7 @@
         "71413fb4-3e92-40a6-b517-8cf16a3a584d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>SHAPED BY THE AIR</h4>\n\n<p>Dopo avere creato il casco più leggero del mondo, non ci siamo fermati. In collaborazione con il team Astana Pro Cycling abbiamo esplorato i confini dell’aerodinamica nella galleria del vento di Magny Cours, per spingerci ancora più lontano. Perché il traguardo più prestigioso è il prossimo.</p>\n\n\n\n{% else %}\n\n<h4>SHAPED BY THE AIR</h4>\n\n<p> After creating the lightest helmet in the world, we have never stopped our development to push the envelope of safety and performance to its limits.</p>\n\n<p> In collaboration with the Astana Pro Cycling Team we explored the aerodynamic limitations at the wind tunnel in Magny Cours to take our research and development even further.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>SHAPED BY THE AIR<\/h4>\n\n<p>Dopo avere creato il casco più leggero del mondo, non ci siamo fermati. In collaborazione con il team Astana Pro Cycling abbiamo esplorato i confini dell’aerodinamica nella galleria del vento di Magny Cours, per spingerci ancora più lontano. Perché il traguardo più prestigioso è il prossimo.<\/p>\n\n\n\n{% else %}\n\n<h4>SHAPED BY THE AIR<\/h4>\n\n<p> After creating the lightest helmet in the world, we have never stopped our development to push the envelope of safety and performance to its limits.<\/p>\n\n<p> In collaboration with the Astana Pro Cycling Team we explored the aerodynamic limitations at the wind tunnel in Magny Cours to take our research and development even further.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -152,7 +169,7 @@
         "a8553236-d24e-4b37-9335-93f4fcdeb4b2": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -160,7 +177,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airpro-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/airpro-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -169,7 +186,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL VALORE DI UN SINGOLO SECONDO</h4>\n\n<p>Progettato in Italia, l'AIR PRO è stato analizzato, sviluppato e testato in collaborazione con Astana Pro Cycling Team, integrando i più innovativi sistemi di analisi con dati di simulazione matematica tra cui i test realizzati in Galleria del Vento.</p>\n\n<p>Con Air Pro si arriva a una diminuzione dello 0,2% della resistenza alla penetrazione nell’aria rispetto al modello Ultralight+. O, se preferite, a un aumento dell’efficienza del 20%. Per guadagnare fino a 1 secondo ogni 10 km in una cronometro.</p>\n\n\n{% else %}\n\n<h4>THE VALUE OF A JUST ONE SECOND</h4>\n\n<p> Designed in Italy, the AIR PRO has been analyzed, tested and developed in collaboration with the Astana Pro Cycling Team while integrating the most innovating analyses systems with mathematical simulation data’s including the tests achieved in the Wind Tunnel.</p>\n\n<p>With AIR PRO you achieve a 20% increase in efficiency when compared to model Ultralight+. This enables you to earn up to one second every 10 km. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>IL VALORE DI UN SINGOLO SECONDO<\/h4>\n\n<p>Progettato in Italia, l'AIR PRO è stato analizzato, sviluppato e testato in collaborazione con Astana Pro Cycling Team, integrando i più innovativi sistemi di analisi con dati di simulazione matematica tra cui i test realizzati in Galleria del Vento.<\/p>\n\n<p>Con Air Pro si arriva a una diminuzione dello 0,2% della resistenza alla penetrazione nell’aria rispetto al modello Ultralight+. O, se preferite, a un aumento dell’efficienza del 20%. Per guadagnare fino a 1 secondo ogni 10 km in una cronometro.<\/p>\n\n\n{% else %}\n\n<h4>THE VALUE OF A JUST ONE SECOND<\/h4>\n\n<p> Designed in Italy, the AIR PRO has been analyzed, tested and developed in collaboration with the Astana Pro Cycling Team while integrating the most innovating analyses systems with mathematical simulation data’s including the tests achieved in the Wind Tunnel.<\/p>\n\n<p>With AIR PRO you achieve a 20% increase in efficiency when compared to model Ultralight+. This enables you to earn up to one second every 10 km. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -177,7 +194,7 @@
         "a0810d96-9cdd-448b-821c-243da64f028a": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -185,7 +202,7 @@
         "5ab0f2bb-fe0c-418e-83db-bd2fdea3630a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airpro-emotion-4.jpg",
+            "image": "shopify:\/\/shop_images\/airpro-emotion-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -194,7 +211,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS AIR</h4>\n\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. </p>\n\n\n{% else %}\n\n<h4>MIPS AIR</h4>\n\n<p> Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS AIR<\/h4>\n\n<p>Mips Air è un sistema di gestione rotazionale sviluppato e progettato per essere il sistema più leggero possibile per aiutare a ridurre le energie rotazionali altrimenti trasferite alla testa durante un impatto o un incidente. <\/p>\n\n\n{% else %}\n\n<h4>MIPS AIR<\/h4>\n\n<p> Mips Air is a rotational management system developed and designed to be the lightest system possible to help reduce rotational energies otherwise transferred to the head during an impact or crash. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -202,7 +219,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.</p>\n\n\n{% else %}\n\n<p>The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding. The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>La tecnologia Mips Air è integrata nell’imbottitura del casco e consente movimenti multidirezionali di 10-15mm tra lo strato di assorbimento dell’energia e l’imbottitura. Il movimento multidirezionale del Mips Air è reso possibile da un supporto in policarbonato PC con uno speciale trattamento a basso attrito e trattenuto da fissaggi appositamente progettati che consentono il movimento in tutte le direzioni. Essendo integrato nell’imbottitura, il sistema è il più leggero possibile e progettato per adattarsi a ogni specifico casco e taglia, essendo appena visibile al consumatore e aggiungendo solo un peso limitato al casco.<\/p>\n\n\n{% else %}\n\n<p>The Mips Air technology is integrated into the padding of the helmet and enables the 10-15mm of relative movement between the energy absorbing layer and the padding. The relative movement of the Mips Air is enabled by having a backing of polycarbonate PC with a special low friction treatment and being held by specially designed fixations enabling movement in all directions. By being integrated into the padding the system is as light as it gets and designed to fit each specific helmet and size, barely being visible to the user and adding only limited weight to the helmet. <\/p>\n\n{% endif %}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -244,9 +261,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/airpro-lifestyle-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/airpro-lifestyle-6.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666747607__bd8f8ca4-1a12-49b4-858f-19fab3c83a8c-1682713257644a0800-0": {
@@ -262,9 +278,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/airpro-lifestyle-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/airpro-lifestyle-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "1891c60b-eb0f-4ec8-8a74-74bb6603813b": {
@@ -280,9 +295,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/airpro-lifestyle-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/airpro-lifestyle-5.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666747607__bd8f8ca4-1a12-49b4-858f-19fab3c83a8c-1682713257644a0800-1": {
@@ -298,9 +312,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/airpro-lifestyle-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/airpro-lifestyle-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "237ff088-5cbd-4ad9-b283-a3786690a7ee": {
@@ -316,9 +329,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/airpro-lifestyle-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/airpro-lifestyle-3.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -342,26 +354,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_JakGCU": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_JakGCU"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_JakGCU"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_XH7Bdn": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_XH7Bdn": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_UDpENK": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "936c0408-b618-4ace-98f4-f9ad6039f549": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "a53b6437-f8da-47de-a5b3-9d067cfc112f": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16755666813143__a53b6437-f8da-47de-a5b3-9d067cfc112f-1682715602306ea0b6-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION</h2>\n<h2 class=\"cus-con-subtitle\" \">AIR STAR</h2>\n<h2 class=\"cus-con-subtitle\" \">The Air revolution starts here</h2>",
+            "code": "<h2 class=\"cus-con-title\" \">AIR REVOLUTION<\/h2>\n<h2 class=\"cus-con-subtitle\" \">AIR STAR<\/h2>\n<h2 class=\"cus-con-subtitle\" \">The Air revolution starts here<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -109,7 +124,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -118,7 +133,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>Progettato e sviluppato per gli amanti del Road e del Gravel, senza rinunciare al comfort e alla ventilazione elevati e tipici della linea Limar Air Revolution.</h4>\n\n<p>Funzionale e utile la luce rossa posteriore di serie, perfettamente inglobata al sistema di regolazione, per una maggiore sicurezza quando si pedala di notte o in zone con molte gallerie o luce limitata.</p>\n\n\n\n{% else %}\n\n\n<h4>Designed and developed for Road & Gravel lovers</h4>\n\n<p>Air Star has the great comfort and supreme ventilation of Limar Air Revolution line.</p>\n<p> The rear red light included, perfectly fitting on the adjustment system, increases safety when riding at night or in limited light conditions. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h4>Progettato e sviluppato per gli amanti del Road e del Gravel, senza rinunciare al comfort e alla ventilazione elevati e tipici della linea Limar Air Revolution.<\/h4>\n\n<p>Funzionale e utile la luce rossa posteriore di serie, perfettamente inglobata al sistema di regolazione, per una maggiore sicurezza quando si pedala di notte o in zone con molte gallerie o luce limitata.<\/p>\n\n\n\n{% else %}\n\n\n<h4>Designed and developed for Road & Gravel lovers<\/h4>\n\n<p>Air Star has the great comfort and supreme ventilation of Limar Air Revolution line.<\/p>\n<p> The rear red light included, perfectly fitting on the adjustment system, increases safety when riding at night or in limited light conditions. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -126,7 +141,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -134,7 +149,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -143,7 +158,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n\n<p>La sua tripla calotta in mold garantisce una protezione totale anche in tutta l’area del sottocasco.</p>\n\n\n\n{% else %}\n\n\n<h4>In-mould Triple Shell</h4>\n<p>With the in-mould triple shell AIR STAR offers a full protection and easiness in cleaning also on the bottom trim of the helmet.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n\n<p>La sua tripla calotta in mold garantisce una protezione totale anche in tutta l’area del sottocasco.<\/p>\n\n\n\n{% else %}\n\n\n<h4>In-mould Triple Shell<\/h4>\n<p>With the in-mould triple shell AIR STAR offers a full protection and easiness in cleaning also on the bottom trim of the helmet.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -151,7 +166,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -159,7 +174,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/airstar-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/airstar-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -168,7 +183,7 @@
         "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n\n<p> E’ caratterizzato da un design fortemente originale e aerodinamico per una calzata ultrafit.\n</p>\n\n\n\n{% else %}\n\n\n<h4>Fresh and original in design</h4>\n<p>Aerodynamic in performace, ultrafit, and comfortable when on your head.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n\n<p> E’ caratterizzato da un design fortemente originale e aerodinamico per una calzata ultrafit.\n<\/p>\n\n\n\n{% else %}\n\n\n<h4>Fresh and original in design<\/h4>\n<p>Aerodynamic in performace, ultrafit, and comfortable when on your head.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -206,9 +221,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-air-star-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-air-star-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16755666813143__1ca00343-f2bd-4108-96c3-c24c4d59c3de-1682716837a65207d3-1": {
@@ -224,9 +238,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-air-star-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-air-star-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "6787168e-3393-4af8-b007-a41660b0dcf6": {
@@ -242,9 +255,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-air-star-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-air-star-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "c96c7278-5bc4-4864-81fe-b51e5dc46e64": {
@@ -260,9 +272,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-air-star-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-air-star-3.jpg",
+            "overlay_opacity": 0
           }
         },
         "6353fecb-c7e2-4630-b473-1ac862292e2d": {
@@ -278,9 +289,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-air-star-5.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-air-star-5.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -304,26 +314,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_4BhEtM": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_4BhEtM"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_4BhEtM"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

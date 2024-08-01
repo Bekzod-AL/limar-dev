@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify://shop_images/Team_Qazaqstan_1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Team_Qazaqstan_1.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -51,13 +50,16 @@
       "blocks": {
         "9a7e9078-1df8-40ad-ad92-6ca5b80f2b81": {
           "type": "text",
-          "settings": { "enlarge_text": false, "text": "<p>By Limar</p>" }
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>By Limar<\/p>"
+          }
         },
         "template--16990551245015__bfec5b77-1058-452f-b574-1887260b0682-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>All eyes will be on Team Astana-Qazaqstan as Mark Cavendish goes for the World Record TdF stage win record! His 35th stage win would allow him to overtake Eddy Merckx and become the all-time record holder for partial successes in the most exciting Tour ever.</p>"
+            "text": "<p>All eyes will be on Team Astana-Qazaqstan as Mark Cavendish goes for the World Record TdF stage win record! His 35th stage win would allow him to overtake Eddy Merckx and become the all-time record holder for partial successes in the most exciting Tour ever.<\/p>"
           }
         }
       },
@@ -77,17 +79,18 @@
         "liquid_WkWJYm": {
           "type": "liquid",
           "settings": {
-            "code": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WQvn5tHLcbQ?si=gzif7julM1v8J_4A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "code": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/WQvn5tHLcbQ?si=gzif7julM1v8J_4A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["liquid_WkWJYm"],
+      "block_order": [
+        "liquid_WkWJYm"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "a795251c-374e-4d1f-a882-b867c7cfb7b8": {
@@ -96,13 +99,15 @@
         "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-heading-1": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Rich text" }
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "template--16990551245015__a795251c-374e-4d1f-a882-b867c7cfb7b8-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>The year 2024 is shaping up to be a year of big changes for the Kazakhstan formation, which<br/>has revolutionised the roster with 14 new riders and built a train with experienced men to try for its 35th success. </p><p>In addition to Cees Bol, who was hired last year, and newcomers Max Kanter, Rüdiger Selig and Davide Ballerini has brought in Michael Mørkøv, one of the best last men in the peloton and one of the best movers in the final kilometers leading to the finish. </p><p>The expectation is for a new course for a team that is preparing to live the season as a protagonist.</p><p></p>"
+            "text": "<p>The year 2024 is shaping up to be a year of big changes for the Kazakhstan formation, which<br\/>has revolutionised the roster with 14 new riders and built a train with experienced men to try for its 35th success. <\/p><p>In addition to Cees Bol, who was hired last year, and newcomers Max Kanter, Rüdiger Selig and Davide Ballerini has brought in Michael Mørkøv, one of the best last men in the peloton and one of the best movers in the final kilometers leading to the finish. <\/p><p>The expectation is for a new course for a team that is preparing to live the season as a protagonist.<\/p><p><\/p>"
           }
         }
       },
@@ -122,18 +127,19 @@
         "image_t6AK8E": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Team_Qazaqstan_2.jpg",
+            "image": "shopify:\/\/shop_images\/Team_Qazaqstan_2.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["image_t6AK8E"],
+      "block_order": [
+        "image_t6AK8E"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "ab89a12b-d498-486d-92db-955c608fae2a": {
@@ -143,11 +149,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Something completely new on Mark Cavendish's calendar. The British rider will open his final season of a very long and successful career at the Tour of Colombia, which returns to the calendar after a three-year absence. </p><p>It is a different choice from his usual for the Astana Qazaqstan rider, who very often had chosen the Middle East for his season opener.</p>"
+            "text": "<p>Something completely new on Mark Cavendish's calendar. The British rider will open his final season of a very long and successful career at the Tour of Colombia, which returns to the calendar after a three-year absence. <\/p><p>It is a different choice from his usual for the Astana Qazaqstan rider, who very often had chosen the Middle East for his season opener.<\/p>"
           }
         }
       },
-      "block_order": ["text_bx47UX"],
+      "block_order": [
+        "text_bx47UX"
+      ],
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -160,18 +168,19 @@
         "image_mWEKkd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Team_Qazaqstan_3.jpg",
+            "image": "shopify:\/\/shop_images\/Team_Qazaqstan_3.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["image_mWEKkd"],
+      "block_order": [
+        "image_mWEKkd"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "advanced_content_C6RMGh": {
@@ -180,7 +189,7 @@
         "image_RqM9Kz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Team_Qazaqstan_4.jpg",
+            "image": "shopify:\/\/shop_images\/Team_Qazaqstan_4.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -189,18 +198,20 @@
         "image_NyqyhY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Team_Qazaqstan_5.jpg",
+            "image": "shopify:\/\/shop_images\/Team_Qazaqstan_5.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
           }
         }
       },
-      "block_order": ["image_RqM9Kz", "image_NyqyhY"],
+      "block_order": [
+        "image_RqM9Kz",
+        "image_NyqyhY"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "rich_text_WdQaJz": {
@@ -210,11 +221,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Air pro and Air Atlas are the absolute stars for the 2024 World Tour season as well, but don't miss out on all the new things to come, special editions, new collections, new products. </p>"
+            "text": "<p>Air pro and Air Atlas are the absolute stars for the 2024 World Tour season as well, but don't miss out on all the new things to come, special editions, new collections, new products. <\/p>"
           }
         }
       },
-      "block_order": ["text_yXp7nF"],
+      "block_order": [
+        "text_yXp7nF"
+      ],
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -226,16 +239,18 @@
       "blocks": {
         "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-price-1": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-description-1": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "template--16990551245015__30fee8da-533e-4b3c-9ceb-fa9d8fa86b56-variant_picker-1": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -272,15 +287,20 @@
     "featured_product_fnjqy8": {
       "type": "featured-product",
       "blocks": {
-        "price_RpdBcP": { "type": "price", "settings": {} },
+        "price_RpdBcP": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "description_cQNtVQ": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "variant_picker_3dYGP6": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false

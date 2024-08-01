@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_CiF8zX": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_CiF8zX": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_i7DATE": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "fd829e38-0545-4d6e-9cc4-64a72bf4699d": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "3a530c75-b0e4-4ca7-8981-9abff695f2eb": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">DELTA</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">When the going gets tough </h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">DELTA<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">When the going gets tough <\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -108,7 +125,7 @@
       "type": "featured-video",
       "settings": {
         "title": "",
-        "video_url": "https://youtu.be/wcK4X80pdSg",
+        "video_url": "https:\/\/youtu.be\/wcK4X80pdSg",
         "divider": false
       }
     },
@@ -118,7 +135,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Delta-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/Delta-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -127,7 +144,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Sviluppato con Tecnologia Triple shell PC/EPS in mould (3MT)\nTotale protezione e copertura estesa alle tempie e alla nuca, DELTA inoltre è conforme ai requisiti dello standard NTA-8776, unico standard esistente al mondo per la categoria dei caschi dedicati alle e-bike.</p>\n\n<p>Perfetta calzata per ogni testa, in due taglie M (53-57) and L (57-62)\n</p> \n\n{% else %}\n\n<h4>Developed for protection</h4>\n\n<p> DELTA is developed with Triple shell PC / EPS in-mould technology. \nWith its extended temples and neck coverage, it complies with the strictest International Safety standards CE, CPSC, AS and also with the NTA 8776 for E-Bike.</p> \n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Sviluppato con Tecnologia Triple shell PC\/EPS in mould (3MT)\nTotale protezione e copertura estesa alle tempie e alla nuca, DELTA inoltre è conforme ai requisiti dello standard NTA-8776, unico standard esistente al mondo per la categoria dei caschi dedicati alle e-bike.<\/p>\n\n<p>Perfetta calzata per ogni testa, in due taglie M (53-57) and L (57-62)\n<\/p> \n\n{% else %}\n\n<h4>Developed for protection<\/h4>\n\n<p> DELTA is developed with Triple shell PC \/ EPS in-mould technology. \nWith its extended temples and neck coverage, it complies with the strictest International Safety standards CE, CPSC, AS and also with the NTA 8776 for E-Bike.<\/p> \n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -135,7 +152,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -143,7 +160,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Delta-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/Delta-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -152,7 +169,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>E’ dotato di un ampio frontino per proteggere da sole, rami e pietrisco, regolabile in tre posizioni, che consente l’alloggiamento della maschera quando non è in uso (Full Goggle Integration).</p>\n\n\n\n{% else %}\n\n<h4>Full Protection</h4>\n\n<p>Delta is equipped with a large peak to protect from sun, branches and stones, adjustable in three positions, it allows to place comfortably your goggle when not in use. \n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>E’ dotato di un ampio frontino per proteggere da sole, rami e pietrisco, regolabile in tre posizioni, che consente l’alloggiamento della maschera quando non è in uso (Full Goggle Integration).<\/p>\n\n\n\n{% else %}\n\n<h4>Full Protection<\/h4>\n\n<p>Delta is equipped with a large peak to protect from sun, branches and stones, adjustable in three positions, it allows to place comfortably your goggle when not in use. \n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -160,7 +177,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -168,7 +185,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Delta-emotion-4.jpg",
+            "image": "shopify:\/\/shop_images\/Delta-emotion-4.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -177,7 +194,7 @@
         "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>LEGGEREZZA, VENTILAZIONE E COMFORT</h4>\n<p>Grazie alla tecnologia, alla scelta dei materiali e al know how di LIMAR in ambito di leggerezza, il peso è inferiore rispetto alla stessa tipologia di casco sul mercato (310g M)</p>\n\n{% else %}\n\n<h4>LIGHTNESS, VENTILATION AND COMFORT</h4>\n<p>Thanks to Limar high technology, choice of materials and know-how in terms of lightness, the weight is among the lowest in the same category in the market (310gr for M size). \n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>LEGGEREZZA, VENTILAZIONE E COMFORT<\/h4>\n<p>Grazie alla tecnologia, alla scelta dei materiali e al know how di LIMAR in ambito di leggerezza, il peso è inferiore rispetto alla stessa tipologia di casco sul mercato (310g M)<\/p>\n\n{% else %}\n\n<h4>LIGHTNESS, VENTILATION AND COMFORT<\/h4>\n<p>Thanks to Limar high technology, choice of materials and know-how in terms of lightness, the weight is among the lowest in the same category in the market (310gr for M size). \n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -185,7 +202,7 @@
         "43951e74-3aa1-4933-9179-94fde3eb5a8f": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -193,7 +210,7 @@
         "5ab0f2bb-fe0c-418e-83db-bd2fdea3630a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Delta-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/Delta-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -202,7 +219,7 @@
         "933456d9-353a-43b3-aa1c-2b6b70886c44": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di regolazione AIR FIT assicura una calzata ottimale. Ottima ventilazione garantita da 17 prese d’aria per l’ingresso e la fuoriuscita dell’aria e da due canali interni per la gestione dei flussi.</p>\n\n{% else %}\n\n<h4>The Perfect Fit</h4>\n\n<p>The air fit adjustment system ensures the optimal fit. It offers an excellent ventilation thanks to its 17 vents and two internal flow channels for a perfect air circulation. </p>\n<p>The new LIMAR DELTA HELMET offers a perfect fit for any head, it is available in two sizes M&nbsp;(53&#8209;57) and L (57-62)</p>\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di regolazione AIR FIT assicura una calzata ottimale. Ottima ventilazione garantita da 17 prese d’aria per l’ingresso e la fuoriuscita dell’aria e da due canali interni per la gestione dei flussi.<\/p>\n\n{% else %}\n\n<h4>The Perfect Fit<\/h4>\n\n<p>The air fit adjustment system ensures the optimal fit. It offers an excellent ventilation thanks to its 17 vents and two internal flow channels for a perfect air circulation. <\/p>\n<p>The new LIMAR DELTA HELMET offers a perfect fit for any head, it is available in two sizes M&nbsp;(53&#8209;57) and L (57-62)<\/p>\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -243,9 +260,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-delta-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-delta-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "3fc7f242-d029-4e47-89c0-923eda64ee77": {
@@ -261,9 +277,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-delta-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-delta-6.jpg",
+            "overlay_opacity": 0
           }
         },
         "3c821e1f-802b-40f3-b91b-a55af34e38d7": {
@@ -279,9 +294,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-delta-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-delta-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-1": {
@@ -297,9 +311,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-delta-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-delta-7.jpg",
+            "overlay_opacity": 0
           }
         },
         "75925a48-8759-43db-8deb-c57ca0e80d13": {
@@ -315,9 +328,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-delta-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-delta-1.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -341,26 +353,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_AMDpre": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_AMDpre"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_AMDpre"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

@@ -1,24 +1,28 @@
 {
   "parent": "product.pora-mips.json",
-  "context": { "market": "it" },
+  "context": {
+    "market": "it"
+  },
   "sections": {
     "165342933895b24228": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "933456d9-353a-43b3-aa1c-2b6b70886c44": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS CLASS A</h4>\n\n<p>Soluzione unica che Mips ha sviluppato per il nostro modello PORA in cui le eccellenti caratteristiche di Mips sono adattate al nostro modello, con lo strato Mips applicato sotto il sistema di imbottiture, abbinandosi perfettamente alla forma delle imbottiture stesse, in modo da garantire leggerezza, nessuna sudorazione extra e pieno rispetto della ventilazione struttura studiata per il modello di casco specifico.</p>\n\n{% else %}\n\n<h4>MIPS CLASS A</h4>\n\n<p>Unique solution that Mips has developed for our model ALBEN where the supreme Mips features are adapted to our model, with the Mips laver under the pads system, and matching the pad shape, so to ensure lightness, no extra sweating and fully compliance with the ventilation structure designed for the specific helmet model. </p>\n\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>MIPS CLASS A<\/h4>\n\n<p>Soluzione unica che Mips ha sviluppato per il nostro modello PORA in cui le eccellenti caratteristiche di Mips sono adattate al nostro modello, con lo strato Mips applicato sotto il sistema di imbottiture, abbinandosi perfettamente alla forma delle imbottiture stesse, in modo da garantire leggerezza, nessuna sudorazione extra e pieno rispetto della ventilazione struttura studiata per il modello di casco specifico.<\/p>\n\n{% else %}\n\n<h4>MIPS CLASS A<\/h4>\n\n<p>Unique solution that Mips has developed for our model ALBEN where the supreme Mips features are adapted to our model, with the Mips laver under the pads system, and matching the pad shape, so to ensure lightness, no extra sweating and fully compliance with the ventilation structure designed for the specific helmet model. <\/p>\n\n{% endif %}"
           }
         }
       }
     },
     "main": {
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "fd829e38-0545-4d6e-9cc4-64a72bf4699d": {
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI</p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br/>30-DAY RETURNS</p>\n\n{% endif %}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA PER DIFETTI DI PRODUZIONE<br\/>POSSIBILITA’ DI RESO ENTRO 14 GIORNI<\/p>\n\n{% else %}\n\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<br\/>30-DAY RETURNS<\/p>\n\n{% endif %}"
           }
         }
       }

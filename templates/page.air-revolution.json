@@ -1,13 +1,18 @@
 {
   "sections": {
-    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1654782680d01d0885": {
       "type": "advanced-content",
       "blocks": {
         "1654782680675f9668-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n<h2 class=\"cus-con-subtitle\">AIR REVOLUTION</h2>\n<p>&nbsp;</p>\n<h4>LA RISPOSTA E’ NEL VENTO</h4>\n<p>Quando si corre in bicicletta, l’avversario principale è l’aria.<br />\nEcco perché la nostra ricerca e sviluppo si è concentrata sull’aerodinamica del casco, studiando i flussi dell’aria e le turbolenze per garantire agli atleti e agli amatori un vantaggio reale e consistente.<br />\nLa domanda di esplorare nuovi limiti delle prestazioni ha trovato una risposta. Nel vento.</p>\n<p>&nbsp;</p>\n{% else %}\n<h2 class=\"cus-con-subtitle\">AIR REVOLUTION</h2>\n<p>&nbsp;</p>\n<h4>THE ANSWER IS THE WIND</h4>\n<p> When cycling, air is your main rival.<br />\nThat’s why our R&D always focus on the helmet aerodynamics,\nstudying the air stream and turbulence to guarantee\nathletes and amateur riders a real and consistent advantage.\nThe constant need to explore new limits in performance\nhas a clear solution. In the wind. </p>\n<p>&nbsp;</p>\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n<h2 class=\"cus-con-subtitle\">AIR REVOLUTION<\/h2>\n<p>&nbsp;<\/p>\n<h4>LA RISPOSTA E’ NEL VENTO<\/h4>\n<p>Quando si corre in bicicletta, l’avversario principale è l’aria.<br \/>\nEcco perché la nostra ricerca e sviluppo si è concentrata sull’aerodinamica del casco, studiando i flussi dell’aria e le turbolenze per garantire agli atleti e agli amatori un vantaggio reale e consistente.<br \/>\nLa domanda di esplorare nuovi limiti delle prestazioni ha trovato una risposta. Nel vento.<\/p>\n<p>&nbsp;<\/p>\n{% else %}\n<h2 class=\"cus-con-subtitle\">AIR REVOLUTION<\/h2>\n<p>&nbsp;<\/p>\n<h4>THE ANSWER IS THE WIND<\/h4>\n<p> When cycling, air is your main rival.<br \/>\nThat’s why our R&D always focus on the helmet aerodynamics,\nstudying the air stream and turbulence to guarantee\nathletes and amateur riders a real and consistent advantage.\nThe constant need to explore new limits in performance\nhas a clear solution. In the wind. <\/p>\n<p>&nbsp;<\/p>\n{% endif %}",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -15,7 +20,7 @@
         "1654782680675f9668-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-1.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-1.jpg",
             "link": "",
             "width": "50%",
             "alignment": "top-middle"
@@ -24,7 +29,7 @@
         "e2e4dbba-e6ca-481d-b90f-cfefb7a0904f": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -32,7 +37,7 @@
         "d142cacc-3b15-44ff-9bdb-ce8fc8026968": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-2.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -41,7 +46,7 @@
         "612374ef-db87-419d-bb3a-a5952458f9da": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>L'ANIMA DELL'AERODINAMICA</h4>\n<p>L'attenzione principale di ogni nuovo progetto Air Revolution è sempre rivolta ai flussi aerodinamici, reinventando e perseguendo costantemente le migliori prestazioni anche in termini di leggerezza, ventilazione, tecnologia e design.</p>\n\n{% else %}\n\n<h4>THE SOUL OF  AERODYNAMICS</h4>\n<p>The main focus of each Air Revolution new project has always been on the aerodynamic flows, constantly reimagining, reinventing and pursuing the best performance also in terms of lightness, ventilation, technology and design.</p>\n<p>&nbsp;</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>L'ANIMA DELL'AERODINAMICA<\/h4>\n<p>L'attenzione principale di ogni nuovo progetto Air Revolution è sempre rivolta ai flussi aerodinamici, reinventando e perseguendo costantemente le migliori prestazioni anche in termini di leggerezza, ventilazione, tecnologia e design.<\/p>\n\n{% else %}\n\n<h4>THE SOUL OF  AERODYNAMICS<\/h4>\n<p>The main focus of each Air Revolution new project has always been on the aerodynamic flows, constantly reimagining, reinventing and pursuing the best performance also in terms of lightness, ventilation, technology and design.<\/p>\n<p>&nbsp;<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -54,7 +59,9 @@
         "d142cacc-3b15-44ff-9bdb-ce8fc8026968",
         "612374ef-db87-419d-bb3a-a5952458f9da"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -67,7 +74,7 @@
         "1654783451fbf1530c-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<h2 class=\"cus-con-title\">ISPIRATI DALLA NATURA</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">PERFEZIONATI DALLA TECNOLOGIA</h2>\n<p>&nbsp;</p>\n\n{% else %}\n\n<h2 class=\"cus-con-title\">INSPIRED BY NATURE\n</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">REFINED BY TECHNOLOGY</h2>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<h2 class=\"cus-con-title\">ISPIRATI DALLA NATURA<\/h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">PERFEZIONATI DALLA TECNOLOGIA<\/h2>\n<p>&nbsp;<\/p>\n\n{% else %}\n\n<h2 class=\"cus-con-title\">INSPIRED BY NATURE\n<\/h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\">REFINED BY TECHNOLOGY<\/h2>\n\n{% endif %}",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -75,7 +82,7 @@
         "9228c962-39f7-498a-967e-261313be80b3": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -83,7 +90,7 @@
         "59bdc079-9a25-4e8e-92c5-632743c8885e": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Ci ispiriamo alla forma più aerodinamica, elaborata in un laboratorio che funziona da milioni di anni: la natura.<br />\nUn punto di partenza che viene poi analizzato, verificato e sviluppato attraverso i più innovativi modelli di analisi e simulazione matematica, e collaudato infine nella galleria del vento.<br />\nPer offrire ai ciclisti il modo più naturale di correre verso il futuro.</p>\n\n{% else %}\n\n<p>When we develop our models we get inspiration  from the most aerodynamic shapes, a lab that has been working for million years: nature. \u2028A starting point that we then analyze, test and develop thanks to the most innovative analysis models and virtual simulations. From the virtual development then we complete and finalize all tests in the real wind galleries with our professional riders.\u2028Tall this just to grant cyclists the most natural way to race towards the future.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Ci ispiriamo alla forma più aerodinamica, elaborata in un laboratorio che funziona da milioni di anni: la natura.<br \/>\nUn punto di partenza che viene poi analizzato, verificato e sviluppato attraverso i più innovativi modelli di analisi e simulazione matematica, e collaudato infine nella galleria del vento.<br \/>\nPer offrire ai ciclisti il modo più naturale di correre verso il futuro.<\/p>\n\n{% else %}\n\n<p>When we develop our models we get inspiration  from the most aerodynamic shapes, a lab that has been working for million years: nature. \u2028A starting point that we then analyze, test and develop thanks to the most innovative analysis models and virtual simulations. From the virtual development then we complete and finalize all tests in the real wind galleries with our professional riders.\u2028Tall this just to grant cyclists the most natural way to race towards the future.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -91,7 +98,7 @@
         "1654783451fbf1530c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-3.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-3.jpg",
             "link": "",
             "width": "33%",
             "alignment": "top-middle"
@@ -100,7 +107,7 @@
         "a92cd0ba-1f93-4c72-8eb5-18f06ca42a87": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-4.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-4.jpg",
             "link": "",
             "width": "33%",
             "alignment": "top-middle"
@@ -109,7 +116,7 @@
         "2b60d5c9-2301-45a3-86ce-6665e7ec5e7d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -117,7 +124,7 @@
         "4ce4d57d-cd22-444d-9eb2-795e055bdcf1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-5.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-5.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -126,7 +133,7 @@
         "761d5d7b-9592-47a2-b162-a635af4c6c9a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h4>SIAMO ANDATI OLTRE LA GALLERIA DEL VENTO</h4>\n<p>La collaborazione con I PRO fa parte da sempre del DNA LIMAR,\ne LIMAR è stata la prima azienda a sponsorizzare una squadra ciclistica completa.<br />\nI suggerimenti dei campioni che indossano e testano i caschi durante le gare, hanno permesso di sviluppare caschi in base alle reali esigenze dei ciclisti professionisti, estremamente esigenti in termini di comfort, ventilazione e, soprattutto, prestazioni.</p>\n\n{% else %}\n\n<h4>WE WENT BEYOND WIND TUNNEL</h4>\n<p>The collaboration with the pro has always been part of LIMAR DNA,\nand LIMAR was the first company to sponsor a full cycling team.<br />\nThe recommendations of champions wearing and testing the helmets during races, allowed to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h4>SIAMO ANDATI OLTRE LA GALLERIA DEL VENTO<\/h4>\n<p>La collaborazione con I PRO fa parte da sempre del DNA LIMAR,\ne LIMAR è stata la prima azienda a sponsorizzare una squadra ciclistica completa.<br \/>\nI suggerimenti dei campioni che indossano e testano i caschi durante le gare, hanno permesso di sviluppare caschi in base alle reali esigenze dei ciclisti professionisti, estremamente esigenti in termini di comfort, ventilazione e, soprattutto, prestazioni.<\/p>\n\n{% else %}\n\n<h4>WE WENT BEYOND WIND TUNNEL<\/h4>\n<p>The collaboration with the pro has always been part of LIMAR DNA,\nand LIMAR was the first company to sponsor a full cycling team.<br \/>\nThe recommendations of champions wearing and testing the helmets during races, allowed to develop helmets based on the real needs of professional cyclists, extremely demanding in terms of comfort, ventilation and, most of all, performance.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -154,7 +161,7 @@
         "c7f7588c-add9-4aee-92d9-a1694188f56e": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -162,7 +169,7 @@
         "16547835752b829aaa-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-title\">AERODINAMICA E VENTILAZIONE</h2>\n\n{% else %}\n\n<h2 class=\"cus-con-title\"> VENTILATION AND AERODYNAMICS?</h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\"> YES WE CAN</h2>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<h2 class=\"cus-con-title\">AERODINAMICA E VENTILAZIONE<\/h2>\n\n{% else %}\n\n<h2 class=\"cus-con-title\"> VENTILATION AND AERODYNAMICS?<\/h2>\n<h2 class=\"cus-con-title\" style=\"border-top: none;\"> YES WE CAN<\/h2>\n\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
@@ -170,7 +177,7 @@
         "1fbabc1f-89fc-406b-9e07-bf2492b0a36c": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -178,7 +185,7 @@
         "2bd47d38-f7a5-49b5-b25a-948ddec2c5fa": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>L'esperienza di oltre 35 anni di Limar nella progettazione e produzione di modelli tecnologicamente avanzati e performanti è tutta da vedere.<br />\nAttraverso test approfonditi in diversi laboratori della galleria del vento, lavoriamo sempre su ogni singolo dettaglio, per raggiungere il miglior equilibrio possibile tra aerodinamica e ventilazione, per garantire prestazioni sempre migliori.<br />\nUn casco al tempo stesso aerodinamico e ventilato potrebbe sembrare una contraddizione ed è invece una realtà resa possibile dal Team di Ricerca & Sviluppo di Limar.<br />\nSfruttando l'effetto Venturi, le prese d'aria e il loro circuito di canali interni consentono l'ingresso e la circolazione di un grande quantità di aria senza compromettere le prestazioni aerodinamiche.<br />\nIl comfort è garantito dalla circolazione interna dell'aria, dove il flusso lungo i canali all'interno della calotta espelle il calore dalla parte posteriore mantenendo la testa fresca.<br />\nIl risultato è una gamma di caschi con prestazioni e comfort mai visti prima.\n</p>\n\n{% else %}\n\n<p>Limar  35-year experience in designing and producing advanced and performing models is all there to be seen.\nThrough extensive tests in several wind tunnel laboratories, we always work on\nevery single detail, to achieve the best possible balance between\naerodynamics and ventilation, to ensure real performance.<br />\nIt might sound like a contradiction but it is a reality made possible by\nLimar Tech. By exploiting the Venturi effect, the air vents and their channel circuit allow the entry of a large\nquantity of air without compromising the aerodynamic performance.\nThe comfort is guaranteed by the internal air circulation, where air\nflow along the channels inside the shell expels the heat out of the rear\nvents, keeping the head cool.<br />\nThe result is a range of helmets with a performance and comfort never seen before.\n</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>L'esperienza di oltre 35 anni di Limar nella progettazione e produzione di modelli tecnologicamente avanzati e performanti è tutta da vedere.<br \/>\nAttraverso test approfonditi in diversi laboratori della galleria del vento, lavoriamo sempre su ogni singolo dettaglio, per raggiungere il miglior equilibrio possibile tra aerodinamica e ventilazione, per garantire prestazioni sempre migliori.<br \/>\nUn casco al tempo stesso aerodinamico e ventilato potrebbe sembrare una contraddizione ed è invece una realtà resa possibile dal Team di Ricerca & Sviluppo di Limar.<br \/>\nSfruttando l'effetto Venturi, le prese d'aria e il loro circuito di canali interni consentono l'ingresso e la circolazione di un grande quantità di aria senza compromettere le prestazioni aerodinamiche.<br \/>\nIl comfort è garantito dalla circolazione interna dell'aria, dove il flusso lungo i canali all'interno della calotta espelle il calore dalla parte posteriore mantenendo la testa fresca.<br \/>\nIl risultato è una gamma di caschi con prestazioni e comfort mai visti prima.\n<\/p>\n\n{% else %}\n\n<p>Limar  35-year experience in designing and producing advanced and performing models is all there to be seen.\nThrough extensive tests in several wind tunnel laboratories, we always work on\nevery single detail, to achieve the best possible balance between\naerodynamics and ventilation, to ensure real performance.<br \/>\nIt might sound like a contradiction but it is a reality made possible by\nLimar Tech. By exploiting the Venturi effect, the air vents and their channel circuit allow the entry of a large\nquantity of air without compromising the aerodynamic performance.\nThe comfort is guaranteed by the internal air circulation, where air\nflow along the channels inside the shell expels the heat out of the rear\nvents, keeping the head cool.<br \/>\nThe result is a range of helmets with a performance and comfort never seen before.\n<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -186,7 +193,7 @@
         "16547835752b829aaa-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/limar-air-revolution-6.jpg",
+            "image": "shopify:\/\/shop_images\/limar-air-revolution-6.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"

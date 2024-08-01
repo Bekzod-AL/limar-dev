@@ -3,16 +3,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": { "type": "price", "settings": {} },
-        "judge_me_reviews_preview_badge_gWeMDE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "separator": { "type": "separator", "settings": {} },
+        "judge_me_reviews_preview_badge_gWeMDE": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker_HrpCjc": {
           "type": "variant_picker",
           "settings": {
-            "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
@@ -35,22 +43,28 @@
         "fd829e38-0545-4d6e-9cc4-64a72bf4699d": {
           "type": "custom",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA</p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY</p>\n\n{%endif%}"
+            "code": "{% if shop.locale == 'it' %}\n\n<p style=\"font-size:12px;\">2 ANNI DI GARANZIA<\/p>\n\n{%else%}\n<p style=\"font-size:12px;\">2-YEAR PRODUCT WARRANTY<\/p>\n\n{%endif%}"
           }
         },
         "description": {
           "type": "description",
-          "settings": { "is_tab": true }
+          "settings": {
+            "is_tab": true
+          }
         },
         "aba0ac3a-cd18-4080-84ef-648938f0a498": {
           "type": "tab",
           "settings": {
             "title": "Tech Specs",
-            "content": "<p>{{ product.metafields.custom.tech_specs.value }}</p>",
+            "content": "<p>{{ product.metafields.custom.tech_specs.value }}<\/p>",
             "page": ""
           }
         },
-        "share": { "type": "share", "settings": {} }
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
       },
       "block_order": [
         "price",
@@ -73,14 +87,15 @@
         "thumbnail_arrows": false,
         "mobile_layout": "partial",
         "enable_video_looping": true,
-        "product_video_style": "muted",
-        "ct-scroll-product-cta": true
+        "product_video_style": "muted"
       }
     },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
-      "settings": { "max_width": true }
+      "settings": {
+        "max_width": true
+      }
     },
     "3a530c75-b0e4-4ca7-8981-9abff695f2eb": {
       "type": "advanced-content",
@@ -88,7 +103,7 @@
         "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 class=\"cus-con-subtitle\" \">PORA</h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">ENJOY THE TRAIL</h2>",
+            "code": "<h2 class=\"cus-con-subtitle\" \">PORA<\/h2>\n<h2 class=\"cus-con-subtitle\" style=\"border-top: none;\">ENJOY THE TRAIL<\/h2>",
             "width": "100%",
             "alignment": "top-middle"
           }
@@ -97,7 +112,9 @@
       "block_order": [
         "template--16770230157527__3a530c75-b0e4-4ca7-8981-9abff695f2eb-1683080359ae8f9f8f-1"
       ],
-      "custom_css": [".cus-con-subtitle {border-top: 1px solid black;}"],
+      "custom_css": [
+        ".cus-con-subtitle {border-top: 1px solid black;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,
@@ -110,7 +127,7 @@
         "b4d6c064-0fd7-4860-b748-c42e83a423e5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pora-emotion-3.jpg",
+            "image": "shopify:\/\/shop_images\/pora-emotion-3.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -119,7 +136,7 @@
         "1653429337c17a9326-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>PORA è il casco perfetto per gli amanti dell’ All Mountain che desiderano un ottimo prodotto ad un prezzo imbattibile.</p>\n\n<p>La calotta è estesa fino alla nuca per una protezione più ampia della zona occipitale e l’ampia visiera dal look deciso garantisce invece una maggiore protezione da rami, pietrisco o altri ostacoli che si possono incontrare quando si corre immersi nella natura.\n</p> \n\n{% else %}\n\n<h4>Perfect helmet for All Mountain lovers</h4>\n\n<p>An excellent product at an unbeatable price.</p>\n\n<p>The shell extends down the nape for wider coverage of the occipital area and the large visor, with a strong design, guarantees protection from branches, gravel or other obstacles you may encounter when riding surrounded by nature.\n</p> \n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>PORA è il casco perfetto per gli amanti dell’ All Mountain che desiderano un ottimo prodotto ad un prezzo imbattibile.<\/p>\n\n<p>La calotta è estesa fino alla nuca per una protezione più ampia della zona occipitale e l’ampia visiera dal look deciso garantisce invece una maggiore protezione da rami, pietrisco o altri ostacoli che si possono incontrare quando si corre immersi nella natura.\n<\/p> \n\n{% else %}\n\n<h4>Perfect helmet for All Mountain lovers<\/h4>\n\n<p>An excellent product at an unbeatable price.<\/p>\n\n<p>The shell extends down the nape for wider coverage of the occipital area and the large visor, with a strong design, guarantees protection from branches, gravel or other obstacles you may encounter when riding surrounded by nature.\n<\/p> \n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -127,7 +144,7 @@
         "4ca2690a-ca17-48e2-a032-a3b5a566d137": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -135,7 +152,7 @@
         "1653429337c17a9326-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pora-emotion-2.jpg",
+            "image": "shopify:\/\/shop_images\/pora-emotion-2.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -144,7 +161,7 @@
         "1e6a56cf-9219-41a5-886a-64155aacfdc2": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Numerose prese d’aria consentono un’ottima circolazione dell’aria all’interno della calotta per mantenere la testa sempre fresca.</p>\n\n{% else %}\n\n<h4>Breathability</h4>\n<p>Several air intakes offer excellent air circulation inside the shell to keep the head always cool.</p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n\n<p>Numerose prese d’aria consentono un’ottima circolazione dell’aria all’interno della calotta per mantenere la testa sempre fresca.<\/p>\n\n{% else %}\n\n<h4>Breathability<\/h4>\n<p>Several air intakes offer excellent air circulation inside the shell to keep the head always cool.<\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -152,7 +169,7 @@
         "085e0b46-af57-479b-8994-cfcb1a45c80d": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -160,7 +177,7 @@
         "847ea138-f3ec-4919-8150-7210eb567569": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pora-emotion-1.jpg",
+            "image": "shopify:\/\/shop_images\/pora-emotion-1.jpg",
             "link": "",
             "width": "66%",
             "alignment": "top-middle"
@@ -169,7 +186,7 @@
         "afeb9722-d133-4227-a955-a8cd9ed4a32a": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di ritenzione consente di regolare perfettamente la taglia per un comfort ottimale.\n</p>\n<p>Il tutto in un casco dal peso estremamente contenuto, solo 260 grammi per la taglia M.\n</p>\n\n{% else %}\n\n<h4>FIT and Comfort </h4>\n<p> The retention system allows perfect size adjustment for optimal comfort.</p>\n<p>All these features for an extremely low weight helmet, only 260 grams in size M. </p>\n\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n\n<p>Il sistema di ritenzione consente di regolare perfettamente la taglia per un comfort ottimale.\n<\/p>\n<p>Il tutto in un casco dal peso estremamente contenuto, solo 260 grammi per la taglia M.\n<\/p>\n\n{% else %}\n\n<h4>FIT and Comfort <\/h4>\n<p> The retention system allows perfect size adjustment for optimal comfort.<\/p>\n<p>All these features for an extremely low weight helmet, only 260 grams in size M. <\/p>\n\n{% endif %}",
             "width": "33%",
             "alignment": "top-middle"
           }
@@ -207,9 +224,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-pora-1.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-pora-1.jpg",
+            "overlay_opacity": 0
           }
         },
         "3fc7f242-d029-4e47-89c0-923eda64ee77": {
@@ -225,9 +241,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-pora-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-pora-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "3c821e1f-802b-40f3-b91b-a55af34e38d7": {
@@ -243,9 +258,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-pora-3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-pora-3.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16770230157527__4656a53f-06a9-447d-ab52-2654d1b7d0cc-16830813192d22d6d3-1": {
@@ -261,9 +275,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-pora-4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar-pora-4.jpg",
+            "overlay_opacity": 0
           }
         },
         "75925a48-8759-43db-8deb-c57ca0e80d13": {
@@ -279,9 +292,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar-pora-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "top center"
+            "image": "shopify:\/\/shop_images\/limar-pora-7.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -305,26 +317,37 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_ztXi9Y": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_ztXi9Y"],
-      "settings": { "full_width": false, "space_around": true }
+      "block_order": [
+        "judge_me_reviews_review_widget_ztXi9Y"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
         "related_count": 5
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": { "recent_count": 5 }
+      "settings": {
+        "recent_count": 5
+      }
     },
-    "collection-return": { "type": "collection-return", "settings": {} }
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
   },
   "order": [
     "main",

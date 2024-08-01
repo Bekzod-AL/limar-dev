@@ -1,6 +1,11 @@
 {
   "sections": {
-    "main": { "type": "main-page", "disabled": true, "settings": {} },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1656955321705abf72": {
       "type": "slideshow",
       "blocks": {
@@ -17,13 +22,14 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/limar22_myLimar_hero.png",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_hero.png",
+            "overlay_opacity": 10
           }
         }
       },
-      "block_order": ["1656955321ac3d50c4-0"],
+      "block_order": [
+        "1656955321ac3d50c4-0"
+      ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
@@ -38,13 +44,15 @@
       "blocks": {
         "template--16612506468567__6e6cf8c0-cd53-45b0-90f2-48d2383eb686-16655019293631f409-0": {
           "type": "heading",
-          "settings": { "title": "MAKE YOUR TEAM UNIQUE" }
+          "settings": {
+            "title": "MAKE YOUR TEAM UNIQUE"
+          }
         },
         "template--16612506468567__6e6cf8c0-cd53-45b0-90f2-48d2383eb686-16655019293631f409-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>A fantastic opportunity that LIMAR offers to cycling teams and groups.</p><p>Minimum order quantity: 10 helmets. </p><p>Use the contact form below to send us your information, and we will follow-up shortly!</p>"
+            "text": "<p>A fantastic opportunity that LIMAR offers to cycling teams and groups.<\/p><p>Minimum order quantity: 10 helmets. <\/p><p>Use the contact form below to send us your information, and we will follow-up shortly!<\/p>"
           }
         }
       },
@@ -64,7 +72,7 @@
         "template--19662820639062__f5d3b5e7-87ff-426e-95a5-1271acc06556-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if shop.locale == 'it' %}\n<div style=\"max-width:800px; margin-left:auto; margin-right:auto;\" class=\"klaviyo-form-VYqByM\"></div>\n{% else %}\n<div style=\"max-width:800px; margin-left:auto; margin-right:auto;\" class=\"klaviyo-form-Vnia7d\"></div>\n{% endif %}",
+            "code": "{% if shop.locale == 'it' %}\n<div style=\"max-width:800px; margin-left:auto; margin-right:auto;\" class=\"klaviyo-form-VYqByM\"><\/div>\n{% else %}\n<div style=\"max-width:800px; margin-left:auto; margin-right:auto;\" class=\"klaviyo-form-Vnia7d\"><\/div>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
@@ -85,14 +93,16 @@
         "template--16612506468567__069e1722-20dc-4242-9c1b-b5e405a56ef5-1665503628395a6361-0": {
           "type": "heading",
           "disabled": true,
-          "settings": { "title": "Get started now" }
+          "settings": {
+            "title": "Get started now"
+          }
         },
         "template--16612506468567__069e1722-20dc-4242-9c1b-b5e405a56ef5-1665503628395a6361-1": {
           "type": "text",
           "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Contact us directly at mylimar@limar.com, with following information:<br/></p>"
+            "text": "<p>Contact us directly at mylimar@limar.com, with following information:<br\/><\/p>"
           }
         },
         "fda7fdd0-f8d8-4968-8408-29592f192998": {
@@ -100,14 +110,14 @@
           "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p>– Model and colour of the helmet<br/>– Quantity of helmets for your Team (minimum 10 pcs.)<br/>– Colours of your Club (with Pantone references)<br/>– Your logo Club (in pdf or vector file) and any further details</p>"
+            "text": "<p>– Model and colour of the helmet<br\/>– Quantity of helmets for your Team (minimum 10 pcs.)<br\/>– Colours of your Club (with Pantone references)<br\/>– Your logo Club (in pdf or vector file) and any further details<\/p>"
           }
         },
         "57504b8c-df23-4624-8fba-8ec2e2961c00": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Questions? Feel free to reach out directly:</p>"
+            "text": "<p>Questions? Feel free to reach out directly:<\/p>"
           }
         },
         "50f62ec2-5105-498d-94f8-8fe5570e83a1": {
@@ -134,15 +144,15 @@
     "16569564974732f62e": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/limar22_myLimar_img2.jpg",
-        "image_width": "520",
+        "image": "shopify:\/\/shop_images\/limar22_myLimar_img2.jpg",
         "subtitle": "",
         "title": "How it works:",
-        "text": "<p>Choose the model from those available below, LIMAR will add the combination of colours or graphics you prefer, the logo of your team and / or the name of the cyclist if you wish.</p><p><br/>After receiving a graphic proposal, you will be able to place your order.</p><p></p>",
+        "text": "<p>Choose the model from those available below, LIMAR will add the combination of colours or graphics you prefer, the logo of your team and \/ or the name of the cyclist if you wish.<\/p><p><br\/>After receiving a graphic proposal, you will be able to place your order.<\/p><p><\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
+        "image_width": "520",
         "layout": "right",
         "divider": false
       }
@@ -153,14 +163,14 @@
         "77c7eacb-4aec-480a-843f-5eb8f924ef27": {
           "type": "button",
           "settings": {
-            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/MYLIMAR_CLUB_ITA_2024_per_sito.pdf?v=1692377128",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/5721\/3998\/files\/MYLIMAR_CLUB_ITA_2024_per_sito.pdf?v=1692377128",
             "link_text": "DOWNLOAD PDF ITALIAN"
           }
         },
         "5654e6e6-2090-44c9-a19c-3eebc04fe1d7": {
           "type": "button",
           "settings": {
-            "link": "https://cdn.shopify.com/s/files/1/0669/5721/3998/files/MYLIMAR_CLUB_EN_EU_2024_per_sito.pdf?v=1692377101",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/5721\/3998\/files\/MYLIMAR_CLUB_EN_EU_2024_per_sito.pdf?v=1692377101",
             "link_text": "DOWNLOAD PDF ENGLISH"
           }
         }
@@ -182,11 +192,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>The decals material is a transparent foil for UV printing with a thickness of about 100 microns. </p><p>UV printing at a very high resolution (600×900 dpi) with fast drying UV LED ink and up to 150% flexibility. The printing is fixed to the support by UV lamps.</p>"
+            "text": "<p>The decals material is a transparent foil for UV printing with a thickness of about 100 microns. <\/p><p>UV printing at a very high resolution (600×900 dpi) with fast drying UV LED ink and up to 150% flexibility. The printing is fixed to the support by UV lamps.<\/p>"
           }
         }
       },
-      "block_order": ["166445755892349116-1"],
+      "block_order": [
+        "166445755892349116-1"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -198,7 +210,9 @@
       "blocks": {
         "template--16612506468567__a5b1c947-d6e8-40ea-b769-82db37e28832-16655019293631f409-0": {
           "type": "heading",
-          "settings": { "title": "POPULAR MODELS FOR CUSTOMIZATION" }
+          "settings": {
+            "title": "POPULAR MODELS FOR CUSTOMIZATION"
+          }
         }
       },
       "block_order": [
@@ -217,24 +231,24 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/air-atlas-my.jpg",
+            "image": "shopify:\/\/shop_images\/air-atlas-my.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Air Atlas",
-            "button_link": "shopify://products/air-atlas-mips"
+            "button_link": "shopify:\/\/products\/air-atlas-mips"
           }
         },
         "2eadfda3-8342-4672-bc03-315770ea1f64": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/tonale-my.jpg",
+            "image": "shopify:\/\/shop_images\/tonale-my.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Tonale",
-            "button_link": "shopify://products/tonale-mips"
+            "button_link": "shopify:\/\/products\/tonale-mips"
           }
         }
       },
@@ -242,7 +256,11 @@
         "543f0784-1027-485c-a6a0-6e16c1fddc29",
         "2eadfda3-8342-4672-bc03-315770ea1f64"
       ],
-      "settings": { "title": "", "align_text": "left", "divider": false }
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     },
     "8f13efba-2675-4e1a-bf31-e9e70f06d7f8": {
       "type": "text-columns",
@@ -251,36 +269,36 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_airPro-IridescentMattBlack.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_airPro-IridescentMattBlack.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Air Pro",
-            "button_link": "shopify://products/air-pro-mips"
+            "button_link": "shopify:\/\/products\/air-pro-mips"
           }
         },
         "template--16612506468567__8f13efba-2675-4e1a-bf31-e9e70f06d7f8-166550247629fe2f5a-1": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_AirSpeed-Black.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_AirSpeed-Black.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Air Speed",
-            "button_link": "shopify://products/air-speed-mips"
+            "button_link": "shopify:\/\/products\/air-speed-mips"
           }
         },
         "594ffede-2947-4956-9ab8-bf1069917089": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_AirStratos-Black.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStratos-Black.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Air Stratos",
-            "button_link": "shopify://products/air-stratos-mips"
+            "button_link": "shopify:\/\/products\/air-stratos-mips"
           }
         }
       },
@@ -289,7 +307,11 @@
         "template--16612506468567__8f13efba-2675-4e1a-bf31-e9e70f06d7f8-166550247629fe2f5a-1",
         "594ffede-2947-4956-9ab8-bf1069917089"
       ],
-      "settings": { "title": "", "align_text": "left", "divider": false }
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     },
     "a09cb714-fdc7-445c-834e-afd9f2533e84": {
       "type": "text-columns",
@@ -298,36 +320,36 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_AirStratos-Black.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStratos-Black.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "AIR Stratos",
-            "button_link": "shopify://products/air-stratos-mips"
+            "button_link": "shopify:\/\/products\/air-stratos-mips"
           }
         },
         "template--16612506468567__a09cb714-fdc7-445c-834e-afd9f2533e84-166550247629fe2f5a-2": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_AirStar-Black-1.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStar-Black-1.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "AIR STAR",
-            "button_link": "shopify://products/air-star"
+            "button_link": "shopify:\/\/products\/air-star"
           }
         },
         "template--16612506468567__a09cb714-fdc7-445c-834e-afd9f2533e84-166550247629fe2f5a-1": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/limar22_myLimar_Delta-black.jpg",
+            "image": "shopify:\/\/shop_images\/limar22_myLimar_Delta-black.jpg",
             "image_width": 650,
             "title": "",
             "text": "",
             "button_label": "Delta",
-            "button_link": "shopify://products/delta-mips"
+            "button_link": "shopify:\/\/products\/delta-mips"
           }
         }
       },
@@ -337,20 +359,24 @@
         "template--16612506468567__a09cb714-fdc7-445c-834e-afd9f2533e84-166550247629fe2f5a-1"
       ],
       "disabled": true,
-      "settings": { "title": "", "align_text": "left", "divider": false }
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
     },
     "9e6fdb06-6d69-4730-a530-fe72cb49177e": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/patch-mylimar2.png",
-        "image_width": "700",
+        "image": "shopify:\/\/shop_images\/patch-mylimar2.png",
         "subtitle": "",
         "title": "",
-        "text": "<p>Many clubs have chosen Limar to make their Team unique. </p><p>Discover all the benefits and join MY LIMAR Club.</p>",
+        "text": "<p>Many clubs have chosen Limar to make their Team unique. <\/p><p>Discover all the benefits and join MY LIMAR Club.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
+        "image_width": "700",
         "layout": "left",
         "divider": false
       }
@@ -371,9 +397,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Lifeplus-wahoo3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Lifeplus-wahoo3.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16612506468567__ea101916-df3b-48d3-881c-dc82bac14d22-16655036277d49320a-0": {
@@ -389,9 +414,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Accadueo-DSC_5761.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Accadueo-DSC_5761.jpg",
+            "overlay_opacity": 0
           }
         },
         "fd2b5f23-9dc9-462f-b130-4cc1c2fd65d5": {
@@ -407,9 +431,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Areazero-0164527.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Areazero-0164527.jpg",
+            "overlay_opacity": 0
           }
         },
         "template--16612506468567__ea101916-df3b-48d3-881c-dc82bac14d22-16655036277d49320a-1": {
@@ -425,9 +448,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Generalstore.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Generalstore.jpg",
+            "overlay_opacity": 0
           }
         },
         "3729ed6b-1b05-4c73-b863-643edd84120e": {
@@ -443,9 +465,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/lifeplus-wahoo2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/lifeplus-wahoo2.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -456,7 +477,9 @@
         "template--16612506468567__ea101916-df3b-48d3-881c-dc82bac14d22-16655036277d49320a-1",
         "3729ed6b-1b05-4c73-b863-643edd84120e"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
@@ -482,9 +505,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar22_mylimar-2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_mylimar-2.jpg",
+            "overlay_opacity": 0
           }
         },
         "3e5168a9-c6ac-406e-bccf-be1004b7ff63": {
@@ -500,9 +522,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar22_mylimar-11.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_mylimar-11.jpg",
+            "overlay_opacity": 0
           }
         },
         "e5d55aff-de9f-4dd0-b1e4-9bd791b13503": {
@@ -518,9 +539,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar22_mylimar-6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_mylimar-6.jpg",
+            "overlay_opacity": 0
           }
         },
         "0695776b-58d4-4efb-a4ce-980e85cc58dd": {
@@ -536,9 +556,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar22_mylimar-9.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_mylimar-9.jpg",
+            "overlay_opacity": 0
           }
         },
         "1cb817ef-b884-4530-9f29-8531e2dd1e46": {
@@ -554,9 +573,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/limar22_mylimar-7.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/limar22_mylimar-7.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -583,7 +601,7 @@
         "template--16770229731543__06159d60-cfb0-44b1-8c1f-223229b26439-1683781629554db542-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div style=\"display:block; height: 50px;\"></div>",
+            "code": "<div style=\"display:block; height: 50px;\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }

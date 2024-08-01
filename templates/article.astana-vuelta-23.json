@@ -28,9 +28,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/24.08.2023_09_19_06.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/24.08.2023_09_19_06.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -52,7 +51,7 @@
         "template--19568038576470__506661ec-57e0-4280-bba5-73ae5ee8b436-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p>The last grand tour of the 2023 men's road cycling season is here.\nThis 78th edition of the Vuelta will cover 3156.5 km, having started in Barcelona on Saturday, August 26, and finishing in the Spanish capital Madrid on Sunday, September 17.\n</p>\n\n<p>Twenty-two teams and 176 riders started the first stage at the Platja del Somorrostro, one of the Catalan capital's city beaches, where the only team time trial in a Grand Tour this season took place to decide who would wear the first coveted leader's Red Jersey.</p>",
+            "code": "<p>The last grand tour of the 2023 men's road cycling season is here.\nThis 78th edition of the Vuelta will cover 3156.5 km, having started in Barcelona on Saturday, August 26, and finishing in the Spanish capital Madrid on Sunday, September 17.\n<\/p>\n\n<p>Twenty-two teams and 176 riders started the first stage at the Platja del Somorrostro, one of the Catalan capital's city beaches, where the only team time trial in a Grand Tour this season took place to decide who would wear the first coveted leader's Red Jersey.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -63,8 +62,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "3e63869c-02c5-4cf7-af99-777ec75edcc5": {
@@ -73,7 +71,7 @@
         "85326bda-e845-40a3-9e71-352f5b915da7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/24.08.2023_09_20_35.jpg",
+            "image": "shopify:\/\/shop_images\/24.08.2023_09_20_35.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -82,7 +80,7 @@
         "template--19568038576470__3e63869c-02c5-4cf7-af99-777ec75edcc5-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p>Astana Qazaqstan has unveiled its selection for the Vuelta a España 2023. They are Italians Samuele Battistella and Fabio Felline, who are participating in the Iberian race for the second and fourth time, respectively. The former U23 world champion put himself in the spotlight last year, coming close to victory on two occasions, while the 33-year-old from Turin managed, in 2016, to win the points classification, albeit without any partial successes. The two azzurri will almost certainly be deputed to chase stages, especially starting from a distance, and so should the experienced Luis Leon Sanchez (14th Vuelta and 31st Grand Tour for him) and Andrey Zeits.</p>",
+            "code": "<p>Astana Qazaqstan has unveiled its selection for the Vuelta a España 2023. They are Italians Samuele Battistella and Fabio Felline, who are participating in the Iberian race for the second and fourth time, respectively. The former U23 world champion put himself in the spotlight last year, coming close to victory on two occasions, while the 33-year-old from Turin managed, in 2016, to win the points classification, albeit without any partial successes. The two azzurri will almost certainly be deputed to chase stages, especially starting from a distance, and so should the experienced Luis Leon Sanchez (14th Vuelta and 31st Grand Tour for him) and Andrey Zeits.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -90,7 +88,7 @@
         "template--19568038576470__3e63869c-02c5-4cf7-af99-777ec75edcc5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/24.08.2023_08_13_29.jpg",
+            "image": "shopify:\/\/shop_images\/24.08.2023_08_13_29.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -99,7 +97,7 @@
         "686ff770-8698-48ea-9e3e-9e04a5636108": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/24.08.2023_08_12_29.jpg",
+            "image": "shopify:\/\/shop_images\/24.08.2023_08_12_29.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -108,7 +106,7 @@
         "54c93e8c-c717-4e0c-bb46-3fe331c5aa35": {
           "type": "liquid",
           "settings": {
-            "code": "<p>When the road climbs, it will instead be David De La Cruz (a stage winner in 2016) and Joe Dombrowski who will try for a good result, with the former presumably aiming for the top-10 already hit three times (seventh in 2016, 2020, and 2021), but youngsters Vadim Pronskiy and Javier Romo (the latter on his absolute debut in a three-week race) can also try to prove themselves on the more challenging days.</p>",
+            "code": "<p>When the road climbs, it will instead be David De La Cruz (a stage winner in 2016) and Joe Dombrowski who will try for a good result, with the former presumably aiming for the top-10 already hit three times (seventh in 2016, 2020, and 2021), but youngsters Vadim Pronskiy and Javier Romo (the latter on his absolute debut in a three-week race) can also try to prove themselves on the more challenging days.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -116,7 +114,7 @@
         "bcfc9e5e-629c-4531-9312-1b6864cddbd5": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/24.08.2023_08_43_44.jpg",
+            "image": "shopify:\/\/shop_images\/24.08.2023_08_43_44.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -125,7 +123,7 @@
         "b89e93d1-307e-47e7-bd38-3cdb7ade2389": {
           "type": "liquid",
           "settings": {
-            "code": "<p>Also for La Vuelta, as for the Tour de France, Limar has created a limited edition of helmets that the athletes will wear for the next three weeks. A new version with a stunning look for what promises to be an exciting race full of twists and turns.\nThe graphic reproduces the effect of turquoise, a mineral stone Kazakhstan is rich in. This beautiful gemstone has captured the human imagination all over the world for thousands of years. Its rarity and beauty make it a highly coveted and sought-after stone.\n</p>",
+            "code": "<p>Also for La Vuelta, as for the Tour de France, Limar has created a limited edition of helmets that the athletes will wear for the next three weeks. A new version with a stunning look for what promises to be an exciting race full of twists and turns.\nThe graphic reproduces the effect of turquoise, a mineral stone Kazakhstan is rich in. This beautiful gemstone has captured the human imagination all over the world for thousands of years. Its rarity and beauty make it a highly coveted and sought-after stone.\n<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -142,8 +140,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "89d273ff-88b7-4c4e-9dfb-28316bb12429": {
@@ -152,7 +149,7 @@
         "template--19568038576470__89d273ff-88b7-4c4e-9dfb-28316bb12429-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Air Pro</h2>",
+            "code": "<h2>Air Pro<\/h2>",
             "width": "100%",
             "alignment": "center"
           }
@@ -160,7 +157,7 @@
         "template--19568038576470__89d273ff-88b7-4c4e-9dfb-28316bb12429-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirPro-Astana_Vuelta-side.png",
+            "image": "shopify:\/\/shop_images\/AirPro-Astana_Vuelta-side.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -169,7 +166,7 @@
         "a6ac7397-e510-460a-b38d-38290571ecaf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirPro-Astana_Vuelta-front.png",
+            "image": "shopify:\/\/shop_images\/AirPro-Astana_Vuelta-front.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -178,7 +175,7 @@
         "c9eb53f2-40c2-4590-8f10-4368176d5bea": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirPro-Astana_Vuelta-rear.png",
+            "image": "shopify:\/\/shop_images\/AirPro-Astana_Vuelta-rear.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -187,7 +184,7 @@
         "203ff549-3762-48be-baa5-ec067bcf5093": {
           "type": "liquid",
           "settings": {
-            "code": "<p>Its unique charm comes from the color affinity with the blue of the sky and the gold of the sun, also representative elements of the flag of Kazakhstan.</p>",
+            "code": "<p>Its unique charm comes from the color affinity with the blue of the sky and the gold of the sun, also representative elements of the flag of Kazakhstan.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -195,7 +192,7 @@
         "397d6480-bd4d-4396-ba44-e337012244b0": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Air Atlas</h2>",
+            "code": "<h2>Air Atlas<\/h2>",
             "width": "100%",
             "alignment": "center"
           }
@@ -203,7 +200,7 @@
         "963a713e-3898-4a34-ad69-de2a3b738722": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-Astana_Vuelta-side.png",
+            "image": "shopify:\/\/shop_images\/AirAtlas-Astana_Vuelta-side.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -212,7 +209,7 @@
         "b5ac0266-8513-4f0d-8f6c-b4d4e1b4e71a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-Astana_Vuelta-front.png",
+            "image": "shopify:\/\/shop_images\/AirAtlas-Astana_Vuelta-front.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -221,7 +218,7 @@
         "6fca9095-13c8-4e5d-9f44-4fea18d7518b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/AirAtlas-Astana_Vuelta-rear.png",
+            "image": "shopify:\/\/shop_images\/AirAtlas-Astana_Vuelta-rear.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -230,7 +227,7 @@
         "eb242a87-dfb9-4fb9-aede-b9080c2aa46a": {
           "type": "liquid",
           "settings": {
-            "code": "<p>Limar, always proud to protect riders of one of the most established and successful UCI World Teams in professional cycling, wishes the whole team great success and good luck.</p>",
+            "code": "<p>Limar, always proud to protect riders of one of the most established and successful UCI World Teams in professional cycling, wishes the whole team great success and good luck.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -250,8 +247,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "ct_color_background": ""
+        "space_around": true
       }
     },
     "57a487d7-df41-4418-935d-31108ca88bf8": {
