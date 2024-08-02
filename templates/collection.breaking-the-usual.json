@@ -23,7 +23,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/limar22_btu_hero.jpg",
+            "image": "shopify://shop_images/limar22_btu_hero.jpg",
             "video_url": "",
             "width": "100",
             "height": 740,
@@ -35,12 +35,8 @@
           }
         }
       },
-      "block_order": [
-        "1654798890148f349a-0"
-      ],
-      "custom_css": [
-        ".promo-grid {background-color: #d9d2e8;}"
-      ],
+      "block_order": ["1654798890148f349a-0"],
+      "custom_css": [".promo-grid {background-color: #d9d2e8;}"],
       "settings": {
         "full_width": true,
         "gutter_size": 40,
@@ -62,9 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "product_grid"
-      ],
+      "block_order": ["product_grid"],
       "disabled": true,
       "settings": {
         "enable_sidebar": true,
@@ -81,7 +75,7 @@
         "template--16176292069591__96b1a137-099d-4617-b64c-1ec7cad1c65b-16716461719d456a3c-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 style=\"color:#ffff00; font-size:48px; text-align:center;\">BREAK━ING<br\/>THE USUAL<\/h2>\n<p style=\"color:#b768a2; text-align:center;\">The new collection stems from a desire for post-pandemic rebirth that has led our creative team to wonder:\n“What if we added a disrupting chaos of prints and colours to a collection of hyper Technical products?\nShall we look at the past with nostalgia to recover energy and run with courage towards new horizons?\nWhat if we added the glamour of living new emotions and celebrating our being unique to the extraordinary performance of air revolution products?”<br \/><br \/>A look at the past and a free vision have produced a collection that breaks the habits and adds liveliness, inspired by the unforgettable colours of the 60-70-80-90s. Here is how the shades of those years influenced the new Limar collection. Because the world is not only or black or white.<\/p>\n<p>&nbsp;<\/p>",
+            "code": "<h2 style=\"color:#ffff00; font-size:48px; text-align:center;\">BREAK━ING<br/>THE USUAL</h2>\n<p style=\"color:#b768a2; text-align:center;\">The new collection stems from a desire for post-pandemic rebirth that has led our creative team to wonder:\n“What if we added a disrupting chaos of prints and colours to a collection of hyper Technical products?\nShall we look at the past with nostalgia to recover energy and run with courage towards new horizons?\nWhat if we added the glamour of living new emotions and celebrating our being unique to the extraordinary performance of air revolution products?”<br /><br />A look at the past and a free vision have produced a collection that breaks the habits and adds liveliness, inspired by the unforgettable colours of the 60-70-80-90s. Here is how the shades of those years influenced the new Limar collection. Because the world is not only or black or white.</p>\n<p>&nbsp;</p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -89,7 +83,7 @@
         "0b4b623e-a118-4d21-9caa-92802a19e4d7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/60-btu.jpg",
+            "image": "shopify://shop_images/60-btu.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -98,7 +92,7 @@
         "2aedd3e0-6db5-4f9f-96ed-d39b9e1f78b4": {
           "type": "liquid",
           "settings": {
-            "code": "<p style=\"color:#e74e53;\">The key ideology of the 60s is characterized by concepts of peace, love and freedom, in search of a new meaning in life.“Make love, not war” sums up this philosophy perfectly.<br \/><br \/>\nFloral prints, explosion of colors with bright and bright shades, objects full of personality and combined with each other in bright chromatic contrasts.<\/p>",
+            "code": "<p style=\"color:#e74e53;\">The key ideology of the 60s is characterized by concepts of peace, love and freedom, in search of a new meaning in life.“Make love, not war” sums up this philosophy perfectly.<br /><br />\nFloral prints, explosion of colors with bright and bright shades, objects full of personality and combined with each other in bright chromatic contrasts.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -106,7 +100,7 @@
         "7c220920-a275-4933-a817-386648afe9d4": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-pro-mips?variant=42881277722839\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/60-air-pro-red.jpg?v=1671649265\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-pro-mips?variant=42881277722839\">SHOP AIR PRO 60's RED BLUE<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-pro-mips?variant=42881277722839\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/60-air-pro-red.jpg?v=1671649265\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-pro-mips?variant=42881277722839\">SHOP AIR PRO 60's RED BLUE</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -114,7 +108,7 @@
         "714ebad5-66bb-45b0-89c8-24a1d634314b": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-speed-mips?variant=42881275003095\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/60-air-speed-gray-1.jpg?v=1671649279\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-speed-mips?variant=42881275003095\">SHOP AIR SPEED 60's GRAY<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-speed-mips?variant=42881275003095\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/60-air-speed-gray-1.jpg?v=1671649279\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-speed-mips?variant=42881275003095\">SHOP AIR SPEED 60's GRAY</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -140,7 +134,7 @@
         "125d5b82-1060-4385-ba52-c67de50771b5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/70-btu.jpg",
+            "image": "shopify://shop_images/70-btu.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -149,7 +143,7 @@
         "1656969872b8872508-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p style=\"color:#f28f32;\">The 70s are the years of optimism and fun, the patterns with the past are broken. Daring combinations of very irreverent shades but above all more daring style combinations.<br \/><br \/>The rainbow graphic, a more than popular print at the time, is often used with the combination of pop shades such as orange and brown.<\/p>",
+            "code": "<p style=\"color:#f28f32;\">The 70s are the years of optimism and fun, the patterns with the past are broken. Daring combinations of very irreverent shades but above all more daring style combinations.<br /><br />The rainbow graphic, a more than popular print at the time, is often used with the combination of pop shades such as orange and brown.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -157,7 +151,7 @@
         "8dacec2f-767b-44b7-bdfb-05e7313e3cb7": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881277952215\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/70-air-stratos-orange.jpg?v=1671650143\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881277952215\">SHOP AIR STRATOS 70's WHITE DARK RED<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881277952215\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/70-air-stratos-orange.jpg?v=1671650143\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881277952215\">SHOP AIR STRATOS 70's WHITE DARK RED</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -165,7 +159,7 @@
         "ded3ff13-a886-4a23-baa9-f6319c4988ac": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-pro-mips?variant=42881277788375\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/70-air-pro-grey.jpg?v=1671650151\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-pro-mips?variant=42881277788375\">SHOP AIR PRO 70's GRAY BLACK<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-pro-mips?variant=42881277788375\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/70-air-pro-grey.jpg?v=1671650151\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-pro-mips?variant=42881277788375\">SHOP AIR PRO 70's GRAY BLACK</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -190,7 +184,7 @@
         "template--16176292069591__75b4c0d5-5d7f-4ea3-b219-aea5d670986d-1671649361069d65ce-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/80-btu.jpg",
+            "image": "shopify://shop_images/80-btu.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -199,7 +193,7 @@
         "template--16176292069591__75b4c0d5-5d7f-4ea3-b219-aea5d670986d-1671649361069d65ce-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p style=\"color:#82b0dd;\">The 80s marked the beginning of an era that sees the union between fitness and pop culture. <br \/><br \/>The boom in sportswear broke out, giving life to the Shell Suit, which had become a real cultural movement, with extravagant color combinations and without any logical criteria.<\/p>",
+            "code": "<p style=\"color:#82b0dd;\">The 80s marked the beginning of an era that sees the union between fitness and pop culture. <br /><br />The boom in sportswear broke out, giving life to the Shell Suit, which had become a real cultural movement, with extravagant color combinations and without any logical criteria.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -207,7 +201,7 @@
         "33ee412a-4217-4054-abc2-f5a5150e32fd": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881278116055\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/80-air-stratos-orange.jpg?v=1671650127\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881278116055\">SHOP AIR STRATOS 80's MATTE GRAY ORANGE<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881278116055\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/80-air-stratos-orange.jpg?v=1671650127\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881278116055\">SHOP AIR STRATOS 80's MATTE GRAY ORANGE</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -215,7 +209,7 @@
         "e6a36c93-4cfb-4351-936b-93a94f045718": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881278083287\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/80-air-stratos-amar.jpg?v=1671650136\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-stratos?variant=42881278083287\">SHOP AIR STRATOS 80's MATTE GRAY BORDEAUX<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881278083287\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/80-air-stratos-amar.jpg?v=1671650136\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-stratos?variant=42881278083287\">SHOP AIR STRATOS 80's MATTE GRAY BORDEAUX</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -240,7 +234,7 @@
         "template--16176292069591__643f90bc-5475-4c45-a920-2accf0f00e0d-1671649361069d65ce-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/90-btu.jpg",
+            "image": "shopify://shop_images/90-btu.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -249,7 +243,7 @@
         "template--16176292069591__643f90bc-5475-4c45-a920-2accf0f00e0d-1671649361069d65ce-1": {
           "type": "liquid",
           "settings": {
-            "code": "<p style=\"color:#946ce2;\">Menphis, Fiorucci, Keith Haring are just some of the most influential protagonists of 20th century graphics, fashion, art and design. <br \/><br \/>Even the 90s are strongly influenced by it, contaminating themselves with highly recognizable and never boring shapes and colors.<\/p>",
+            "code": "<p style=\"color:#946ce2;\">Menphis, Fiorucci, Keith Haring are just some of the most influential protagonists of 20th century graphics, fashion, art and design. <br /><br />Even the 90s are strongly influenced by it, contaminating themselves with highly recognizable and never boring shapes and colors.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -257,7 +251,7 @@
         "97e27a0d-b12f-4608-8bb8-f95fd5cfe7fc": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-speed-mips?variant=42881275035863\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/90-air-speed.jpg?v=1671650110\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-speed-mips?variant=42881275035863\">SHOP AIR SPEED 90's MATTE GREEN<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-speed-mips?variant=42881275035863\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/90-air-speed.jpg?v=1671650110\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-speed-mips?variant=42881275035863\">SHOP AIR SPEED 90's MATTE GREEN</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
@@ -265,7 +259,7 @@
         "a027d6af-d90a-4ba6-8433-2bfed7abe67e": {
           "type": "liquid",
           "settings": {
-            "code": "<p><a href=\"https:\/\/us.limar.com\/products\/air-star?variant=42881277001943\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0637\/8251\/8999\/files\/90-air-star.jpg?v=1671650118\"\/><\/a><\/p>\n<p><a href=\"https:\/\/us.limar.com\/products\/air-star?variant=42881277001943\">SHOP AIR STAR 90's MATTE GREEN<\/a><\/p>",
+            "code": "<p><a href=\"https://us.limar.com/products/air-star?variant=42881277001943\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/90-air-star.jpg?v=1671650118\"/></a></p>\n<p><a href=\"https://us.limar.com/products/air-star?variant=42881277001943\">SHOP AIR STAR 90's MATTE GREEN</a></p>",
             "width": "50%",
             "alignment": "top-middle"
           }
