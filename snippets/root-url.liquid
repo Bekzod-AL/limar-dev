@@ -1,8 +1,0 @@
-{%- liquid
-  if routes.root_url == '/'
-    assign base_url = ''
-  else
-    assign base_url = routes.root_url
-  endif
--%}
-{{base_url}}

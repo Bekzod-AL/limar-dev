@@ -80,7 +80,7 @@
         "40759065-7015-4f28-a201-825298a40134": {
           "type": "liquid",
           "settings": {
-            "code": "<a href= \"{% render 'root-url' %}/collections/road\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_road.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>ROAD</strong></p>",
+            "code": "<a href= \"{{ routes.collections_url }}/road\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_road.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>ROAD</strong></p>",
             "width": "25%",
             "alignment": "top-middle"
           }
@@ -88,7 +88,7 @@
         "e784b346-46af-4827-9f0d-939d4a5dba1f": {
           "type": "liquid",
           "settings": {
-            "code": "<a href= \"{% render 'root-url' %}/collections/gravel\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_gravel.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>GRAVEL</strong></p>",
+            "code": "<a href= \"{{ routes.collections_url }}/gravel\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_gravel.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>GRAVEL</strong></p>",
             "width": "25%",
             "alignment": "top-middle"
           }
@@ -96,7 +96,7 @@
         "b874bb73-992f-401d-9a58-356056015bbe": {
           "type": "liquid",
           "settings": {
-            "code": "<a href= \"{% render 'root-url' %}/collections/mountain\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_mtb.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>MOUNTAIN</strong></p>",
+            "code": "<a href= \"{{ routes.collections_url }}/mountain\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_mtb.jpg?v=1678357483\"></a><br><p class=\"grid-product__title grid-product__title--body\"><strong>MOUNTAIN</strong></p>",
             "width": "25%",
             "alignment": "top-middle"
           }
@@ -104,7 +104,7 @@
         "b8824c1b-ba22-4b07-8867-934f4babaaf7": {
           "type": "liquid",
           "settings": {
-            "code": "<a href= \"{% render 'root-url' %}/collections/urban-e-bike\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_urban.jpg?v=1678357483\"></a><br /><p class=\"grid-product__title grid-product__title--body\"><strong>URBAN / E-BIKE</strong></p>",
+            "code": "<a href= \"{{ routes.collections_url }}/urban-e-bike\"><img src=\"https://cdn.shopify.com/s/files/1/0637/8251/8999/files/limar_4column_category_urban.jpg?v=1678357483\"></a><br /><p class=\"grid-product__title grid-product__title--body\"><strong>URBAN / E-BIKE</strong></p>",
             "width": "25%",
             "alignment": "top-middle"
           }
