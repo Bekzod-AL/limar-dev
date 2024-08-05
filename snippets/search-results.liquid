@@ -5,9 +5,17 @@
 %}
 
 {%- if predictive_search.performed -%}
-  <div class="predictive-search-results {% if totalCount == 0 %}predictive-search-results--none{% endif %}" id="predictive-search-results">
+  <div
+    class="predictive-search-results {% if totalCount == 0 %}predictive-search-results--none{% endif %}"
+    id="predictive-search-results"
+  >
     {% if totalCount > 0 %}
-      <div class="results__group-1" {% if columnCount == 0 %}style="display: none"{% endif %}>
+      <div
+        class="results__group-1"
+        {% if columnCount == 0 %}
+          style="display: none"
+        {% endif %}
+      >
         {%- if predictive_search.resources.queries.size > 0 -%}
           <div class="results results--queries">
             <h3 class="h4" id="predictive-search-suggestions">
@@ -58,9 +66,9 @@
         {%- endif -%}
         {%- if predictive_search.resources.collections.size > 0 -%}
           <div class="results results--collections">
-            <h3 class="h4" id="predictive-search-collections">
+            <p class="h6 predictive__label" id="predictive-search-collections">
               {{ 'general.search.collections' | t }}
-            </h3>
+            </p>
             <ul role="listbox" aria-labelledby="predictive-search-collections">
               {%- for collection in predictive_search.resources.collections -%}
                 <li role="option">
@@ -86,16 +94,13 @@
                   <a href="{{ product.url }}">
                     <div class="results-products__image grid__image-ratio">
                       {% if product.media != blank %}
-                        {%- render 'image-element',
-                          img: product.featured_media,
-                          widths: '80, 160, 240',
-                        -%}
+                        {%- render 'image-element', img: product.featured_media, widths: '80, 160, 240' -%}
                       {% endif %}
                     </div>
                     <div class="results-products__info">
                       <span>{{ product.title }}</span>
                       {% if settings.predictive_search_show_vendor %}
-                      <span class="grid-product__vendor">{{ product.vendor }}</span>
+                        <span class="grid-product__vendor">{{ product.vendor }}</span>
                       {% endif %}
                       {% if settings.predictive_search_show_price %}
                         {%- if on_sale -%}
@@ -106,7 +111,9 @@
 
                         {%- if product.price_varies -%}
                           {%- assign price = product.price_min | money -%}
-                          <span class="grid-product__price">{{ 'products.general.from_text_html' | t: price: price }}</span>
+                          <span class="grid-product__price">
+                            {{- 'products.general.from_text_html' | t: price: price -}}
+                          </span>
                         {%- else -%}
                           <span class="grid-product__price">{{ product.price | money }}</span>
                         {%- endif -%}
@@ -124,7 +131,6 @@
                         {%- endif -%}
                       {% endif %}
                     </div>
-
                   </a>
                 </li>
               {%- endfor -%}
@@ -133,9 +139,9 @@
         {%- endif -%}
         {%- if predictive_search.resources.pages.size > 0 -%}
           <div class="results results--pages">
-            <h3 class="h4" id="predictive-search-pages">
+            <p class="h6 predictive__label" id="predictive-search-pages">
               {{ 'general.search.pages' | t }}
-            </h3>
+            </p>
             <ul role="listbox" aria-labelledby="predictive-search-pages">
               {%- for page in predictive_search.resources.pages -%}
                 <li role="option">
@@ -181,12 +187,22 @@
         {%- endif -%}
       </div>
     {% else %}
-      <div class="results"><a class="predictive-search__no-results" href="{{ routes.search_url }}?q={{ predictive_search.terms | escape }}">{{ 'general.search.no_results_html' | t: terms: predictive_search.terms }}</a></div>
+      <div class="results">
+        <a
+          class="predictive-search__no-results"
+          href="{{ routes.search_url }}?q={{ predictive_search.terms | escape }}"
+        >
+          {{- 'general.search.no_results_html' | t: terms: predictive_search.terms -}}
+        </a>
+      </div>
     {% endif %}
   </div>
   {% if totalCount > 0 %}
     <button class="results__search-btn">
-      {{ 'general.search.view_more' | t: terms: predictive_search.terms }} <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H12.5M12.5 5L8.5 1M12.5 5L8.5 9" stroke="currentColor"/></svg>
+      {{ 'general.search.view_more' | t: terms: predictive_search.terms }}
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 5H12.5M12.5 5L8.5 1M12.5 5L8.5 9" stroke="currentColor"/>
+      </svg>
     </button>
   {% endif %}
 {%- endif -%}
