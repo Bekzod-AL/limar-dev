@@ -2,8 +2,7 @@
   "sections": {
     "main": {
       "type": "judgeme_all_reviews",
-      "settings": {
-      }
+      "settings": {}
     },
     "advanced_content_DAJCty": {
       "type": "advanced-content",
@@ -11,15 +10,13 @@
         "liquid_h6gM7D": {
           "type": "liquid",
           "settings": {
-            "code": "<h1 class=\"jdgm-all-reviews-page__title\">{{ page.title }}<\/h1>\n{{ page.content }}",
+            "code": "<h1 class=\"jdgm-all-reviews-page__title\">{{ page.title }}</h1>\n{{ page.content }}",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
-      "block_order": [
-        "liquid_h6gM7D"
-      ],
+      "block_order": ["liquid_h6gM7D"],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -39,9 +36,7 @@
           }
         }
       },
-      "block_order": [
-        "liquid_M8y7Ce"
-      ],
+      "block_order": ["liquid_M8y7Ce"],
       "settings": {
         "full_width": false,
         "space_around": true,
@@ -50,9 +45,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "advanced_content_DAJCty",
-    "advanced_content_gbDEYp"
-  ]
+  "order": ["main", "advanced_content_DAJCty", "advanced_content_gbDEYp"]
 }
