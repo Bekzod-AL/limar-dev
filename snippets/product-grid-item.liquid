@@ -1,9 +1,9 @@
 {% comment %}
-Arguments
-- product: product object
-- [per_row]: number of items per row
-- [quick_shop_enable]: boolean
-- [collection]: collection object
+  Arguments
+  - product: product object
+  - [per_row]: number of items per row
+  - [quick_shop_enable]: boolean
+  - [collection]: collection object
 {% endcomment %}
 
 {%- liquid
@@ -46,7 +46,12 @@ Arguments
   endif
 -%}
 
-<div class="grid__item grid-product {{ gridView }} {% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
+<div
+  class="grid__item grid-product {{ gridView }} {% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}"
+  data-aos="row-of-{{ per_row }}"
+  data-product-handle="{{ product.handle }}"
+  data-product-id="{{ product.id }}"
+>
   <div class="grid-product__content">
     {%- if has_custom_label -%}
       <div class="grid-product__tag grid-product__tag--custom">
@@ -84,7 +89,8 @@ Arguments
       <div class="grid-product__image-mask">
         {%- if fixed_aspect_ratio -%}
           <div
-            class="grid__image-ratio grid__image-ratio--{% if image_style == 'circle' %}square{% else %}{{ settings.product_grid_image_size }}{% endif %}">
+            class="grid__image-ratio grid__image-ratio--{% if image_style == 'circle' %}square{% else %}{{ settings.product_grid_image_size }}{% endif %}"
+          >
             {%- capture image_classes -%}
               {% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %} image-style--{{ image_style }}
             {%- endcapture -%}
@@ -95,7 +101,7 @@ Arguments
                 sizes: sizes,
                 sizeVariable: sizeVariable,
                 fallback: fallback,
-                widths: '360, 540, 720, 900, 1080',
+                widths: '360, 540, 720, 900, 1080'
               -%}
             {%- else -%}
               {%- capture placeholder -%}product-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
@@ -103,7 +109,8 @@ Arguments
             {%- endif -%}
           </div>
         {%- else -%}
-          <div class="image-wrap"
+          <div
+            class="image-wrap"
             {% if preview_image != blank %}
               style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
             {% endif %}
@@ -118,7 +125,7 @@ Arguments
                 sizes: sizes,
                 sizeVariable: sizeVariable,
                 fallback: fallback,
-                widths: '360, 540, 720, 900, 1080',
+                widths: '360, 540, 720, 900, 1080'
               -%}
             {%- else -%}
               {%- capture placeholder -%}product-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
@@ -141,7 +148,7 @@ Arguments
               sizes: sizes,
               sizeVariable: sizeVariable,
               fallback: fallback,
-              widths: '360, 540, 720, 1000',
+              widths: '360, 540, 720, 1000'
             -%}
           </div>
         {%- endif -%}
@@ -170,8 +177,8 @@ Arguments
 
                   {%- if variant.image -%}
                     <div
-                      class="grid-product__color-image grid-product__color-image--{{ variant.id }} small--hide">
-                    </div>
+                      class="grid-product__color-image grid-product__color-image--{{ variant.id }} small--hide"
+                    ></div>
                   {%- endif -%}
                 {%- endunless -%}
               {%- endfor -%}
@@ -188,10 +195,21 @@ Arguments
 
       <a href="{{ product.url | within: collection }}" class="grid-product__link">
         <div class="grid-product__meta">
-          <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+          <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">
+            {{ product.title }}
+          </div>
           {%- if settings.vendor_enable -%}
             <div class="grid-product__vendor">{{ product.vendor }}</div>
           {%- endif -%}
+
+          {% comment %}Start automatically added Judge.me widget{% endcomment %}
+          {% render 'judgeme_widgets',
+            widget_type: 'judgeme_preview_badge',
+            concierge_install: true,
+            product: product
+          %}
+          {% comment %}End automatically added Judge.me widget{% endcomment %}
+
           <div class="grid-product__price">
             {%- if on_sale -%}
               <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
@@ -274,7 +292,8 @@ Arguments
                           data-variant-image="{{ variant.image | img_url: '400x' }}"
                         {% endif %}
                         aria-label="{{ product.title }} - {{ value }}"
-                        style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
+                        style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+                      >
                         <span class="visually-hidden">{{ value }}</span>
                       </span>
                     {%- endunless -%}
@@ -335,7 +354,8 @@ Arguments
                   data-variant-image="{{ variant.image | img_url: '400x' }}"
                 {% endif %}
                 aria-label="{{ product.title }} - {{ value }}"
-                style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
+                style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+              >
                 <span class="visually-hidden">{{ value }}</span>
               </a>
             {%- endunless -%}
