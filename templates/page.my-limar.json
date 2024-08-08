@@ -23,6 +23,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/limar22_myLimar_hero.png",
+            "parallax_direction": "top",
             "overlay_opacity": 10
           }
         }
@@ -36,7 +37,8 @@
         "parallax": false,
         "style": "bars",
         "autoplay": false,
-        "autoplay_speed": 5
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "6e6cf8c0-cd53-45b0-90f2-48d2383eb686": {
@@ -84,6 +86,7 @@
       "settings": {
         "full_width": false,
         "space_around": true,
+        "lazyload_images": true,
         "ct_color_background": ""
       }
     },
@@ -145,6 +148,8 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/limar22_myLimar_img2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
         "subtitle": "",
         "title": "How it works:",
         "text": "<p>Choose the model from those available below, LIMAR will add the combination of colours or graphics you prefer, the logo of your team and \/ or the name of the cyclist if you wish.<\/p><p><br\/>After receiving a graphic proposal, you will be able to place your order.<\/p><p><\/p>",
@@ -154,7 +159,10 @@
         "align_text": "left",
         "image_width": "520",
         "layout": "right",
-        "divider": false
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "8f3f5706-96fd-479b-98cb-1bcc59519abb": {
@@ -232,6 +240,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/air-atlas-my.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -244,6 +253,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/tonale-my.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -270,6 +280,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_airPro-IridescentMattBlack.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -282,6 +293,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_AirSpeed-Black.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -294,6 +306,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStratos-Black.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -321,6 +334,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStratos-Black.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -333,6 +347,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_AirStar-Black-1.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -345,6 +360,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/limar22_myLimar_Delta-black.jpg",
+            "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -369,6 +385,8 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/patch-mylimar2.png",
+        "image_mask": "none",
+        "image2_mask": "none",
         "subtitle": "",
         "title": "",
         "text": "<p>Many clubs have chosen Limar to make their Team unique. <\/p><p>Discover all the benefits and join MY LIMAR Club.<\/p>",
@@ -378,7 +396,10 @@
         "align_text": "left",
         "image_width": "700",
         "layout": "left",
-        "divider": false
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "ea101916-df3b-48d3-881c-dc82bac14d22": {
@@ -398,6 +419,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Lifeplus-wahoo3.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -415,6 +437,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Accadueo-DSC_5761.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -432,6 +455,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Areazero-0164527.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -449,6 +473,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Generalstore.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -466,6 +491,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/lifeplus-wahoo2.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
@@ -486,7 +512,8 @@
         "parallax": false,
         "style": "bars",
         "autoplay": true,
-        "autoplay_speed": 5
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "0b35bb0a-eb14-41ff-9ba9-730cc48f0b41": {
@@ -506,6 +533,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/limar22_mylimar-2.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -523,6 +551,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/limar22_mylimar-11.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -540,6 +569,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/limar22_mylimar-6.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -557,6 +587,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/limar22_mylimar-9.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
@@ -574,6 +605,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/limar22_mylimar-7.jpg",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
@@ -592,7 +624,8 @@
         "parallax": false,
         "style": "bars",
         "autoplay": true,
-        "autoplay_speed": 5
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "06159d60-cfb0-44b1-8c1f-223229b26439": {
@@ -613,6 +646,7 @@
       "settings": {
         "full_width": false,
         "space_around": false,
+        "lazyload_images": true,
         "ct_color_background": ""
       }
     }
